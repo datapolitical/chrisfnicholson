@@ -1,0 +1,58 @@
+# Setup
+title:            Chris
+tagline:          'A Personal Blog'
+description:      'This is my website.'
+url:              https://chrisfnicholson.com
+baseurl:          ''
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Chris'
+  url:            https://twitter.com/chrisfnicholson
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+# Layout
+
+show_social: true          # show site description and social links in the footer
+show_excerpts: false       # show article excerpts on the home page
+show_frame: false          # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+
+# Theme
+style: default
+dark_theme: false
+dark_nav: true
+
+# Menu
+navigation:
+  - {title: Home, file: "index.html", icon: home}
+  - {title: Recipes, url: "/recipes.html", icon: utensils}
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .gitignore
+
+remote_theme: niklasbuschmann/contrast@v2.10
+
+page_gen:
+  - data: recipes
+    template: recipe
+    name: name
+    dir: recipes
+    extension: html
