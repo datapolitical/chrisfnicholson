@@ -6,6 +6,8 @@ on:
       - master
   schedule:
     - cron:  '0 0 * * *'
+  workflow_dispatch:
+
 
 jobs:
 
@@ -22,13 +24,22 @@ jobs:
           python-version: 3.8
         
       - name: Install Requirements
-        run: pip install paprika-exporter
+        run: pip install -r requirements.txt
 
       - name: Execute Python script
         run: |
           python export.py
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
 
       - name: setup git config
         run: |
-          git config user.name ${{ secrets.USERNAME_GITHUB }}
-          git config user.email ${{ secrets.EMAIL }}
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
+          git config --local user.email ${{ secrets.EMAIL }}
+          git commit -m "Update recipes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
