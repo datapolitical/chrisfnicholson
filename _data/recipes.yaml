@@ -1956,6 +1956,53 @@
   source_url: https://veenaazmanov.com/chocolate-rugelach/
   total_time: ''
   uid: 84A1EA00-FEDA-439C-80D6-3E0A49654ACD-31731-00000BBA72CA018C
+- categories: []
+  cook_time: 'prep: 15 min. + cooling'
+  created: '2020-12-23 00:10:16'
+  description: ''
+  difficulty: ''
+  directions:
+  - Drain pineapple, reserving juice. Cut slices in half; set aside. In a jar with
+    a tight-fitting lid, combine the oil, honey, vinegar, soy sauce and reserved pineapple
+    juice; shake well. , Refrigerate for at least 30 minutes. Combine the romaine,
+    onion slices and pineapple slices in a serving dish. Drizzle with dressing; toss
+    to coat.
+  image_url: https://www.tasteofhome.com/wp-content/uploads/2018/01/exps22234_LT10353D7-1.jpg
+  in_trash: false
+  ingredients:
+  - 1 can (8 ounces) unsweetened pineapple slices
+  - 1 tablespoon olive oil
+  - 1 tablespoon honey
+  - 1-1/2 teaspoons cider vinegar
+  - 1-1/2 teaspoons reduced-sodium soy sauce
+  - 6 cups torn romaine
+  - 1/2 cup thinly sliced red onion
+  is_pinned: false
+  name: Pineapple Salad
+  notes: ''
+  nutritional_info: 'Fat: 2g fat (1g saturated fat)
+
+    Calories: 64 calories
+
+    Sodium: 59mg sodium
+
+    Fiber: 1g fiber)
+
+    Carbohydrate: 11g carbohydrate (0 sugars
+
+    Cholesterol: 0 cholesterol
+
+    Protein: 1g protein. Diabetic Exchanges: 1 vegetable'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 15 min
+  rating: 0
+  scale: null
+  servings: 6 servings
+  source: tasteofhome.com
+  source_url: https://www.tasteofhome.com/recipes/pineapple-salad/
+  total_time: ''
+  uid: 85C6B6A1-CF40-46E0-ACB1-DEE2348C49F8-1776-00000097BE8D059D
 - categories:
   - Jewish
   - Web
