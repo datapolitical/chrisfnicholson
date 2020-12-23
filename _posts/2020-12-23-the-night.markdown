@@ -1,8 +1,0 @@
----
-title: The night
-date: 2020-12-23T01:03:41-08:00
-author: Chris F. Nicholson
-layout: post
----
-
-There’s a dark and quiet beauty to the evening light.
