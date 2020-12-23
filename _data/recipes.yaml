@@ -191,7 +191,7 @@
     is cooked through.
   - Add the heavy cream and simmer for 8-10 minutes stirring occasionally. Serve over
     Basmati rice or with naan.
-  image_url: https://i2.wp.com/gimmedelicious.com/wp-content/uploads/2020/01/30-Minute-Instant-Pot-Butter-Chicken-7-160x207.jpg
+  image_url: /images/recipes/46BE8626-68DA-4FDF-93D9-E8982CA641A2-610-00000079A9A8FFB6.jpg
   in_trash: false
   ingredients:
   - 1 tablespoon oil
@@ -488,7 +488,11 @@
   source_url: https://www.kingarthurflour.com/recipes/sourdough-cinnamon-buns-recipe
   total_time: ''
   uid: 1B38C03A-7088-4319-8724-F58930CE5450-15656-00000468553228D7
-- categories: []
+- categories:
+  - Jewish
+  - Web
+  - Bread
+  - I Made This
   cook_time: 'prep: 30 min. + rising bake: 30 min. + cooling'
   created: '2020-05-29 14:17:27'
   description: ''
@@ -522,14 +526,14 @@
   - 1 teaspoon cold water
   - 1 tablespoon sesame or poppy seeds, optional
   is_pinned: false
-  name: My Challah Recipe
+  name: Challah
   notes: ''
   nutritional_info: '1 slice: 137 calories, 5g fat (1g saturated fat), 33mg cholesterol,
     232mg sodium, 20g carbohydrate (3g sugars, 1g fiber), 4g protein.'
   on_favorites: false
   on_grocery_list: null
   prep_time: 30 min
-  rating: 0
+  rating: 5
   scale: null
   servings: 2 loaves (16 slices each)
   source: tasteofhome.com
@@ -1256,12 +1260,12 @@
   image_url: https://img.sndimg.com:443/food/image/upload/c_thumb,q_80,w_375,h_211/v1/img/recipes/62/18/2/picWF16Hv.jpg
   in_trash: false
   ingredients:
-  - 12 oz can of albacore tuna, packed in water
-  - "2 \xBD tablespoons diced celery (one stalk)"
-  - "1 \xBC tablespoon diced red onion"
+  - 9 oz of albacore tuna (dry weight)
+  - 3 tablespoons diced celery (one stalk)
+  - "1 \u2154 tablespoon diced red onion"
   - "1 \xBC teaspoon Mrs. Dash"
   - 1 pinch of pepper
-  - "3 \xBE tablespoons mayonnaise"
+  - "4 \u2153 tablespoons mayonnaise"
   is_pinned: false
   name: Tuna Salad
   notes: ''
@@ -1285,8 +1289,8 @@
   on_favorites: false
   on_grocery_list: null
   prep_time: 10 min
-  rating: 4
-  scale: 2/5
+  rating: 5
+  scale: 1/1
   servings: 'Serves: 2'
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
@@ -1952,6 +1956,130 @@
   source_url: https://veenaazmanov.com/chocolate-rugelach/
   total_time: ''
   uid: 84A1EA00-FEDA-439C-80D6-3E0A49654ACD-31731-00000BBA72CA018C
+- categories:
+  - Jewish
+  - Web
+  - I Made This
+  cook_time: 15 minutes
+  created: '2020-12-21 12:28:10'
+  description: ''
+  difficulty: ''
+  directions:
+  - Under cool running water, rinse matzo sheets until they are quite wet. Set it
+    aside and let sit to soften while you prepare the pan.
+  - "Place a large, preferably nonstick skillet over medium-high heat and add butter.\
+    \ Once it melts and the foam subsides, break matzo sheets into bite-size pieces\
+    \ and add to pan. Saut\xE9 matzo in butter until it browns all over, about 2 minutes."
+  - "Add eggs, salt and pepper (if you\u2019re making the dish savory) to pan and\
+    \ scramble the mixture until it is just set but still light and fluffy, about\
+    \ 1 minute. Sprinkle with sugar (if you\u2019re making it sweet) and toss well."
+  - Serve matzo brei sprinkled with salt and topped with chives (savory), or with
+    salt, additional sugar and maple syrup (sweet).
+  image_url: https://static01.nyt.com/images/2017/04/03/dining/03COOKING-CLASSIC-MATZOBREI1/03COOKING-CLASSIC-MATZOBREI1-articleLarge.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR THE MATZO BREI:'
+  - 2 sheets matzo
+  - 2 to 3 tablespoons unsalted butter
+  - 4 large eggs, beaten with 1 tablespoon water
+  - Large pinch fine sea salt, more to taste
+  - 'TO MAKE IT SAVORY:'
+  - Large pinch black pepper
+  - Chopped chives, for serving
+  - 'TO MAKE IT SWEET:'
+  - 1 tablespoon Demerara sugar, more to taste
+  - Honey or maple syrup, for serving
+  is_pinned: false
+  name: Classic Matzo Brei
+  notes: ''
+  nutritional_info: 'Trans Fat: 1 gram
+
+    Fat: 24 grams
+
+    Calories: 398
+
+    Saturated Fat: 12 grams
+
+    Unsaturated Fat: 10 grams
+
+    Sodium: 327 milligrams
+
+    Sugar: 5 grams
+
+    Fiber: 1 gram
+
+    Carbohydrate: 29 grams
+
+    Protein: 16 grams'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: Yield 2 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1018671-classic-matzo-brei?smid=ck-recipe-iOS-share
+  total_time: ''
+  uid: 87EC70DC-8272-4E94-A1E0-8ED3957022A5-10753-0000038DF159BE79
+- categories: []
+  cook_time: 40mins
+  created: '2020-12-22 20:22:06'
+  description: ''
+  difficulty: ''
+  directions:
+  - In large bowl, mix together flour, baking powder and spices.
+  - In seperate bowl, whisk together egg yolks, milk, sweet potato, oil and orange
+    rind.
+  - Pour wet ingredients over dry ingredients, stir together until just moistened.
+  - In a bowl with electric mixer, beat egg whites until soft peaks form; add sugar,
+    beat until stiff peaks form.
+  - Fold into batter; pour batter onto a heated nonstick lightly greased waffle iron.
+  - Cook until golden brown until waffle iron stops steaming, about 5 minutes.
+  image_url: https://img.sndimg.com:443/food/image/upload/c_thumb,q_80,w_375,h_211/v1/img/recipes/11/74/79/BCOJFdLuRcaheQcThYxL_sweet-potato-waffles-7776.jpg
+  in_trash: false
+  ingredients:
+  - 1 cup whole wheat flour
+  - 1 cup all-purpose flour
+  - 4 teaspoons baking powder
+  - 1/2 teaspoon cinnamon
+  - 1/4 teaspoon clove
+  - 2 eggs, seperated
+  - 1 1/2 cups skim milk
+  - 1 cup pureed cooked sweet potato
+  - 3 tablespoons oil
+  - 2 teaspoons grated orange rind
+  - 1 tablespoon granulated sugar
+  is_pinned: false
+  name: Sweet Potato Waffles
+  notes: 'NOTE: These waffles freeze well; After freezing, just microwave them for
+    about 30 seconds and pop them briefly into the toaster.'
+  nutritional_info: 'Fat: 4.6
+
+    Calories: 141.6
+
+    Saturated Fat: 0.8
+
+    Sodium: 157.7
+
+    Fiber: 1.8
+
+    Sugar: 1.6
+
+    Carbohydrate: 20.8
+
+    Cholesterol: 31.6
+
+    Protein: 4.8'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 10 min
+  rating: 0
+  scale: null
+  servings: 'Serves: 12'
+  source: food.com
+  source_url: https://www.food.com/recipe/sweet-potato-waffles-117479
+  total_time: ''
+  uid: 8C1D4340-7CF9-4906-8BE3-CCD4FC754331-1776-000000885897B092
 - categories: []
   cook_time: 50 mins
   created: '2020-10-16 16:03:00'
@@ -3071,7 +3199,7 @@
   - 6. Bake biscuits until golden brown, about 15 minutes for small biscuits and 19
     minutes for large ones. Let cool slightly, then transfer to a wire rack. Serve
     warm or at room temperature.
-  image_url: /images/recipes/2F6E939A-5BCF-4BF1-9C9E-282CC517753D-7551-0000027433699CB0.jpg
+  image_url: /images/recipes/AF428E13-272A-4FDE-9510-317BD1F2A21C-9628-00000348B63938EE.jpg
   in_trash: false
   ingredients:
   - 8 tbsp cold unsalted butter
