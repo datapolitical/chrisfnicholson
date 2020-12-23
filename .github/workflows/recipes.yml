@@ -37,6 +37,7 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
+          git add images/recipes/*
           git commit -m "Update recipes" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
