@@ -108,7 +108,7 @@ ol li + li {
 				list-style-type: none;
 				&:before {
 					content: '\00bb';
-					color: #ff4e4e;
+					color: #59abe3;
 					padding-right: 0.5em;
 				}
 			}
@@ -125,7 +125,7 @@ ol li + li {
 				&:before {
 					content: counter(step-counter);
 					margin-right: 0px;
-					background-color: #ff4e4e;
+					background-color: #59abe3;
 					color: white;
 					/* padding: 1px 7px; */
 					font-size: .7em;
@@ -230,5 +230,5 @@ ol li + li {
 }
 
 .rating{
-	color: #ff4e4e;
+	color: #c9f227;
 }

@@ -1,5 +1,5 @@
 # Setup
-title:            Chris
+title:            Chris F. Nicholson
 tagline:          'A Personal Blog'
 description:      'This is my website.'
 url:              https://chrisfnicholson.com
@@ -20,15 +20,15 @@ paginate:         5
 
 # Layout
 
-show_social: true          # show site description and social links in the footer
+show_social: false          # show site description and social links in the footer
 show_excerpts: false       # show article excerpts on the home page
 show_frame: false          # adds a gray frame to the site
-show_sidebar: true        # show a sidebar instead of the usual header
+sidebar: false        # show a sidebar instead of the usual header
 
 # Theme
 style: default
-dark_theme: false
-dark_nav: true
+# dark_theme: true
+# dark_nav: true
 
 # Menu
 navigation:
