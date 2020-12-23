@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
-          git pull origin main
+          git pull --ff-only origin main
           git add images/recipes/*
           git commit -am "Update recipes" || echo "Nothing to update"
       - name: Push changes
