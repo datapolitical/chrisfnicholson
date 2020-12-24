@@ -686,8 +686,7 @@
   source_url: https://www.kingarthurflour.com/recipes/braided-lemon-bread-recipe
   total_time: ''
   uid: 45CE4F05-828D-4932-A4F9-85BC1F14C66C-10519-00000334E25F634A
-- categories:
-  - Web
+- categories: []
   cook_time: ''
   created: '2020-12-23 00:23:18'
   description: ''
@@ -869,6 +868,54 @@
   source_url: https://www.historyisfun.org/jamestown-settlement/foods-and-feasts/colonial-recipes/
   total_time: ''
   uid: 53FC32FF-C28D-43C5-B190-CE10D9652E71-646-000000179312F609
+- categories:
+  - Web
+  cook_time: 15 minutes
+  created: '2020-12-23 23:57:07'
+  description: ''
+  difficulty: ''
+  directions:
+  - COOKING (~15 MINUTES)
+  - Rub the inside of your warming pot with cut garlic clove. Place on stove, pour
+    wine and kirsch into pot, and heat over medium flame until bubbles rise lazily
+    (not boiling).
+  - "Add lemon juice and handfuls of cheese, stirring constantly with a wooden spoon\
+    \ (slashing crosswise so cheese doesn\u2019t ball up) until cheese is melted and\
+    \ the mixture has the appearance of a light, creamy and smooth sauce. Add pepper\
+    \ and nutmeg to taste."
+  - Bring to a very slow boil, then remove pot from stove and place atop lighted burner
+    at table. Adjust flame of burner so fondue continues bubbling very lightly. Thin
+    the mixture with a bit of heated white wine as necessary.
+  - Enjoy fondue with crusty bread, steamed vegetables, cooked sausages, and more!
+    In our opinion, nearly anything can be dipped in fondue!
+  image_url: /images/recipes/50AAF0ED-FCFD-414A-879B-726289BC66E6-610-0000018EDE1580B6.jpg
+  in_trash: false
+  ingredients:
+  - 1 clove garlic, cut in half
+  - "1\xBD cups dry white wine (Chablis, e.g.)"
+  - Splash of kirsch (about 1 Tbsp) - can substitute with brandy, cognac, or sherry
+  - 1 Tbsp lemon juice
+  - 1/2 lb Swiss Emmentaler cheese (can substitute with Jarlsberg)
+  - "1/2 lb Gruy\xE8re"
+  - 1/4 lb Raclette
+  - 1 Tbsp. flour
+  - fresh ground pepper and nutmeg
+  - 2 loaves of crusty Italian or French bread
+  - Steamed vegetables, cut apples, cooked sausages, and more for dipping!
+  is_pinned: false
+  name: Milk Pail Fondue
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 15 minutes
+  rating: 0
+  scale: null
+  servings: 'Serves: 12+ servings'
+  source: the-milk-pail-pop-up.myshopify.com
+  source_url: https://the-milk-pail-pop-up.myshopify.com/blogs/recipes/milk-pail-fondue
+  total_time: ''
+  uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
 - categories: []
   cook_time: ''
   created: '2020-12-14 01:55:12'
