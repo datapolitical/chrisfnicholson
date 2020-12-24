@@ -24,11 +24,11 @@ jobs:
           python-version: 3.8
         
       - name: Install Requirements
-        run: pip install -r requirements.txt
+        run: pip install -r paprika/requirements.txt
 
       - name: Execute Python script
         run: |
-          python export.py
+          python paprika/export.py
         env:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
