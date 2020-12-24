@@ -39,6 +39,7 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
           git add images/recipes/*
+          git add .
           git commit -am "Update recipes" || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
