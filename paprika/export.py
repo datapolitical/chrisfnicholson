@@ -42,7 +42,7 @@ for item in json.loads(data)['result']:
         if not recipe['image_url']:
             recipe['image_url'] = '/images/recipes/'+recipe['photo']
         resp = requests.get(recipe['photo_url'], stream=True)
-        local_file = open('../images/'+recipe['photo'], 'wb')
+        local_file = open('./images/'+recipe['photo'], 'wb')
         resp.raw.decode_content = True
         shutil.copyfileobj(resp.raw, local_file)
 
@@ -74,5 +74,5 @@ for item in json.loads(data)['result']:
         recipe['categories'] = categoryList
 
     recipes.append(recipe)
-with open(r'../_data/recipes.yaml', 'w') as file:
+with open(r'./_data/recipes.yaml', 'w') as file:
     yaml.safe_dump(recipes, file)
