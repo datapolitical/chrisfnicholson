@@ -40,7 +40,6 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-remote-theme
-  - jekyll-analytics
 
 exclude:
   - Gemfile
@@ -59,6 +58,5 @@ page_gen:
     dir: recipes
     extension: html
     
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-387663-5         # Required - replace with your tracking id
+
+google_analytics: UA-387663-5
