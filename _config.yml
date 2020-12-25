@@ -58,6 +58,12 @@ page_gen:
     name: name
     dir: recipes
     extension: html
+
+  - data: drinks
+    template: drink
+    name: name
+    dir: drinks
+    extension: html
     
 
 google_analytics: G-QTJ2YPCJSC

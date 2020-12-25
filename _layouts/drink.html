@@ -1,0 +1,97 @@
+---
+layout: page
+---
+		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
+		{% if page.print_stylesheet %}
+			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
+		{% endif %}
+
+<article class="post">
+	<div class="image">
+		<img class="photo" src="../images/drinks/{{ page.image }}" alt="{{ page.name }}">
+		<!-- <a href="https://www.yummly.com" class="YUMMLY-YUM-BUTTON">Yum</a> -->
+	</div>
+<!--
+	<ul id="recipe" class="recipe-overview">
+		{% if page.servings != "" %}
+		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.servings }}</span></li>
+		{% endif %}
+		{% if page.prep_time != "" %}
+		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.prep_time }}</span></li>
+		{% endif %}
+		{% if page.cook_time != "" %}
+		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.cook_time }}</span></li>
+		{% endif %}
+		{% if page.rating != "" %}
+		<li>Rating: <b class="rating">{% for i in (1..page.rating) %}★{% endfor %}</b></li>
+		{% endif %}
+	</ul>
+-->
+
+	<div class="recipe-contents">
+		<div class="ingredients">
+			<h2>Ingredients</h2>
+            <ul>
+            {% for item in page.ingredients %}
+            <li><b>{% unless item.quantity == blank %}{{ item.quantity }}{% endunless %}</b> {{item.measure}} {{item.ingredient}}</li>
+            {% endfor %}
+            </ul>
+		</div>
+
+		<div class="directions">
+			<h2>Directions</h2>
+            <ol>
+            {% for item in page.directions %}
+            <li>{{ item }}</li>
+            {% endfor %}
+            </ol>
+		</div>
+	</div>
+
+	<div class="sharing">
+		{% assign share_url = page.url | absolute_url | cgi_escape %}
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}">{% include social-icon.html icon="Facebook" %}</a>
+		<a class="twitter" href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text=I'm%20going%20to%20this%20event!">{% include social-icon.html icon="Twitter" %}</a>
+		<a class="instagram" href="https://instagram.com">{% include social-icon.html icon="Instagram" %}</a>
+		<a class="pinterest" href="//pinterest.com/pin/create/link/?url={{ share_url }}&amp;description={{ page.description }}">{% include social-icon.html icon="Pinterest" %}</a>
+		<a class="email" href="mailto:?subject=I've%20found%20a%20great%20recipe&amp;body=Check%20it%20out%20-%20{{ share_url }}">{% include social-icon.html icon="Email" %}</a>
+	</div>
+
+	<div class="cta">
+		<h2>More delicious cocktails</h2>
+		<div class="button"><a href="{{ site.baseurl }}/drinks">Check out more delicious cocktails</a></div>
+	</div>
+	{% if site.disqus_shortname and page.comments %}
+		<div id="disqus_thread"></div>
+		<script>
+			var disqus_shortname = '{{ site.disqus_shortname }}';
+			var disqus_config = function () {
+				this.page.url = "{{ page.url | prepend: site.url }}";
+				this.page.identifier = "{{ page.id }}";
+			};
+			(function() {  // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	{% endif %}
+</article>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.imgPin.min.js"></script>
+<!-- <script src="https://www.yummly.com/js/widget.js?general"></script> -->
+<script>
+	$(function() {
+		$('.post img').imgPin();
+		$('a[href*=\\#]').on('click', function(event){
+			var el = $(this.hash);
+			if (el.length > 0) {
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
+			}
+		});
+	});
+</script>

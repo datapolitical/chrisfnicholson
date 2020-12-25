@@ -22,7 +22,9 @@ layout: page
 		{% if page.cook_time != "" %}
 		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.cook_time }}</span></li>
 		{% endif %}
+		{% if page.rating!= 0 %}
 		<li>Rating: <b class="rating">{% for i in (1..page.rating) %}★{% endfor %}</b></li>
+		{% endif %}
 	</ul>
 
 	<div class="recipe-contents">
