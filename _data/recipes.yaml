@@ -2860,6 +2860,50 @@
   source_url: https://twosleevers.com/instant-pot-butter-chicken/
   total_time: ''
   uid: C3452321-6432-4327-95E7-4627D687FDC0-11007-000003E69FD9A243
+- categories:
+  - Made at 307
+  - Web
+  - I Made This
+  cook_time: 10 mins
+  created: '2020-12-26 19:52:37'
+  description: ''
+  difficulty: Easy
+  directions:
+  - Bring a large pot of water up to boil. Sprinkle in a generous amount of salt and
+    stir in pasta. Cook linguine until al dente and drain, reserving 1/2 cup cooking
+    liquid. Place linguine back into the hot pot and stir in butter, cream, garlic,
+    salt, pepper and cheese until butter and cheese start to melt and create a sauce.
+    Pour in some pasta water to get the sauce to the consistency you want (I only
+    used about 3 tablespoons). Taste and adjust seasonings accordingly. Pour onto
+    a serving platter and top with fresh parsley and more grated cheese.
+  image_url: https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2011/08/Parmesan-Garlic-Linguine-410x273.jpg
+  in_trash: false
+  ingredients:
+  - "\xBD pounds Linguine Pasta"
+  - "\xBD cups Cooking Liquid From Pasta"
+  - 2 Tablespoons Salted Butter
+  - "\xBC cups Heavy Cream"
+  - "\xBD cloves Garlic, Finely Minced"
+  - Salt And Pepper, to taste
+  - "\xBE cups Parmigiano Reggiano (Use The Real Stuff!)"
+  - Fresh Parsley For Garnish (optional)
+  is_pinned: false
+  name: Parmesan & Garlic Linguine
+  notes: "1. I used a microplane for grating the garlic and the parmesan cheese right\
+    \ into the pot. If you are using pre-grated store bought parmesan cheese, I\u2019\
+    d recommend using about 1/2 cup.\n\n2. This recipe only gives only a hint of garlic.\
+    \ Adjust the garlic level according to your preference!"
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 mins
+  rating: 4
+  scale: null
+  servings: 'Serves: 2'
+  source: tastykitchen.com
+  source_url: https://tastykitchen.com/recipes/main-courses/parmesan-garlic-linguine/
+  total_time: ''
+  uid: D0442948-017D-4D43-AD88-CFEF682D5D75-4223-00000167A8569977
 - categories: []
   cook_time: ''
   created: '2020-12-14 02:19:37'
