@@ -127,54 +127,6 @@
   source_url: https://www.tasteofhome.com/recipes/cider-wassail-punch/
   total_time: ''
   uid: 052F1D73-3DB3-4A66-886F-385A437DCFBD-646-00000015737AE7E3
-- categories: []
-  cook_time: 'prep: 30 min. + rising bake: 30 min. + cooling'
-  created: '2020-05-29 14:11:34'
-  description: ''
-  difficulty: ''
-  directions:
-  - In a large bowl, dissolve yeast in warm water. Add the oil, sugar, salt, eggs
-    and 4 cups flour. Beat until smooth. Stir in enough remaining flour to form a
-    firm dough. Turn onto a floured surface; knead until smooth and elastic, 6-8 minutes.
-    Place in a greased bowl, turning once to grease top. Cover and let rise in a warm
-    place until doubled, about 1 hour.
-  - Punch dough down. Turn onto a lightly floured surface; divide in half. Divide
-    each portion into thirds. Shape each piece into a 15-in. rope.
-  - Place three ropes on a greased baking sheet and braid; pinch ends to seal and
-    tuck under. Repeat with remaining dough. Cover and let rise until doubled, about
-    1 hour.
-  - "Beat egg and cold water; brush over braids. Sprinkle with sesame or poppy seeds\
-    \ if desired. Bake at 350\xB0 until golden brown, 30-40 minutes. Remove to wire\
-    \ racks to cool."
-  image_url: https://www.tasteofhome.com/wp-content/uploads/2018/01/exps16804_HWS1227354D128A.jpg
-  in_trash: true
-  ingredients:
-  - "2 packages (1/4 ounce each) active dry yeast or 3 \u2153 tsp instant yeast"
-  - "1 cup warm water (110\xB0 to 115\xB0)"
-  - 1/2 cup canola oil
-  - 1/3 cup sugar
-  - 1 tablespoon salt
-  - 4 large eggs, room temperature
-  - 6 to 6-1/2 cups all-purpose flour
-  - 'TOPPING:'
-  - 1 large egg
-  - 1 teaspoon cold water
-  - 1 tablespoon sesame or poppy seeds, optional
-  is_pinned: false
-  name: Challah
-  notes: ''
-  nutritional_info: '1 slice: 137 calories, 5g fat (1g saturated fat), 33mg cholesterol,
-    232mg sodium, 20g carbohydrate (3g sugars, 1g fiber), 4g protein.'
-  on_favorites: false
-  on_grocery_list: null
-  prep_time: 30 min
-  rating: 0
-  scale: null
-  servings: 2 loaves (16 slices each)
-  source: tasteofhome.com
-  source_url: https://www.tasteofhome.com/recipes/challah/
-  total_time: ''
-  uid: 0A680E3D-91EA-48E7-8E2C-6E5006BF1DE6-36654-00000B97FA94C7DA
 - categories:
   - Web
   - Indian
@@ -214,10 +166,10 @@
   is_pinned: false
   name: Easy 20 Minute Butter Chicken
   notes: ''
-  nutritional_info: 'Serving: 1serving | Calories: 491kcal | Carbohydrates: 9g | Protein:
-    39g | Fat: 33g | Saturated Fat: 17g | Cholesterol: 198mg | Sodium: 963mg | Potassium:
-    895mg | Fiber: 2g | Sugar: 3g | Vitamin A: 1405IU | Vitamin C: 8mg | Calcium:
-    67mg | Iron: 2mg'
+  nutritional_info: "Serving: 1 serving \nCalories: 491 kcal\nCarbohydrates: 9g\n\
+    Protein: 39g\nFat: 33g\nSaturated Fat: 17g\nCholesterol: 198mg\nSodium: 963mg\n\
+    Potassium: 895mg\nFiber: 2g\nSugar: 3g\nVitamin A: 1405IU\nVitamin C: 8mg\nCalcium:\
+    \ 67mg\nIron: 2mg"
   on_favorites: true
   on_grocery_list: null
   prep_time: 5 minutes
@@ -916,43 +868,6 @@
   source_url: https://the-milk-pail-pop-up.myshopify.com/blogs/recipes/milk-pail-fondue
   total_time: ''
   uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
-- categories: []
-  cook_time: ''
-  created: '2020-12-14 01:55:12'
-  description: ''
-  difficulty: ''
-  directions: ''
-  image_url: null
-  in_trash: true
-  ingredients:
-  - 5 cups (4) tart apple
-  - 1 cup fresh cranberries
-  - 1 cup dark brown sugar
-  - 2 teaspoons ground cinnamon
-  - 1 teaspoon vanilla extract
-  - "\xBD cup butter"
-  - 3 eggs
-  - 1 x 15 ounces pumpkin
-  - 2 cups all-purpose flour
-  - 2 teaspoons baking powder
-  - "\xBD teaspoon baking soda"
-  - "\xBC teaspoon salt"
-  - pecans
-  - vanilla ice cream
-  is_pinned: false
-  name: Slow-Cooked Pumpkin Apple Cobbler
-  notes: ''
-  nutritional_info: ''
-  on_favorites: false
-  on_grocery_list: null
-  prep_time: ''
-  rating: 0
-  scale: null
-  servings: ''
-  source: my.whisk.com
-  source_url: https://my.whisk.com/recipes/10151881c3b687a5b838000f2dd922e332465f4e737?utm_source=ios&utm_medium=shared-link&utm_campaign=whisk-recipe&user_id=10225bf4034a8d74b649100728ee9cd9a85&first_name=Chris&picture_url=https%3A%2F%2Fwhisk-res.cloudinary.com%2Fimage%2Fupload%2Fv1607936760%2Fv3%2Fusers%2Fuploads%2Fidmktmu0pm4fi2vfqzqi.jpg
-  total_time: ''
-  uid: 55BD079D-D025-48D6-9ED5-C2BE64E7EA22-35027-00000DD4CEB40C4A
 - categories: []
   cook_time: ''
   created: '2020-04-26 02:10:49'
@@ -1865,74 +1780,6 @@
   source_url: https://www.outdoorlife.com/blogs/cast-iron-chef/how-cook-raccoon-recipe-brined-bandit-and-sweet-potato-hash/
   total_time: ''
   uid: 83FF6154-3D59-435C-A78E-F9EE2B5B3517-12890-0000040D673C1F3D
-- categories: []
-  cook_time: 'prep: 20 minutes, cook: 4 hours'
-  created: '2020-12-14 01:55:43'
-  description: ''
-  difficulty: ''
-  directions:
-  - pattiejean
-  - Nov 11, 2020
-  - This was easy to assemble and very tasty. I think I would use more apples if I
-    make it again, as the cake to apple ratio was a bit too much. Very yummy served
-    with vanilla ice cream-will try again with a few adjustments. VFE
-  - Megan
-  - Nov 10, 2020
-  - "I thought this was delicious. I think I added about 6 cups of apples (5 medium\
-    \ large apples). I also cut the sugar to 2/3 of a cup divided and used half whole\
-    \ wheat flour and half regular flour. After reading the first review I made sure\
-    \ to let it cook a little longer to make sure the pumpkin top was set (about 4.5\
-    \ hours). I dumped off the excess water that collected inside the lid so it didn\u2019\
-    t soak the cake part. If I made it again I would probably use more apples as they\
-    \ cooked down quite a bit. I might also even try halving the pumpkin part as it\
-    \ was a pretty thick layer."
-  - szoppi
-  - Oct 22, 2020
-  - Apple mixture on the bottom was tasty. However, pumpkin cake portion was a big
-    disappointment. I will not be making this again.
-  image_url: https://www.tasteofhome.com/wp-content/uploads/2020/06/Slow-Cooked-Pumpkin-Apple-Cobbler_EXPS_TOHON20_246956_B06_05_6b-6-696x696.jpg
-  in_trash: true
-  ingredients:
-  - 5 cups sliced peeled tart apple (about 4 medium)
-  - 1 cup fresh or frozen cranberries
-  - 1 cup packed dark brown sugar, divided
-  - 2 teaspoons ground cinnamon, divided
-  - 1 teaspoon vanilla extract
-  - 1/2 cup butter, softened
-  - 3 large eggs, room temperature
-  - 1 can (15 ounces) pumpkin
-  - 2 cups all-purpose flour
-  - 2 teaspoons baking powder
-  - 1/2 teaspoon baking soda
-  - 1/4 teaspoon salt
-  - Chopped pecans, optional
-  - Vanilla ice cream or whipped cream
-  is_pinned: false
-  name: Slow-Cooked Pumpkin Apple Cobbler
-  notes: ''
-  nutritional_info: 'Fat: 14g fat (8g saturated fat)
-
-    Calories: 407 calories
-
-    Sodium: 402mg sodium
-
-    Fiber: 4g fiber)
-
-    Carbohydrate: 66g carbohydrate (36g sugars
-
-    Cholesterol: 100mg cholesterol
-
-    Protein: 7g protein.'
-  on_favorites: false
-  on_grocery_list: null
-  prep_time: 20 min
-  rating: 0
-  scale: null
-  servings: 8 servings
-  source: tasteofhome.com
-  source_url: https://www.tasteofhome.com/recipes/slow-cooked-pumpkin-apple-cobbler/
-  total_time: ''
-  uid: 84358D3D-B484-4D9C-82CA-A28761793429-35027-00000DD4EFDBE345
 - categories: []
   cook_time: 15 mins
   created: '2020-10-10 18:57:07'
@@ -2861,8 +2708,11 @@
   total_time: ''
   uid: C3452321-6432-4327-95E7-4627D687FDC0-11007-000003E69FD9A243
 - categories:
+  - Dinner
   - Made at 307
   - Web
+  - Pasta
+  - Italian
   - I Made This
   cook_time: 10 mins
   created: '2020-12-26 19:52:37'
@@ -3641,182 +3491,3 @@
   source_url: https://www.slenderkitchen.com/recipe/pepperoni-pineapple-and-jalapeno-pizzas
   total_time: ''
   uid: F1B157A9-B414-4091-A157-2158F8BDB3D1-9273-0000043285444489
-- categories: []
-  cook_time: 'prep: 20 minutes, cook: 4 hours'
-  created: '2020-12-14 01:56:06'
-  description: ''
-  difficulty: ''
-  directions:
-  - pattiejean
-  - Nov 11, 2020
-  - This was easy to assemble and very tasty. I think I would use more apples if I
-    make it again, as the cake to apple ratio was a bit too much. Very yummy served
-    with vanilla ice cream-will try again with a few adjustments. VFE
-  - Megan
-  - Nov 10, 2020
-  - "I thought this was delicious. I think I added about 6 cups of apples (5 medium\
-    \ large apples). I also cut the sugar to 2/3 of a cup divided and used half whole\
-    \ wheat flour and half regular flour. After reading the first review I made sure\
-    \ to let it cook a little longer to make sure the pumpkin top was set (about 4.5\
-    \ hours). I dumped off the excess water that collected inside the lid so it didn\u2019\
-    t soak the cake part. If I made it again I would probably use more apples as they\
-    \ cooked down quite a bit. I might also even try halving the pumpkin part as it\
-    \ was a pretty thick layer."
-  - szoppi
-  - Oct 22, 2020
-  - Apple mixture on the bottom was tasty. However, pumpkin cake portion was a big
-    disappointment. I will not be making this again.
-  image_url: https://www.tasteofhome.com/wp-content/uploads/2020/06/Slow-Cooked-Pumpkin-Apple-Cobbler_EXPS_TOHON20_246956_B06_05_6b-6-696x696.jpg
-  in_trash: true
-  ingredients:
-  - 5 cups sliced peeled tart apple (about 4 medium)
-  - 1 cup fresh or frozen cranberries
-  - 1 cup packed dark brown sugar, divided
-  - 2 teaspoons ground cinnamon, divided
-  - 1 teaspoon vanilla extract
-  - 1/2 cup butter, softened
-  - 3 large eggs, room temperature
-  - 1 can (15 ounces) pumpkin
-  - 2 cups all-purpose flour
-  - 2 teaspoons baking powder
-  - 1/2 teaspoon baking soda
-  - 1/4 teaspoon salt
-  - Chopped pecans, optional
-  - Vanilla ice cream or whipped cream
-  is_pinned: false
-  name: Slow-Cooked Pumpkin Apple Cobbler
-  notes: ''
-  nutritional_info: 'Fat: 14g fat (8g saturated fat)
-
-    Calories: 407 calories
-
-    Sodium: 402mg sodium
-
-    Fiber: 4g fiber)
-
-    Carbohydrate: 66g carbohydrate (36g sugars
-
-    Cholesterol: 100mg cholesterol
-
-    Protein: 7g protein.'
-  on_favorites: false
-  on_grocery_list: null
-  prep_time: 20 min
-  rating: 0
-  scale: null
-  servings: 8 servings
-  source: tasteofhome.com
-  source_url: https://www.tasteofhome.com/recipes/slow-cooked-pumpkin-apple-cobbler/
-  total_time: ''
-  uid: F2841296-CE60-4E68-BC65-36D098D67D29-35027-00000DD51B04F8E2
-- categories:
-  - Alt
-  cook_time: ''
-  created: '2020-05-21 14:50:44'
-  description: ''
-  difficulty: ''
-  directions:
-  - "Heat the oven to 350\xB0F and prep the pan. Arrange a rack in the bottom third\
-    \ of the oven and heat to 350\xB0F. Line an 8x5-inch loaf pan with parchment paper,\
-    \ letting the excess hang over the long sides to form a sling. Spray the inside\
-    \ with cooking spray. \u2192 If using nuts, toast them in the oven for 10 minutes\
-    \ as the oven is pre-heating."
-  - "Melt the butter. Melt the butter in the microwave or over low heat on the stovetop.\
-    \ \u2192 Alternatively, for a more cake-like banana bread, soften the butter (but\
-    \ do not melt) and cream it with the sugar in a stand mixer in the next step."
-  - Combine the butter and sugar. Place the melted butter and sugar in a large bowl
-    and whisk until combined. (Or cream the softened butter and sugar in a mixer until
-    fluffy.)
-  - Add the eggs. Crack the eggs into the bowl. Whisk until completely combined and
-    the mixture is smooth.
-  - Add the milk and vanilla. Whisk the milk and vanilla into the batter.
-  - Mash in the bananas. Peel the bananas and add them to the bowl. Using the end
-    of the whisk or a dinner fork, mash them into the batter. Leave the bananas as
-    chunky or as smooth as you prefer. If you prefer an entirely smooth banana bread,
-    mash the bananas separately until no more lumps remain, and then whisk them into
-    the batter.
-  - Add the flour, baking soda, and salt. Measure the flour, baking soda, and salt
-    into the bowl. Switch to using a spatula and gently stir until the ingredients
-    are just barely combined and no more dry flour is visible.
-  - Fold in the nuts or chocolate, if using. Last but not least, scatter the nuts
-    or chocolate over the batter and gently fold them in.
-  - Pour the batter into the pan. Pour the batter into the prepared loaf pan, using
-    the spatula to scrape all the batter from the bowl. Smooth the top of the batter.
-  - "Bake for 50 to 65 minutes. Bake until the top of the cake is caramelized dark\
-    \ brown with some yellow interior peeking through and a toothpick or cake tester\
-    \ inserted into the middle comes out clean, 50 to 65 minutes. Baking time will\
-    \ vary slightly depending on the moisture and sugar content of your bananas \u2014\
-    \ start checking around 50 minutes and then every 5 minutes after."
-  - "Cool in the pan for 10 minutes. Set the loaf, still in the pan, on a wire cooling\
-    \ rack. Let it cool for 10 minutes \u2014 this helps the loaf solidify and makes\
-    \ it easier to remove from the pan."
-  - Remove from pan and cool another 10 minutes. Grasping the parchment paper sling,
-    lift the loaf out of the pan and place on the cooling rack. Cool for another 10
-    minutes before slicing.
-  image_url: https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_1500/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2011%2F02%2F027ca667115cd10e50a49074535c2a699d68083c.jpeg
-  in_trash: true
-  ingredients:
-  - Cooking spray
-  - 1 stick unsalted butter
-  - 1 cup granulated sugar
-  - 2 large eggs
-  - 1/4 cup milk
-  - 1 teaspoon vanilla extract
-  - 3 medium bananas, very ripe
-  - 2 cups all-purpose flour
-  - 1 teaspoon baking soda
-  - 1/4 teaspoon salt
-  - 1/2 cup chopped nuts or chocolate chips (optional)
-  is_pinned: false
-  name: Banana Bread - Alt
-  notes: 'Banana muffins: To make muffins, line a muffin tin with paper liners and
-    fill each cup to roughly 3/4 full, and check for doneness after 20 minutes. Makes
-    8 to 10 muffins.
-
-
-    Storage: Wrap leftovers tightly in plastic wrap and store at room temperature
-    for several days, or wrap the bread in plastic wrap and then aluminum foil and
-    freeze for up to 3 months.'
-  nutritional_info: 'kidney-friendly
-
-    fish-free
-
-    alcohol-free
-
-    low-potassium
-
-    vegetarian
-
-    shellfish-free
-
-    pork-free
-
-    pescatarian
-
-    red-meat-free
-
-    Calories 260
-
-    Fat 9.9 g (15.2%)
-
-    Saturated 5.3 g (26.7%)
-
-    Carbs 39.9 g (13.3%)
-
-    Fiber 1.3 g (5.3%)
-
-    Sugars 20.6 g
-
-    Protein 3.8 g (7.5%)
-
-    Sodium 170.0 mg (7.1%)'
-  on_favorites: false
-  on_grocery_list: null
-  prep_time: ''
-  rating: 0
-  scale: 1/1
-  servings: 1 (8-inch) loaf, easily multiplied
-  source: thekitchn.com
-  source_url: https://www.thekitchn.com/how-to-make-banana-bread-the-simplest-easiest-recipe-139900
-  total_time: ''
-  uid: F7C15C70-C670-4B3A-AC46-E1DF607B32AE-5015-0000012CCC576FCC
