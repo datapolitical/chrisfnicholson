@@ -77,7 +77,8 @@
   source_url: https://www.epicurious.com/recipes/food/views/olive-oil-apple-cake-with-spiced-sugar?intcid=inline_amp
   total_time: ''
   uid: 02B940D4-2D14-4E0D-9D26-A3417C4F262E-15739-0000046C60D082FD
-- categories: []
+- categories:
+  - Web
   cook_time: 'prep/total time: 30 min.'
   created: '2020-12-18 01:18:18'
   description: ''
