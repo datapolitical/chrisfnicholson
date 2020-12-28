@@ -56,7 +56,7 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
-       -name: Tag commit
+      - name: Tag commit
         uses: tvdias/github-tagger@v0.0.1
         with:
           repo-token: "${{ secrets.GH_TOKEN }}"
