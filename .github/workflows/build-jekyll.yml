@@ -72,11 +72,15 @@ jobs:
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
 
-      - name: Changelog
-        uses: scottbrenner/generate-changelog-action@master
-        id: Changelog
-        env:
-          REPO: ${{ github.repository }}
+      - name: Create a release draft for a version tag
+        id: create-release-draft
+        uses: ecampidoglio/auto-release-draft@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Print the URL of the release draft
+        if: steps.create-release-draft.outputs.release-url != ''
+        run: echo ${{ steps.create-release-draft.outputs.release-url }}
 
       - name: Create Release
         id: create_release
@@ -86,8 +90,6 @@ jobs:
         with:
           tag_name: ${{ steps.create_version.outputs.version }}
           release_name: Release ${{ steps.create_version.outputs.version }}
-          body: |
-            Changes in this Release
-              ${{ steps.Changelog.outputs.changelog }}
+          body_path: ${{ steps.create-release-draft.outputs.release-url }}
           draft: false
           prerelease: false
