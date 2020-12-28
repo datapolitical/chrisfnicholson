@@ -72,8 +72,10 @@ jobs:
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
 
-    - uses: notlmn/release-with-changelog@v3
-      with:
+      # Create Changelog
+      - name: changelog
+        uses: notlmn/release-with-changelog@v3
+        with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-template: '- {title} ← {hash}'
         template: |
