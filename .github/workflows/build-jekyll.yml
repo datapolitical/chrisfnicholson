@@ -32,7 +32,7 @@ jobs:
 
       # Create Changelog
       - name: changelog
-        uses: notlmn/release-with-changelog@v3
+        uses: notlmn/release-with-changelog@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
