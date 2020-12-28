@@ -78,6 +78,52 @@
   total_time: ''
   uid: 02B940D4-2D14-4E0D-9D26-A3417C4F262E-15739-0000046C60D082FD
 - categories:
+  - Meal Type
+  - Dessert
+  - Web
+  cook_time: 30 minutes
+  created: '2020-12-28 11:01:23'
+  description: ''
+  difficulty: ''
+  directions:
+  - 1. In large saucepan melt butter over low heat. Add marshmallows and stir until
+    completely melted. Remove from heat.
+  - 2. Add KELLOGG'S RICE KRISPIES cereal. Stir until well coated.
+  - 3. Using buttered spatula or wax paper evenly press mixture into 13 x 9 x 2-inch
+    pan coated with cooking spray. Cool. Cut into 2-inch squares. Best if served the
+    same day.
+  - 'MICROWAVE DIRECTIONS:'
+  - In microwave-safe bowl heat butter and marshmallows on HIGH for 3 minutes, stirring
+    after 2 minutes. Stir until smooth. Follow steps 2 and 3 above. Microwave cooking
+    times may vary.
+  image_url: https://images.kglobalservices.com/www.kelloggs.com/en_us/recipe/kicrecipe-1605/recip_img-7547527_rkt-original-treats.jpg
+  in_trash: false
+  ingredients:
+  - 3 tablespoons butter
+  - 1 package (10 oz., about 40) JET-PUFFED Marshmallows
+  - OR
+  - 4 cups JET-PUFFED Miniature Marshmallows
+  - "6 cups Kellogg's\xAE Rice Krispies\xAE cereal"
+  is_pinned: false
+  name: The Original Rice Krispies Treats
+  notes: "For best results, use fresh marshmallows.\n\n1 jar (7 oz.) marshmallow cr\xE8\
+    me can be substituted for marshmallows.\n\nDiet, reduced calorie or tub margarine\
+    \ is not recommended.\n\nStore no more than two days at room temperature in airtight\
+    \ container.\n\nTo freeze, place in layers separated by wax paper in airtight\
+    \ container. Freeze for up to 6 weeks. Let stand at room temperature for 15 minutes\
+    \ before serving."
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 10 minutes
+  rating: 0
+  scale: null
+  servings: 12 servings
+  source: kelloggs.com
+  source_url: https://www.kelloggs.com/en_US/recipes/the-original-treats-recipe.html
+  total_time: ''
+  uid: 04DF0026-7FB3-43D1-BBFB-CCBD5FEBA40F-3712-00000164898B96F0
+- categories:
   - Web
   cook_time: 'prep/total time: 30 min.'
   created: '2020-12-18 01:18:18'
