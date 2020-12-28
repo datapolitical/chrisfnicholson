@@ -72,15 +72,16 @@ jobs:
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
 
-      - name: Create a release draft for a version tag
-        id: create-release-draft
-        uses: ecampidoglio/auto-release-draft@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: notlmn/release-with-changelog@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-template: '- {title} ← {hash}'
+        template: |
+          ### Changelog
 
-      - name: Print the URL of the release draft
-        if: steps.create-release-draft.outputs.release-url != ''
-        run: echo ${{ steps.create-release-draft.outputs.release-url }}
+          {commits}
+
+          {range}
 
       - name: Create Release
         id: create_release
