@@ -76,14 +76,14 @@ jobs:
       - name: changelog
         uses: notlmn/release-with-changelog@v3
         with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-template: '- {title} ← {hash}'
-        template: |
-          ### Changelog
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-template: '- {title} ← {hash}'
+          template: |
+            ### Changelog
 
-          {commits}
+            {commits}
 
-          {range}
+            {range}
 
       - name: Create Release
         id: create_release
