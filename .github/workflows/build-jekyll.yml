@@ -30,11 +30,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      # Create Changelog
-      - name: changelog
-        uses: notlmn/release-with-changelog@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      #   Create Changelog
+      # - name: changelog
+      #   uses: notlmn/release-with-changelog@v2
+      #     with:
+          # token: ${{ secrets.GITHUB_TOKEN }}
 
       # Create Version
       - name: Create Version
