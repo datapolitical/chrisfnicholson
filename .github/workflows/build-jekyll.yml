@@ -70,17 +70,22 @@ jobs:
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
 
+      - name: Changelog
+        uses: scottbrenner/generate-changelog-action@master
+        id: Changelog
+        env:
+          REPO: ${{ github.repository }}
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ version }}
+          release_name: Release ${{ version }}
           body: |
             Changes in this Release
-            - First Change
-            - Second Change
+              ${{ steps.Changelog.outputs.changelog }}
           draft: false
           prerelease: false
