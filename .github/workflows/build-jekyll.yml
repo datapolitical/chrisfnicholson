@@ -58,6 +58,24 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
+      # Create Changelog
+      - name: changelog
+        uses: notlmn/release-with-changelog@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ steps.create_version.outputs.version }}
+          release_name: Release ${{ steps.create_version.outputs.version }}
+          body_path: ${{ steps.create-release-draft.outputs.release-url }}
+          draft: false
+          prerelease: false
+
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@v0.1.4
         with:
@@ -71,28 +89,3 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-
-      # Create Changelog
-      - name: changelog
-        uses: notlmn/release-with-changelog@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-template: '- {title} ← {hash}'
-          template: |
-            ### Changelog
-
-            {commits}
-
-            {range}
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-        with:
-          tag_name: ${{ steps.create_version.outputs.version }}
-          release_name: Release ${{ steps.create_version.outputs.version }}
-          body_path: ${{ steps.create-release-draft.outputs.release-url }}
-          draft: false
-          prerelease: false
