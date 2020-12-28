@@ -84,8 +84,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ steps.create_version.version }}
-          release_name: Release ${{ steps.create_version.version }}
+          tag_name: ${{ steps.create_version.outputs.version }}
+          release_name: Release ${{ steps.create_version.outputs.version }}
           body: |
             Changes in this Release
               ${{ steps.Changelog.outputs.changelog }}
