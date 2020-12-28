@@ -71,26 +71,9 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
-      - name: Conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-user-name: 'Awesome Changelog Action'
-          git-user-email: 'awesome_changelog@github.actions.com'
-          preset: ''
-          tag-prefix: 'v'
-          output-file: 'CHANGELOG.md'
-          release-count: '10'
-          version-file: '' # or .yml, .yaml, .toml
-          version-path: ''
-          skip-on-empty: 'false'
-          skip-version-file: 'false'
-          skip-commit: 'true'
-
       #Create Release
       - name: Create Release
-        # if: steps.create_version.outputs.patch == 0
+        if: steps.create_version.outputs.patch == 0
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -98,6 +81,6 @@ jobs:
         with:
           tag_name: v${{ steps.create_version.outputs.version }}
           release_name: Release ${{ steps.create_version.outputs.version }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          body: ""
           draft: false
           prerelease: false
