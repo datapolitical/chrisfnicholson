@@ -32,7 +32,9 @@ jobs:
 
 
       # Create Version
-      - uses: paulhatch/semantic-version@v3.2
+      - name: Create Version
+        id: create_version
+        uses: paulhatch/semantic-version@v3.2
         with:
           # The prefix to use to identify tags
           branch: "main"
@@ -82,8 +84,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ version }}
-          release_name: Release ${{ version }}
+          tag_name: ${{ steps.create_version.version }
+          release_name: Release ${{ steps.create_version.version }}
           body: |
             Changes in this Release
               ${{ steps.Changelog.outputs.changelog }}
