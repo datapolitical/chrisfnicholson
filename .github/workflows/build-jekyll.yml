@@ -82,7 +82,7 @@ jobs:
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
           release-count: '10'
-          version-file: '' // or .yml, .yaml, .toml
+          version-file: '' # or .yml, .yaml, .toml
           version-path: ''
           skip-on-empty: 'false'
           skip-version-file: 'false'
