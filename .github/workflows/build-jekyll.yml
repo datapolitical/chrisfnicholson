@@ -90,7 +90,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: steps.create_version.outputs.patch == 0
+        # if: steps.create_version.outputs.patch == 0
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -98,6 +98,6 @@ jobs:
         with:
           tag_name: v${{ steps.create_version.outputs.version }}
           release_name: Release ${{ steps.create_version.outputs.version }}
-          body: ""
+          body: ${{ steps.changelog.outputs.clean_changelog }}
           draft: false
           prerelease: false
