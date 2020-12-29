@@ -1094,6 +1094,42 @@
   source_url: https://thesweetandsourbaker.com/home/2017/8/11/hokkaido-milk-bread-cinnamon-rolls
   total_time: ''
   uid: 63506D95-5A70-463B-84A3-B344502E2D90-3403-000000FE8A09EC97
+- categories: []
+  cook_time: 10 mins
+  created: '2020-12-29 17:28:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Scoop egg yolks into a bowl and set egg whites aside. Mash yolks, mayonnaise,
+    vinegar, 1/2 teaspoon chopped dill, Dijon mustard, garlic powder, and salt. Spoon
+    yolk mixture into egg whites. Garnish with dill sprigs. Refrigerate until ready
+    to serve.
+  image_url: https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3275386.jpg
+  in_trash: false
+  ingredients:
+  - 6 hard-cooked eggs, halved
+  - "\xBC cup mayonnaise"
+  - 1 teaspoon rice wine vinegar
+  - "\xBD teaspoon chopped fresh dill (Optional)"
+  - 1 teaspoon Dijon mustard
+  - "\xBC teaspoon garlic powder"
+  - "\u215B teaspoon salt"
+  - 12 sprigs fresh dill (Optional)
+  is_pinned: false
+  name: Classic Savory Deviled Eggs
+  notes: ''
+  nutritional_info: 139 calories; protein 6.4g; carbohydrates 1g; fat 12.3g; cholesterol
+    189.5mg; sodium 191.7mg. Full Nutrition
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 10 mins
+  rating: 0
+  scale: null
+  servings: 'Servings: 6'
+  source: Allrecipes.com
+  source_url: https://www.allrecipes.com/recipe/228129/classic-savory-deviled-eggs/
+  total_time: ''
+  uid: 64AF1AB3-3989-4E4E-800E-EFB0CECF2D7F
 - categories:
   - Dish Type
   - Dessert
@@ -2193,6 +2229,72 @@
   source_url: https://www.tasteofhome.com/recipes/slow-cooked-pumpkin-apple-cobbler/
   total_time: ''
   uid: 9B7AA5B1-C0E4-45B4-9777-3C6700B3F21F-35027-00000DD53B45392F
+- categories: []
+  cook_time: 1 hour
+  created: '2020-12-29 09:56:57'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Start preparing the cranberry layer: Combine the cranberries, sugar and 3 tablespoons
+    water in a medium saucepan. Zest 2 of the lemons directly into the saucepan; reserve
+    the lemons. Bring to a boil over medium-high heat, stirring occasionally. Continue
+    boiling, stirring occasionally, until the berries burst and the mixture is jammy,
+    7 to 9 minutes. Remove from the heat and reserve.'
+  - 'Make the crust: Heat oven to 350 degrees. Line the bottom and sides of a 9-by-13-inch
+    baking pan with one large sheet of heavy aluminum foil, making sure there are
+    no gaps or holes, then generously coat with cooking spray.'
+  - Whisk the flour, sugar and salt in a medium bowl. Whisk the vanilla into the butter,
+    then pour over the flour mixture. Stir until the dough comes together in a mass.
+    Press into an even layer in the prepared pan. Bake until golden brown around the
+    edges and dry and golden on top, 17 to 20 minutes.
+  - 'While the crust bakes, begin preparing the lemon layer: Squeeze the juice from
+    the 2 reserved zested lemons. You should have 1/2 cup. Squeeze the juice from
+    another lemon, if needed.'
+  - Whisk the sugar, flour and salt in a medium bowl. Add the eggs and whisk gently
+    just until incorporated. Add the lemon juice and stir gently with the whisk just
+    until smooth.
+  - Let the crust cool for 5 minutes, then spread the cranberry mixture evenly over
+    the crust. Carefully and slowly pour the lemon mixture on top to create two distinct
+    layers.
+  - "Return the pan to the oven and bake until the filling is set, 18 to 22 minutes.\
+    \ Cool completely in the pan on a wire rack, then refrigerate until cold and firm,\
+    \ at least 2 hours. Using the foil, slide the bars out of the pan and onto a cutting\
+    \ board. Cut into 24 squares, wiping your knife between cuts for clean slices.\
+    \ If desired, sift confectioners\u2019 sugar over the tops just before serving."
+  image_url: https://static01.nyt.com/images/2020/11/18/dining/13bakingrex3-bars/merlin_179650401_1c345546-086d-42e6-a2d5-62511090cc00-articleLarge.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR THE CRANBERRY LAYER:'
+  - 1 (12-ounce/340-gram) bag fresh or frozen cranberries
+  - "\xBE cup/150 grams granulated sugar"
+  - 2 to 3 large lemons
+  - 'FOR THE CRUST:'
+  - Nonstick cooking spray
+  - "1 \xBD cups/190 grams all-purpose flour"
+  - "\u2153 cup/65 grams granulated sugar"
+  - 1 teaspoon fine sea salt
+  - 1 teaspoon vanilla extract
+  - "\xBE cup/170 grams unsalted butter (1 1/2 sticks), melted and cooled"
+  - 'FOR THE LEMON LAYER:'
+  - 1 cup/200 grams granulated sugar
+  - "\xBC cup/30 grams all-purpose flour"
+  - "\u215B teaspoon fine sea salt"
+  - 3 large eggs, at room temperature
+  - "Confectioners\u2019 sugar (optional)"
+  is_pinned: false
+  name: Cranberry Lemon Bars
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 2 dozen bars
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1021641-cranberry-lemon-bars?login=email&login=email&auth=login-email
+  total_time: ''
+  uid: A75E31A4-3FF0-4314-A6F3-B3C9F371E5C9-4125-000002632F580ADA
 - categories:
   - Web
   - Bread
