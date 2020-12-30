@@ -71,8 +71,14 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
-      - name: Generate release notes
-        uses: raulanatol/github-actions-releaser@master
+      - name: Tag commit
+        uses: tvdias/github-tagger@v0.0.1
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          tag: v${{ steps.create_version.outputs.version }}
+
+      - name: Release Notary Action
+        uses: commitsar-app/release-notary@v0.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
