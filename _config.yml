@@ -66,4 +66,6 @@ page_gen:
     dir: drinks
     extension: html
 
-google_analytics: G-QTJ2YPCJSC
+# google_analytics: G-QTJ2YPCJSC
+google_analytics: UA-387663-5
+
