@@ -2856,6 +2856,51 @@
   source_url: https://twosleevers.com/instant-pot-butter-chicken/
   total_time: ''
   uid: C3452321-6432-4327-95E7-4627D687FDC0-11007-000003E69FD9A243
+- categories: []
+  cook_time: 25 minutes
+  created: '2020-12-29 21:10:11'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Heat the oven to 400 degrees with a rack set in the lower third. On a sheet pan,\
+    \ combine the broccolini, tomatoes, onion and lemon slices with the olive oil\
+    \ and toss. Add cumin and red-pepper flakes, season with salt and pepper, and\
+    \ toss again until evenly coated. Nestle the feta slices into the vegetables.\
+    \ (It\u2019s OK if they break apart a little.)"
+  - Roast 15 to 20 minutes, stirring halfway through but leaving the feta in place,
+    until the broccolini is charred at the tips, the stems are easily pierced with
+    a fork and the tomato skins start to blister and break down.
+  - Serve over orzo or farro. Drizzle with olive oil and serve with the remaining
+    lemon half for squeezing. Top with fresh herbs, if using.
+  image_url: /images/recipes/96A603B9-1728-4EAF-B0D3-917EE9751F40-7789-000002B38150163C.jpg
+  in_trash: false
+  ingredients:
+  - 1 bunch broccolini, ends trimmed, thick stalks split lengthwise, or broccoli,
+    stalks trimmed and cut into bite-size pieces
+  - 1 pint grape tomatoes, halved (about 2 cups)
+  - 1 small red onion, peeled, quartered and cut into 2-inch wedges
+  - 1 lemon, 1/2 cut into thin rounds and the remaining 1/2 left intact, for serving
+  - 3 tablespoons olive oil, plus more for serving
+  - 1 teaspoon ground cumin
+  - "\xBD teaspoon red-pepper flakes"
+  - Kosher salt and black pepper
+  - 2 (6- to 8-ounce) blocks feta, cut into 1-inch slices
+  - Cooked orzo or farro, for serving
+  - "\xBD cup fresh basil or cilantro leaves and fine stems, roughly chopped (optional)"
+  is_pinned: false
+  name: Sheet-Pan Baked Feta with Broccolini, Tomatoes and Lemon
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 4 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon?smid=ig-nytcooking&utm_source=curalate_like2buy&utm_medium=curalate_like2buy_gnauQ5q1__9af0a553-507b-4f90-9db0-6ae44a9e86b2&crl8_id=9af0a553-507b-4f90-9db0-6ae44a9e86b2
+  total_time: ''
+  uid: CA825811-8A99-4359-8A90-1C3CC7339D6C-42950-00000C81FB2B4E72
 - categories:
   - Dinner
   - Made at 307
