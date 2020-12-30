@@ -1,27 +1,31 @@
 ---
 layout: page
+title: "Cocktail Search"
 ---
-<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
-{% if page.print_stylesheet %}
-	<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
-{% endif %}
+<link rel="stylesheet" media="search" href="{{ site.baseurl }}/css/screen.css">
 
-<div id="search-searchbar" background-color="{{ site.dark }}" color="white"></div>
-	<div class=post-list" id="search-hits">
-		<ul>
-	    {% for file in site.data.drinks %}
-	    {% assign cocktail = file[1] %} {% assign cocktail_stub = file[0] %}  {% comment %} The assign is needed, because we have different json files!{% endcomment %}
-	      <div class="post-item">
-	        <li>
-	        	<h2>
-	         		<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-	        	</h2>
-	  			<strong><a href="drinks/{{ cocktail_stub }}.html">{{ cocktail.name }}</a></strong> - {{ cocktail.description }}
-	  		</li>
-	      </div>
-	    {% endfor %}
-	    <ul>
-	</div>
+<div id="drinks">
+	<input class="search" placeholder="Type an ingredient" style="height: 2em; width: 15em; margin-left: 2.19em; font-size: 14pt;"/>
+	<ul class="list" style="list-style: none;">
+	{% for file in site.data.drinks %}
+	{% assign cocktail = file[1] %} {% assign cocktail_stub = file[0] %}  {% comment %} The assign is needed, because we have different json files!{% endcomment %}
+		<li>
+		  	<h3 class="name"><a href="drinks/{{ cocktail_stub }}.html">{{ cocktail.name }}</a></h3>
+		  	<p class="description">{{ cocktail.description }}</p>
+		  	{% for item in cocktail.ingredients %}
+		  		<span class="ingredient"><b>{% unless item.quantity == blank %}{{ item.quantity }}{% endunless %}</b> {{item.measure}} {{item.ingredient}} </span><br />
+		  	{% endfor %}
+		</li>
+	{% endfor %}
+	</ul>
 </div>
 
-{% include algolia.html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.0/list.min.js" integrity="sha512-93wYgwrIFL+b+P3RvYxi/WUFRXXUDSLCT2JQk9zhVGXuS2mHl2axj6d+R6pP+gcU5isMHRj1u0oYE/mWyt/RjA==" crossorigin="anonymous"></script>
+
+<script>
+	var options = {
+	  valueNames: [ 'name', 'description','ingredient' ]
+	};
+
+	var userList = new List('drinks', options);
+</script>
