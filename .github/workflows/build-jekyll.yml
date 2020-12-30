@@ -71,6 +71,20 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
+      - name: Build Changelog
+        id: github_release
+        uses: mikepenz/release-changelog-builder-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Build Changelog"
+        id: build_changelog
+        uses: mikepenz/release-changelog-builder-action@{latest-release}
+        with:
+          toTag: ${{ steps.create_version.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0
@@ -81,6 +95,6 @@ jobs:
         with:
           tag_name: v${{ steps.create_version.outputs.version }}
           release_name: Release ${{ steps.create_version.outputs.version }}
-          body: ""
+          body: ${{steps.build_changelog.outputs.changelog}}
           draft: false
           prerelease: false
