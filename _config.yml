@@ -34,6 +34,7 @@ style: default
 navigation:
   - {title: Home, file: "index.html", icon: home}
   - {title: Recipes, url: "/recipes.html", icon: utensils}
+  - {title: Cocktails, url: "/drinks.html", icon: glass-martini}
 
 plugins:
   - jekyll-feed
