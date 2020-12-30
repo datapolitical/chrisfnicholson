@@ -77,14 +77,9 @@ jobs:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           tag: v${{ steps.create_version.outputs.version }}
 
-      - name: Release Notary Action
-        uses: commitsar-app/release-notary@v0.8.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       #Create Release
       - name: Create Release
-        if: steps.create_version.outputs.patch == 0
+        # if: steps.create_version.outputs.patch == 0
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -92,6 +87,12 @@ jobs:
         with:
           tag_name: v${{ steps.create_version.outputs.version }}
           release_name: Release ${{ steps.create_version.outputs.version }}
-          body_path: CHANGELOG.md
+          body: ""
           draft: false
           prerelease: false
+          
+      - name: Release Notary Action
+        # if: steps.create_version.outputs.patch == 0
+        uses: commitsar-app/release-notary@v0.8.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
