@@ -65,10 +65,4 @@ page_gen:
     dir: drinks
     extension: html
 
-algolia:
-  application_id: 6ZGIDA5Z9P
-  index_name: website
-  search_only_api_key: 01b47495f52bffa7159cda699ab62edd
-
-
 google_analytics: G-QTJ2YPCJSC
