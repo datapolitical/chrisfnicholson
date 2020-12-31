@@ -19,7 +19,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - uses: actions/checkout@v2
-        with: 
+        with:
           fetch-depth: zero
 
       # Use GitHub Actions' cache to cache dependencies on servers
@@ -79,7 +79,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        # if: steps.create_version.outputs.patch == 0
+        if: steps.create_version.outputs.patch == 0
         id: create_release
         uses: actions/create-release@v1
         env:
