@@ -3573,6 +3573,39 @@
   total_time: ''
   uid: EC868ADF-F647-471F-A1E7-90E98E48B4B9-7114-000001DC577B0588
 - categories:
+  - Drink
+  cook_time: 5 minutes
+  created: '2020-12-31 21:05:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the rum, maple syrup, lemon and cinnamon to a mug.
+  - Fill up with water and stir to mix.
+  - Taste and add more syrup or lemon if desired.
+  - Enjoy and feel better!
+  image_url: https://i1.wp.com/wallflowerkitchen.com/wp-content/uploads/2013/09/rum43.jpg?resize=400%2C600
+  in_trash: false
+  ingredients:
+  - 2 tbsp rum
+  - "\xBE tbsp maple syrup"
+  - 1 slice of lemon and a squeeze of lemon juice
+  - 1 cinnamon stick
+  - Boiling water
+  is_pinned: false
+  name: Rum Hot Toddy
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 1'
+  source: wallflowerkitchen.com
+  source_url: http://wallflowerkitchen.com/rum-hot-toddy/
+  total_time: ''
+  uid: F0235500-4572-42E2-999C-609CF44F2204-2159-000000ADD01D5B3C
+- categories:
   - Jewish
   - Dessert
   - Web
