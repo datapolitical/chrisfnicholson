@@ -16,7 +16,7 @@ layout: page
               	{% if category == "Web" %}
             			<a class="image-container" href="/recipes/{{ recipe.name | downcase | replace: " ", "-" | remove: "(" | remove: ")" | remove: "'" | remove: "&" | remove: ","  }}.html">
 										{% responsive_image_block %}
-										  path: ../{{recipe.image_url}}
+										  path: {{ site.baseurl }}/{{recipe.image_url}}
 										  alt: {{ recipe.name }}
 										  {% if recipe.name %}
 										  title: {{ recipe.name }}
