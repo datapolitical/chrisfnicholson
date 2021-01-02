@@ -6,20 +6,28 @@ layout: page
 			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
 		{% endif %}
 		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/recipe-list.css">
+		<script src="js/lazysizes.min.js" async=""></script>
 
         <div class="image-grid">
         {% for i in (0..5) reversed %}
-            {% for recipe in site.data.recipes %}
-                {% if recipe.rating == i and recipe.image_url %}
-                    {% for category in recipe.categories %}
-                        {% if category == "Web" %}
-            <a class="image-container" href="/recipes/{{ recipe.name | downcase | replace: " ", "-" | remove: "(" | remove: ")" | remove: "'" | remove: "&" | remove: ","  }}.html">
-                <img class="photo-large" src="{{ recipe.image_url | default: "" }}">
-                <div class="bottom-left"><b><h3 class="text-hover">{{ recipe.name }}</h3></b></div>
-            </a>
-                        {% endif %}
-                    {% endfor %}
+        	{% for recipe in site.data.recipes %}
+            {% if recipe.rating == i and recipe.image_url %}
+            	{% for category in recipe.categories %}
+              	{% if category == "Web" %}
+            			<a class="image-container" href="/recipes/{{ recipe.name | downcase | replace: " ", "-" | remove: "(" | remove: ")" | remove: "'" | remove: "&" | remove: ","  }}.html">
+										{% responsive_image_block %}
+										  path: {{recipe.image_url}}
+										  alt: {{ recipe.name }}
+										  {% if recipe.name %}
+										  title: {{ recipe.name }}
+										  {% endif %}
+										{% endresponsive_image_block %}
+										<!-- <img class="photo-large lazysizes" data-src="{{ recipe.image_url | default: "" }}"> -->
+                		<div class="bottom-left"><b><h3 class="text-hover">{{ recipe.name }}</h3></b></div>
+            			</a>
+                {% endif %}
+              {% endfor %}
     		    {% endif %}
-            {% endfor %}
+          {% endfor %}
         {% endfor %}
         </div>

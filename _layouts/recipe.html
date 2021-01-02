@@ -5,13 +5,11 @@ layout: page
 		{% if page.print_stylesheet %}
 			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
 		{% endif %}
-
+{% capture image_path %}
+	{{ page.image_url }}
+{% endcapture %}
 <article class="post">
-	<div class="image">
-		<img class="photo" src="{{ page.image_url }}" alt="{{ page.title }}">
-		<!-- <a href="https://www.yummly.com" class="YUMMLY-YUM-BUTTON">Yum</a> -->
-	</div>
-
+	<img class="photo" src="../{{ page.image_url }}" alt="{{ page.name }}">
 	<ul id="recipe" class="recipe-overview">
 		{% if page.servings != "" %}
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.servings }}</span></li>
@@ -60,37 +58,4 @@ layout: page
 		<h2>More delicious recipes</h2>
 		<div class="button"><a href="{{ site.baseurl }}/recipes">Check out more recipes</a></div>
 	</div>
-	{% if site.disqus_shortname and page.comments %}
-		<div id="disqus_thread"></div>
-		<script>
-			var disqus_shortname = '{{ site.disqus_shortname }}';
-			var disqus_config = function () {
-				this.page.url = "{{ page.url | prepend: site.url }}";
-				this.page.identifier = "{{ page.id }}";
-			};
-			(function() {  // DON'T EDIT BELOW THIS LINE
-				var d = document, s = d.createElement('script');
-				s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-				s.setAttribute('data-timestamp', +new Date());
-				(d.head || d.body).appendChild(s);
-			})();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-	{% endif %}
 </article>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.imgPin.min.js"></script>
-<!-- <script src="https://www.yummly.com/js/widget.js?general"></script> -->
-<script>
-	$(function() {
-		$('.post img').imgPin();
-		$('a[href*=\\#]').on('click', function(event){
-			var el = $(this.hash);
-			if (el.length > 0) {
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
-			}
-		});
-	});
-</script>
