@@ -13,3 +13,4 @@ gem "github-pages"
 gem 'jekyll-paginate', group: :jekyll_plugins
 gem "jekyll-datapage-generator"
 gem "jekyll-responsive-image"
+gem "jekyll-webp"
