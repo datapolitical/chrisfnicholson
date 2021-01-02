@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-        
+
       - name: Install Requirements
         run: pip install -r requirements.txt
 
@@ -40,7 +40,7 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
-          git add images/recipes/*
+          git add assets/images/recipes/*
           git add .
           git commit -am "Update recipes" || echo "Nothing to update"
       - name: Push changes
