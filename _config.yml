@@ -2,7 +2,7 @@
 title:            Chris F. Nicholson
 tagline:          'A Personal Blog'
 description:      'This is my website.'
-url:              https://chrisfnicholson.com
+url:              https://www.chrisfnicholson.com
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
