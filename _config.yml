@@ -69,6 +69,7 @@ page_gen:
 
 responsive_image:
   template: _includes/responsive-image.html
+  base_path: assets
   sizes:
     - width: 320
     - width: 480

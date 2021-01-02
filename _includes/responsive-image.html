@@ -14,4 +14,4 @@ Usage:
 {% endfor %}
 {% endcapture %}
 
-<img class="photo-large" src="{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} {{ path }} {{ original.width }}w">
+<img class="photo-large" src="../{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} ../{{ path }} {{ original.width }}w">
