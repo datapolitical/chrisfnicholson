@@ -10,7 +10,7 @@ Usage:
 
 {% capture srcset %}
 {% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
+    {{ i.path }} {{ i.width }}w,
 {% endfor %}
 {% endcapture %}
 
