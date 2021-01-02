@@ -1,4 +1,4 @@
 requests==2.25.0
-papexp==0.1.6
+papexp==0.1.7
 python-dotenv==0.15.0
 PyYAML==5.3.1
