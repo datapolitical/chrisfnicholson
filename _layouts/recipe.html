@@ -9,7 +9,7 @@ layout: page
 	{{ page.image_url }}
 {% endcapture %}
 <article class="post">
-	<img class="photo" src="../assets/{{ page.image_url }}" alt="{{ page.name }}">
+	<img class="photo" src="../assets/{{ page.image_url | replace:'.jpg','.webp' }}" alt="{{ page.name }}">
 	<ul id="recipe" class="recipe-overview">
 		{% if page.servings != "" %}
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.servings }}</span></li>
