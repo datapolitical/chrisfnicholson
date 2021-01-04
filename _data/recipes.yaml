@@ -540,6 +540,56 @@
   total_time: ''
   uid: 1F3EEADC-B104-4BCD-9D9D-F818F44B8F70-36654-00000B99F35F2F02
 - categories:
+  - Made at 307
+  - Web
+  - I Made This
+  cook_time: ''
+  created: '2021-01-03 19:07:33'
+  description: Buttermilk Pancakes, adapted from The Art of Simple Food
+  difficulty: ''
+  directions:
+  - 'Melt the butter. '
+  - 'Whisk the dry ingredients together in a large bowl. '
+  - 'In a medium bowl, whisk the 2 egg yolks and the buttermilk until combined. '
+  - 'Make a well in the center of the dry ingredients, pour in the liquid mixture,
+    and stir until just barely mixed. '
+  - Add the melted butter and mix until just combined.
+  - 'In a medium bowl using an electric mixer, whip the egg white until soft peaks
+    form. '
+  - Fold into the batter.
+  - 'Ladle 1/4 cup (for smallish pancakes) to 1/2 cup (for large pancakes) of the
+    batter onto a preheated griddle or non-stick pan. '
+  - 'Cook until bubbles appear on the surface and the underside of the pancakes are
+    golden brown, about 2-4 minutes. '
+  - Turn them over and cook until done, about 2-4 minutes longer.
+  image_url: images/recipes/F41B37CF-E5A6-4A80-AED6-13600483D3B8-7739-00000394AE3262E8.jpg
+  in_trash: false
+  ingredients:
+  - 6 tablespoons of butter
+  - 1 cup whole-wheat pastry flour
+  - 1/2 cup all-purpose flour
+  - 1 teaspoon baking powder
+  - 1 teaspoon baking soda
+  - 1 teaspoon salt
+  - 2 eggs, separated
+  - 1 3/4 cups buttermilk
+  is_pinned: false
+  name: "Alice Waters\u2019 Buttermilk Pancakes"
+  notes: "Blueberries would be perfect in these pancakes; try about a cup or so. We\
+    \ use frozen berries when we can get them \u2013 sadly not blueberries, however\
+    \ \u2013 and particularly like raspberries. Fresh would be lovely, too."
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: ''
+  source: cucinanicolina.com
+  source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
+  total_time: ''
+  uid: 2EF72996-4FA5-4289-8F5A-A320574AFE11-7739-00000393F9EDA5F9
+- categories:
   - Dish Type
   - Dinner
   - Web
