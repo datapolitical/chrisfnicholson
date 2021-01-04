@@ -20,14 +20,14 @@ jobs:
 
       - name: Clean install dependencies and build
         run: |
-          apt-get update && apt-get install -y build-essential && \
-          apt-get install -y git && \
-          apt-get install -y imagemagick && \
-          apt-get install -y libmagickwand-dev && \
-          apt-get install -y ruby && \
-          apt-get install -y ruby-dev
-          gem install rmagick
-          gem install bundler
+          sudo apt-get update && sudo apt-get install -y build-essential && \
+          sudo apt-get install -y git && \
+          sudo apt-get install -y imagemagick && \
+          sudo apt-get install -y libmagickwand-dev && \
+          sudo apt-get install -y ruby && \
+          sudo apt-get install -y ruby-dev
+          sudo gem install rmagick
+          sudo gem install bundler
 
       - uses: actions/checkout@v2
         with:
