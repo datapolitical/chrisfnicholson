@@ -18,6 +18,17 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
+      - name: Clean install dependencies and build
+        run: |
+          apt-get update && apt-get install -y build-essential && \
+          apt-get install -y git && \
+          apt-get install -y imagemagick && \
+          apt-get install -y libmagickwand-dev && \
+          apt-get install -y ruby && \
+          apt-get install -y ruby-dev
+          gem install rmagick
+          gem install bundler
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
