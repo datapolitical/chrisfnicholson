@@ -14,7 +14,7 @@ layout: page
             {% if recipe.rating == i and recipe.image_url %}
             	{% for category in recipe.categories %}
               	{% if category == "Web" %}
-            			<a class="image-container" href="/recipes/{{ recipe.name | downcase | replace: " ", "-" | remove: "(" | remove: ")" | remove: "'" | remove: "&" | remove: ","  }}.html">
+            			<a class="image-container" href="/recipes/{{ recipe.name | downcase | replace: " ", "-" | remove: "(" | remove: ")" | remove: "'" | remove: "&" | remove: "!" | remove: "’" | remove: ","  }}.html">
 										{% responsive_image_block %}
 										  path: assets/{{ recipe.image_url }}
 										  alt: {{ recipe.name }}
