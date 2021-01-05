@@ -42,7 +42,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: datapolitical/jekyll-deploy-action@v0.2.3
+      - uses: datapolitical/jekyll-deploy-action@v0.2.4
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
