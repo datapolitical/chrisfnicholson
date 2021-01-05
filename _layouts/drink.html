@@ -10,20 +10,6 @@ layout: page
 	<div class="image">
 		<img class="photo" src="../assets/images/drinks/{{ page.image }}" alt="{{ page.name }}">
 	</div>
-	<ul id="recipe" class="recipe-overview">
-		{% if page.servings != "" %}
-		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.servings }}</span></li>
-		{% endif %}
-		{% if page.prep_time != "" %}
-		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.prep_time }}</span></li>
-		{% endif %}
-		{% if page.cook_time != "" %}
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.cook_time }}</span></li>
-		{% endif %}
-		{% if page.rating != "" %}
-		<li>Rating: <b class="rating">{% for i in (1..page.rating) %}★{% endfor %}</b></li>
-		{% endif %}
-	</ul>
 
 	<div class="recipe-contents">
 		<div class="ingredients">
