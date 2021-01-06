@@ -13,4 +13,4 @@ gem "github-pages"
 gem 'jekyll-paginate', group: :jekyll_plugins
 gem "jekyll-datapage-generator"
 gem "jekyll-responsive-image"
-gem "jekyll-webp", :git => "git@github.com:datapolitical/jekyll-webp.git", :tag => 'v1.0.4'
+gem "jekyll-webp", github: 'datapolitical/jekyll-webp', :tag => 'v1.0.4'
