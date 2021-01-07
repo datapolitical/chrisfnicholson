@@ -65,6 +65,7 @@ page_gen:
   - data: drinks
     template: drink
     name: name
+    title: name
     dir: drinks
     extension: html
 
