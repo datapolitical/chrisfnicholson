@@ -12,5 +12,5 @@ Usage:
     {% for i in resized %}
         <source media="(min-width: {{ i.width }}px)" srcset="../{{ i.path | replace:'.jpg','.webp' }}">
     {% endfor %}
-    <img src="../{{ path | replace:'.jpg','.webp' }}">
+    <img src="../{{ path | replace:'.jpg','.webp' }}" alt="{{ alt }}">
 </picture>

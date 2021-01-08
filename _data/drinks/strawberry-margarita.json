@@ -2,6 +2,7 @@
     "name": "Strawberry Margarita",
     "description": "A strawberry margarita is a delicious summer cocktail made with tequila, strawberries, lime juice, triple sec and honey.",
     "github": "gustsu",
+    "rating": 4,
     "ingredients": [
         {
             "quantity": "8",
@@ -32,7 +33,7 @@
             "quantity": "2",
             "measure": "cups",
             "ingredient": "Ice"
-        }    
+        }
     ],
     "directions": [
         "Fill a blender with strawberries, tequila, lime juice, triple sec, honey, and ice.",
