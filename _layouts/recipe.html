@@ -6,7 +6,7 @@ layout: page
 	"@context": "https://schema.org",
   "@type": "Recipe",
   "author": "",
-	"image": "{{page.image_url}}"
+	"image": "{{page.image_url}}",
 	"recipeIngredient": [
 		{% for item in page.ingredients %}
 		"{{ item }}"{% unless forloop.last %},{% endunless %}
