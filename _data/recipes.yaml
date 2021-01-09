@@ -398,6 +398,46 @@
   total_time: ''
   uid: 112DD270-30C0-45FF-BB5C-D8AE4D604653-15656-00000468BC6518F2
 - categories: []
+  cook_time: 10 min
+  created: '2021-01-09 13:22:59'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Melt butter in a 10-inch heavy skillet over moderately high heat until foam subsides,\
+    \ then saut\xE9 banana, cut sides down, shaking skillet, 1 minute. Remove skillet\
+    \ from heat (away from flame) and sprinkle brown sugar around banana, then pour\
+    \ rum around banana. Return skillet to heat and continue to saut\xE9, shaking\
+    \ skillet occasionally, until sugar begins to melt, about 30 seconds."
+  - Add water, nutmeg, cinnamon, and a pinch of salt and cook over moderate heat,
+    shaking skillet occasionally, until sauce is slightly thickened, 1 to 2 minutes.
+  - Serve banana hot, sprinkled with nuts.
+  image_url: images/recipes/4512C4FA-B9A8-4CB4-8647-204B8808CC19-21138-000009B71110BDB7.jpg
+  in_trash: false
+  ingredients:
+  - 2 teaspoons unsalted butter
+  - 1 banana, halved lengthwise, then crosswise
+  - 2 teaspoons packed brown sugar
+  - 2 tablespoons rum (preferably dark)
+  - 2 teaspoons water
+  - 1/8 teaspoon freshly grated nutmeg
+  - 1/8 teaspoon cinnamon
+  - 2 tablespoons sliced or chopped nuts, toasted
+  - 'Accompaniment: vanilla ice cream'
+  is_pinned: false
+  name: Caramelized Banana with Rum Sauce
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 10 min
+  rating: 0
+  scale: 3/1
+  servings: 1 serving
+  source: epicurious.com
+  source_url: https://www.epicurious.com/recipes/food/views/caramelized-banana-with-rum-sauce-107764
+  total_time: ''
+  uid: 11E51AF9-E055-4885-991D-4AFD0449C3E3-21138-000009B70E3C49D3
+- categories: []
   cook_time: 18 to 22 mins
   created: '2020-06-07 01:58:01'
   description: ''
