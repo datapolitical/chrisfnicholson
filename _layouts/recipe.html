@@ -5,13 +5,30 @@ layout: page
 {
 	"@context": "https://schema.org",
   "@type": "Recipe",
-  "author": "",
+  "author": "Chris Nicholson",
+	"description": "A recipe for {{page.name}}, with my rating and potentially some notes. Adapted from: {{page.source_url}}",
 	"image": "{{page.image_url}}",
+	{% if page.servings != "" %}
+	"recipeYield": "{{ page.servings }}",
+	{% endif %}
+	{% if page.prep_time != "" %}
+	"prepTime": "{{ page.prep_time }}",
+	{% endif %}
+	{% if page.cook_time != "" %}
+	"cookTime": "{{ page.cook_time }}",
+	{% endif %}
+	{% if page.rating!= 0 %}
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "{{ page.rating }}",
+		"reviewCount": "1"
+	},
+	{% endif %}
 	"recipeIngredient": [
 		{% for item in page.ingredients %}
 		"{{ item }}"{% unless forloop.last %},{% endunless %}
 		{% endfor %}
-	];
+	],
 	"name": "{{page.name}}",
 	"recipeInstructions": [
 	{% for item in page.directions %}
