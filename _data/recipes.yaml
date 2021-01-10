@@ -397,10 +397,13 @@
   source_url: https://www.piesandtacos.com/homemade-sourdough-everything-bagels/
   total_time: ''
   uid: 112DD270-30C0-45FF-BB5C-D8AE4D604653-15656-00000468BC6518F2
-- categories: []
+- categories:
+  - Made at 307
+  - Web
+  - I Made This
   cook_time: 10 min
   created: '2021-01-09 13:22:59'
-  description: ''
+  description: A great French Toast topping
   difficulty: ''
   directions:
   - "Melt butter in a 10-inch heavy skillet over moderately high heat until foam subsides,\
@@ -410,7 +413,7 @@
     \ skillet occasionally, until sugar begins to melt, about 30 seconds."
   - Add water, nutmeg, cinnamon, and a pinch of salt and cook over moderate heat,
     shaking skillet occasionally, until sauce is slightly thickened, 1 to 2 minutes.
-  - Serve banana hot, sprinkled with nuts.
+  - Serve banana hot.
   image_url: images/recipes/4512C4FA-B9A8-4CB4-8647-204B8808CC19-21138-000009B71110BDB7.jpg
   in_trash: false
   ingredients:
@@ -430,7 +433,7 @@
   on_favorites: false
   on_grocery_list: null
   prep_time: 10 min
-  rating: 0
+  rating: 5
   scale: 3/1
   servings: 1 serving
   source: epicurious.com
@@ -3529,8 +3532,8 @@
   rating: 5
   scale: null
   servings: About 20 small biscuits or about 8 large biscuits
-  source: seriouseats.com
-  source_url: https://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html
+  source: Me
+  source_url: ''
   total_time: ''
   uid: E62060A4-9467-4971-8BF5-824874B004AA-7551-00000271C615AE11
 - categories: []
