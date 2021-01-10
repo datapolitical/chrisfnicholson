@@ -22,7 +22,7 @@ layout: page
 		{% endif  %}
 	},
 	"description": "A recipe for {{page.name}}, with my rating and potentially some notes. Adapted from: {{page.source_url}}",
-	"image": "{{page.image_url}}",
+	"image": "{{page.image_url | replace:'.jpg','.webp'}}",
 	"url": "{{page.url}}",
 	{% if page.servings != "" %}
 	"recipeYield": "{{ page.servings }}",
@@ -45,7 +45,7 @@ layout: page
 		"{{ item | escape }}"{% unless forloop.last %},{% endunless %}
 		{% endfor %}
 	],
-	"name": "{{page.name}}",
+	"name": "{{page.title}}",
 	"recipeInstructions": [
 	{% for item in page.directions %}
 	{
@@ -80,7 +80,15 @@ layout: page
 		<li>Rating: <b class="rating">{% for i in (1..page.rating) %}★{% endfor %}</b></li>
 		{% endif %}
 	</ul>
-
+	<div class="recipe-author">
+		{% if page.source == "Me" or page.source == "Chris Nicholson" or page.source == "Chris F. Nicholson" or page.source == "" %}
+		By: Me
+		{% elsif page.source_url == "" %}
+		By {{page.source}}
+		{% else %}
+		From: <a href="{{page.source_url}}">{{page.source}}</a>
+		{% endif %}
+	</div>
 	<div class="recipe-contents">
 		<div class="ingredients">
 			<h2>Ingredients</h2>

@@ -72,7 +72,12 @@ ol li + li {
 		padding: 0 0 20px 0;
 		display: block;
 	}
-
+  .recipe-author {
+		padding: 0;
+		margin: 0;
+		margin-bottom: -.5em;
+		font-size: small;
+	}
 	.recipe-overview {
 		padding: 0;
 		margin: 0;
