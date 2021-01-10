@@ -15,3 +15,4 @@ gem "jekyll-datapage-generator"
 gem "jekyll-responsive-image"
 gem "jekyll-webp", github: 'datapolitical/jekyll-webp'
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'

@@ -1,7 +1,7 @@
 # Setup
 title:            Chris F. Nicholson
 tagline:          'A place for the things I enjoy.'
-description:      'This is my website.'
+description:      'Recipes and some writings by Chris F. Nicholson'
 url:              https://www.chrisfnicholson.com
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
@@ -11,8 +11,8 @@ baseurl:          ''
                   # sidebar_blog_link below.
 
 author:
-  name:           'Chris'
-  url:            https://twitter.com/chrisfnicholson
+  name:           'Chris F. Nicholson'
+  url:            https://www.chrisfnicholson.com
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -45,6 +45,7 @@ plugins:
   - jekyll-responsive-image
   - jekyll-webp
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile

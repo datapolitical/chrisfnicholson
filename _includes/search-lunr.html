@@ -8,7 +8,7 @@ var documents = [{% for file in site.data.drinks %}{
   "stub": "{{ cocktail_stub }}",
   "name": "{{ cocktail.name }}",
   "description": "{{ cocktail.description | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
-  "url": "{{ site.url }}/drinks/{{ cocktail.name | downcase | replace: ' ', '-' | remove: '(' | remove: ')' | remove: '[' | remove: ']' | remove: "'" | remove: '&' | remove: '!' | remove: '’' | remove: ','  }}.html",
+  "url": "{{ site.url }}/drinks/{{ cocktail.name | downcase | replace: ' ', '-' | replace: 'á', 'a' | remove: '(' | remove: ')' | remove: '[' | remove: ']' | remove: "'" | remove: '&' | remove: '!' | remove: '’' | remove: ','  }}.html",
   "ingredient_list": "{{ cocktail.ingredients | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
   "directions_list": "{{ cocktail.directions | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
   {% assign counter_ingredients = 0 %}
