@@ -1,6 +1,6 @@
 # Setup
 title:            Chris F. Nicholson
-tagline:          'A Personal Blog'
+tagline:          'A place for the things I enjoy.'
 description:      'This is my website.'
 url:              https://www.chrisfnicholson.com
 baseurl:          ''
@@ -44,6 +44,7 @@ plugins:
   - jekyll-datapage-generator
   - jekyll-responsive-image
   - jekyll-webp
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
