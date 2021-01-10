@@ -5,9 +5,25 @@ layout: page
 {
 	"@context": "https://schema.org",
   "@type": "Recipe",
-  "author": "Chris Nicholson",
+  "author": {
+		{% if page.source_url == "" %}
+		"@type": "Person",
+		{% if page.source == "Me" or page.source == "Chris Nicholson" or page.source == "Chris F. Nicholson" or page.source == "" %}
+		"name": "Chris F Nicholson",
+		"url": "https://www.chrisfnicholson.com"
+		{% else %}
+		"name": {{page.source}},
+		"url": ""
+		{% endif %}
+		{% else %}
+		"@type": "Organization",
+		"name": "{{page.source}}",
+		"url": "{{page.source_url}}"
+		{% endif  %}
+	},
 	"description": "A recipe for {{page.name}}, with my rating and potentially some notes. Adapted from: {{page.source_url}}",
 	"image": "{{page.image_url}}",
+	"url": "{{page.url}}",
 	{% if page.servings != "" %}
 	"recipeYield": "{{ page.servings }}",
 	{% endif %}
@@ -26,7 +42,7 @@ layout: page
 	{% endif %}
 	"recipeIngredient": [
 		{% for item in page.ingredients %}
-		"{{ item }}"{% unless forloop.last %},{% endunless %}
+		"{{ item | escape }}"{% unless forloop.last %},{% endunless %}
 		{% endfor %}
 	],
 	"name": "{{page.name}}",
@@ -34,7 +50,7 @@ layout: page
 	{% for item in page.directions %}
 	{
   	"@type": "HowToStep",
-  	"text": "{{ item }}"
+  	"text": "{{ item | escape }}"
 	}{% unless forloop.last %},{% endunless %}
 	{% endfor %}
 	]
