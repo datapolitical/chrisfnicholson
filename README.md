@@ -4,7 +4,7 @@ This is a basic Jekyll site using the Contrast theme: niklasbuschmann/contrast
 
 The recipes module is thanks to sstarcher/paprika-exporter
 
-Drinks are from aflg/opendrinks with an MIT license.
+Drinks are from aflg/opendrinks with an MIT license. The bunny comes from ivolo/animals
 
 Posts are updated infrequently and occasionally often. New features should not be expected.
 
