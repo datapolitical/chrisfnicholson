@@ -89,7 +89,7 @@ pwa:
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "/**/*.{js,json,css}"
-    - "/**/*.{ico,jpg,jpeg,png,svg,webp}"
+    - "/**/*.{ico,png,svg,webp}"
     - "/**/*.html"
   precache_glob_ignores: # Optional
     - "drinks/*"
