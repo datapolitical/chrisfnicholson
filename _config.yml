@@ -32,7 +32,7 @@ style: default
 
 # Menu
 navigation:
-  - {title: Home, file: "index.html", icon: home}
+#  - {title: Home, file: "index.html", icon: home}
   - {title: Recipes, url: "/recipes", icon: utensils}
   - {title: Cocktails, url: "/drinks", icon: glass-martini}
 
