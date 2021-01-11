@@ -92,6 +92,7 @@ pwa:
     - "/**/*.{ico,jpg,jpeg,png,svg,webp}"
     - "/**/*.html"
   precache_glob_ignores: # Optional
+    - "drinks/*"
     - "sw-register.js"
     - "fonts/**/*"
 
