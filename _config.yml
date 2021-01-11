@@ -33,8 +33,8 @@ style: default
 # Menu
 navigation:
 #  - {title: Home, file: "index.html", icon: home}
-  - {title: Recipes, url: "/recipes", icon: utensils}
-  - {title: Cocktails, url: "/drinks", icon: glass-martini}
+  - {title: Recipes, url: "/recipes/", icon: utensils}
+  - {title: Cocktails, url: "/drinks/", icon: glass-martini}
 
 plugins:
   - jekyll-feed
@@ -88,12 +88,11 @@ pwa:
   precache_recent_posts_num: 5 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-    - "recipes/*"
-    - "drinks/*"
+    - "/**/*.{js,json,css}"
+    - "/**/*.{ico,jpg,jpeg,png,svg,webp}"
+    - "/**/*.html"
   precache_glob_ignores: # Optional
-    - sw-register.js
+    - "sw-register.js"
     - "fonts/**/*"
 
 # google_analytics: G-QTJ2YPCJSC
