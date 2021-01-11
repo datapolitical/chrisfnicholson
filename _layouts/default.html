@@ -17,7 +17,11 @@
    |               /    /
   /______wwww  wwww  __/ -->
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-{% seo %}
+<head>
+  <link rel="manifest" href="{{site.baseurl}}/manifest.json">
+  <meta name="theme-color" content="#1C1D22"/>
+  {% seo %}
+</head>
 <!--
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <meta charset="{{ site.encoding }}">
@@ -71,6 +75,6 @@
   {% include menu.html menu=site.external icon=true %}
 </footer>
 {% endif %}
-
+<script src="{{site.baseurl}}/js/pwa-1.0.min.js"></script>
 {% include analytics.html %}
 </html>

@@ -1,0 +1,23 @@
+---
+layout: none
+
+---
+
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Chris F. Nicholson",
+  "short_name": "cfn",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image\/png"
+    }
+  ],
+  "theme_color": "#fff",
+  "background_color": "#1c1d22",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural"
+}
