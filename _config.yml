@@ -89,8 +89,8 @@ pwa:
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "/**/*.{js,json,css}"
-    - "/**/*.{ico,png,svg,webp}"
-    - "/**/*.html"
+    - "/assets/images/recipes/*.{ico,png,svg,webp}"
+    - "/recipes/*.html"
   precache_glob_ignores: # Optional
     - "drinks/*"
     - "sw-register.js"
