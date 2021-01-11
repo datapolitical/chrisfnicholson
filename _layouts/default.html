@@ -19,6 +19,8 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <link rel="manifest" href="{{site.baseurl}}/manifest.json">
+  <link rel="apple-touch-icon" href="{{site.baseurl}}/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1C1D22"/>
   {% seo %}
 </head>
@@ -29,7 +31,6 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
   {% capture sass_critical %}

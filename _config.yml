@@ -94,6 +94,7 @@ pwa:
     - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
     - index.html
     - "recipes/*"
+    - "drinks/*"
   precache_glob_ignores: # Optional
     - sw-register.js
     - "fonts/**/*"
