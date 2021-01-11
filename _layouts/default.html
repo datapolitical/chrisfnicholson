@@ -28,8 +28,6 @@
   <link rel="apple-touch-icon" href="{{site.baseurl}}/apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1C1D22"/>
-  {% seo %}
-</head>
 <!--
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <meta charset="{{ site.encoding }}">
@@ -46,6 +44,10 @@
 {% endif %}
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
+
+{% seo %}
+</head>
+<body>
 {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
 
 {% if site.navigation %}
@@ -74,6 +76,7 @@
   <div>{{ site.description | default: site.title }}</div>
   {% include menu.html menu=site.external icon=true %}
 </footer>
+</body>
 {% endif %}
 <script src="{{site.baseurl}}/js/pwa-1.0.min.js"></script>
 {% include analytics.html %}
