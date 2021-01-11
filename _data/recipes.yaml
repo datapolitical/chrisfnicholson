@@ -1,3 +1,43 @@
+- categories:
+  - Drink
+  cook_time: 0 hours
+  created: '2021-01-10 23:28:32'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Make the Buttered Rum Batter: In a mixing bowl, beat butter and brown sugar until
+    light and fluffy. Beat in ice cream and cinnamon, then spoon into a mason jar
+    or resealable container. Store in freezer until mostly hardened, about 2 hours
+    or until ready to serve.'
+  - 'Make the Drinks: In a medium saucepan, heat cider until boiling, stirring occasionally.
+    Remove from heat and pour into a pitcher or easy-to-serve container.'
+  - Place about 2 tablespoons of buttered rum batter into each mug. Fill about 1/3
+    of the way up with rum, then top with hot apple cider. Stir before serving.
+  image_url: images/recipes/15976B8C-A554-42A6-AB7F-2687CF320E51-24214-00000AD8DF7FFE2A.jpg
+  in_trash: false
+  ingredients:
+  - BUTTERED RUM BATTER
+  - 4 tbsp. butter, softened
+  - 3 tbsp. packed brown sugar
+  - 1/2 c. vanilla ice cream, softened
+  - 1/2 tsp. ground cinnamon
+  - RUM DRINK
+  - 2 c. apple cider
+  - 1 c. rum
+  is_pinned: false
+  name: Hot Buttered Rum
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: '5'
+  rating: 0
+  scale: null
+  servings: 'Yields: 4'
+  source: delish.com
+  source_url: https://www.delish.com/cooking/recipes/a50396/hot-buttered-rum-recipe/
+  total_time: ''
+  uid: 0209FB3C-F3CD-4177-9712-89D729F5A7AA-24214-00000AD8D5A004DA
 - categories: []
   cook_time: 1 hour 20 minutes
   created: '2020-06-07 02:10:05'
