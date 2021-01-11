@@ -92,7 +92,7 @@ pwa:
     - "/assets/images/recipes/*.{ico,png,svg,webp}"
     - "/assets/images/drinks/*.{ico,png,svg,webp}"
     - "/recipes/*.html"
-    - "/drinks/*.html"
+#    - "/drinks/*.html"
   precache_glob_ignores: # Optional
     - "sw-register.js"
     - "fonts/**/*"
