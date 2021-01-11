@@ -24,8 +24,8 @@
   {% endcapture %}
   {{ sass_critical | scssify }}
   </style>
-  <link rel="manifest" href="{{site.baseurl}}/manifest.json">
-  <link rel="apple-touch-icon" href="{{site.baseurl}}/apple-touch-icon.png">
+  <link rel="manifest" href="{{site.url}}/manifest.json">
+  <link rel="apple-touch-icon" href="{{site.url}}/apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1C1D22"/>
 <!--
@@ -77,7 +77,7 @@
   {% include menu.html menu=site.external icon=true %}
 </footer>
 {% endif %}
-<script src="{{site.baseurl}}/js/pwa-1.0.min.js"></script>
+<script src="{{site.url}}/js/pwa-1.0.min.js"></script>
 {% include analytics.html %}
 </body>
 </html>

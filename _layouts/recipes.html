@@ -1,12 +1,12 @@
 ---
 layout: page
 ---
-		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
+		<link rel="stylesheet" media="screen" href="{{ site.url }}/css/screen.css">
 		{% if page.print_stylesheet %}
-			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
+			<link rel="stylesheet" media="print" href="{{ site.url }}/css/print.css">
 		{% endif %}
-		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/recipe-list.css">
-		<script src="{{ site.baseurl }}/js/lazysizes.min.js" async=""></script>
+		<link rel="stylesheet" media="screen" href="{{ site.url }}/css/recipe-list.css">
+		<script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
 
         <div class="image-grid">
         {% for i in (0..5) reversed %}
