@@ -23,7 +23,7 @@ paginate:         5
 show_social: false          # show site description and social links in the footer
 show_excerpts: false       # show article excerpts on the home page
 show_frame: false          # adds a gray frame to the site
-sidebar: false        # show a sidebar instead of the usual header
+show_sidebar: false        # show a sidebar instead of the usual header
 
 # Theme
 style: default
@@ -33,8 +33,8 @@ style: default
 # Menu
 navigation:
 #  - {title: Home, file: "index.html", icon: home}
-  - {title: Recipes, url: "/recipes/", icon: utensils}
-  - {title: Cocktails, url: "/drinks/", icon: glass-martini}
+  - {title: Recipes, icon: utensils, url: "/recipes/"}
+  - {title: Cocktails, icon: glass-martini, url: "/drinks/"}
 
 plugins:
   - jekyll-feed
@@ -56,7 +56,7 @@ exclude:
   - .gitignore
   - vendor
 
-remote_theme: niklasbuschmann/contrast@v2.10
+remote_theme: datapolitical/contrast@v2.11
 
 page_gen:
   - data: recipes
