@@ -5,16 +5,16 @@ layout: page
 <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
 
 <div id="drinks">
-	<input class="search" placeholder="Type an ingredient" style="height: 2em; width: 15em; margin-left: 2.19em; font-size: 14pt;"/>
-	<ul class="list" style="list-style: none;">
+	<input class="search" placeholder="Type an ingredient" style="height: 1.5em; width: 10em; margin-left: 0em; font-size: 12pt;"/>
+	<ul class="list" style="list-style: none; padding: 0; margin-left: 0em;">
 	{% for file in site.data.drinks %}
-	{% assign cocktail = file[1] %} {% assign cocktail_stub = file[0] %}  {% comment %} The assign is needed, because we have different json files!{% endcomment %}
+		{% assign cocktail = file[1] %} {% assign cocktail_stub = file[0] %}  {% comment %} The assign is needed, because we have different json files!{% endcomment %}
 		<li>
-		  	<h3 class="name"><a href="{{ cocktail.name | downcase | replace: " ", "-" | replace: "ñ", "n" | remove: "(" | remove: "[" | remove: "]" | remove: ")" | remove: "'" | remove: "&" | remove: "!" | remove: "’" | remove: "," }}.html">{{ cocktail.name }}</a></h3>
-		  	<p class="description">{{ cocktail.description }}</p>
-		  	{% for item in cocktail.ingredients %}
-		  		<span class="ingredient"><b>{% unless item.quantity == blank %}{{ item.quantity }}{% endunless %}</b> {{item.measure}} {{item.ingredient}} </span><br />
-		  	{% endfor %}
+	  	<h3 class="name"><a href="{{ cocktail.name | downcase | replace: " ", "-" | replace: "ñ", "n" | remove: "(" | remove: "[" | remove: "]" | remove: ")" | remove: "'" | remove: "&" | remove: "!" | remove: "’" | remove: "," }}.html">{{ cocktail.name }}</a></h3>
+	  	<p class="description">{{ cocktail.description }}</p>
+	  	{% for item in cocktail.ingredients %}
+	  		<span class="ingredient"><b>{% unless item.quantity == blank %}{{ item.quantity }}{% endunless %}</b> {{item.measure}} {{item.ingredient}} </span><br />
+	  	{% endfor %}
 		</li>
 	{% endfor %}
 	</ul>
