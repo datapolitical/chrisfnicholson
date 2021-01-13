@@ -11,7 +11,7 @@ gem 'rmagick'
 gem "jekyll-remote-theme"
 gem "github-pages"
 gem 'jekyll-paginate', group: :jekyll_plugins
-gem "jekyll-datapage-generator"
+gem "jekyll-datapage-generator", github: 'datapolitical/jekyll-datapage_gen'
 gem "jekyll-responsive-image"
 gem "jekyll-webp", github: 'datapolitical/jekyll-webp'
 gem 'jekyll-sitemap'
