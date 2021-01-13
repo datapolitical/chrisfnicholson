@@ -56,7 +56,7 @@ exclude:
   - .gitignore
   - vendor
 
-remote_theme: datapolitical/contrast@v2.11k
+remote_theme: datapolitical/contrast
 
 page_gen:
   - data: recipes
