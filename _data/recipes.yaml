@@ -820,6 +820,47 @@
   uid: 45CE4F05-828D-4932-A4F9-85BC1F14C66C-10519-00000334E25F634A
 - categories: []
   cook_time: ''
+  created: '2021-01-13 20:55:19'
+  description: ''
+  difficulty: ''
+  directions:
+  - In mixing bowl, combine butter, vanilla extract, sugar, spices and salt. Beat
+    until well combined.
+  - In heat-proof glass or mug, combine aged rum with 1 ounce (2 tablespoons) spiced
+    butter mixture. Remaining batter can be stored in airtight container in refrigerator
+    for future use.
+  - Top with hot water and stir until ingredients are well incorporated. Garnish with
+    cinnamon stick if preferred.
+  image_url: images/recipes/10D88F11-F3AD-4E14-9113-70B231FA312B-6812-000002388C5FBD65.jpg
+  in_trash: false
+  ingredients:
+  - 1 stick (4 ounces) unsalted butter
+  - "\xBD cup light brown sugar"
+  - 1 teaspoon vanilla extract
+  - 1 teaspoon ground cinnamon
+  - 1 teaspoon ground cloves
+  - 1 teaspoon ground nutmeg
+  - 1 teaspoon ground allspice
+  - Pinch of salt
+  - 2 ounces dark or aged rum
+  - 6 ounces hot water
+  - Cinnamon stick, for garnish (optional)
+  is_pinned: false
+  name: The Original Hot Buttered Rum
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: winemag.com
+  source_url: https://www.winemag.com/recipe/hot-buttered-rum-recipe/
+  total_time: ''
+  uid: 4B9E9BD3-BC5F-409E-B536-CBCCAAF1DE6C-6812-000002388A9AE090
+- categories: []
+  cook_time: ''
   created: '2020-12-23 00:23:18'
   description: ''
   difficulty: ''
