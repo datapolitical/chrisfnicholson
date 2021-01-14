@@ -3336,6 +3336,71 @@
   total_time: ''
   uid: D9C2D413-2F47-447E-93AF-19501FC6A62B-3403-000000FEB70441E5
 - categories:
+  - TBD
+  cook_time: 10 mins
+  created: '2021-01-13 17:26:44'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat the oven to 450\xB0F, with a rack in the top third."
+  - Mix the flour and cream until smooth and cohesive.
+  - Scoop 1-ounce balls of dough onto an ungreased or parchment-lined baking sheet;
+    a tablespoon cookie scoop works well here. Leave a couple of inches between them.
+    Not into scooping? Pat the dough 3/4" thick and cut biscuits with a cutter instead,
+    if desired.
+  - Brush the tops of the biscuits with cream, milk, or water; this will help them
+    rise.
+  - Bake the biscuits for 10 minutes, until they're light golden brown on top, and
+    baked all the way through; break one open to make sure.
+  - Remove the biscuits from the oven, and serve warm, or at room temperature. Store,
+    well-wrapped, at room temperature for several days; freeze for longer storage.
+  - Tips from our Bakers
+  - Want to make these biscuits gluten-free? Substitute Gluten-Free Measure for Measure
+    Flour for the all-purpose flour; and stir 2 1/4 teaspoons baking powder and 3/8
+    teaspoon salt into the flour before adding the cream.
+  - Feel free to stir the additions of your choice into the dough. Berries, cheese
+    cubes, crumbled bacon or diced ham, chopped scallions, chocolate chips, dried
+    fruit... use your imagination!
+  - To make now, serve later, place shaped/unbaked biscuits close together on a small
+    baking sheet; place the sheet in the freezer, and freeze until solid. Transfer
+    the biscuits to an airtight container (plastic bag, etc.) When you're ready to
+    serve, there's no need to thaw the biscuits; remove them from the freezer and
+    bake as directed above, adding a few minutes to the baking time.
+  - For larger biscuits, simply scoop the dough into 1 1/2-ounce balls, to make 8
+    biscuits; or 2-ounce balls, to make 6. Bake the larger biscuits a minute or so
+    longer, or until they're baked all the way through.
+  - These biscuits are a blank palette, just waiting for you to stir your favorite
+    additions into the dough.
+  - 'To make Self-Rising Cream Shortcakes: Add 2 tablespoons sugar and 1 tablespoon
+    vanilla.'
+  - 'To make Never-Fail Biscuits with Herbs: Add 3 tablespoons fresh herbs.'
+  - 'To make Easy Bacon-Cheddar-Chive Biscuits: Add 1/2 cup chopped cooked bacon,
+    3/4 cup chopped sharp cheese, and 3 teaspoons snipped chives.'
+  - 'To make Easy Pumpkin Pie Spice Biscuits: Add 2 tablespoons sugar and 1 1/2 teaspoons
+    pumpkin pie spice.'
+  - 'To make Easy Sausage and Apple Breakfast Biscuits: Add 3/4 cup each cooked, crumbled
+    sausage and peeled, cored, diced apple; plus 1 teaspoon cinnamon.'
+  image_url: images/recipes/F77EB653-0EAE-421A-8FFB-5D23B43BE118-6213-0000020671B2D0EF.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 cups (170g) King Arthur Unbleached Self-Rising Flour
+  - 3/4 cup (170g) heavy or whipping cream*
+  - 1/8 to 1/4 teaspoon salt, optional; for a saltier biscuit
+  is_pinned: false
+  name: Never-Fail Biscuits
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: 12 biscuits
+  source: kingarthurbaking.com
+  source_url: https://www.kingarthurbaking.com/recipes/never-fail-biscuits-recipe
+  total_time: ''
+  uid: DCE96A75-4E74-450D-A1B2-0192FB731BBA-6213-00000206512C4DF2
+- categories:
   - Dessert
   - Web
   - Bread
