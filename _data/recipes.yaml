@@ -818,7 +818,11 @@
   source_url: https://www.kingarthurflour.com/recipes/braided-lemon-bread-recipe
   total_time: ''
   uid: 45CE4F05-828D-4932-A4F9-85BC1F14C66C-10519-00000334E25F634A
-- categories: []
+- categories:
+  - Made at 307
+  - Drink
+  - Web
+  - I Made This
   cook_time: ''
   created: '2021-01-13 20:55:19'
   description: ''
@@ -852,7 +856,7 @@
   on_favorites: false
   on_grocery_list: null
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: null
   servings: ''
   source: winemag.com
