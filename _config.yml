@@ -55,13 +55,18 @@ exclude:
   - README.md
   - .gitignore
   - vendor
+  - Pipfile
+  - package.json
 
 remote_theme: datapolitical/contrast
+
+page_gen-dirs: false
 
 page_gen:
   - data: recipes
     template: recipe
     name: name
+    index_files: false
     dir: recipes
     extension: html
 
@@ -69,6 +74,7 @@ page_gen:
     template: drink
     name: name
     title: name
+    index_files: false
     dir: drinks
     extension: html
 
