@@ -672,6 +672,56 @@
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
   uid: 2EF72996-4FA5-4289-8F5A-A320574AFE11-7739-00000393F9EDA5F9
+- categories: []
+  cook_time: 10 minutes
+  created: '2021-01-15 01:33:02'
+  description: ''
+  difficulty: ''
+  directions:
+  - Let salmon rest on the counter for 15-30 minutes, until they have (at least mostly)
+    come to room temperature.
+  - "Heat oven to 450\xB0F. Line a baking sheet with aluminum foil (or use an oven-proof\
+    \ non-stick skillet)."
+  - Blot the salmon filets dry on all sides with paper towels. Place the salmon skin-side-down
+    the prepared baking sheet (or skillet). If the ends of the salmon filets are really
+    thin, just tuck them under a bit for even cooking.
+  - Brush the salmon on all sides (except the bottom) with oil. Sprinkle each filet
+    with a generous pinch of salt and black pepper, along with any other dry seasonings
+    you prefer.
+  - "Bake until the internal temperature of the salmon reaches 135-140\xB0F*, about\
+    \ 4-6 minutes per half inch of thickness (measured by the thickest part of the\
+    \ filet). You can also test for doneness by inserting a fork or knife in the salmon\
+    \ and twisting it a bit; the fish should be opaque and flake easily."
+  - Remove pan from the oven and transfer the salmon to a clean serving plate, either
+    with the skin or leaving the skin behind. Sprinkle each filet with a good squeeze
+    of lemon juice, plus any extra fresh herbs or sauce that you prefer. Then serve
+    warm and enjoy!
+  image_url: images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940.jpg
+  in_trash: false
+  ingredients:
+  - "4 salmon filets, skin-on (about 6\u20138 ounces each)"
+  - 2 tablespoons high-heat oil, such as avocado oil or canola oil
+  - Kosher salt and freshly-cracked black pepper
+  - fresh lemon wedges
+  is_pinned: false
+  name: Baked Salmon
+  notes: "*The FDA recommends cooking salmon to an internal temperature of 145\xB0\
+    F, measured in the thickest part of the salmon filets. The salmon will continue\
+    \ to cook a bit more once it has been removed from the oven, so I would pull it\
+    \ out of the oven once it reaches an internal temperature of 140\xB0F. Or if you\
+    \ like your salmon a bit less cooked (as I do), I would recommend pulling it out\
+    \ at 135\xB0F."
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 4 servings'
+  source: gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/baked-salmon-recipe/
+  total_time: ''
+  uid: 39284342-AFED-4233-AA6A-65B03B639011-640-00000049819CFECF
 - categories:
   - Dish Type
   - Dinner
