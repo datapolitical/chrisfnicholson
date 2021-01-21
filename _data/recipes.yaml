@@ -1578,8 +1578,8 @@
   ingredients:
   - 9 oz of albacore tuna (dry weight)
   - 3 tablespoons diced celery (one stalk)
-  - "1 \u2154 tablespoon diced red onion"
-  - "1 \xBC teaspoon Mrs. Dash"
+  - "3 \u2153 tablespoon diced red onion"
+  - "1 \xBE teaspoon Mrs. Dash"
   - 1 pinch of pepper
   - "4 \u2153 tablespoons mayonnaise"
   is_pinned: false
@@ -1606,7 +1606,7 @@
   on_grocery_list: null
   prep_time: 10 min
   rating: 5
-  scale: 5/2
+  scale: 3/1
   servings: 'Serves: 2'
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
