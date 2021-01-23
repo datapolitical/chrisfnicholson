@@ -2718,6 +2718,52 @@
   total_time: ''
   uid: 8F70514F-B2B1-4B45-8F49-51D71CF835D2-7670-000002583F2F83B2
 - categories: []
+  cook_time: 5 minutes
+  created: '2021-01-22 18:53:59'
+  description: ''
+  difficulty: ''
+  directions:
+  - If you would like salt-rimmed glasses, begin by running a lime slice (the juicy
+    part) around the top rim of a glass. Fill a shallow bowl with salt, and dip the
+    rim in the salt until it is covered with your desired amount of salt. Set aside.
+  - Add tequila, orange liqueur and lime juice to a cocktail shaker, and shake or
+    stir until combined. Taste, and if you would like the margarita to be sweeter,
+    stir in a half teaspoon of agave or simple syrup at a time until the mix reaches
+    your desired level of sweetness.
+  - Fill glass with ice. Pour in the margarita mixture over the rocks. Serve immediately,
+    garnished with an extra lime wedge if desired.
+  image_url: images/recipes/2922EA2B-18D0-428B-81A6-A7EACBAC9A15-18184-000007433C7306FD.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR A SINGLE MARGARITA:'
+  - 1 1/2 ounces silver tequila
+  - 1 ounce orange liqueur (Cointreau, Grand Marnier or Triple Sec)
+  - 3/4 ounce freshly-squeezed lime juice
+  - 'optional sweetener: agave nectar or simple syrup, to taste'
+  - ice
+  - 'optional: lime wedge and coarse salt for rimming the glass'
+  - 'FOR A PITCHER OF MARGARITAS (16 SERVINGS):'
+  - 3 cups silver tequila
+  - 2 cups orange liqueur (Cointreau, Grand Marnier or Triple Sec)
+  - 1 1/2 cups freshly-squeezed lime juice
+  - 'optional sweetener: agave nectar or simple syrup, to taste'
+  - ice
+  - 'optional: lime wedges and coarse salt for rimming the glasses'
+  is_pinned: false
+  name: The Best Margarita Recipe!
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: 6/1
+  servings: 'Yield: 1 serving'
+  source: gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/margarita-recipe/
+  total_time: ''
+  uid: 93A923B3-EBB8-4B0E-ACD8-45E49367A47C-18184-000007433897A73C
+- categories: []
   cook_time: 'prep: 20 minutes, cook: 4 hours'
   created: '2020-12-14 01:56:21'
   description: ''
