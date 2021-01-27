@@ -3936,9 +3936,10 @@
   image_url: images/recipes/F77EB653-0EAE-421A-8FFB-5D23B43BE118-6213-0000020671B2D0EF.jpg
   in_trash: false
   ingredients:
-  - 1 1/2 cups (170g) King Arthur Unbleached Self-Rising Flour
-  - 3/4 cup (170g) heavy or whipping cream*
-  - 1/8 to 1/4 teaspoon salt, optional; for a saltier biscuit
+  - 1 1/2 cups (170g) King Arthur Unbleached All Purpose Flour
+  - "2 \xBC teaspoons baking powder"
+  - 3/4 cup (170g) heavy or whipping cream
+  - 1/3 teaspoon salt
   is_pinned: false
   name: Never-Fail Biscuits
   notes: ''
