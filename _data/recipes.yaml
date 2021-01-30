@@ -869,6 +869,55 @@
   total_time: ''
   uid: 39284342-AFED-4233-AA6A-65B03B639011-640-00000049819CFECF
 - categories: []
+  cook_time: 5 minutes
+  created: '2021-01-29 17:47:01'
+  description: ''
+  difficulty: ''
+  directions:
+  - Line a 9-inch square baking dish with parchment paper. Set aside.
+  - In a large saucepan, melt butter over medium heat. Once melted, add in all but
+    1 cup of the marshmallows. Reduce heat to low and continue stirring until completely
+    melted.
+  - Remove from heat and stir in the vanilla. Add the cereal and the remaining 1 cup
+    of marshmallows.
+  - Pour into the prepared baking dish. Press GENTLY with your fingertips just until
+    completely spread out (the harder you pack them in, the harder they are to eat).
+  - Allow to set, about 1 hour. Cut and enjoy!
+  image_url: images/recipes/E9EC03ED-B53B-49F6-88FC-B9835C3599A2-806-000000210281B668.jpg
+  in_trash: false
+  ingredients:
+  - 6 Tbsp unsalted butter
+  - 16 oz bag mini marshmallows, divided
+  - 1 tsp pure vanilla extract
+  - 6 cups rice krispies cereal
+  is_pinned: false
+  name: Perfect Rice Krispie Treats
+  notes: 'Why do my rice krispies treats get hard?A: Could be many factors. Starting
+    with stale marshmallows or cereal. Keep heat on low while adding marshmallows.
+    And finally, do NOT press too firm when you''re adding the treats to the pan.
+
+
+    Do these treats need to be refrigerated?A: Absolutely NOT. It actually could make
+    them hard as well (see above question). Keep them covered at room temperature
+    for best results.
+
+
+    Can I use other cereal?A: Yes! Cocoa Krispies and Fruity Pebbles are both great
+    options. You could also use Cheerios, Golden Grahams, and Cinnamon Toast Crunch!'
+  nutritional_info: 'Amount Per Serving: Calories: 300Total Fat: 8gSaturated Fat:
+    5gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 20mgSodium: 139mgCarbohydrates:
+    57gFiber: 0gSugar: 31gProtein: 2g'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 9 large bars'
+  source: shugarysweets.com
+  source_url: https://www.shugarysweets.com/perfect-rice-krispie-treats/
+  total_time: ''
+  uid: 3DFC9984-1E1B-4C55-BABE-1B76F7608998-806-000000210118725B
+- categories: []
   cook_time: 3 minutes
   created: '2021-01-21 15:07:41'
   description: ''
