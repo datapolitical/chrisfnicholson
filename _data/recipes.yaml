@@ -481,6 +481,104 @@
   total_time: ''
   uid: 11E51AF9-E055-4885-991D-4AFD0449C3E3-21138-000009B70E3C49D3
 - categories: []
+  cook_time: 17 hrs
+  created: '2021-01-30 00:38:16'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a large slow cooker (the larger the better!), place the potatoes in a single
+    layer on the bottom of the cooking vessel.
+  - Sprinkle the onions over the potatoes.
+  - Place the beef in a single layer on top of the onions and potatoes. Place the
+    two marrow bones in the meat. If you're adding a kishke, now would be the time
+    to put it in the cooker.
+  - Rinse the beans clean, checking for any stones or impurities. If using barley
+    or kasha, do the same with the grains. Sprinkle the beans (raw or pre-soaked)
+    and optional grains over the top of the meat. Place the three whole garlic cloves
+    into the meat, evenly spaced. Sprinkle the whole mixture with the black pepper.
+  - If using eggs, rinse them well and then tuck them into the meat. In a 4-cup container,
+    whisk together the low sodium chicken broth, kosher salt, paprika, turmeric, cumin
+    and cayenne.
+  - Pour the liquid over the cholent. Add additional water until all of the beans
+    and pieces of meat are covered. For us, it's usually another 1-2 cups of water
+    in our slow cooker-- it will vary; I usually add a bit more liquid if using grains,
+    because they will soak it up.
+  - "Cover the slow cooker. Cook on low heat for 16 hours. Check occasionally as it's\
+    \ cooking; add additional water and stir a bit if it's looking too dry. Most cookers\
+    \ will auto-switch to warm when the cooking is complete. If yours doesn\u2019\
+    t, set it to warm until ready to serve."
+  - It will look a bit medieval when it's done cooking! Don't worry, just dig in and
+    you'll see that it's perfectly cooked below the surface. Peel the eggs before
+    serving the cholent.
+  - To cook this recipe in the oven, layer the ingredients in a large heavy 7-8 quart
+    Dutch oven. Make sure you have enough liquid to just cover all ingredients. Cover
+    with lid and cook cholent at 200 degrees F for 12-16 hours.
+  image_url: images/recipes/6D9A7D03-008F-4A87-A63C-E1F5CD8FB90B.jpg
+  in_trash: false
+  ingredients:
+  - 2 1/2 lbs large red potatoes, peeled and halved (for a smaller slow cooker, use
+    2 lbs)
+  - 2 whole onions, chopped
+  - 2 1/2 lbs beef stew meat or brisket, cut into chunks (for a smaller slow cooker,
+    use 2 lbs)
+  - 2 marrow bones
+  - 1 cup dried beans - lima, pinto, chickpeas, red beans (not kidney), or a mixture
+  - 1/2 cup pearl barley or coarse-grain kasha (optional - for gluten free, do not
+    use pearl barley)
+  - 3 whole garlic cloves
+  - 6 eggs (optional)
+  - 1/2 tsp black pepper (if spice sensitive use 1/4 tsp)
+  - 1 quart low sodium chicken broth
+  - 1 tbsp kosher salt
+  - 1 1/2 tsp paprika
+  - 1 1/2 tsp turmeric
+  - 1 tsp cumin
+  - 1/4 tsp cayenne (if spice sensitive use just a pinch)
+  - 1 kishke (optional - we never add this, but many families like it)
+  - Water (varies)
+  is_pinned: false
+  name: Cholent
+  notes: 'You will also need: 6-8 quart slow cooker
+
+
+    Note: The beans in this recipe will soften without any pre-soaking due to the
+    long slow cooking process, however they will be easier to digest with a simple
+    quick soak prior to cooking. To do this, place the beans into the bottom of a
+    large pot and cover with water. The beans will expand to over double their size,
+    so make sure you cover by several inches of water to allow for expansion. Bring
+    the beans to a boil for 5 minutes, then remove from heat. Let them soak in the
+    cooking water for 1 hour, then drain and rinse well before proceeding with the
+    recipe. Also note that it is not recommended to slow-cook kidney beans.'
+  nutritional_info: 'Saturated Fat 1g
+
+    Cholesterol 82mg
+
+    Sodium 656mg
+
+    Potassium 775mg
+
+    Carbohydrates 33g
+
+    Fiber 5g
+
+    Protein 11g
+
+    Vitamin C 9mg
+
+    Calcium 42mg
+
+    Iron 3mg'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 20 mins
+  rating: 0
+  scale: null
+  servings: ''
+  source: Toriavey.com
+  source_url: https://toriavey.com/toris-kitchen/cholent/
+  total_time: ''
+  uid: 1637460B-2B81-435C-8C12-2C2EF0D73C17
+- categories: []
   cook_time: 18 to 22 mins
   created: '2020-06-07 01:58:01'
   description: ''
