@@ -868,7 +868,11 @@
   source_url: https://www.gimmesomeoven.com/baked-salmon-recipe/
   total_time: ''
   uid: 39284342-AFED-4233-AA6A-65B03B639011-640-00000049819CFECF
-- categories: []
+- categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
   cook_time: 5 minutes
   created: '2021-01-29 17:47:01'
   description: ''
@@ -910,7 +914,7 @@
   on_favorites: false
   on_grocery_list: null
   prep_time: 5 minutes
-  rating: 0
+  rating: 5
   scale: null
   servings: 'Yield: 9 large bars'
   source: shugarysweets.com
