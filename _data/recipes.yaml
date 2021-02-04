@@ -3481,10 +3481,10 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
-  scale: null
+  scale: 2/1
   servings: 8 servings
   source: chocolatecoveredkatie.com
   source_url: https://chocolatecoveredkatie.com/keto-cake-recipe/
