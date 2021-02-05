@@ -1901,7 +1901,7 @@
   - "When the oven is preheated, remove your dough from the fridge, score it, and\
     \ transfer to the preheated combo cooker. Place the cooker in the oven, cover\
     \ with the lid, and bake for 20 minutes. After this time, remove the lid (you\
-    \ can keep it in the oven or remove it) and continue to bake for 30 minutes longer.\
+    \ can keep it in the oven or remove it) and continue to bake for 25 minutes longer.\
     \ When done, the internal temperature should be around 208\xB0F (97\xB0C)."
   - Let the loaves cool for 2 hours on a wire rack before slicing.
   image_url: images/recipes/B0C7097B-6351-46ED-8511-ED200782C29F-6925-000001FDD5D67747.jpg
@@ -1932,7 +1932,7 @@
     day two. Leave the proofing dough in the fridge until ready to bake.
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 23 hours
   rating: 4
   scale: null
