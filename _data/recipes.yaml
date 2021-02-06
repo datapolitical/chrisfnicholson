@@ -1815,6 +1815,97 @@
   source_url: https://www.allrecipes.com/recipe/20144/banana-banana-bread/
   total_time: ''
   uid: 6CDAB198-221C-4D7D-B707-2D2DD26A5AB1-46900-00000ECF1285689A
+- categories: []
+  cook_time: 45 minutes
+  created: '2021-02-06 12:48:42'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat the oven to 400 degrees. Line a sheet pan with foil and place a non stick
+    oven safe rack on top of the pan.
+  - Place the chicken wings in a bowl. Add the baking powder, salt, pepper, garlic
+    powder and onion powder.
+  - Toss to coat the chicken evenly with the baking powder and spices.
+  - Place the wings on the rack in a single layer.
+  - Bake for 45 minutes or until wings are light golden brown and crispy.
+  - In a small bowl, whisk together the hot sauce, butter and honey.
+  - Pour the sauce over the wings and toss to coat evenly.
+  - Serve with celery sticks and ranch dressing.
+  image_url: images/recipes/8C5EC572-42D1-4BA4-9270-E427973A1078-14677-000005CE8CEB2D4C.jpg
+  in_trash: false
+  ingredients:
+  - 3 pounds party style chicken wings or whole chicken wings that have been halved
+    crosswise
+  - 1 tablespoon baking powder do NOT use baking soda
+  - 1 teaspoon salt
+  - 1/2 teaspoon pepper
+  - 1/2 teaspoon garlic powder
+  - 1/2 teaspoon onion powder
+  - 1/2 cup hot sauce such as Frank's Red Hot Sauce
+  - 4 tablespoons butter melted
+  - 1 tablespoon honey
+  - celery sticks and ranch dressing for serving.
+  is_pinned: false
+  name: Baked Buffalo Wings
+  notes: ''
+  nutritional_info: 'Calories 464kcal
+
+    Calories: 464kcal | Carbohydrates: 2g | Protein: 36g | Fat: 24g | Saturated Fat:
+    14g | Cholesterol: 215mg | Sodium: 522mg | Fiber: 1g | Sugar: 1g'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 20 minutes
+  rating: 0
+  scale: null
+  servings: ''
+  source: dinneratthezoo.com
+  source_url: https://www.dinneratthezoo.com/baked-buffalo-wings/
+  total_time: ''
+  uid: 6F2F31BA-EFCC-49C7-A6C7-0692E108D404-14677-000005CE8AE38CB4
+- categories: []
+  cook_time: 0 hours
+  created: '2021-02-06 12:44:19'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 400\xB0 and place a wire rack over a baking sheet. In a large\
+    \ bowl, toss chicken wings with oil and season with garlic powder, salt, and pepper.\
+    \ Transfer to prepared baking sheet."
+  - Bake until chicken is golden and skin is crispy, 50 to 60 minutes, flipping the
+    wings halfway through.
+  - "In a small saucepan, whisk together hot sauce and honey. Bring to simmer then\
+    \ stir in butter. Cook until butter is melted and slightly reduced, about 2 minutes.\
+    \ Heat broiler on low. Transfer baked wings to a bowl and toss with buffalo sauce\
+    \ until completely coated. Return wings to rack and broil\u2014watching carefully!\u2014\
+    until sauce caramelizes, 3 minutes. Serve with ranch dressing and vegetables."
+  image_url: images/recipes/87841328-62E7-46B0-903A-6E25A1376BB4-14677-000005CD1428E0E9.jpg
+  in_trash: false
+  ingredients:
+  - 2 lb. chicken wings
+  - 2 tbsp. Vegetable oil
+  - 1 tsp. garlic powder
+  - Kosher salt
+  - Freshly ground black pepper
+  - 1/4 c. hot sauce (such as Frank's)
+  - 2 tbsp. honey
+  - 4 tbsp. butter
+  - Ranch dressing, for serving
+  - Carrot sticks, for serving
+  - Celery sticks, for serving
+  is_pinned: false
+  name: Classic Buffalo Wings
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: '20'
+  rating: 0
+  scale: null
+  servings: 'Yields: 4'
+  source: delish.com
+  source_url: https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/
+  total_time: ''
+  uid: 6FBC9DF7-917A-44C6-937B-1D3FDBE1C893-14677-000005CD126B7409
 - categories:
   - Dish Type
   - Web
