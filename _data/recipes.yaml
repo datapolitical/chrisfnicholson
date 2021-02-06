@@ -29,7 +29,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: '5'
   rating: 0
   scale: null
@@ -108,7 +108,7 @@
 
     per serving (1 servings)'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 minutes
   rating: 0
   scale: null
@@ -154,7 +154,7 @@
     \ before serving."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 minutes
   rating: 0
   scale: null
@@ -205,7 +205,7 @@
 
     Protein: 0 protein.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 0
   scale: 1/1
@@ -258,7 +258,7 @@
     Potassium: 895mg\nFiber: 2g\nSugar: 3g\nVitamin A: 1405IU\nVitamin C: 8mg\nCalcium:\
     \ 67mg\nIron: 2mg"
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 5
   scale: 4/3
@@ -326,7 +326,7 @@
     | Potassium: 287mg | Fiber: 1g | Sugar: 4g | Vitamin A: 399IU | Calcium: 131mg
     | Iron: 2mg'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -428,7 +428,7 @@
   notes: ''
   nutritional_info: Calories 190 kcal
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 40 minutes
   rating: 0
   scale: null
@@ -471,7 +471,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 5
   scale: 3/1
@@ -659,7 +659,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 35 mins
   rating: 0
   scale: null
@@ -711,7 +711,7 @@
   nutritional_info: '1 slice: 137 calories, 5g fat (1g saturated fat), 33mg cholesterol,
     232mg sodium, 20g carbohydrate (3g sugars, 1g fiber), 4g protein.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 30 min
   rating: 5
   scale: null
@@ -759,7 +759,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 mins
   rating: 0
   scale: null
@@ -809,7 +809,7 @@
     \ \u2013 and particularly like raspberries. Fresh would be lovely, too."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -859,7 +859,7 @@
     \ at 135\xB0F."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 0
   scale: null
@@ -912,7 +912,7 @@
     5gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 20mgSodium: 139mgCarbohydrates:
     57gFiber: 0gSugar: 31gProtein: 2g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 5
   scale: null
@@ -967,7 +967,7 @@
 
     Protein 15.4g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 1 minute
   rating: 0
   scale: null
@@ -1034,7 +1034,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 minutes
   rating: 5
   scale: null
@@ -1113,7 +1113,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 mins
   rating: 0
   scale: null
@@ -1158,7 +1158,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -1200,7 +1200,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -1340,7 +1340,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -1388,7 +1388,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 minutes
   rating: 0
   scale: null
@@ -1446,7 +1446,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -1513,7 +1513,7 @@
 
     per serving (4 servings)'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 35 minutes
   rating: 2
   scale: 1/2
@@ -1567,7 +1567,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -1718,7 +1718,7 @@
 
     Sodium 170.0 mg (7.1%)'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: 1/1
@@ -1762,7 +1762,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 minutes
   rating: 0
   scale: null
@@ -1806,7 +1806,7 @@
   nutritional_info: 229 calories; 8.8 g total fat; 51 mg cholesterol; 223 mg sodium.
     34.8 g carbohydrates; 3.8 g protein; Full Nutrition
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 mins
   rating: 0
   scale: 1/1
@@ -1857,7 +1857,7 @@
 
     Protein: 0.3'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 5
   scale: 3/1
@@ -2006,7 +2006,7 @@
 
     Protein 69g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 30 minutes
   rating: 0
   scale: null
@@ -2112,7 +2112,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 30 mins
   rating: 0
   scale: null
@@ -2197,7 +2197,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -2243,7 +2243,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 mins
   rating: 0
   scale: null
@@ -2349,7 +2349,7 @@
 
     Protein: 7 grams'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 3
   scale: null
@@ -2411,7 +2411,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -2488,7 +2488,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -2601,7 +2601,7 @@
 
     Iron: 2mg'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 mins
   rating: 0
   scale: null
@@ -2648,7 +2648,7 @@
 
     Protein: 1g protein. Diabetic Exchanges: 1 vegetable'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 min
   rating: 0
   scale: null
@@ -2712,7 +2712,7 @@
 
     Protein: 16 grams'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -2771,7 +2771,7 @@
 
     Protein: 4.8'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 0
   scale: null
@@ -2823,7 +2823,7 @@
     85mg sodium, 24g carbohydrate (16g sugars, 1g fiber), 4g protein. Diabetic Exchanges:
     1-1/2 starch.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 min
   rating: 0
   scale: null
@@ -2859,7 +2859,7 @@
   nutritional_info: 309 calories; protein 7.5g 15% DV; carbohydrates 41.8g 14% DV;
     fat 13.2g 20% DV; cholesterol 63.2mg 21% DV; sodium 333.6mg 13% DV. Full Nutrition
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 mins
   rating: 0
   scale: null
@@ -2905,7 +2905,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 0
   scale: 1/1
@@ -2952,7 +2952,7 @@
   nutritional_info: '1 serving: 407 calories, 14g fat (8g saturated fat), 100mg cholesterol,
     402mg sodium, 66g carbohydrate (36g sugars, 4g fiber), 7g protein.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 min
   rating: 0
   scale: null
@@ -3018,7 +3018,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3078,7 +3078,7 @@
   notes: Dont cook to black, lower heat
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 25 mins
   rating: 4
   scale: 4/3
@@ -3181,7 +3181,7 @@
 
     Cholesterol: 35 mg'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3234,7 +3234,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3315,7 +3315,7 @@
     \ will help them maintain their shape while baking."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 mins
   rating: 5
   scale: 1/1
@@ -3376,7 +3376,7 @@
     \ with a turkey or chicken, just use all chicken broth."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3440,7 +3440,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 mins
   rating: 0
   scale: 2/3
@@ -3594,7 +3594,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 mins
   rating: 0
   scale: 3/2
@@ -3680,7 +3680,7 @@
   nutritional_info: 'Calories: 336kcal | Carbohydrates: 11g | Protein: 25g | Fat:
     22g | Fiber: 3g | Sugar: 5g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 0
   scale: null
@@ -3725,7 +3725,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3772,7 +3772,7 @@
     \ Adjust the garlic level according to your preference!"
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 mins
   rating: 4
   scale: null
@@ -3828,7 +3828,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -3929,7 +3929,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 mins
   rating: 0
   scale: null
@@ -3960,7 +3960,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -4030,7 +4030,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 30 mins
   rating: 0
   scale: null
@@ -4096,7 +4096,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 mins
   rating: 0
   scale: null
@@ -4169,7 +4169,7 @@
     convection. Check at 10 minutes.'
   nutritional_info: ''
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 12 mins
   rating: 5
   scale: null
@@ -4222,7 +4222,7 @@
   nutritional_info: 'serving: 1g, calories: 110kcal, carbohydrates: 20g, protein:
     5g, fat: 2g, sodium: 32mg, fiber: 3g, sugar: 4g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 2 minutes
   rating: 0
   scale: null
@@ -4286,7 +4286,7 @@
 
     SUGAR: 15g PROTEIN: 4g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 minutes
   rating: 0
   scale: null
@@ -4337,7 +4337,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 minutes
   rating: 5
   scale: 2/1
@@ -4408,7 +4408,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -4466,7 +4466,7 @@
     4gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 33mgSodium: 206mgCarbohydrates:
     28gFiber: 1gSugar: 7gProtein: 5g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 minutes
   rating: 0
   scale: null
@@ -4524,7 +4524,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 0
   scale: null
@@ -4557,7 +4557,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 0
   scale: null
@@ -4621,7 +4621,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 25 mins
   rating: 4
   scale: null
@@ -4666,7 +4666,7 @@
 
     Sodium 1159mg'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 3 min
   rating: 0
   scale: null
@@ -4749,7 +4749,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
@@ -4806,7 +4806,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
