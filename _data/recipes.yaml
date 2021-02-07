@@ -3608,7 +3608,12 @@
   source_url: https://www.kingarthurbaking.com/recipes/never-fail-biscuits-recipe
   total_time: ''
   uid: B6C6344A-2394-4EBE-BE06-9CEAEC11434C-2558-000000F47FDF36C0
-- categories: []
+- categories:
+  - Cake
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
   cook_time: 14 minutes
   created: '2021-01-21 15:18:22'
   description: ''
@@ -3642,7 +3647,7 @@
   on_favorites: false
   on_grocery_list: false
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: 2/1
   servings: 8 servings
   source: chocolatecoveredkatie.com
