@@ -1529,6 +1529,94 @@
   total_time: ''
   uid: 5A54ED07-2DC3-4E6F-BADC-003CFE70CA41-15739-0000046C163A3CE7
 - categories: []
+  cook_time: 15 minutes
+  created: '2021-02-07 12:59:44'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Arrange a rack in the middle of the oven and heat the oven to 425\xB0F. Line\
+    \ a rimmed baking sheet with aluminum foil."
+  - "Prepare the following, keeping them separate: Drain and rinse 1 can black beans.\
+    \ Drain 1 can sliced black olives. Grate 12 ounces sharp cheddar or Monterey jack\
+    \ cheese on the large holes of a box grater (about 3 cups). Chop 1 roma tomato.\
+    \ Thinly slice 8 scallions and 1 small jalape\xF1o."
+  - Shred 1 pound cooked chicken into a medium bowl. Add 1/2 cup salsa and toss to
+    combine.
+  - 'Build the nachos: arrange about half of a 16-ounce bag of tortilla chips on the
+    baking sheet in an even layer. Top with half of the seasoned chicken and a handful
+    of shredded cheese. Layer the remaining chips on top, followed by the remaining
+    chicken and cheese. Sprinkle with the black beans.'
+  - "Bake the nachos until the cheese is melted and the chips around the edges are\
+    \ beginning to brown, about 8 minutes. Just before serving, garnish with the black\
+    \ olives, jalape\xF1o, tomato, dollops of sour cream, and scallions."
+  image_url: images/recipes/AEED6C01-4577-4CC4-B377-322344838D84-17495-000006E3073EF9BC.jpg
+  in_trash: false
+  ingredients:
+  - 1 (15-ounce) can black beans
+  - 1 (2.25-ounce) can sliced black olives
+  - 12 ounces sharp cheddar or Monterey jack cheese, or a combination (3 cups shredded)
+  - 1 small roma tomato
+  - 8 medium scallions
+  - "1 small jalape\xF1o"
+  - 1 pound rotisserie chicken meat (from a 4 to 5-pound chicken)
+  - 1/2 cup salsa
+  - 1 (16-ounce) bag restaurant-style tortilla chips
+  - Sour cream, for serving
+  is_pinned: false
+  name: Easy Sheet Pan Chicken Nachos
+  notes: ''
+  nutritional_info: 'alcohol-free
+
+    egg-free
+
+    fish-free
+
+    peanut-free
+
+    shellfish-free
+
+    pork-free
+
+    sugar-conscious
+
+    gluten-free
+
+    wheat-free
+
+    high-fiber
+
+    soy-free
+
+    tree-nut-free
+
+    red-meat-free
+
+    Calories 592
+
+    Fat 29.9 g (45.9%)
+
+    Saturated 10.4 g (52.1%)
+
+    Carbs 50.8 g (16.9%)
+
+    Fiber 7.3 g (29.4%)
+
+    Sugars 2.1 g
+
+    Protein 30.0 g (60.1%)
+
+    Sodium 742.5 mg (30.9%)'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 40 minutes
+  rating: 0
+  scale: null
+  servings: Serves 6 to 8
+  source: thekitchn.com
+  source_url: https://www.thekitchn.com/chicken-nachos-22955990
+  total_time: ''
+  uid: 5FE327EC-6211-43C6-81CA-9FE02FF04D87-17495-000006E304359C57
+- categories: []
   cook_time: ''
   created: '2020-06-08 01:25:48'
   description: ''
