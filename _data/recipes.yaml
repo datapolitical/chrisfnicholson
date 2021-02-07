@@ -1950,7 +1950,7 @@
   on_grocery_list: false
   prep_time: 20 minutes
   rating: 0
-  scale: null
+  scale: 1/1
   servings: ''
   source: dinneratthezoo.com
   source_url: https://www.dinneratthezoo.com/baked-buffalo-wings/
