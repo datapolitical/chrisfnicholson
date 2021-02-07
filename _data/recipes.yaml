@@ -3118,6 +3118,68 @@
   source_url: https://cooking.nytimes.com/recipes/1021641-cranberry-lemon-bars?login=email&login=email&auth=login-email
   total_time: ''
   uid: A75E31A4-3FF0-4314-A6F3-B3C9F371E5C9-4125-000002632F580ADA
+- categories: []
+  cook_time: ''
+  created: '2021-02-06 16:15:21'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a large bowl, whisk together the flour, baking powder, sugar and salt. Next,
+    create a well in the center of the dry ingredients and pour in the honey and whole
+    milk. Using a spoon or your hands, mix the dough together until it forms a sticky
+    mass. Cover the bowl with a clean kitchen towel and allow the dough to rest for
+    about 20 minutes.
+  - "I know frying this is a bit of a bummer but I\u2019ll say that with these it\u2019\
+    s needed and worth it. Since I had shortening leftover from my first batch of\
+    \ dough, I used it to fry these sopapillas; canola oil or peanut oil or lard will\
+    \ also work. In a cast iron skillet (or medium pot), add enough fat so it reaches\
+    \ 3-inches up the sides of the skillet/pot. Heat up your oil to around 300 degrees.\
+    \ (Right before we fry them off, we\u2019ll heat it up even further.)"
+  - "Lightly flour your work surface and rolling pin. If the dough is at all sticky\
+    \ (it shouldn\u2019t be after it rested) feel free to sprinkle it with a bit of\
+    \ flour so it doesn\u2019t adhere to the surface. Dump the dough onto the counter\
+    \ and roll the dough into a thin (1/8-inch thick) square. (It doesn\u2019t have\
+    \ to be a perfect square either, just do your best.) Cut the sopapillas into 4\
+    \ x 3-inch rectangles. Again, the measurements don\u2019t have to be exact, you\
+    \ can definitely eyeball this."
+  - "Before you fry them up, be sure to get your honey ready. Line a baking sheet\
+    \ or plate with a few layers of paper towels or clean kitchen towel. Heat the\
+    \ oil up again to 375 degrees F. Drop the sopapillas in the hot oil, frying two\
+    \ to three at a time, for about a minute, flipping them over at the halfway point.\
+    \ (If they don\u2019t puff up, they\u2019ll still be tasty! But it may mean the\
+    \ dough isn\u2019t rolled thin enough.) They should be lightly golden brown\u2014\
+    not too crispy. Transfer them to the bed of paper towels to drain. Repeat with\
+    \ the remaining sopapillas."
+  - These taste best straight from the fryer to a plate to being consumed but if you
+    want, you can keep the sopapillas warm in an 200 degree pre-heated oven while
+    you fry up the rest. Serve them alongside some honey and apricot preserves.
+  image_url: images/recipes/D619D808-9314-4BF8-9D1C-BEBF1AD52D37-15617-0000060C06E47DA9.jpg
+  in_trash: false
+  ingredients:
+  - 2 cups all-purpose flour
+  - 1 tablespoon baking powder
+  - 1 tablespoon granulated sugar
+  - 2 teaspoons kosher salt
+  - 1 tablespoon honey
+  - 3/4 cup whole milk
+  - Shortening (or canola oil, peanut oil or lard, for frying)
+  is_pinned: false
+  name: New Mexican-Style Sopapillas
+  notes: ''
+  nutritional_info: 'Serving: 1g | Calories: 197kcal (10%) | Carbohydrates: 41.1g
+    (14%) | Protein: 5.3g (11%) | Fat: 1g (2%) | Saturated Fat: 0.5g (3%) | Cholesterol:
+    3mg (1%) | Sodium: 791mg (34%) | Potassium: 66mg (2%) | Fiber: 1.1g (5%) | Sugar:
+    9.2g (10%)'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: acozykitchen.com
+  source_url: https://www.acozykitchen.com/new-mexico-sopapillas
+  total_time: ''
+  uid: ABF3ABFE-A71C-4CCF-BBE9-4BFEDAC23989-15617-0000060C01DE871C
 - categories:
   - Web
   - Bread
