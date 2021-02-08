@@ -1528,7 +1528,12 @@
   source_url: https://www.epicurious.com/recipes/food/views/caramelized-onion-pasta?intcid=inline_amp&_gl=1*ajp6ay*_ga*YW1wLVBGMXhIcS16X1VNQ0RjaTVtMU9fZTM1bzdtbUhDNEdtLUkyeFhFVGJUTVA1X1A3eUswa1BzRGJBMGgzTFUtYXo.
   total_time: ''
   uid: 5A54ED07-2DC3-4E6F-BADC-003CFE70CA41-15739-0000046C163A3CE7
-- categories: []
+- categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Side
+  - I Made This
   cook_time: 15 minutes
   created: '2021-02-07 12:59:44'
   description: ''
@@ -1547,8 +1552,8 @@
     of shredded cheese. Layer the remaining chips on top, followed by the remaining
     chicken and cheese. Sprinkle with the black beans.'
   - "Bake the nachos until the cheese is melted and the chips around the edges are\
-    \ beginning to brown, about 8 minutes. Just before serving, garnish with the black\
-    \ olives, jalape\xF1o, tomato, dollops of sour cream, and scallions."
+    \ beginning to brown, about 12 minutes. Just before serving, garnish with the\
+    \ black olives, jalape\xF1o, tomato, dollops of sour cream, and scallions."
   image_url: images/recipes/AEED6C01-4577-4CC4-B377-322344838D84-17495-000006E3073EF9BC.jpg
   in_trash: false
   ingredients:
@@ -1609,7 +1614,7 @@
   on_favorites: false
   on_grocery_list: false
   prep_time: 40 minutes
-  rating: 0
+  rating: 4
   scale: null
   servings: Serves 6 to 8
   source: thekitchn.com
@@ -1909,7 +1914,12 @@
   source_url: https://www.allrecipes.com/recipe/20144/banana-banana-bread/
   total_time: ''
   uid: 6CDAB198-221C-4D7D-B707-2D2DD26A5AB1-46900-00000ECF1285689A
-- categories: []
+- categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Side
+  - I Made This
   cook_time: 45 minutes
   created: '2021-02-06 12:48:42'
   description: ''
@@ -1949,7 +1959,7 @@
   on_favorites: false
   on_grocery_list: false
   prep_time: 20 minutes
-  rating: 0
+  rating: 5
   scale: 1/1
   servings: ''
   source: dinneratthezoo.com
