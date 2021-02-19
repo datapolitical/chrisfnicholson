@@ -3581,6 +3581,60 @@
   source_url: https://www.kingarthurbaking.com/recipes/baking-powder-biscuits-recipe
   total_time: ''
   uid: B4824714-6497-4AA8-8DA5-6083854C7E70-21757-00000978E0196ECC
+- categories: []
+  cook_time: 25 minutes
+  created: '2021-02-18 17:38:29'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the milk and egg yolk to a measuring cup. Whisk to combine.
+  - Add 5 tablespoons sugar, the cocoa powder, cornstarch and salt to a medium saucepan,
+    and whisk to combine, breaking up any lumps. Whisk the milk and egg yolk mixture
+    into the sugar mixture until smooth.
+  - Set the pan over medium-low heat and cook the mixture until it thickens and starts
+    to bubble, stirring the mixture constantly with a rubber spatula and making sure
+    to scrape the corners and bottom of the pan. Once it bubbles, cook for an additional
+    minute until thick and creamy, taking extra care to scrape the bottom and sides
+    of the pan to avoid scorching the mixture, 6 to 8 minutes total. If you do get
+    a few small lumps, whisk the mixture vigorously for a few seconds to smooth them.
+    Stir in 1 teaspoon vanilla extract.
+  - Spoon the pudding into two small serving bowls or glasses, and press a piece of
+    plastic wrap on the surface of each pudding to prevent a skin from forming. Chill
+    for at least 1 hour and up to 2 days.
+  - 'When you are ready to serve the pudding, make the raspberry cream: Combine 1/2
+    teaspoon sugar with about 4 raspberries in a small bowl. Mash them together with
+    a fork and macerate. In a medium bowl, whisk the cream with the remaining 1/2
+    teaspoon sugar and 1/2 teaspoon vanilla to medium peaks. Dollop the mashed raspberries
+    over the top of the whipped cream and fold a few times. (The mixture should be
+    streaky.)'
+  - Top the pudding with the remaining raspberries and a dollop of the whipped cream.
+    Serve immediately.
+  image_url: images/recipes/EC1F4189-5757-4BE4-B459-C01BA9AC6D6F-49820-0000133CA64980F5.jpg
+  in_trash: false
+  ingredients:
+  - 1 cup/240 milliliters whole milk
+  - 1 large egg yolk
+  - 5 tablespoons plus 1 teaspoon/75 grams granulated sugar
+  - 5 tablespoons/30 grams Dutch-process cocoa powder
+  - 1 tablespoon cornstarch
+  - Pinch of kosher salt
+  - "1 \xBD teaspoons vanilla extract"
+  - "\xBD cup/80 grams fresh raspberries"
+  - "\u2153 cup/80 milliliters heavy cream"
+  is_pinned: false
+  name: Chocolate Pudding with Raspberry Cream
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 2 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1021898-chocolate-pudding-with-raspberry-cream?referring_source=newsreader
+  total_time: ''
+  uid: B5C881BB-0BDD-446D-83FE-33FD6418A90D-49820-0000133CA4665020
 - categories:
   - Dressing
   - Southern
