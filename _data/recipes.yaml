@@ -2211,6 +2211,53 @@
   total_time: ''
   uid: 7808ACAD-81FB-4A8D-AD6C-66692E3BA37C-8436-0000023E2EA5DEEF
 - categories: []
+  cook_time: 45 mins
+  created: '2021-02-23 16:33:59'
+  description: ''
+  difficulty: ''
+  directions:
+  - Position a rack in the middle of the oven and preheat to 400 degrees.
+  - In a 9-by-13-inch baking dish, combine the tomatoes, garlic and 1/4 cup of the
+    olive oil. Sprinkle with some salt and toss to coat. Place the feta cheese in
+    the center of the tomatoes and garlic, top with the remaining olive oil, and sprinkle
+    the entire dish with red pepper flakes and a little black pepper. Bake for about
+    40 minutes, until the garlic has softened and the tomatoes have burst their skins.
+  - Meanwhile, bring a large pot of salted water to a boil. Cook the pasta according
+    to package directions until al dente. Reserve 1 cup of the pasta water and then
+    drain the pasta.
+  - Mash the feta and tomatoes with a fork and mix until evenly combined. Mix the
+    sauce with pasta, adding the reserved pasta water as needed if it looks a little
+    dry. Taste and season with additional salt and pepper, if desired. To serve, divide
+    among bowls and top with plenty of basil leaves.
+  image_url: images/recipes/D519098D-AC16-4D8A-A2C4-5B5036C2C8F4-9053-0000030245567B09.jpg
+  in_trash: false
+  ingredients:
+  - 2 pints (17 1/2 ounces / 500 grams) cherry or grape tomatoes
+  - 4 cloves garlic, halved lengthwise
+  - 1/2 cup extra-virgin olive oil, divided
+  - Kosher salt
+  - 1 block (7 ounces / 200 grams) Greek feta cheese
+  - 1/2 teaspoon crushed red pepper flakes
+  - Freshly ground black pepper
+  - 12 ounces medium-length dried pasta, such as campanelle, rigatoni or rotini
+  - Fresh basil leaves, for serving
+  is_pinned: false
+  name: "TikTok\u2019s Viral Baked Feta Pasta Is Worth the Hype"
+  notes: ''
+  nutritional_info: 'Calories: 718; Total Fat: 40 g; Saturated Fat: 12 g; Cholesterol:
+    44 mg; Sodium: 596 mg; Carbohydrates: 66 g; Dietary Fiber: 5 g; Sugar: 8 g; Protein:
+    19 g.'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 10 mins
+  rating: 0
+  scale: null
+  servings: '4'
+  source: washingtonpost.com
+  source_url: https://www.washingtonpost.com/food/2021/02/11/baked-feta-pasta-recipe-tiktok/
+  total_time: ''
+  uid: 790A36B1-FBD2-4C3A-BD54-7AD8DA671109-9053-000003023DED6ED6
+- categories: []
   cook_time: 15 to 18 mins
   created: '2021-01-21 14:36:15'
   description: ''
