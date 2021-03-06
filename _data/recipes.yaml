@@ -1,3 +1,38 @@
+- categories: []
+  cook_time: ''
+  created: '2021-03-05 18:24:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Make your ginger simple syrup by heating the Water (120 mL) and Granulated Sugar
+    (150 g) over medium heat. Stir until combined. Once combined, remove from heat
+    and add Fresh Ginger (1 piece). Let cool.
+  - Mix your drink by combining Whiskey (60 mL), Lime Juice (1), Egg White (1), and
+    1 part ginger syrup in a tumbler. Shake for 20 seconds.
+  - Strain into a coupe glass and garnish with Lemons (to taste). Serve and enjoy!
+  image_url: images/recipes/37399F3C-CFF4-4C4C-A749-3D431F3CAFB4.jpg
+  in_trash: false
+  ingredients:
+  - 60 mL whiskey
+  - 1 juice of 1 lime
+  - 120mL water
+  - 150g granulated sugar
+  - 1 piece fresh ginger
+  - 1 egg white (optional)
+  is_pinned: false
+  name: Ginger Lime Whiskey Sour
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: chrisfnicholson.com
+  source_url: https://www.chrisfnicholson.com/drinks/ginger-lime-whiskey-sour.html
+  total_time: ''
+  uid: 00EE1A80-9DC2-4A56-B67E-4C3F1FD387B4
 - categories:
   - Drink
   cook_time: 0 hours
