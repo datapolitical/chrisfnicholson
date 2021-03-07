@@ -1,3 +1,38 @@
+- categories: []
+  cook_time: ''
+  created: '2021-03-05 18:24:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Make your ginger simple syrup by heating the Water (120 mL) and Granulated Sugar
+    (150 g) over medium heat. Stir until combined. Once combined, remove from heat
+    and add Fresh Ginger (1 piece). Let cool.
+  - Mix your drink by combining Whiskey (60 mL), Lime Juice (1), Egg White (1), and
+    1 part ginger syrup in a tumbler. Shake for 20 seconds.
+  - Strain into a coupe glass and garnish with Lemons (to taste). Serve and enjoy!
+  image_url: images/recipes/37399F3C-CFF4-4C4C-A749-3D431F3CAFB4.jpg
+  in_trash: false
+  ingredients:
+  - 60 mL whiskey
+  - 1 juice of 1 lime
+  - 120mL water
+  - 150g granulated sugar
+  - 1 piece fresh ginger
+  - 1 egg white (optional)
+  is_pinned: false
+  name: Ginger Lime Whiskey Sour
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: chrisfnicholson.com
+  source_url: https://www.chrisfnicholson.com/drinks/ginger-lime-whiskey-sour.html
+  total_time: ''
+  uid: 00EE1A80-9DC2-4A56-B67E-4C3F1FD387B4
 - categories:
   - Drink
   cook_time: 0 hours
@@ -248,7 +283,7 @@
   - 1 teaspoon cumin
   - 1 tsp salt
   - 1/4 tsp black pepper
-  - 1 cup heavy cream sub for half & half or yogurt for low fat
+  - 1 cup heavy cream
   - Hot cooked rice and naan for serving
   is_pinned: false
   name: Easy 20 Minute Butter Chicken
@@ -261,7 +296,7 @@
   on_grocery_list: null
   prep_time: 5 minutes
   rating: 5
-  scale: null
+  scale: 4/3
   servings: 'Servings: 4 calories: 491'
   source: gimmedelicious.com
   source_url: https://gimmedelicious.com/easy-20-minute-butter-chicken/
@@ -480,6 +515,110 @@
   source_url: https://www.epicurious.com/recipes/food/views/caramelized-banana-with-rum-sauce-107764
   total_time: ''
   uid: 11E51AF9-E055-4885-991D-4AFD0449C3E3-21138-000009B70E3C49D3
+- categories:
+  - Dinner
+  - Stew
+  - Made at 307
+  - Jewish
+  - Web
+  - I Made This
+  cook_time: 17 hrs
+  created: '2021-01-30 00:38:16'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a large slow cooker (the larger the better!), place the potatoes in a single
+    layer on the bottom of the cooking vessel.
+  - Sprinkle the onions over the potatoes.
+  - Place the beef in a single layer on top of the onions and potatoes. Place the
+    two marrow bones in the meat. If you're adding a kishke, now would be the time
+    to put it in the cooker.
+  - Rinse the beans clean, checking for any stones or impurities. If using barley
+    or kasha, do the same with the grains. Sprinkle the beans (raw or pre-soaked)
+    and optional grains over the top of the meat. Place the three whole garlic cloves
+    into the meat, evenly spaced. Sprinkle the whole mixture with the black pepper.
+  - If using eggs, rinse them well and then tuck them into the meat. In a 4-cup container,
+    whisk together the low sodium chicken broth, kosher salt, paprika, turmeric, cumin
+    and cayenne.
+  - Pour the liquid over the cholent. Add additional water until all of the beans
+    and pieces of meat are covered. For us, it's usually another 1-2 cups of water
+    in our slow cooker-- it will vary; I usually add a bit more liquid if using grains,
+    because they will soak it up.
+  - "Cover the slow cooker. Cook on low heat for 16 hours. Check occasionally as it's\
+    \ cooking; add additional water and stir a bit if it's looking too dry. Most cookers\
+    \ will auto-switch to warm when the cooking is complete. If yours doesn\u2019\
+    t, set it to warm until ready to serve."
+  - It will look a bit medieval when it's done cooking! Don't worry, just dig in and
+    you'll see that it's perfectly cooked below the surface. Peel the eggs before
+    serving the cholent.
+  - To cook this recipe in the oven, layer the ingredients in a large heavy 7-8 quart
+    Dutch oven. Make sure you have enough liquid to just cover all ingredients. Cover
+    with lid and cook cholent at 200 degrees F for 12-16 hours.
+  image_url: images/recipes/6D9A7D03-008F-4A87-A63C-E1F5CD8FB90B.jpg
+  in_trash: false
+  ingredients:
+  - 2 1/2 lbs large red potatoes, peeled and halved (for a smaller slow cooker, use
+    2 lbs)
+  - 2 whole onions, chopped
+  - 2 1/2 lbs beef stew meat or brisket, cut into chunks (for a smaller slow cooker,
+    use 2 lbs)
+  - 2 marrow bones
+  - 1 cup dried beans - lima, pinto, chickpeas, red beans (not kidney), or a mixture
+  - 1/2 cup pearl barley or coarse-grain kasha (optional - for gluten free, do not
+    use pearl barley)
+  - 3 whole garlic cloves
+  - 6 eggs (optional)
+  - 1/2 tsp black pepper (if spice sensitive use 1/4 tsp)
+  - 1 quart low sodium chicken broth
+  - 1 tbsp kosher salt
+  - 1 1/2 tsp paprika
+  - 1 1/2 tsp turmeric
+  - 1 tsp cumin
+  - 1/4 tsp cayenne (if spice sensitive use just a pinch)
+  - 1 kishke (optional - we never add this, but many families like it)
+  - Water (varies)
+  is_pinned: false
+  name: Cholent
+  notes: 'You will also need: 6-8 quart slow cooker
+
+
+    Note: The beans in this recipe will soften without any pre-soaking due to the
+    long slow cooking process, however they will be easier to digest with a simple
+    quick soak prior to cooking. To do this, place the beans into the bottom of a
+    large pot and cover with water. The beans will expand to over double their size,
+    so make sure you cover by several inches of water to allow for expansion. Bring
+    the beans to a boil for 5 minutes, then remove from heat. Let them soak in the
+    cooking water for 1 hour, then drain and rinse well before proceeding with the
+    recipe. Also note that it is not recommended to slow-cook kidney beans.'
+  nutritional_info: 'Saturated Fat 1g
+
+    Cholesterol 82mg
+
+    Sodium 656mg
+
+    Potassium 775mg
+
+    Carbohydrates 33g
+
+    Fiber 5g
+
+    Protein 11g
+
+    Vitamin C 9mg
+
+    Calcium 42mg
+
+    Iron 3mg'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 20 mins
+  rating: 4
+  scale: null
+  servings: ''
+  source: Toriavey.com
+  source_url: https://toriavey.com/toris-kitchen/cholent/
+  total_time: ''
+  uid: 1637460B-2B81-435C-8C12-2C2EF0D73C17
 - categories: []
   cook_time: 18 to 22 mins
   created: '2020-06-07 01:58:01'
@@ -622,6 +761,54 @@
   source_url: https://www.tasteofhome.com/recipes/challah/
   total_time: ''
   uid: 1F3EEADC-B104-4BCD-9D9D-F818F44B8F70-36654-00000B99F35F2F02
+- categories: []
+  cook_time: 10 mins
+  created: '2021-01-21 15:00:07'
+  description: ''
+  difficulty: ''
+  directions:
+  - Gather the ingredients. Preheat the oven to 350 F and line 2 rimmed sheet pans
+    with parchment paper.
+  - Add the almond flour, cocoa powder, salt, and baking soda to a bowl. Whisk until
+    thoroughly combined and set aside.
+  - Cream the unsalted butter and sweetener using a hand mixer or stand mixer. Beat
+    until lightened in color and fluffy.
+  - Mix in the eggs and the vanilla extract.
+  - Stir in the flour mixture, just until incorporated, then fold in the chocolate
+    chips.
+  - Scoop out approximately 1 1/2-ounce balls and place on 2 prepared sheet pans.
+    Note that these cookies will spread a little, so keep them a couple of inches
+    apart on the baking sheets.
+  - Flatten the top of each cookie very slightly and sprinkle with a bit of sea salt.
+  - Bake for 8 to 10 minutes until just set. The cookies will be very soft but will
+    firm up slightly as they cool.
+  image_url: images/recipes/EFB93B6A-5E74-4954-AB75-6EA696AB6541-14886-000005E235F577FA.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 cups almond flour
+  - 1/2 cup unsweetened cocoa powder
+  - 1 teaspoon salt
+  - 1 teaspoon baking soda
+  - 3/4 cup/12 tablespoons unsalted butter (room temperature)
+  - 3/4 cup sugar-free sweetener
+  - 2 eggs
+  - 1 teaspoon vanilla extract
+  - 1 cup sugar-free chocolate chips
+  - 'Garnish: sea salt'
+  is_pinned: false
+  name: Keto Chocolate Cookies
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 15 mins
+  rating: 0
+  scale: null
+  servings: 'Servings: 12 servings'
+  source: thespruceeats.com
+  source_url: https://www.thespruceeats.com/keto-chocolate-cookies-4769153
+  total_time: ''
+  uid: 242A7BA5-7A57-4076-A8CF-1A2513DC5278-14886-000005E234510653
 - categories:
   - Made at 307
   - Web
@@ -672,6 +859,164 @@
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
   uid: 2EF72996-4FA5-4289-8F5A-A320574AFE11-7739-00000393F9EDA5F9
+- categories: []
+  cook_time: 10 minutes
+  created: '2021-01-15 01:33:02'
+  description: ''
+  difficulty: ''
+  directions:
+  - Let salmon rest on the counter for 15-30 minutes, until they have (at least mostly)
+    come to room temperature.
+  - "Heat oven to 450\xB0F. Line a baking sheet with aluminum foil (or use an oven-proof\
+    \ non-stick skillet)."
+  - Blot the salmon filets dry on all sides with paper towels. Place the salmon skin-side-down
+    the prepared baking sheet (or skillet). If the ends of the salmon filets are really
+    thin, just tuck them under a bit for even cooking.
+  - Brush the salmon on all sides (except the bottom) with oil. Sprinkle each filet
+    with a generous pinch of salt and black pepper, along with any other dry seasonings
+    you prefer.
+  - "Bake until the internal temperature of the salmon reaches 135-140\xB0F*, about\
+    \ 4-6 minutes per half inch of thickness (measured by the thickest part of the\
+    \ filet). You can also test for doneness by inserting a fork or knife in the salmon\
+    \ and twisting it a bit; the fish should be opaque and flake easily."
+  - Remove pan from the oven and transfer the salmon to a clean serving plate, either
+    with the skin or leaving the skin behind. Sprinkle each filet with a good squeeze
+    of lemon juice, plus any extra fresh herbs or sauce that you prefer. Then serve
+    warm and enjoy!
+  image_url: images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940.jpg
+  in_trash: false
+  ingredients:
+  - "4 salmon filets, skin-on (about 6\u20138 ounces each)"
+  - 2 tablespoons high-heat oil, such as avocado oil or canola oil
+  - Kosher salt and freshly-cracked black pepper
+  - fresh lemon wedges
+  is_pinned: false
+  name: Baked Salmon
+  notes: "*The FDA recommends cooking salmon to an internal temperature of 145\xB0\
+    F, measured in the thickest part of the salmon filets. The salmon will continue\
+    \ to cook a bit more once it has been removed from the oven, so I would pull it\
+    \ out of the oven once it reaches an internal temperature of 140\xB0F. Or if you\
+    \ like your salmon a bit less cooked (as I do), I would recommend pulling it out\
+    \ at 135\xB0F."
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 4 servings'
+  source: gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/baked-salmon-recipe/
+  total_time: ''
+  uid: 39284342-AFED-4233-AA6A-65B03B639011-640-00000049819CFECF
+- categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
+  cook_time: 5 minutes
+  created: '2021-01-29 17:47:01'
+  description: ''
+  difficulty: ''
+  directions:
+  - Line a 9-inch square baking dish with parchment paper. Set aside.
+  - In a large saucepan, melt butter over medium heat. Once melted, add in all but
+    1 cup of the marshmallows. Reduce heat to low and continue stirring until completely
+    melted.
+  - Remove from heat and stir in the vanilla. Add the cereal and the remaining 1 cup
+    of marshmallows.
+  - Pour into the prepared baking dish. Press GENTLY with your fingertips just until
+    completely spread out (the harder you pack them in, the harder they are to eat).
+  - Allow to set, about 1 hour. Cut and enjoy!
+  image_url: images/recipes/2AB3F4F3-64E4-4368-AFA7-7E0250324C13-16078-00000660986F0CF4.jpg
+  in_trash: false
+  ingredients:
+  - 6 Tbsp unsalted butter
+  - 16 oz bag mini marshmallows, divided
+  - 1 tsp pure vanilla extract
+  - 6 cups rice krispies cereal
+  is_pinned: false
+  name: Perfect Rice Krispie Treats
+  notes: 'Why do my rice krispies treats get hard?A: Could be many factors. Starting
+    with stale marshmallows or cereal. Keep heat on low while adding marshmallows.
+    And finally, do NOT press too firm when you''re adding the treats to the pan.
+
+
+    Do these treats need to be refrigerated?A: Absolutely NOT. It actually could make
+    them hard as well (see above question). Keep them covered at room temperature
+    for best results.
+
+
+    Can I use other cereal?A: Yes! Cocoa Krispies and Fruity Pebbles are both great
+    options. You could also use Cheerios, Golden Grahams, and Cinnamon Toast Crunch!'
+  nutritional_info: 'Amount Per Serving: Calories: 300Total Fat: 8gSaturated Fat:
+    5gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 20mgSodium: 139mgCarbohydrates:
+    57gFiber: 0gSugar: 31gProtein: 2g'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 5 minutes
+  rating: 5
+  scale: null
+  servings: 'Yield: 9 large bars'
+  source: shugarysweets.com
+  source_url: https://www.shugarysweets.com/perfect-rice-krispie-treats/
+  total_time: ''
+  uid: 3DFC9984-1E1B-4C55-BABE-1B76F7608998-806-000000210118725B
+- categories: []
+  cook_time: 3 minutes
+  created: '2021-01-21 15:07:41'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add butter to a microwave-safe mug and heat on high for about 30 seconds until
+    melted. Swirl the butter around the cup to lightly coat the edges.
+  - Add all the remaining ingredients. Mix well with a fork until fully combined.
+  - Place in microwave and cook on high for 45 seconds to a minute. The cake is done
+    when it has risen and is set but still moist and fudgy.
+  - Top with whipped cream or your favourite toppings and serve.
+  image_url: images/recipes/B8FD0ECB-3251-49EE-AA2B-0D9F275924C1-14886-000005E4BF826F99.jpg
+  in_trash: false
+  ingredients:
+  - 3 tsp. butter
+  - 1/4 cup almond flour
+  - 3 tbsp. cocoa powder (sifted)
+  - 1 large egg (beaten)
+  - 2 tbsp. granulated xylitol or erythritol (avoid stevia due to bitterness)
+  - 1/2 tsp. baking powder
+  - pinch sea salt
+  is_pinned: false
+  name: Chocolate Keto Mug Cake
+  notes: "This recipe makes 1 serving.\n\nYou can store it in the fridge for a day\
+    \ but it\u2019s much better when it\u2019s freshly made."
+  nutritional_info: 'Saturated Fat 9.4g
+
+    Trans Fat 0g
+
+    Polyunsaturated Fat 1.4g
+
+    Monounsaturated Fat 5g
+
+    Cholesterol 215mg
+
+    Sodium 463.8mg
+
+    Potassium 822.7mg
+
+    Carbohydrates 13g
+
+    Fiber 9g
+
+    Protein 15.4g'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 1 minute
+  rating: 0
+  scale: null
+  servings: ''
+  source: diabetesstrong.com
+  source_url: https://diabetesstrong.com/keto-mug-cake/
+  total_time: ''
+  uid: 3F013FC0-BF4A-46DB-A8AB-5B5C7E1E077B-14886-000005E4BE20F302
 - categories:
   - Dish Type
   - Dinner
@@ -1218,6 +1563,99 @@
   source_url: https://www.epicurious.com/recipes/food/views/caramelized-onion-pasta?intcid=inline_amp&_gl=1*ajp6ay*_ga*YW1wLVBGMXhIcS16X1VNQ0RjaTVtMU9fZTM1bzdtbUhDNEdtLUkyeFhFVGJUTVA1X1A3eUswa1BzRGJBMGgzTFUtYXo.
   total_time: ''
   uid: 5A54ED07-2DC3-4E6F-BADC-003CFE70CA41-15739-0000046C163A3CE7
+- categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Side
+  - I Made This
+  cook_time: 15 minutes
+  created: '2021-02-07 12:59:44'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Arrange a rack in the middle of the oven and heat the oven to 425\xB0F. Line\
+    \ a rimmed baking sheet with aluminum foil."
+  - "Prepare the following, keeping them separate: Drain and rinse 1 can black beans.\
+    \ Drain 1 can sliced black olives. Grate 12 ounces sharp cheddar or Monterey jack\
+    \ cheese on the large holes of a box grater (about 3 cups). Chop 1 roma tomato.\
+    \ Thinly slice 8 scallions and 1 small jalape\xF1o."
+  - Shred 1 pound cooked chicken into a medium bowl. Add 1/2 cup salsa and toss to
+    combine.
+  - 'Build the nachos: arrange about half of a 16-ounce bag of tortilla chips on the
+    baking sheet in an even layer. Top with half of the seasoned chicken and a handful
+    of shredded cheese. Layer the remaining chips on top, followed by the remaining
+    chicken and cheese. Sprinkle with the black beans.'
+  - "Bake the nachos until the cheese is melted and the chips around the edges are\
+    \ beginning to brown, about 12 minutes. Just before serving, garnish with the\
+    \ black olives, jalape\xF1o, tomato, dollops of sour cream, and scallions."
+  image_url: images/recipes/AEED6C01-4577-4CC4-B377-322344838D84-17495-000006E3073EF9BC.jpg
+  in_trash: false
+  ingredients:
+  - 1 (15-ounce) can black beans
+  - 1 (2.25-ounce) can sliced black olives
+  - 12 ounces sharp cheddar or Monterey jack cheese, or a combination (3 cups shredded)
+  - 1 small roma tomato
+  - 8 medium scallions
+  - "1 small jalape\xF1o"
+  - 1 pound rotisserie chicken meat (from a 4 to 5-pound chicken)
+  - 1/2 cup salsa
+  - 1 (16-ounce) bag restaurant-style tortilla chips
+  - Sour cream, for serving
+  is_pinned: false
+  name: Easy Sheet Pan Chicken Nachos
+  notes: ''
+  nutritional_info: 'alcohol-free
+
+    egg-free
+
+    fish-free
+
+    peanut-free
+
+    shellfish-free
+
+    pork-free
+
+    sugar-conscious
+
+    gluten-free
+
+    wheat-free
+
+    high-fiber
+
+    soy-free
+
+    tree-nut-free
+
+    red-meat-free
+
+    Calories 592
+
+    Fat 29.9 g (45.9%)
+
+    Saturated 10.4 g (52.1%)
+
+    Carbs 50.8 g (16.9%)
+
+    Fiber 7.3 g (29.4%)
+
+    Sugars 2.1 g
+
+    Protein 30.0 g (60.1%)
+
+    Sodium 742.5 mg (30.9%)'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 40 minutes
+  rating: 4
+  scale: null
+  servings: Serves 6 to 8
+  source: thekitchn.com
+  source_url: https://www.thekitchn.com/chicken-nachos-22955990
+  total_time: ''
+  uid: 5FE327EC-6211-43C6-81CA-9FE02FF04D87-17495-000006E304359C57
 - categories: []
   cook_time: ''
   created: '2020-06-08 01:25:48'
@@ -1512,6 +1950,102 @@
   total_time: ''
   uid: 6CDAB198-221C-4D7D-B707-2D2DD26A5AB1-46900-00000ECF1285689A
 - categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Side
+  - I Made This
+  cook_time: 45 minutes
+  created: '2021-02-06 12:48:42'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat the oven to 400 degrees. Line a sheet pan with foil and place a non stick
+    oven safe rack on top of the pan.
+  - Place the chicken wings in a bowl. Add the baking powder, salt, pepper, garlic
+    powder and onion powder.
+  - Toss to coat the chicken evenly with the baking powder and spices.
+  - Place the wings on the rack in a single layer.
+  - Bake for 45 minutes or until wings are light golden brown and crispy.
+  - In a small bowl, whisk together the hot sauce, butter and honey.
+  - Pour the sauce over the wings and toss to coat evenly.
+  - Serve with celery sticks and ranch dressing.
+  image_url: images/recipes/8C5EC572-42D1-4BA4-9270-E427973A1078-14677-000005CE8CEB2D4C.jpg
+  in_trash: false
+  ingredients:
+  - 3 pounds party style chicken wings or whole chicken wings that have been halved
+    crosswise
+  - 1 tablespoon baking powder do NOT use baking soda
+  - 1 teaspoon salt
+  - 1/2 teaspoon pepper
+  - 1/2 teaspoon garlic powder
+  - 1/2 teaspoon onion powder
+  - 1/2 cup hot sauce such as Frank's Red Hot Sauce
+  - 4 tablespoons butter melted
+  - 1 tablespoon honey
+  - celery sticks and ranch dressing for serving.
+  is_pinned: false
+  name: Baked Buffalo Wings
+  notes: ''
+  nutritional_info: 'Calories 464kcal
+
+    Calories: 464kcal | Carbohydrates: 2g | Protein: 36g | Fat: 24g | Saturated Fat:
+    14g | Cholesterol: 215mg | Sodium: 522mg | Fiber: 1g | Sugar: 1g'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 20 minutes
+  rating: 5
+  scale: 1/1
+  servings: ''
+  source: dinneratthezoo.com
+  source_url: https://www.dinneratthezoo.com/baked-buffalo-wings/
+  total_time: ''
+  uid: 6F2F31BA-EFCC-49C7-A6C7-0692E108D404-14677-000005CE8AE38CB4
+- categories: []
+  cook_time: 0 hours
+  created: '2021-02-06 12:44:19'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 400\xB0 and place a wire rack over a baking sheet. In a large\
+    \ bowl, toss chicken wings with oil and season with garlic powder, salt, and pepper.\
+    \ Transfer to prepared baking sheet."
+  - Bake until chicken is golden and skin is crispy, 50 to 60 minutes, flipping the
+    wings halfway through.
+  - "In a small saucepan, whisk together hot sauce and honey. Bring to simmer then\
+    \ stir in butter. Cook until butter is melted and slightly reduced, about 2 minutes.\
+    \ Heat broiler on low. Transfer baked wings to a bowl and toss with buffalo sauce\
+    \ until completely coated. Return wings to rack and broil\u2014watching carefully!\u2014\
+    until sauce caramelizes, 3 minutes. Serve with ranch dressing and vegetables."
+  image_url: images/recipes/87841328-62E7-46B0-903A-6E25A1376BB4-14677-000005CD1428E0E9.jpg
+  in_trash: false
+  ingredients:
+  - 2 lb. chicken wings
+  - 2 tbsp. Vegetable oil
+  - 1 tsp. garlic powder
+  - Kosher salt
+  - Freshly ground black pepper
+  - 1/4 c. hot sauce (such as Frank's)
+  - 2 tbsp. honey
+  - 4 tbsp. butter
+  - Ranch dressing, for serving
+  - Carrot sticks, for serving
+  - Celery sticks, for serving
+  is_pinned: false
+  name: Classic Buffalo Wings
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: '20'
+  rating: 0
+  scale: null
+  servings: 'Yields: 4'
+  source: delish.com
+  source_url: https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/
+  total_time: ''
+  uid: 6FBC9DF7-917A-44C6-937B-1D3FDBE1C893-14677-000005CD126B7409
+- categories:
   - Dish Type
   - Web
   - Side
@@ -1528,8 +2062,8 @@
   ingredients:
   - 9 oz of albacore tuna (dry weight)
   - 3 tablespoons diced celery (one stalk)
-  - "1 \u2154 tablespoon diced red onion"
-  - "1 \xBC teaspoon Mrs. Dash"
+  - "3 \u2153 tablespoon diced red onion"
+  - "1 \xBE teaspoon Mrs. Dash"
   - 1 pinch of pepper
   - "4 \u2153 tablespoons mayonnaise"
   is_pinned: false
@@ -1556,7 +2090,7 @@
   on_grocery_list: null
   prep_time: 10 min
   rating: 5
-  scale: 5/2
+  scale: 3/1
   servings: 'Serves: 2'
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
@@ -1597,7 +2131,7 @@
   - "When the oven is preheated, remove your dough from the fridge, score it, and\
     \ transfer to the preheated combo cooker. Place the cooker in the oven, cover\
     \ with the lid, and bake for 20 minutes. After this time, remove the lid (you\
-    \ can keep it in the oven or remove it) and continue to bake for 30 minutes longer.\
+    \ can keep it in the oven or remove it) and continue to bake for 25 minutes longer.\
     \ When done, the internal temperature should be around 208\xB0F (97\xB0C)."
   - Let the loaves cool for 2 hours on a wire rack before slicing.
   image_url: images/recipes/B0C7097B-6351-46ED-8511-ED200782C29F-6925-000001FDD5D67747.jpg
@@ -1628,7 +2162,7 @@
     day two. Leave the proofing dough in the fridge until ready to bake.
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 23 hours
   rating: 4
   scale: null
@@ -1711,6 +2245,164 @@
   source_url: https://healthylittlecravings.com/en/2019/03/01/soft-hokkaido-milk-bread-recipe/#hokkaidobread
   total_time: ''
   uid: 7808ACAD-81FB-4A8D-AD6C-66692E3BA37C-8436-0000023E2EA5DEEF
+- categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Pasta
+  - I Made This
+  cook_time: 45 mins
+  created: '2021-02-23 16:33:59'
+  description: ''
+  difficulty: ''
+  directions:
+  - Position a rack in the middle of the oven and preheat to 400 degrees.
+  - In a 9-by-13-inch baking dish, combine the tomatoes, garlic and 1/4 cup of the
+    olive oil. Sprinkle with some salt and toss to coat. Place the feta cheese in
+    the center of the tomatoes and garlic, top with the remaining olive oil, and sprinkle
+    the entire dish with red pepper flakes and a little black pepper. Bake for about
+    40 minutes, until the garlic has softened and the tomatoes have burst their skins.
+  - Meanwhile, bring a large pot of salted water to a boil. Cook the pasta according
+    to package directions until al dente. Reserve 1 cup of the pasta water and then
+    drain the pasta.
+  - Mash the feta and tomatoes with a fork and mix until evenly combined. Mix the
+    sauce with pasta, adding the reserved pasta water as needed if it looks a little
+    dry. Taste and season with additional salt and pepper, if desired. To serve, divide
+    among bowls and top with plenty of basil leaves.
+  image_url: images/recipes/B5081959-BE1F-4B4A-A535-0847A95C5CD2.jpg
+  in_trash: false
+  ingredients:
+  - 2 pints (17 1/2 ounces / 500 grams) cherry or grape tomatoes
+  - 4 cloves garlic, halved lengthwise
+  - 1/2 cup extra-virgin olive oil, divided
+  - Kosher salt
+  - 1 block (7 ounces / 200 grams) Greek feta cheese
+  - 1/2 teaspoon crushed red pepper flakes
+  - Freshly ground black pepper
+  - 12 ounces medium-length dried pasta, such as campanelle, rigatoni or rotini
+  - Fresh basil leaves, for serving
+  is_pinned: false
+  name: TikTok Feta Pasta
+  notes: ''
+  nutritional_info: 'Calories: 718; Total Fat: 40 g; Saturated Fat: 12 g; Cholesterol:
+    44 mg; Sodium: 596 mg; Carbohydrates: 66 g; Dietary Fiber: 5 g; Sugar: 8 g; Protein:
+    19 g.'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 10 mins
+  rating: 5
+  scale: 1/1
+  servings: '4'
+  source: washingtonpost.com
+  source_url: https://www.washingtonpost.com/food/2021/02/11/baked-feta-pasta-recipe-tiktok/
+  total_time: ''
+  uid: 790A36B1-FBD2-4C3A-BD54-7AD8DA671109-9053-000003023DED6ED6
+- categories: []
+  cook_time: 15 to 18 mins
+  created: '2021-01-21 14:36:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'To make the tangzhong: Combine both the ingredients in a small saucepan, and
+    whisk until no lumps remain.'
+  - Place the saucepan over medium heat and cook the mixture, stirring regularly,
+    until thickened, paste-like, and the spoon or spatula leaves lines on the bottom
+    of the pan. This should take 1 to 3 minutes, depending on the strength of your
+    burner.
+  - Remove from the heat and transfer to a large mixing bowl, the bowl of a stand
+    mixer, or the bucket of a bread machine (whatever you plan to knead the dough
+    in).
+  - 'To make the dough: Add the ingredients to the mixing bowl in the order listed;
+    the heat from the tangzhong will help to warm the cold milk.'
+  - "Mix \u2014 by hand, on low speed of a stand mixer with the dough hook attachment,\
+    \ or in a bread machine set to the dough cycle \u2014 to bring the dough together.\
+    \ Next, knead the dough until it\u2019s smooth, elastic, and tacky. This will\
+    \ take up to 15 minutes by hand, 10 to 12 minutes on medium-low speed of a mixer,\
+    \ or the length of the dough cycle in a bread machine."
+  - Shape the dough into a ball, place it in a bowl, and cover the bowl with plastic
+    wrap or a reusable cover.
+  - Let the dough rise until puffy but not necessarily doubled in bulk, about 60 to
+    90 minutes (depending on the warmth of your kitchen).
+  - 'To make the filling: While the dough is rising, put the melted butter into a
+    medium bowl and add the remaining ingredients, stirring until the mixture is the
+    texture of damp sand. Set aside.'
+  - Lightly grease a baking sheet, or line it with parchment paper.
+  - "To assemble the rolls: Transfer the dough to a lightly greased work surface and\
+    \ press it into a 10\u201D x 12\u201D rectangle that\u2019s about 1/2\u201D thick.\
+    \ For evenly shaped rolls, try to pat the dough into an actual rectangle (with\
+    \ corners), rather than an oval."
+  - "Sprinkle the filling over the dough, covering all but a 1/2\u201D strip along\
+    \ one long side."
+  - Starting with the filling-covered long side, roll the dough into a log.
+  - "Score the dough lightly into eight equal 1 1/2\u201D to 2\u201D pieces; this\
+    \ will make large, saucer-sized cinnamon rolls \u2014 their generous size is part\
+    \ of their charm. Cut the dough at the score marks, using dental floss for the\
+    \ cleanest cut. If you don\u2019t have dental floss, a bench knife or sharp knife\
+    \ will work."
+  - "Place the rolls onto the prepared baking sheet, spacing them so there\u2019s\
+    \ at least 2\u201D between each one and they\u2019re 2\u201D away from the edges\
+    \ of the pan; a 3-2-3 arrangement works well. To prevent them from unraveling\
+    \ while they rise and bake, tuck the ends of the spirals underneath the rolls\
+    \ so that they\u2019re held in place."
+  - "Cover the rolls with lightly greased plastic wrap or a reusable cover and let\
+    \ them rise for 30 to 60 minutes (depending on the warmth of your kitchen). The\
+    \ rolls should be puffy and the dough shouldn\u2019t bounce back immediately when\
+    \ gently pressed."
+  - "About 20 minutes before you\u2019re ready to bake, position a rack in the top\
+    \ third of the oven. Preheat the oven to 375\xB0F."
+  - "Bake the rolls for 14 to 18 minutes, until they\u2019re a light golden brown\
+    \ and a digital thermometer inserted into the center of one roll reads 190\xB0\
+    F. Bake for the lesser amount of time for extra-soft rolls, and the longer amount\
+    \ of time for rolls with a bit more color and slightly firmer texture."
+  - Remove the rolls from the oven, place the pan on a rack, and brush the hot rolls
+    with 1 1/2 tablespoons (21g) of the melted butter. Let the rolls cool for 10 to
+    15 minutes before icing.
+  - 'To make the icing: Combine the remaining 1 1/2 tablespoons (21g) melted butter
+    with the remaining icing ingredients in a medium bowl, mixing with a spatula until
+    smooth. Milk makes a lovely frosting; using cream in place of milk creates an
+    extra layer of richness, while substituting buttermilk adds subtle tang, a nice
+    counterpoint to the icing''s overall sweetness.'
+  - "Ice the rolls and serve immediately. If you\u2019re planning to serve the rolls\
+    \ later, wait to ice them until just before serving. Store icing at room temperature,\
+    \ tightly covered, until you\u2019re ready to use it."
+  - Store completely cooled rolls, un-iced and well wrapped, for a couple of days
+    at room temperature; or freeze for up to 1 month.
+  image_url: images/recipes/F25E0C35-79D3-4690-BDBB-F67691E5CA28-14886-000005DABC025341.jpg
+  in_trash: false
+  ingredients:
+  - 1/2 cup (113g) whole milk
+  - 3 tablespoons (23g) King Arthur Unbleached Bread Flour
+  - 2/3 cup (151g) whole milk, cold
+  - 2 1/2 cups (300g) King Arthur Unbleached Bread Flour
+  - 1 teaspoon (6g) salt
+  - 2 tablespoons (25g) granulated sugar
+  - 2 teaspoons instant yeast
+  - 4 tablespoons (57g) unsalted butter, softened
+  - 1 tablespoon (14g) butter, melted
+  - 1/2 cup (107g) light brown sugar, packed
+  - 2 tablespoons (15g) King Arthur Unbleached Bread Flour
+  - 3 to 4 teaspoons (8g to 10g) cinnamon*
+  - 1/16 teaspoon (pinch) salt
+  - 3 tablespoons (42g) butter, melted, divided
+  - 1/2 teaspoon vanilla extract
+  - 1/16 teaspoon (pinch) salt
+  - 1 1/2 cups (170g) confectioners' sugar, sifted
+  - 1 to 2 tablespoons (14g to 28g) milk, cream, or buttermilk; enough to thin to
+    desired consistency
+  is_pinned: false
+  name: Perfectly Pillowy Cinnamon Rolls
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 30 mins
+  rating: 0
+  scale: null
+  servings: 8 large rolls
+  source: kingarthurbaking.com
+  source_url: https://www.kingarthurbaking.com/recipes/perfectly-pillowy-cinnamon-rolls-recipe
+  total_time: ''
+  uid: 79A0C710-58FB-4906-8FDA-C4D036540179-14886-000005DAB9FF2DB8
 - categories: []
   cook_time: ''
   created: '2020-06-08 01:30:26'
@@ -1796,6 +2488,52 @@
   source_url: https://domesticgothess.com/blog/2015/07/30/hokkaido-milk-bread/
   total_time: ''
   uid: 79E3CDD7-84F3-472D-B4A6-3A913802841A-3431-000001001816A812
+- categories: []
+  cook_time: 2 mins
+  created: '2021-01-21 14:59:53'
+  description: ''
+  difficulty: ''
+  directions:
+  - Steps to Make It
+  - Whisk the coconut flour, flaxseed, cocoa powder, salt, and baking powder together.
+  - In another bowl whisk together the milk, eggs, vanilla extract, stevia, and food
+    coloring.
+  - Add the dry ingredients into the wet and stir until combined.
+  - Adjust food coloring to the redness you desire.
+  - Spray two ramekins or microwave-safe mugs with cooking spray.
+  - Pour batter evenly into each dish.
+  - In the center of each batter, insert the broken chocolate pieces.
+  - Microwave one cake at a time for about one minute and 30 seconds.
+  - Enjoy warm right from the dish!
+  image_url: images/recipes/D75BE0DE-CADB-465A-9CD3-2EA11300699B-14886-000005E221A02117.jpg
+  in_trash: false
+  ingredients:
+  - 2 tbsp coconut flour
+  - 1 tbsp ground flaxseed meal
+  - 1 tbsp unsweetened cocoa powder
+  - 1/4 tsp salt
+  - 1/2 tsp baking powder
+  - 1/4 cup milk (can use 1%)
+  - 2 eggs
+  - 1/4 tsp vanilla extract
+  - 1 tsp chocolate liquid stevia (or favorite sugar-free sweetener that equals 1/2
+    cup)
+  - 3 drops of red food coloring
+  - 2 oz. sugar-free chocolate bars or 85% dark chocolate bars (broken in pieces)
+  is_pinned: false
+  name: Sugar-Free Red Velvet Molten Lava Mug Cake
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: 'Servings: 2 servings'
+  source: thespruceeats.com
+  source_url: https://www.thespruceeats.com/sugar-free-red-velvet-molten-lava-mug-cake-3151425
+  total_time: ''
+  uid: 806158E5-7C8B-487D-B432-4CE485FB25CC-14886-000005E21FF62BC4
 - categories:
   - Dessert
   cook_time: about 3 hours
@@ -2325,6 +3063,58 @@
   total_time: ''
   uid: 8C1D4340-7CF9-4906-8BE3-CCD4FC754331-1776-000000885897B092
 - categories: []
+  cook_time: 'prep: 20 min. bake: 30 min. + cooling'
+  created: '2021-01-21 15:08:42'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 350\xB0. Coat 18 muffin cups with cooking spray."
+  - Beat first 4 ingredients until well blended. In another bowl, whisk together flour,
+    sugar, cocoa and baking soda; gradually beat into egg mixture alternately with
+    buttermilk.
+  - For filling, beat ricotta cheese, sugar and egg white until blended. Stir in coconut
+    and extract.
+  - Fill prepared cups with half of the batter. Drop filling by tablespoonfuls into
+    center of each cupcake; cover with remaining batter.
+  - Bake until a toothpick inserted in cupcake portion comes out clean, 28-33 minutes.
+    Cool 10 minutes before removing from pans to wire racks; cool completely. Dust
+    with confectioners' sugar.
+  image_url: images/recipes/0DB6D8FE-A1B0-481D-BB38-53579EFD6FE5-14886-000005E517CFE993.jpg
+  in_trash: false
+  ingredients:
+  - 2 large egg whites
+  - 1 large egg, room temperature
+  - 1/3 cup unsweetened applesauce
+  - 1 teaspoon vanilla extract
+  - 1-1/4 cups all-purpose flour
+  - 1 cup sugar
+  - 1/3 cup baking cocoa
+  - 1/2 teaspoon baking soda
+  - 3/4 cup buttermilk
+  - 'FILLING:'
+  - 1 cup reduced-fat ricotta cheese
+  - 1/4 cup sugar
+  - 1 large egg white
+  - 1/3 cup sweetened shredded coconut
+  - 1/2 teaspoon coconut or almond extract
+  - Confectioners' sugar
+  is_pinned: false
+  name: Chocolate Macaroon Cupcakes
+  notes: ''
+  nutritional_info: '1 cupcake: 126 calories, 2g fat (1g saturated fat), 14mg cholesterol,
+    85mg sodium, 24g carbohydrate (16g sugars, 1g fiber), 4g protein. Diabetic Exchanges:
+    1-1/2 starch.'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 20 min
+  rating: 0
+  scale: null
+  servings: 1-1/2 dozen
+  source: tasteofhome.com
+  source_url: https://www.tasteofhome.com/recipes/chocolate-macaroon-cupcakes/
+  total_time: ''
+  uid: 8CA118E0-A265-4BCC-8886-87E3DCD13A26-14886-000005E5156E60F5
+- categories: []
   cook_time: 50 mins
   created: '2020-10-16 16:03:00'
   description: ''
@@ -2360,6 +3150,52 @@
   source_url: https://www.allrecipes.com/recipe/229932/simple-pumpkin-pie/
   total_time: ''
   uid: 8F70514F-B2B1-4B45-8F49-51D71CF835D2-7670-000002583F2F83B2
+- categories: []
+  cook_time: 5 minutes
+  created: '2021-01-22 18:53:59'
+  description: ''
+  difficulty: ''
+  directions:
+  - If you would like salt-rimmed glasses, begin by running a lime slice (the juicy
+    part) around the top rim of a glass. Fill a shallow bowl with salt, and dip the
+    rim in the salt until it is covered with your desired amount of salt. Set aside.
+  - Add tequila, orange liqueur and lime juice to a cocktail shaker, and shake or
+    stir until combined. Taste, and if you would like the margarita to be sweeter,
+    stir in a half teaspoon of agave or simple syrup at a time until the mix reaches
+    your desired level of sweetness.
+  - Fill glass with ice. Pour in the margarita mixture over the rocks. Serve immediately,
+    garnished with an extra lime wedge if desired.
+  image_url: images/recipes/2922EA2B-18D0-428B-81A6-A7EACBAC9A15-18184-000007433C7306FD.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR A SINGLE MARGARITA:'
+  - 1 1/2 ounces silver tequila
+  - 1 ounce orange liqueur (Cointreau, Grand Marnier or Triple Sec)
+  - 3/4 ounce freshly-squeezed lime juice
+  - 'optional sweetener: agave nectar or simple syrup, to taste'
+  - ice
+  - 'optional: lime wedge and coarse salt for rimming the glass'
+  - 'FOR A PITCHER OF MARGARITAS (16 SERVINGS):'
+  - 3 cups silver tequila
+  - 2 cups orange liqueur (Cointreau, Grand Marnier or Triple Sec)
+  - 1 1/2 cups freshly-squeezed lime juice
+  - 'optional sweetener: agave nectar or simple syrup, to taste'
+  - ice
+  - 'optional: lime wedges and coarse salt for rimming the glasses'
+  is_pinned: false
+  name: The Best Margarita Recipe!
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 minutes
+  rating: 0
+  scale: 1/1
+  servings: 'Yield: 1 serving'
+  source: gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/margarita-recipe/
+  total_time: ''
+  uid: 93A923B3-EBB8-4B0E-ACD8-45E49367A47C-18184-000007433897A73C
 - categories: []
   cook_time: 'prep: 20 minutes, cook: 4 hours'
   created: '2020-12-14 01:56:21'
@@ -2473,6 +3309,72 @@
   source_url: https://cooking.nytimes.com/recipes/1021641-cranberry-lemon-bars?login=email&login=email&auth=login-email
   total_time: ''
   uid: A75E31A4-3FF0-4314-A6F3-B3C9F371E5C9-4125-000002632F580ADA
+- categories:
+  - Made at 307
+  - Dessert
+  - Tex-Mex
+  - I Made This
+  cook_time: ''
+  created: '2021-02-06 16:15:21'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a large bowl, whisk together the flour, baking powder, sugar and salt. Next,
+    create a well in the center of the dry ingredients and pour in the honey and whole
+    milk. Using a spoon or your hands, mix the dough together until it forms a sticky
+    mass. Cover the bowl with a clean kitchen towel and allow the dough to rest for
+    about 20 minutes.
+  - "I know frying this is a bit of a bummer but I\u2019ll say that with these it\u2019\
+    s needed and worth it. Since I had shortening leftover from my first batch of\
+    \ dough, I used it to fry these sopapillas; canola oil or peanut oil or lard will\
+    \ also work. In a cast iron skillet (or medium pot), add enough fat so it reaches\
+    \ 3-inches up the sides of the skillet/pot. Heat up your oil to around 300 degrees.\
+    \ (Right before we fry them off, we\u2019ll heat it up even further.)"
+  - "Lightly flour your work surface and rolling pin. If the dough is at all sticky\
+    \ (it shouldn\u2019t be after it rested) feel free to sprinkle it with a bit of\
+    \ flour so it doesn\u2019t adhere to the surface. Dump the dough onto the counter\
+    \ and roll the dough into a thin (1/8-inch thick) square. (It doesn\u2019t have\
+    \ to be a perfect square either, just do your best.) Cut the sopapillas into 4\
+    \ x 3-inch rectangles. Again, the measurements don\u2019t have to be exact, you\
+    \ can definitely eyeball this."
+  - "Before you fry them up, be sure to get your honey ready. Line a baking sheet\
+    \ or plate with a few layers of paper towels or clean kitchen towel. Heat the\
+    \ oil up again to 375 degrees F. Drop the sopapillas in the hot oil, frying two\
+    \ to three at a time, for about a minute, flipping them over at the halfway point.\
+    \ (If they don\u2019t puff up, they\u2019ll still be tasty! But it may mean the\
+    \ dough isn\u2019t rolled thin enough.) They should be very lightly golden brown\u2014\
+    not too crispy, they will harden when they cool. Transfer them to the bed of paper\
+    \ towels to drain. Repeat with the remaining sopapillas."
+  - These taste best straight from the fryer to a plate to being consumed but if you
+    want, you can keep the sopapillas warm in an 200 degree pre-heated oven while
+    you fry up the rest. Serve them alongside some honey and apricot preserves.
+  image_url: images/recipes/D619D808-9314-4BF8-9D1C-BEBF1AD52D37-15617-0000060C06E47DA9.jpg
+  in_trash: false
+  ingredients:
+  - 2 cups all-purpose flour
+  - 1 tablespoon baking powder
+  - 1 tablespoon granulated sugar
+  - 2 teaspoons kosher salt
+  - 1 tablespoon honey
+  - 3/4 cup whole milk
+  - Shortening (or canola oil, peanut oil or lard, for frying)
+  is_pinned: false
+  name: New Mexican-Style Sopapillas
+  notes: ''
+  nutritional_info: 'Serving: 1g | Calories: 197kcal (10%) | Carbohydrates: 41.1g
+    (14%) | Protein: 5.3g (11%) | Fat: 1g (2%) | Saturated Fat: 0.5g (3%) | Cholesterol:
+    3mg (1%) | Sodium: 791mg (34%) | Potassium: 66mg (2%) | Fiber: 1.1g (5%) | Sugar:
+    9.2g (10%)'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 4
+  scale: null
+  servings: ''
+  source: acozykitchen.com
+  source_url: https://www.acozykitchen.com/new-mexico-sopapillas
+  total_time: ''
+  uid: ABF3ABFE-A71C-4CCF-BBE9-4BFEDAC23989-15617-0000060C01DE871C
 - categories:
   - Web
   - Bread
@@ -2771,6 +3673,64 @@
   total_time: ''
   uid: B4824714-6497-4AA8-8DA5-6083854C7E70-21757-00000978E0196ECC
 - categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
+  cook_time: 25 minutes
+  created: '2021-02-18 17:38:29'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the milk and egg yolk to a measuring cup. Whisk to combine.
+  - Add 5 tablespoons sugar, the cocoa powder, cornstarch and salt to a medium saucepan,
+    and whisk to combine, breaking up any lumps. Whisk the milk and egg yolk mixture
+    into the sugar mixture until smooth.
+  - Set the pan over medium-low heat and cook the mixture until it thickens and starts
+    to bubble, stirring the mixture constantly with a rubber spatula and making sure
+    to scrape the corners and bottom of the pan. Once it bubbles, cook for an additional
+    minute until thick and creamy, taking extra care to scrape the bottom and sides
+    of the pan to avoid scorching the mixture, 6 to 8 minutes total. If you do get
+    a few small lumps, whisk the mixture vigorously for a few seconds to smooth them.
+    Stir in 1 teaspoon vanilla extract.
+  - Spoon the pudding into two small serving bowls or glasses, and press a piece of
+    plastic wrap on the surface of each pudding to prevent a skin from forming. Chill
+    for at least 1 hour and up to 2 days.
+  - 'When you are ready to serve the pudding, make the raspberry cream: Combine 1/2
+    teaspoon sugar with about 4 raspberries in a small bowl. Mash them together with
+    a fork and macerate. In a medium bowl, whisk the cream with the remaining 1/2
+    teaspoon sugar and 1/2 teaspoon vanilla to medium peaks. Dollop the mashed raspberries
+    over the top of the whipped cream and fold a few times. (The mixture should be
+    streaky.)'
+  - Top the pudding with the remaining raspberries and a dollop of the whipped cream.
+    Serve immediately.
+  image_url: images/recipes/EC1F4189-5757-4BE4-B459-C01BA9AC6D6F-49820-0000133CA64980F5.jpg
+  in_trash: false
+  ingredients:
+  - 1 cup/240 milliliters whole milk
+  - 1 large egg yolk
+  - 5 tablespoons plus 1 teaspoon/75 grams granulated sugar
+  - 5 tablespoons/30 grams Dutch-process cocoa powder
+  - 1 tablespoon cornstarch
+  - Pinch of kosher salt
+  - "1 \xBD teaspoons vanilla extract"
+  - "\xBD cup/80 grams fresh raspberries"
+  - "\u2153 cup/80 milliliters heavy cream"
+  is_pinned: false
+  name: Chocolate Pudding with Raspberry Cream
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: Yield 2 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1021898-chocolate-pudding-with-raspberry-cream?referring_source=newsreader
+  total_time: ''
+  uid: B5C881BB-0BDD-446D-83FE-33FD6418A90D-49820-0000133CA4665020
+- categories:
   - Dressing
   - Southern
   cook_time: ''
@@ -2831,6 +3791,116 @@
   source_url: ''
   total_time: ''
   uid: B5CC475A-0552-4C47-AFE5-3616ADD6BE91-34304-00021E7B75A0D316
+- categories: []
+  cook_time: 10 mins
+  created: '2021-01-15 19:08:36'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat the oven to 450\xB0F, with a rack in the top third."
+  - Mix the flour and cream until smooth and cohesive.
+  - Scoop 1-ounce balls of dough onto an ungreased or parchment-lined baking sheet;
+    a tablespoon cookie scoop works well here. Leave a couple of inches between them.
+    Not into scooping? Pat the dough 3/4" thick and cut biscuits with a cutter instead,
+    if desired.
+  - Brush the tops of the biscuits with cream, milk, or water; this will help them
+    rise.
+  - Bake the biscuits for 10 minutes, until they're light golden brown on top, and
+    baked all the way through; break one open to make sure.
+  - Remove the biscuits from the oven, and serve warm, or at room temperature. Store,
+    well-wrapped, at room temperature for several days; freeze for longer storage.
+  - Tips from our Bakers
+  - Want to make these biscuits gluten-free? Substitute Gluten-Free Measure for Measure
+    Flour for the all-purpose flour; and stir 2 1/4 teaspoons baking powder and 3/8
+    teaspoon salt into the flour before adding the cream.
+  - Feel free to stir the additions of your choice into the dough. Berries, cheese
+    cubes, crumbled bacon or diced ham, chopped scallions, chocolate chips, dried
+    fruit... use your imagination!
+  - To make now, serve later, place shaped/unbaked biscuits close together on a small
+    baking sheet; place the sheet in the freezer, and freeze until solid. Transfer
+    the biscuits to an airtight container (plastic bag, etc.) When you're ready to
+    serve, there's no need to thaw the biscuits; remove them from the freezer and
+    bake as directed above, adding a few minutes to the baking time.
+  - For larger biscuits, simply scoop the dough into 1 1/2-ounce balls, to make 8
+    biscuits; or 2-ounce balls, to make 6. Bake the larger biscuits a minute or so
+    longer, or until they're baked all the way through.
+  - These biscuits are a blank palette, just waiting for you to stir your favorite
+    additions into the dough.
+  - 'To make Self-Rising Cream Shortcakes: Add 2 tablespoons sugar and 1 tablespoon
+    vanilla.'
+  - 'To make Never-Fail Biscuits with Herbs: Add 3 tablespoons fresh herbs.'
+  - 'To make Easy Bacon-Cheddar-Chive Biscuits: Add 1/2 cup chopped cooked bacon,
+    3/4 cup chopped sharp cheese, and 3 teaspoons snipped chives.'
+  - 'To make Easy Pumpkin Pie Spice Biscuits: Add 2 tablespoons sugar and 1 1/2 teaspoons
+    pumpkin pie spice.'
+  - 'To make Easy Sausage and Apple Breakfast Biscuits: Add 3/4 cup each cooked, crumbled
+    sausage and peeled, cored, diced apple; plus 1 teaspoon cinnamon.'
+  image_url: images/recipes/710A0148-4D2A-4F02-A463-95074C588931-2558-000000F482FC7073.jpg
+  in_trash: true
+  ingredients:
+  - 1 1/2 cups (170g) King Arthur Unbleached Self-Rising Flour
+  - 3/4 cup (170g) heavy or whipping cream*
+  - 1/8 to 1/4 teaspoon salt, optional; for a saltier biscuit
+  is_pinned: false
+  name: Never-Fail Biscuits
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 5 mins
+  rating: 0
+  scale: 2/3
+  servings: 12 biscuits
+  source: kingarthurbaking.com
+  source_url: https://www.kingarthurbaking.com/recipes/never-fail-biscuits-recipe
+  total_time: ''
+  uid: B6C6344A-2394-4EBE-BE06-9CEAEC11434C-2558-000000F47FDF36C0
+- categories:
+  - Cake
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
+  cook_time: 14 minutes
+  created: '2021-01-21 15:18:22'
+  description: ''
+  difficulty: ''
+  directions:
+  - '*For a double layer cake, simply double the recipe and bake in two 8-inch pans.
+    I listed a few keto frosting ideas above in the post. And if you''re a visual
+    person, be sure to check out the recipe video above!'
+  - Preheat oven to 350 F. Grease an 8-inch pan, and line with parchment. Stir all
+    ingredients together very well, then spread into the pan. If needed, use a second
+    sheet of parchment to smooth down. Bake 14 minutes on the center rack (some ovens
+    require more baking time, so continue cooking until firm if needed). Let cool
+    completely before frosting. If you try the recipe, please feel free to leave a
+    comment or rate it below!
+  image_url: images/recipes/1B096F2E-B69A-4ADA-9835-27D44E33C046-16078-00000659D39E6243.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 cups fine almond flour
+  - 1/4 cup cocoa powder
+  - 2 tbsp dutch cocoa or additional regular
+  - 2 1/4 tsp baking powder
+  - 1/2 tsp salt
+  - 1/3 cup water or milk of choice
+  - 3 eggs (including the vegan option listed earlier in the post)
+  - 1/3 cup granulated erythritol or regular sugar
+  - 1 1/2 tsp pure vanilla extract
+  is_pinned: false
+  name: Chocolate Keto Cake
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 5
+  scale: 2/1
+  servings: 8 servings
+  source: chocolatecoveredkatie.com
+  source_url: https://chocolatecoveredkatie.com/keto-cake-recipe/
+  total_time: ''
+  uid: B898E9E3-4B80-40E1-9C2D-6308CEAE50E3-14886-000005E8526504A5
 - categories: []
   cook_time: 30 mins
   created: '2020-12-11 09:46:29'
@@ -3380,6 +4450,75 @@
   source_url: https://www.kingarthurflour.com/recipes/japanese-milk-bread-rolls-recipe
   total_time: ''
   uid: D9C2D413-2F47-447E-93AF-19501FC6A62B-3403-000000FEB70441E5
+- categories: []
+  cook_time: ''
+  created: '2021-03-03 12:58:04'
+  description: ''
+  difficulty: ''
+  directions:
+  - Mix the starter and water together in the bowl of a stand mixer. Sprinkle on the
+    yeast and allow to dissolve before adding the sugar, 1 egg, oil, and flour. Knead
+    using the dough hook on low for about 5 minutes until the dough comes together.
+    Cover and let rest for 10 minutes. Sprinkle on the salt and knead on low for 8
+    more minutes. Cover again and let rest for 90 minutes at warm room temperature.
+  - Uncover the dough and punch down. Fold over the 4 corners of the dough, recover
+    and let rest another 90 minutes.
+  - While the dough is fermenting, make an egg wash by whisking together the 2nd egg,
+    1 scant tablespoon of water, and a pinch of salt. Mix well but try not to make
+    too many air bubbles.
+  - Punch down the dough again and divide into even portions (the number will depend
+    on how many strands you want; for reference, the first two pictures in this post
+    are a 7-strand braid and the last two are an 8-strand braid). Working one at a
+    time, press each portion into a rough rectangle. You want to try to remove any
+    large air bubbles at this point because they will form weak points in your strand.
+    To form the strand, you will be rolling over the long side of the rectangle like
+    a jelly roll. To help maintain tension in the dough, use your fingertips to gently
+    push the portion you just rolled over back into the dough all along the length
+    of the dough. (I highly suggest you watching my IGTV video which shows you how
+    to form the strands since it's much easier to show you than explain how to do
+    it.) When you get to the bottom of the dough, pinch the seam together and roll
+    the log out a couple of times on the work surface to create a taut surface and
+    start shaping it into a long strand. At this point you can also taper the ends
+    if you want. Set aside and work on the next strand.
+  - Once you've shaped all the strands into logs, start with the first log you formed
+    and roll it out into a longer snake. Set aside and work on the next one. Once
+    you've roll them all out into longer snakes, give them one last roll to their
+    final length. Allowing the dough to rest in between the 3 shaping rounds lets
+    the dough relax a little and not shrink back so much. Braid and form the strands
+    into your desired shape. Transfer to a parchment paper lined baking sheet.
+  - "Brush on a thin, even layer of the egg wash, trying not to let too much settle\
+    \ in between the strands. Let rest for 90-120 minutes in a warm, draft-free area\
+    \ (I use my microwave). Preheat the oven to 350\u2109."
+  - "When the dough is nice and puffy, turn it 180\xB0 from the position it was when\
+    \ you applied the egg wash and brush on another thin, even layer. Turning the\
+    \ loaf helps ensure that you don't miss any of the surface. Bake the loaf for\
+    \ 30-35 minutes, turning once halfway, until it is evenly browned. Let completely\
+    \ cool before slicing. Store in a paper bag for up to 3 days."
+  image_url: images/recipes/281389C5-AA00-491E-914A-4911A408005F.jpg
+  in_trash: false
+  ingredients:
+  - 50 g sourdough starter, 100% hydration
+  - 95 g warm water
+  - 4 g active or instant yeast
+  - 40 g sugar
+  - 2 large eggs (1 for the dough, 1 for the egg wash)
+  - 45 g vegetable oil
+  - 325 g all-purpose flour
+  - 7 g kosher salt
+  is_pinned: false
+  name: My Sourdough Challah
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 1 loaf
+  source: the-cooking-of-joy.blogspot.com
+  source_url: http://the-cooking-of-joy.blogspot.com/2020/09/my-sourdough-challah.html?m=1
+  total_time: ''
+  uid: DC9CB921-230E-4EBF-AEFF-A564BC55CA84
 - categories:
   - TBD
   cook_time: 10 mins
@@ -3428,9 +4567,10 @@
   image_url: images/recipes/F77EB653-0EAE-421A-8FFB-5D23B43BE118-6213-0000020671B2D0EF.jpg
   in_trash: false
   ingredients:
-  - 1 1/2 cups (170g) King Arthur Unbleached Self-Rising Flour
-  - 3/4 cup (170g) heavy or whipping cream*
-  - 1/8 to 1/4 teaspoon salt, optional; for a saltier biscuit
+  - 1 1/2 cups (170g) King Arthur Unbleached All Purpose Flour
+  - "2 \xBC teaspoons baking powder"
+  - 3/4 cup (170g) heavy or whipping cream
+  - 1/3 teaspoon salt
   is_pinned: false
   name: Never-Fail Biscuits
   notes: ''
@@ -3680,7 +4820,7 @@
   on_grocery_list: null
   prep_time: 15 minutes
   rating: 5
-  scale: null
+  scale: 2/1
   servings: About 20 small biscuits or about 8 large biscuits
   source: Me
   source_url: ''
@@ -3757,6 +4897,64 @@
   source_url: https://medium.com/@luismrmartins/hokkaido-milk-bread-c73214a84a2b
   total_time: ''
   uid: E64E686A-849F-4D80-B63F-8BF12A9D6A8B-3431-000000FFD1F97A90
+- categories: []
+  cook_time: 35 minutes
+  created: '2021-01-21 14:39:41'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a small saucepan over medium heat, combined the ingredients for the starter.
+    Stir continuously for 4-5 minutes or until the starter thickens to the consistency
+    of mashed potatoes. Transfer to a bowl and cover with plastic wrap. Let sit until
+    the starter gets to room temperature.
+  - In the bowl of a stand mixer, whisk together bread flour, sugar, yeast, dry milk
+    powder, and salt. Once mixed, add in milk, starter, and beaten egg. Using the
+    dough hook attachment, beat on low for 5 minutes. Add in butter and beat 5 more
+    minutes. Turn the speed up to medium and beat for a final 5 minutes. Transfer
+    dough to a lightly oiled bowl and cover with plastic wrap. Let sit for 1 hour
+    or until the dough has doubled in size.
+  - Transfer dough onto a lightly floured surface and divide into 4 equally sized
+    pieces. Roll each out to be 8"x5" and then fold each of the long sides in 1".
+    Starting on one of the shorter edges, roll up and then place in a greased 9"x4"
+    pan. Repeat with each piece of dough. Cover and let rise an additional 45 minutes.
+  - Preheat oven to 350 degrees. Once the dough has risen, brush the top of the dough
+    with heavy whipping cream. Place into oven and bake for 35-40 minutes or until
+    the top is golden brown and the inside is 190 degrees.
+  - Remove from oven and let sit 5 minutes before removing bread from pan. Let cool
+    on a cooling rack.
+  image_url: images/recipes/4A134529-473B-4F0A-B2A6-94295E30F77C-14886-000005DBE41C0E74.jpg
+  in_trash: false
+  ingredients:
+  - STARTER
+  - 1/4 cup bread flour
+  - 1/4 cup whole milk
+  - 1/4 cup water
+  - DOUGH
+  - 2 1/2 cup bread flour
+  - 1/4 cup granulated sugar
+  - 2 1/4 teaspoons active dry yeast, 1 yeast packet
+  - 1 tablespoon dry milk powder or sweetened condensed milk
+  - 1 teaspoon salt
+  - 1/2 cup milk, room temperature
+  - 1 egg, room temperature and beaten
+  - 1/4 cup unsalted butter, softened
+  - Heavy cream or melted butter
+  is_pinned: false
+  name: Hokkaido Milk Bread
+  notes: ''
+  nutritional_info: 'Amount Per Serving: Calories: 200Total Fat: 7gSaturated Fat:
+    4gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 33mgSodium: 206mgCarbohydrates:
+    28gFiber: 1gSugar: 7gProtein: 5g'
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: 20 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 12 slices'
+  source: mildlymeandering.com
+  source_url: https://mildlymeandering.com/hokkaido-milk-bread-shokupan/
+  total_time: ''
+  uid: EC066E27-3EC8-4E6E-BDB2-C7D8AE7EA495-14886-000005DBE1FEF3AD
 - categories: []
   cook_time: 25 minutes
   created: '2020-12-12 19:15:38'
@@ -3957,6 +5155,89 @@
   source_url: https://www.slenderkitchen.com/recipe/pepperoni-pineapple-and-jalapeno-pizzas
   total_time: ''
   uid: F1B157A9-B414-4091-A157-2158F8BDB3D1-9273-0000043285444489
+- categories: []
+  cook_time: ''
+  created: '2021-01-22 14:51:25'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Prepare The Dough:'
+  - Wash and peel a small sweet potato. Cut into squares and boil on medium heat until
+    potato is soft, but not mushy. (Do Steps 2 and 3 while it cooks.)
+  - Put 4-1/2 cups of flour into large mixing bowl.
+  - Prepare cup of very warm water by microwaving water on HIGH for 1-1/2 minutes
+    or using very warm tap water. Spoon 4 tablespoons of water into a small bowl.
+    Add 1 teaspoon sugar to water and 2 packets of yeast. Gently stir to dissolve
+    yeast. Set aside for 5- 7 minutes to let yeast begin to foam. Yeast should double
+    in bulk.
+  - When potato is ready, drain. Cool slightly, then grate pieces on very fine setting
+    in hand-cranked grater or ricer, into large mixing bowl with flour. (Potato pieces
+    should be about the size of tiny rice grains.) Mix the potato and flour.
+  - Beat 1 whole egg and 2 egg yolks in a small bowl.
+  - Add yeast mixture to large bowl with flour and potato. Add beaten eggs and rest
+    of warm water, 1/2 cup oil, sugar, honey, and salt. Mix ingredients with a wooden
+    spoon until well blended and the dough no longer sticks to sides of bowl. If the
+    dough is sticky, add more flour.
+  - "Place dough onto a clean, flat, floured surface. Sprinkle flour on your hands.\
+    \ Knead the dough, in a strong rhythm of push-fold-push-turn, adding flour to\
+    \ the board and/or your hands until dough is smooth, elastic, and no longer sticky,\
+    \ about 5\xC3\xA2\xE2\u201A\xAC\xE2\u20AC\u015310 minutes. Test the dough by poking\
+    \ your finger into the middle. If it bounces back, it's ready!"
+  - Add chocolate chips to the kneaded dough, pressing them into the dough with your
+    fingers and distributing them evenly. Put more than you think you'll need - when
+    the dough rises it will expand and need more goodies.
+  - Wash and dry the large flour bowl and spread 1 teaspoon of oil evenly onto the
+    inside surface to keep the dough from sticking to the sides when it rises.
+  - Transfer dough to bowl. Turn dough so all sides are rubbed with oil. Cover bowl
+    with a clean dish towel and let the dough rise in a warm place until doubled in
+    bulk (about 1 - 2 hours).
+  - Braiding The Challah
+  - To braid the challah, divide remaining dough in half. Divide each half into 3
+    equal parts. Roll each part into a long cord. (See 1 above.) Pinch three cords
+    together at the top. (See 2 above.) Braid them together. (See 3-7 above.) Pinch
+    the ends together. Repeat with remaining 3 cords.
+  - Grease baking sheets with margarine and sprinkle with cornmeal. Place challot
+    on baking sheets. Cover and let rise in a warm place until doubled in bulk, approximately
+    1/2 - 1 hour.
+  - When challot are ready, take out a small bowl and mix 1 egg yolk and 1 teaspoon
+    water. With a pastry brush, brush challot with egg mixture.
+  - "Bake at 325 - 350 degrees for 30 - 45 minutes, or until golden brown. Test the\
+    \ challot by lightly tapping the sides\u2014if they make a hollow sound, they\
+    \ are probably done. Remove challot from baking sheets and cool."
+  image_url: images/recipes/05A86174-5EC0-405F-B1E0-5CD1EA205A1F-17429-00000700246D8134.jpg
+  in_trash: false
+  ingredients:
+  - 2 packages active dry yeast
+  - 1 teaspoon sugar
+  - 1 cup very warm water (105 - 115 degrees)
+  - 1 whole egg + 2 yolks
+  - 1 teaspoon salt
+  - 1/2 cup oil (+ 1 teaspoon for bowl)
+  - 1/4 cup sugar
+  - 1/3 cup honey
+  - 4-1/2 - 5-1/2 cups flour
+  - 1 small sweet potato
+  - pareve chocolate chips
+  - 1 egg yolk + 1 teaspoon water (for brushing)
+  - margarine & cornmeal (for baking sheets)
+  - White-chocolate chunks
+  - Toasted almonds
+  - Dried cherries
+  - Finely chopped dried apples
+  is_pinned: false
+  name: Chocolate Chip Challah
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: null
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: behrmanhouse.com
+  source_url: http://www.behrmanhouse.com/RL/chocolate-chip-challah
+  total_time: ''
+  uid: F3E71CED-0212-49EB-A0B2-A6FEB1563407-17429-000007000E41FB66
 - categories: []
   cook_time: 40 minutes
   created: '2020-12-29 02:06:04'
