@@ -18,6 +18,12 @@
     name: Yet Another Mini
     difficulty: 3
 -
+    size: Tiny
+    grid: 4
+    link: https://crosshare.org/embed/b0SkA0ghBJUVbZTfSI3u/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
+    name: A Seamless Experience
+    difficulty: 4
+-
     size: Mini
     grid: 5
     link: https://crosshare.org/embed/fPci8OSCnnia5bvWej00/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
