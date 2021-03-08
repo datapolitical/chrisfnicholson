@@ -1,0 +1,19 @@
+---
+-
+    size: Mini
+    grid: 5
+    link: https://crosshare.org/embed/aB2uplZJJRxWyNZaRmjN/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
+    name: Saturday Mini
+    difficulty: 2
+-
+    size: Mini
+    grid: 5
+    link: https://crosshare.org/embed/i2bpp4IJcGWTLDwq7poS/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
+    name: Midnight Mini
+    difficulty: 3
+-
+    size: Mini
+    grid: 5
+    link: https://crosshare.org/embed/fPci8OSCnnia5bvWej00/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
+    name: An Evening Mini
+    difficulty: 5
