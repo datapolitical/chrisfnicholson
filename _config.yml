@@ -36,6 +36,7 @@ navigation:
   - {title: Recipes, icon: utensils, url: "/recipes/"}
   - {title: Cocktails, icon: glass-martini-alt, url: "/drinks/"}
   - {title: Crosswords, icon: crossword, url: "crosswords.html"}
+  - {title: Grady, icon: dragon, url: "grady.html"}
 
 plugins:
   - jekyll-feed
