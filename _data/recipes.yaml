@@ -809,6 +809,47 @@
   source_url: https://www.thespruceeats.com/keto-chocolate-cookies-4769153
   total_time: ''
   uid: 242A7BA5-7A57-4076-A8CF-1A2513DC5278-14886-000005E234510653
+- categories: []
+  cook_time: 2 minutes
+  created: '2021-03-07 13:56:41'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place butter and marshmallows in a LARGE microwave-safe bowl.
+  - Microwave on high for 1 minute. Remove bowl from microwave and stir. Return bowl
+    to microwave and microwave another 30 seconds. Stir again until marshmallows and
+    butter are completely melted together. You only want it JUST melted.
+  - Fold in rice cereal until well combined.
+  - Place mixture in a greased 9x13 dish and press down evenly (spray a little cooking
+    spray on your hands to prevent sticking). Allow to cool before serving.
+  image_url: images/recipes/B9644E4C-5437-45BE-A12D-B0E85CB8E90D.jpg
+  in_trash: false
+  ingredients:
+  - 1/2 cup salted butter if using unsalted butter, add a dash of salt to the recipe
+  - 16 oz mini marshmallows
+  - 9 cup crispy rice cereal (i.e. Rice Krispies Cereal)
+  is_pinned: false
+  name: Rice Krispie Treats {5-Minute Microwave Recipe}
+  notes: '*If you don''t have a large microwave-safe bowl, melt the marshmallows and
+    butter in a medium-sized bowl and place rice krispies in a large bowl. Add the
+    melted marshmallow mixture to the rice krispies instead of adding the rice krispies
+    to the marshmallows. See video for clarification.
+
+
+    Though these can be served immediately, they taste best when cooled to room temperature.'
+  nutritional_info: 'Calories: 193kcal | Carbohydrates: 34g | Protein: 1g | Fat: 6g
+    | Saturated Fat: 4g | Cholesterol: 16mg | Sodium: 79mg | Potassium: 13mg | Fiber:
+    1g | Sugar: 17g | Vitamin A: 190IU | Calcium: 4mg | Iron: 0.4mg'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 3 minutes
+  rating: 0
+  scale: null
+  servings: 'Serves: 15'
+  source: favfamilyrecipes.com
+  source_url: https://www.favfamilyrecipes.com/microwave-rice-krispie-treats/
+  total_time: ''
+  uid: 252DE86B-2994-4382-97EC-BD3757200E2F
 - categories:
   - Made at 307
   - Web
