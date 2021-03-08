@@ -14,6 +14,12 @@
 -
     size: Mini
     grid: 5
+    link: https://crosshare.org/embed/zHH9hUaOc1wEqJWp4tcs/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
+    name: Yet Another Mini
+    difficulty: 3
+-
+    size: Mini
+    grid: 5
     link: https://crosshare.org/embed/fPci8OSCnnia5bvWej00/9E5zNeQdUqhxKfhlG8sOlOvTsEK2
     name: An Evening Mini
     difficulty: 5
