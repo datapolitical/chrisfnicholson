@@ -115,6 +115,22 @@ pwa:
 # google_analytics: G-QTJ2YPCJSC
 google_analytics: UA-387663-5
 
+# The URL for the staticman API bridge endpoint
+# You will want to modify some of the values:
+#  ${github-username}: the username of the account with which you publish your blog
+#  ${blog-repo}: the name of your blog repository in github
+#  master: this the branch out of which your blog is published, often master or gh-pages
+#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
+#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
+#
+# for me, this line reads:
+# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
+staticman_url: https://chrisfnicholson-staticman.herokuapp.com/v2/entry/datapolitical/chrisfnicholson.github.io/main/comments
+
+siteKey: 6Lf3PnkaAAAAAM5SCaPa2yhfSi1EmOw0PtGOB3y9
+secret: cvo7MOTtZQ+fVyOfp7X0SFRq4J0nFwT+2ukA/cqB6hCPNhRbxsJ9mr0Zx+ybaaW/sSnaJ5MET35BZpgnDyHgZ7fEZAYb8eGFr+oNkYXs9VMSaAPlzDjjn4UzB2cu6a6HTUzvrpHkPRnk8AMRjg69Li8kyLHoMeM2ApCwBJAiBXO2Ngbble9qj2dvZh4QFW/dAkfFSkXrSxeENEgnzmuBKjXL4qXw/L0zWOa2zL87Pv935AS/EbGf/ThJ1csItg8q7CVHUIYZ3aLCmQaknyCOfa/FfnX8IkIrQCyyulPScivy1RZ3LPVnodMS79QgqjxlgTZ1CEhbIjYsrUkd9qN9/SyFQuyCXOKX4xu6LolOI4lzhCmrOljrwDiL5AUbz7D6DaqT/rW44QUQbd00vgOhA14RylGw2BpAlpLZG0nVayxu/t7188YqTgjxNn/5EfnL8NDZczmc13wAL6AsDRXAw9b/7gjA6UOwqEkXSsxzsQUvFdKG0ZTQc6W3HwJf31Mrp/pVDbCXxBjfHLVRfZmWqc1XrwAjmVIrVK4MZWgsQzc3bS2akmk5D7dVE5ej0qHwOfXiab/rRlQFFGizhw+it8ZfmvqsYEPOvIB0if2x0PuKl2KdHta/I2BSVYSot/+9cFfyRRVm5SdU99RszJliWAQsefY+7bZvEuG1qx97gdk=
+
+
 ############################################################
 # Site configuration for the WebP Generator Plugin
 # The values here represent the defaults if nothing is set
