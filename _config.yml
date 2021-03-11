@@ -130,6 +130,7 @@ google_analytics: UA-387663-5
 
 comments: false
 
+
 reCaptcha:
   enabled: true
   siteKey: 6Lc2ZnkaAAAAAEMYrdwBDeveZUzFW9mWRcO--6no
