@@ -60,7 +60,7 @@ exclude:
   - Pipfile
   - package.json
 
-remote_theme: datapolitical/contrast@v2.12a
+remote_theme: datapolitical/contrast
 
 page_gen-dirs: false
 
@@ -127,6 +127,8 @@ google_analytics: UA-387663-5
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
 
 # staticman_url: https://chrisfnicholson-staticman.herokuapp.com/v2/entry/datapolitical/chrisfnicholson.github.io/main/comments
+
+comments: false
 
 reCaptcha:
   enabled: true
