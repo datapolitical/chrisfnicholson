@@ -3776,11 +3776,12 @@
   - Southern
   cook_time: ''
   created: '2020-11-21 21:10:15'
-  description: This is my attempt to reduce to a recipe my mom's cornbread dressing.
-    She never worked from a recipe; it was more of a method. It was always delicious!
-    One year she sent leftovers home with the black lady who used to keep house for
-    us. She reported back that after her husband tasted it, he said, "I never knew
-    any white woman could make dressing that tastes this good!"
+  description: "Mom\u2019s \u2018No White Woman\u2019 Cornbread dressing\n\nThis is\
+    \ my attempt to reduce to a recipe my mom's cornbread dressing. She never worked\
+    \ from a recipe; it was more of a method. It was always delicious! One year she\
+    \ sent leftovers home with the black lady who used to keep house for us. She reported\
+    \ back that after her husband tasted it, he said, \"I never knew any white woman\
+    \ could make dressing that tastes this good!\""
   difficulty: ''
   directions:
   - 1. Crumble cornbread into a large bowl, and add seasonings.
@@ -3813,7 +3814,7 @@
   - 'After tasting for seasoning, add:'
   - 2 eggs, slightly beaten
   is_pinned: false
-  name: Mom's "No White Woman" Cornbread Dressing
+  name: Cornbread Dressing
   notes: "Use at least day-old, plain (not sweet) cornbread, somewhat stale. Mom used\
     \ to put leftover cornbread in the freezer during the fall, and we'd just use\
     \ that. If she baked it the day before, she'd leave it out overnight to dry out.\n\
@@ -3823,7 +3824,7 @@
     \ with a turkey or chicken, just use all chicken broth."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null

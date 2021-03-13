@@ -1,6 +1,8 @@
 # My Blog: chrisfnicholson.com
 
-This is a basic Jekyll site using the Contrast theme: [niklasbuschmann/contrast](https://www.github.com/niklasbuschmann/contrast)
+This is a basic Jekyll site using a modified Contrast theme: [niklasbuschmann/contrast](https://www.github.com/datapolitical/contrast)
+
+It is akways in dark mode because light mode looks terrible.
 
 The recipes module is thanks to [sstarcher/paprika-exporter](https://www.github.com/sstarcher/paprika-exporter)
 
