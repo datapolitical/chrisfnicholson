@@ -5,6 +5,8 @@ _site/
 .env
 opendrinks_old/
 src/
+webp-recipes/
+webp-drinks/
 
 # Ignore docs files
 _gh_pages
