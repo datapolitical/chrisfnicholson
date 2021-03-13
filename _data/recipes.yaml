@@ -343,7 +343,7 @@
     brown.
   - If desired, brush with melted salted butter immediately after removing from oven.
     Serve warm and enjoy.
-  image_url: images/recipes/3BE52524-9B17-4913-A718-A5E04824DB91-22008-0000062386399199.jpg
+  image_url: images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2.jpg
   in_trash: false
   ingredients:
   - 2 cups all-purpose flour (250g)
@@ -361,7 +361,7 @@
     | Potassium: 287mg | Fiber: 1g | Sugar: 4g | Vitamin A: 399IU | Calcium: 131mg
     | Iron: 2mg'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
