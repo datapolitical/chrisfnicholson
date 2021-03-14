@@ -209,7 +209,7 @@
   - I added the spices to the cider and simmered on the stovetop for a while instead
     of using a percolater. Then I mixed everything together (after straining out the
     spices) in the crock pot to keep hot.
-  image_url: images/recipes/352E5869-BE46-4B62-9EB6-9389F39B5FFA-646-0000001575DED86F.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 6 cups apple cider or juice
@@ -239,7 +239,7 @@
 
     Protein: 0 protein.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 0
   scale: 1/1
