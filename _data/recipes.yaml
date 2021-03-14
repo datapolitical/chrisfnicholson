@@ -1101,7 +1101,7 @@
     if needed.
   - Serve warm. Then serve warm, garnished with any extra toppings that you might
     like, and enjoy!
-  image_url: images/recipes/960D7C33-9394-4A9F-8CFF-B4C6DC4C5EC4-40393-00000FAD98B844EE.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 5 pounds potatoes (I use half Yukon Gold, half Russet potatoes)
@@ -1116,7 +1116,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 minutes
   rating: 5
   scale: null
@@ -1221,7 +1221,7 @@
     for future use.
   - Top with hot water and stir until ingredients are well incorporated. Garnish with
     cinnamon stick if preferred.
-  image_url: images/recipes/10D88F11-F3AD-4E14-9113-70B231FA312B-6812-000002388C5FBD65.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 1 stick (4 ounces) unsalted butter
@@ -1240,7 +1240,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
