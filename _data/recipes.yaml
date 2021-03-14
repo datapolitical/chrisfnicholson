@@ -4668,7 +4668,7 @@
     sugar in cookies and bars.
   - Skip the scooping and cut down on prep time by using an ingenious technique outlined
     in our blog post, A simple way to shape cookies.
-  image_url: images/recipes/03549A50-4387-40DE-84D8-1467B0015B6F-30152-00000C67766BCBD0.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 2/3 cup (142g) light brown sugar, packed
@@ -4691,7 +4691,7 @@
     convection. Check at 10 minutes.'
   nutritional_info: ''
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 12 mins
   rating: 5
   scale: null
