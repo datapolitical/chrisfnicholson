@@ -732,7 +732,7 @@
   - "Beat egg and cold water; brush over braids. Sprinkle with sesame or poppy seeds\
     \ if desired. Bake at 350\xB0 until golden brown, 30-40 minutes. Remove to wire\
     \ racks to cool."
-  image_url: images/recipes/91010114-EEB9-4A45-B93D-52C6B036F2F5-36654-00000B99F5315481.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 2 packages (1/4 ounce each) active dry yeast
@@ -752,7 +752,7 @@
   nutritional_info: '1 slice: 137 calories, 5g fat (1g saturated fat), 33mg cholesterol,
     232mg sodium, 20g carbohydrate (3g sugars, 1g fiber), 4g protein.'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 30 min
   rating: 5
   scale: null
