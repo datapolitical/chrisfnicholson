@@ -1,3 +1,5 @@
 presets:
   default:
     formats: [webp, original]
+
+    dimension_attributes: true
