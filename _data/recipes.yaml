@@ -4982,13 +4982,13 @@
   - 1/4 cup unsalted butter, softened
   - Heavy cream or melted butter
   is_pinned: false
-  name: Hokkaido Milk Bread
+  name: Hokkaido Milk Bread 3
   notes: ''
   nutritional_info: 'Amount Per Serving: Calories: 200Total Fat: 7gSaturated Fat:
     4gTrans Fat: 0gUnsaturated Fat: 3gCholesterol: 33mgSodium: 206mgCarbohydrates:
     28gFiber: 1gSugar: 7gProtein: 5g'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 minutes
   rating: 0
   scale: null
