@@ -1,5 +1,11 @@
+media_queries:
+  mobile: 'max-width: 600px'
+
 presets:
   default:
     formats: [webp, original]
 
     dimension_attributes: true
+    sizes:
+      mobile: 90vw
+    size: 500px
