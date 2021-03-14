@@ -7,6 +7,8 @@ opendrinks_old/
 webp-drinks/
 webp-recipes/
 src/
+webp-recipes/
+webp-drinks/
 
 # Ignore docs files
 _gh_pages

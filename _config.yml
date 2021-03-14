@@ -42,11 +42,11 @@ plugins:
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-datapage-generator
-  - jekyll-responsive-image
-  - jekyll-webp
+#  - jekyll-webp
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-pwa-workbox
+  - jekyll_picture_tag
 
 exclude:
   - Gemfile
@@ -58,7 +58,7 @@ exclude:
   - Pipfile
   - package.json
 
-remote_theme: datapolitical/contrast@recaptcha-v2
+remote_theme: datapolitical/contrast
 
 page_gen-dirs: false
 
@@ -84,13 +84,10 @@ page_gen:
     dir: drinks
     extension: html
 
-responsive_image:
-  template: _includes/responsive-image.html
-  base_path: assets
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 800
+picture:
+  source: "assets/"
+  output: "assets/generated"
+  suppress_warnings: true
 
 pwa:
   enabled: true # Optional

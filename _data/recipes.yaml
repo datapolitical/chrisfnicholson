@@ -343,7 +343,7 @@
     brown.
   - If desired, brush with melted salted butter immediately after removing from oven.
     Serve warm and enjoy.
-  image_url: images/recipes/3BE52524-9B17-4913-A718-A5E04824DB91-22008-0000062386399199.jpg
+  image_url: images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2.jpg
   in_trash: false
   ingredients:
   - 2 cups all-purpose flour (250g)
@@ -361,7 +361,7 @@
     | Potassium: 287mg | Fiber: 1g | Sugar: 4g | Vitamin A: 399IU | Calcium: 131mg
     | Iron: 2mg'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -3776,11 +3776,12 @@
   - Southern
   cook_time: ''
   created: '2020-11-21 21:10:15'
-  description: This is my attempt to reduce to a recipe my mom's cornbread dressing.
-    She never worked from a recipe; it was more of a method. It was always delicious!
-    One year she sent leftovers home with the black lady who used to keep house for
-    us. She reported back that after her husband tasted it, he said, "I never knew
-    any white woman could make dressing that tastes this good!"
+  description: "Mom\u2019s \u2018No White Woman\u2019 Cornbread dressing\n\nThis is\
+    \ my attempt to reduce to a recipe my mom's cornbread dressing. She never worked\
+    \ from a recipe; it was more of a method. It was always delicious! One year she\
+    \ sent leftovers home with the black lady who used to keep house for us. She reported\
+    \ back that after her husband tasted it, he said, \"I never knew any white woman\
+    \ could make dressing that tastes this good!\""
   difficulty: ''
   directions:
   - 1. Crumble cornbread into a large bowl, and add seasonings.
@@ -3813,7 +3814,7 @@
   - 'After tasting for seasoning, add:'
   - 2 eggs, slightly beaten
   is_pinned: false
-  name: Mom's "No White Woman" Cornbread Dressing
+  name: Cornbread Dressing
   notes: "Use at least day-old, plain (not sweet) cornbread, somewhat stale. Mom used\
     \ to put leftover cornbread in the freezer during the fall, and we'd just use\
     \ that. If she baked it the day before, she'd leave it out overnight to dry out.\n\
@@ -3823,7 +3824,7 @@
     \ with a turkey or chicken, just use all chicken broth."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 0
   scale: null
