@@ -286,14 +286,14 @@
   - 1 cup heavy cream
   - Hot cooked rice and naan for serving
   is_pinned: false
-  name: Easy 20 Minute Butter Chicken
+  name: 20 Minute Butter Chicken
   notes: ''
   nutritional_info: "Serving: 1 serving \nCalories: 491 kcal\nCarbohydrates: 9g\n\
     Protein: 39g\nFat: 33g\nSaturated Fat: 17g\nCholesterol: 198mg\nSodium: 963mg\n\
     Potassium: 895mg\nFiber: 2g\nSugar: 3g\nVitamin A: 1405IU\nVitamin C: 8mg\nCalcium:\
     \ 67mg\nIron: 2mg"
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 minutes
   rating: 5
   scale: 4/3
@@ -554,7 +554,7 @@
   - To cook this recipe in the oven, layer the ingredients in a large heavy 7-8 quart
     Dutch oven. Make sure you have enough liquid to just cover all ingredients. Cover
     with lid and cook cholent at 200 degrees F for 12-16 hours.
-  image_url: images/recipes/6D9A7D03-008F-4A87-A63C-E1F5CD8FB90B.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 2 1/2 lbs large red potatoes, peeled and halved (for a smaller slow cooker, use
@@ -1101,7 +1101,7 @@
     if needed.
   - Serve warm. Then serve warm, garnished with any extra toppings that you might
     like, and enjoy!
-  image_url: null
+  image_url: images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37.jpg
   in_trash: false
   ingredients:
   - 5 pounds potatoes (I use half Yukon Gold, half Russet potatoes)
@@ -1221,7 +1221,7 @@
     for future use.
   - Top with hot water and stir until ingredients are well incorporated. Garnish with
     cinnamon stick if preferred.
-  image_url: null
+  image_url: images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E.jpg
   in_trash: false
   ingredients:
   - 1 stick (4 ounces) unsalted butter
@@ -1630,7 +1630,7 @@
   - "Bake the nachos until the cheese is melted and the chips around the edges are\
     \ beginning to brown, about 12 minutes. Just before serving, garnish with the\
     \ black olives, jalape\xF1o, tomato, dollops of sour cream, and scallions."
-  image_url: images/recipes/AEED6C01-4577-4CC4-B377-322344838D84-17495-000006E3073EF9BC.jpg
+  image_url: images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC.jpg
   in_trash: false
   ingredients:
   - 1 (15-ounce) can black beans
@@ -1644,7 +1644,7 @@
   - 1 (16-ounce) bag restaurant-style tortilla chips
   - Sour cream, for serving
   is_pinned: false
-  name: Easy Sheet Pan Chicken Nachos
+  name: Sheet Pan Chicken Nachos
   notes: ''
   nutritional_info: 'alcohol-free
 
@@ -2011,7 +2011,7 @@
   - In a small bowl, whisk together the hot sauce, butter and honey.
   - Pour the sauce over the wings and toss to coat evenly.
   - Serve with celery sticks and ranch dressing.
-  image_url: images/recipes/8C5EC572-42D1-4BA4-9270-E427973A1078-14677-000005CE8CEB2D4C.jpg
+  image_url: images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18.jpg
   in_trash: false
   ingredients:
   - 3 pounds party style chicken wings or whole chicken wings that have been halved
@@ -2098,7 +2098,7 @@
   directions:
   - Mix all ingredients together.
   - Enjoy!
-  image_url: images/recipes/947A5C70-F604-4945-8762-AC96624C2A1D-34481-00000DAC97FB6780.jpg
+  image_url: images/recipes/87181A41-1000-478C-A258-F53C204FD9D6.jpg
   in_trash: false
   ingredients:
   - 9 oz of albacore tuna (dry weight)
@@ -2128,7 +2128,7 @@
 
     Protein: 0.3'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 min
   rating: 5
   scale: 3/1
@@ -2713,7 +2713,7 @@
     uncovered, for 5 minutes.
   - Stir the rice into the cooked lamb mixture, then drizzle with the remaining 1
     tablespoon lime juice. Fold the scallions and mint into the rice, and serve immediately.
-  image_url: images/recipes/2E4BBD33-39CC-444B-9B43-B0AC5FDFE70D-32319-00000D1D8B11ABC5.jpg
+  image_url: images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549.jpg
   in_trash: false
   ingredients:
   - 2 cups basmati rice
@@ -2734,7 +2734,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: ''
   rating: 5
   scale: null
@@ -3448,7 +3448,7 @@
     this particular recipe is so rich, and each slice of bread is big and thick enough,
     that we consider one piece a serving, particularly if you add fresh fruit and/or
     some breakfast ham, bacon or sausage.
-  image_url: images/recipes/28B35EA7-965D-40BB-B29E-26FF64742403-28533-00000BCE035CBC2A.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - 1 tablespoon (14g) butter
@@ -3467,7 +3467,7 @@
   notes: Dont cook to black, lower heat
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 25 mins
   rating: 4
   scale: 4/3
@@ -3668,7 +3668,7 @@
   - Store any leftover biscuits, well wrapped, at room temperature for several days.
     Freeze for longer storage. Biscuits are always best when they're rewarmed before
     serving.
-  image_url: images/recipes/25F22051-5DBD-4DBB-9B38-1143A6236FE3-21757-0000097C8499EAE3.jpg
+  image_url: images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6.jpg
   in_trash: false
   ingredients:
   - 3 cups (361g) King Arthur Unbleached All-Purpose Flour
@@ -3704,7 +3704,7 @@
     \ will help them maintain their shape while baking."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 20 mins
   rating: 5
   scale: 1/1
@@ -3745,7 +3745,7 @@
     streaky.)'
   - Top the pudding with the remaining raspberries and a dollop of the whipped cream.
     Serve immediately.
-  image_url: images/recipes/EC1F4189-5757-4BE4-B459-C01BA9AC6D6F-49820-0000133CA64980F5.jpg
+  image_url: images/recipes/59F1F9AB-94B8-4582-B51C-EC5EC5DDDAF1.jpg
   in_trash: false
   ingredients:
   - 1 cup/240 milliliters whole milk
@@ -4206,7 +4206,7 @@
     Pour in some pasta water to get the sauce to the consistency you want (I only
     used about 3 tablespoons). Taste and adjust seasonings accordingly. Pour onto
     a serving platter and top with fresh parsley and more grated cheese.
-  image_url: images/recipes/5AFCB71D-441B-490F-A218-EF181D028F2F-4223-00000167D79924EC.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - "\xBD pounds Linguine Pasta"
@@ -4225,7 +4225,7 @@
     \ Adjust the garlic level according to your preference!"
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 5 mins
   rating: 4
   scale: null
@@ -4844,7 +4844,7 @@
   - 6. Bake biscuits until golden brown, about 15 minutes for small biscuits and 19
     minutes for large ones. Let cool slightly, then transfer to a wire rack. Serve
     warm or at room temperature.
-  image_url: images/recipes/BAAB79D6-9EE3-4E7A-95A2-BEB15E7B4092-9628-00000348A38523D2.jpg
+  image_url: images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247.jpg
   in_trash: false
   ingredients:
   - 8 tbsp cold unsalted butter
@@ -4859,7 +4859,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 15 minutes
   rating: 5
   scale: 2/1
@@ -5128,7 +5128,7 @@
     the cooled doughnuts. Shake them gently in a bag with granulated or confectioners'
     sugar. Serve immediately; or wrap loosely and store at room temperature. The doughnuts
     will gradually soften as they sit.
-  image_url: images/recipes/70D2B8BD-8B1D-46D1-889A-B12DB528BF15-44400-000010DDF71C2B8E.jpg
+  image_url: images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01.jpg
   in_trash: false
   ingredients:
   - 1 cup (227g) water
@@ -5143,7 +5143,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 25 mins
   rating: 4
   scale: null
