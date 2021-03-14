@@ -155,7 +155,6 @@
 - categories:
   - Meal Type
   - Dessert
-  - Web
   cook_time: 30 minutes
   created: '2020-12-28 11:01:23'
   description: ''
@@ -189,7 +188,7 @@
     \ before serving."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   prep_time: 10 minutes
   rating: 0
   scale: null
