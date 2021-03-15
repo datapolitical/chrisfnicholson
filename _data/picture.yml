@@ -19,6 +19,7 @@ presets:
   lazy:
     formats: [webp, original]
     widths: [280, 360, 400, 600]
+    dimension_attributes: true
     attributes:
       img: class="lazy photo-large"
     sizes:
