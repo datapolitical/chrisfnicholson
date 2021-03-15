@@ -15,8 +15,8 @@ presets:
     markup: data_auto
     formats: [webp, original]
     widths: [200, 400, 600, 800]
-    dimension_attributes: true
     noscript: true # add a fallback image inside a <noscript> tag.
+    link_source: true
     attributes:
       img: class="lazy"
 
