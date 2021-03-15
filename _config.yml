@@ -105,6 +105,7 @@ pwa:
     - "/index.html"
   precache_glob_ignores: # Optional
     - "sw-register.js"
+    - "assets/katex/*
     - "fonts/**/*"
 
 # google_analytics: G-QTJ2YPCJSC
