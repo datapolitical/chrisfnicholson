@@ -1,5 +1,7 @@
 media_queries:
-  mobile: 'max-width: 600px'
+  mobile: "max-width: 600px"
+  desktop: "min-width: 601px"
+  ultrawide: "min-width: 1400px"
 
 presets:
   default:
@@ -7,18 +9,22 @@ presets:
     formats: [webp, original]
 
     dimension_attributes: true
+    attributes:
+      img: class="photo"
     sizes:
       mobile: 90vw
+      desktop: 50vw
     size: 500px
 
   lazy:
-    markup: data_auto
     formats: [webp, original]
-    widths: [200, 400, 600, 800]
-    noscript: true # add a fallback image inside a <noscript> tag.
-    link_source: true
+    widths: [280, 360, 400, 600]
     attributes:
-      img: class="lazy"
+      img: class="lazy photo-large"
+    sizes:
+      mobile: 90vw
+      desktop: 30vw
+    size: 300px
 
   drinks:
     widths: [280, 360, 400, 600, 800, 1000]
