@@ -98,15 +98,16 @@ pwa:
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "/**/*.{js,json,css}"
-    - "/assets/images/recipes/*.{ico,png,svg,webp}"
+    - "/assets/generated/images/recipes/*-280-*.{webp}"
+    - "/assets/generated/images/recipes/*-400-*.{webp}"
 #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
     - "/recipes/*.html"
-    - "/drinks/*.html"
     - "/index.html"
   precache_glob_ignores: # Optional
     - "sw-register.js"
     - "assets/katex/*"
     - "fonts/**/*"
+    - "/assets/js/lunr.js"
 
 # google_analytics: G-QTJ2YPCJSC
 google_analytics: UA-387663-5
