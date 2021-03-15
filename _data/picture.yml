@@ -10,11 +10,21 @@ presets:
     sizes:
       mobile: 90vw
     size: 500px
-  
+
   lazy:
     markup: data_auto
     formats: [webp, original]
     widths: [200, 400, 600, 800]
     noscript: true # add a fallback image inside a <noscript> tag.
-    attributes: 
+    attributes:
       img: class="lazy"
+
+  drinks:
+    widths: [280, 360, 400, 600, 800, 1000]
+    formats: [webp, original]
+
+    dimension_attributes: true
+    sizes:
+      desktop: 50vw
+      mobile: 90vw
+    size: 400px
