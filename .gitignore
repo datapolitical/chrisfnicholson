@@ -4,6 +4,8 @@ _site/
 .jekyll-metadata
 .env
 opendrinks_old/
+webp-drinks/
+webp-recipes/
 src/
 webp-recipes/
 webp-drinks/
