@@ -708,6 +708,62 @@
   source_url: https://www.kingarthurflour.com/recipes/sourdough-cinnamon-buns-recipe
   total_time: ''
   uid: 1B38C03A-7088-4319-8724-F58930CE5450-15656-00000468553228D7
+- categories: []
+  cook_time: ''
+  created: '2021-03-15 19:15:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - Barbecue Chicken Directions
+  - Start by soaking your wood chips in water or beer for an hour to two. Apple or
+    cherry wood is best when paired with lighter meats like poultry and soaking them
+    prior to throwing them on the smoker allows them to smoulder and smoke instead
+    of burn quickly.
+  - The next step is to light your charcoal smoker approximately 30 to 35 minutes
+    before you want to start cooking the chicken. The charcoal will be ready when
+    all of the coals turn to a glowing white hot color.
+  - Mix your BBQ seasoning with some olive oil until it turns into a paste. Take your
+    hands and apply the paste all over the chicken. You can even separate the breast
+    meat from the skin by sliding your finger down the top of the bird and put some
+    seasoning directly on the breast meat. This will help add additional flavor to
+    the meat instead of just the skin.
+  - Throw your smoker wood on and place the seasoned bird on the grates of the smoker.
+    You want to adjust the vent on top of your smoker to allow about 75% of the vent
+    to be open. If your grill lid is adjustable, make sure the vents are positioned
+    over the top of the chicken in order to draw all of the smoke over the chicken
+    before it escapes the smoker.
+  - Check the barbecue chicken about once an hour to see if you are holding the right
+    temperature. We recommend mopping the bird with the BBQ sauce about 30 minutes
+    prior to pulling it off the smoker. This will allow the sauce to caramelize on
+    the chicken and will further enhance the flavor. Just make sure you use a mopping
+    brush instead of a basting brush or you will wipe away all your seasoning.
+  - Take the chicken off the smoker when it has reached an internal temperature inside
+    the breast of 165 degrees and tent it with aluminum foil. Never cut into meat
+    when it is hot off the smoker or the juices won't redistribute and it will turn
+    out tough. After 20 minutes, slice and serve along side a bowl of your BBQ sauce.
+  image_url: images/recipes/E49B0340-EB89-4480-9A38-78BD0FF688B1.jpg
+  in_trash: false
+  ingredients:
+  - BBQ Smoked Chicken Ingredients
+  - 1 whole chicken
+  - Olive oil
+  - 1 bottle of barbecue seasoning (McCormick or Grill Mates brands recommended)
+  - 1 bottle of your favorite restaurant BBQ sauce
+  - Apple or Cherry wood
+  is_pinned: false
+  name: BBQ Smoked Chicken
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: smokegrillbbq.com
+  source_url: https://www.smokegrillbbq.com/bbq-smoked-chicken.html
+  total_time: ''
+  uid: 1F17CD9D-B279-473B-B3C0-743E1866D17F
 - categories:
   - Jewish
   - Web
@@ -3102,6 +3158,47 @@
   source_url: https://www.food.com/recipe/sweet-potato-waffles-117479
   total_time: ''
   uid: 8C1D4340-7CF9-4906-8BE3-CCD4FC754331-1776-000000885897B092
+- categories: []
+  cook_time: 4 hrs
+  created: '2021-03-15 19:08:48'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat your smoker to 225 degrees F.
+  - Drizzle chicken with olive oil and season on all sides with the sweet rub. I don't
+    recommend rubbing in your seasoning because it will just pull back on the skin
+    and your seasoning will chunk.
+  - Use butcher twine to tie the legs together and tuck the wing tips behind the shoulder
+    joint.
+  - Place your chicken directly on the grill grates on your smoker. Close the lid
+    and smoke for 3 1/2 - 4 hours. Breasts should be about 160-165 degrees F. The
+    thighs should be about 170-175 degrees F.
+  - Baste with your favorite BBQ sauce during the last 30 minutes of cooking (this
+    is optional). Also, if you want crispy skin on your chicken, increase the heat
+    on your smoker for the final 8-10 degrees (aim for 375-400 degrees).
+  - Once the chicken has reached the correct internal temperature, remove it from
+    the grill, slice, and serve.
+  image_url: images/recipes/D13249F9-2146-484E-812A-14848DA78F5C.jpg
+  in_trash: false
+  ingredients:
+  - 1 2-3 pound whole chicken
+  - 2 Tablespoons olive oil
+  - 2-3 Tablespoons Hey Grill Hey Signature Sweet Rub
+  is_pinned: false
+  name: Smoked Whole Chicken
+  notes: ''
+  nutritional_info: 'Calories: 62kcal | Protein: 1g | Fat: 7g | Saturated Fat: 1g
+    | Cholesterol: 1mg | Sodium: 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: ''
+  source: heygrillhey.com
+  source_url: https://heygrillhey.com/smoked-whole-chicken/
+  total_time: ''
+  uid: 8C56C1A2-F91A-447B-8911-18AB295F1293
 - categories: []
   cook_time: 'prep: 20 min. bake: 30 min. + cooling'
   created: '2021-01-21 15:08:42'
