@@ -905,6 +905,83 @@
   source_url: https://www.favfamilyrecipes.com/microwave-rice-krispie-treats/
   total_time: ''
   uid: 252DE86B-2994-4382-97EC-BD3757200E2F
+- categories: []
+  cook_time: 1 hr
+  created: '2021-03-18 15:08:45'
+  description: ''
+  difficulty: ''
+  directions:
+  - About 24 hours before you want to cook the bird, combine salt and baking powder
+    in a small bowl. Remove the spine from the chicken and set aside. Taking a pinch
+    of salt at a time, hold your hands about 6 inches above the bird and liberally
+    apply to the entire bird, on all sides. Rub into the chicken. Refrigerate uncovered
+    for up to 2 days, a minimum of 24 hours.
+  - When you're ready to cook, either preheat the Traeger or the oven to 400 degrees.
+    Cooking times should not vary dramatically between the two.
+  - Remove the chicken and on a cutting board, apply liberal amounts of all the seasonings
+    listed under "Rub". The quantity depends on the size of the bird, but you want
+    a lot of the seasonings on the bird. Apply under skin as well if you are able.
+    Use olive oil liberally to help distribute the seasonings.
+  - Cook for 45 minutes to 1 hour, until the internal temperature of the bird reaches
+    160 for the breasts and 165 for the thighs.
+  - Let rest for 10 minutes and then carve and serve!
+  image_url: images/recipes/F47269A7-47FB-4245-A5FE-B9C787C98510.jpg
+  in_trash: false
+  ingredients:
+  - 1 whole chicken
+  - For the Dry Brine
+  - 1 tbsp baking powder
+  - "\xBC cup salt"
+  - For the Rub
+  - dried thyme
+  - ground mustard
+  - ground onion powder
+  - ground garlic powder
+  - ground sage
+  - "\xBC cup olive oil"
+  is_pinned: false
+  name: Dry Brine Chicken - Spatchcocked & Smoked
+  notes: If you are sensitive to salt, you can wipe off the salt mixture before applying
+    the rub.
+  nutritional_info: '354 kcal
+
+    Calories: 354kcal
+
+    Carbohydrates: 1g
+
+    Protein: 24g
+
+    Fat: 28g
+
+    Saturated Fat: 7g
+
+    Trans Fat: 1g
+
+    Cholesterol: 95mg
+
+    Sodium: 5017mg
+
+    Potassium: 241mg
+
+    Fiber: 1g
+
+    Vitamin A: 178IU
+
+    Vitamin C: 2mg
+
+    Calcium: 134mg
+
+    Iron: 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 1 d 30 mins
+  rating: 0
+  scale: null
+  servings: 6 servings
+  source: thatzestlife.com
+  source_url: https://www.thatzestlife.com/dry-brine-chicken-spatchcocked-smoked/
+  total_time: ''
+  uid: 29A0659D-4F71-46D1-B6FA-93D4B3989C4E
 - categories:
   - Made at 307
   - Web
