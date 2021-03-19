@@ -248,6 +248,43 @@
   source_url: https://www.tasteofhome.com/recipes/cider-wassail-punch/
   total_time: ''
   uid: 052F1D73-3DB3-4A66-886F-385A437DCFBD-646-00000015737AE7E3
+- categories: []
+  cook_time: 1 day
+  created: '2021-03-19 03:44:45'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the salt, sugar and black peppercorns to a large stock pot of 8 quart square
+    plastic food storage container.
+  - Pour in the hot water and stir until the salt and sugar have dissolved.
+  - '[photo:First]'
+  - Pour in the cold water and throw in the bay leaves.
+  - Lower in the chicken and position so it is fully immersed in the water.
+  - Cover with plastic wrap and place in the fridge for 12-24 hours.
+  image_url: images/recipes/1BB12CD1-A7E9-45A4-ACD6-841E8CB9662D.jpg
+  in_trash: false
+  ingredients:
+  - 1 cup table salt
+  - 2 tbsp sugar
+  - 1 1/2 tsp black peppercorns
+  - 1 litre hot water
+  - 3 litres cold water
+  - 3 bay leaves
+  - 1 whole chicken
+  is_pinned: false
+  name: How to Brine Chicken
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: 1 day
+  rating: 0
+  scale: null
+  servings: 'Servings: 1 whole chicken'
+  source: theblackpeppercorn.com
+  source_url: https://www.theblackpeppercorn.com/how-to-brine-chicken/
+  total_time: ''
+  uid: 069CA7FF-5E25-462D-9AD8-8B3D5AED980D
 - categories:
   - Web
   - Indian
@@ -2661,6 +2698,44 @@
   source_url: https://domesticgothess.com/blog/2015/07/30/hokkaido-milk-bread/
   total_time: ''
   uid: 79E3CDD7-84F3-472D-B4A6-3A913802841A-3431-000001001816A812
+- categories: []
+  cook_time: ''
+  created: '2021-03-19 03:43:36'
+  description: ''
+  difficulty: ''
+  directions:
+  - Rub chicken with olive oil and sprinkle with seasoning
+  - 'To slow cook:'
+  - Add seasoned chicken to slow cooker
+  - Carefully pour liquid into bottom, careful not to wash of seasoning
+  - Cover and cook on low for 8 hours or high for 4
+  - If desired, place on broiler safe pan in oven for a few minutes to brown
+  - 'To grill:'
+  - Preheat grill/smoker to about 450 degrees and add your favorite wood chips/pellets
+    as appropriate for your grill
+  - Place chicken on grill and maintain temperature at about 400-450 degrees
+  - Cover and cook for about an hour until chicken is done (170 degrees)
+  image_url: images/recipes/9C2DBAA4-F7D6-4C73-9EFC-13BC18DBCB3C.jpg
+  in_trash: false
+  ingredients:
+  - 3-4 pound whole chicken
+  - 2 tablespoons olive oil
+  - 2-3 teaspoons seasoning blend (I used Penzey's Mural of Flavor)
+  - 1 cup broth or water (if slow cooking)
+  is_pinned: false
+  name: 'Whole Roast Chicken: Slow Cooked vs. Smoked'
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: slowcookergourmet.net
+  source_url: https://slowcookergourmet.net/whole-roast-chicken-slow-cooked-vs-smoked/
+  total_time: ''
+  uid: 7BB92AAE-A5E9-4DD0-A942-76B2D62B1B79
 - categories: []
   cook_time: 2 mins
   created: '2021-01-21 14:59:53'
