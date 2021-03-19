@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: crosswords
-title: My Crossword Puzzles
+title: "My Crossword Puzzles"
 ---

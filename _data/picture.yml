@@ -18,13 +18,15 @@ presets:
 
   lazy:
     formats: [webp, original]
-    widths: [280, 360, 400, 600]
+    widths: [400, 600, 800, 1000]
     dimension_attributes: true
     attributes:
       img: class="lazy photo-large"
+    media_widths:
+      desktop: [280]
     sizes:
+      desktop: 20vw
       mobile: 90vw
-      desktop: 30vw
     size: 300px
 
   drinks:
