@@ -1334,17 +1334,23 @@
   total_time: ''
   uid: 3F013FC0-BF4A-46DB-A8AB-5B5C7E1E077B-14886-000005E4BE20F302
 - categories: []
-  cook_time: 3 hrs 50 mins
+  cook_time: 2 hr, 30 min
   created: '2021-03-19 19:10:15'
   description: ''
   difficulty: ''
   directions:
-  - Rinse chicken and place in a large bowl. Cover with a brine (salted water - the
-    water should have the approximate saltiness of sea water). Place in fridge for
-    at least a couple hours or overnight.
-  - Remove chicken from brine and pat dry. Season the chicken with salt and pepper.
-    Truss if desired ( click here for trussing instructions
-  - ).
+  - Empty chicken cavity, rinse chicken. Stuff cavity with two quarters of an onion
+    and two quarters of a lemon with the peel and rind removed. Save the peel (and
+    rind).
+  - '**Make the brine**'
+  - Add the salt, sugar, rosemary, garlic, lemon peel and black peppercorns to a large
+    stock pot or 8 quart square plastic food storage container.
+  - Pour in the hot water (1 quart) and stir until the salt and sugar have dissolved.
+  - Pour in the cold water (3 quarts) and throw in the bay leaves.
+  - Lower in the chicken and position so it is fully immersed in the water.
+  - Cover with plastic wrap or pot top and place in the fridge for 12-24 hours.
+  - 'Remove chicken from brine and pat dry. '
+  - '**Season the chicken**'
   - "Light charcoal. If using a side smoker box, place the lit charcoal next to the\
     \ side vent door (furthest from the grill), then stack the unlit charcoal going\
     \ towards the grill (not on top of the already lit charcoal). Allow the smoker\
@@ -1361,7 +1367,7 @@
     \ and the size of the chicken."
   - After the chicken is cooked, remove from the smoker and allow to rest for 20 minutes.
     After rested, carve and serve.
-  image_url: images/recipes/5041BFF7-B225-4078-853C-2AF96AF992FB.jpg
+  image_url: images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172.jpg
   in_trash: false
   ingredients:
   - 4 lb. (1.82 kg) whole Chicken
@@ -1375,9 +1381,10 @@
     c: 4mg, calcium: 25mg, iron: 2mg'
   on_favorites: false
   on_grocery_list: false
-  photos: []
-  prep_time: 10 mins
-  rating: 0
+  photos:
+  - '1': images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172.jpg
+  prep_time: 30 min
+  rating: 5
   scale: null
   servings: 'Yield: 4 servings'
   source: bestrecipebox.com
