@@ -3540,6 +3540,45 @@
   total_time: ''
   uid: 87EC70DC-8272-4E94-A1E0-8ED3957022A5-10753-0000038DF159BE79
 - categories: []
+  cook_time: 5 minutes
+  created: '2021-03-19 23:58:06'
+  description: ''
+  difficulty: ''
+  directions:
+  - Combine ingredients in a small bowl and mix well. Apply to your favorite meat
+    before cooking.
+  image_url: https://blackberrybabe.com/wp-content/uploads/2020/01/MVIMG_20191124_124519_2-scaled-720x720.jpg
+  in_trash: false
+  ingredients:
+  - 3 teaspoons salt
+  - 2 teaspoons paprika*
+  - 2 teaspoons brown sugar
+  - 1.5 teaspoon black pepper
+  - 1 teaspoon onion powder
+  - 1 teaspoon garlic powder
+  - 1 teaspoon dried thyme
+  - "\xBD teaspoon cayenne pepper (optional, but recommended)**"
+  is_pinned: false
+  name: Perfect Smoked Chicken Rub
+  notes: '*Smoked paprika is great, if you have it on hand! Otherwise, use normal
+    paprika.
+
+
+    **If you don''t like spicy foods, add just a dash of cayenne pepper instead of
+    the amount called for.'
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: ''
+  source: blackberrybabe.com
+  source_url: https://blackberrybabe.com/2020/03/19/perfect-smoked-chicken-rub/
+  total_time: ''
+  uid: 8B77C453-398A-426A-9787-36161E33081A
+- categories: []
   cook_time: 40mins
   created: '2020-12-22 20:22:06'
   description: ''
