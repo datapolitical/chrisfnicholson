@@ -16,6 +16,18 @@ presets:
       desktop: 50vw
     size: 500px
 
+  writeup:
+    widths: [400, 600, 800, 1000]
+    formats: [webp, original]
+    nomarkdown: true
+    dimension_attributes: true
+    attributes:
+      img: class="photo"
+    sizes:
+      mobile: 90vw
+      desktop: 50vw
+    size: 500px
+
   lazy:
     formats: [webp, original]
     widths: [400, 600, 800, 1000]
