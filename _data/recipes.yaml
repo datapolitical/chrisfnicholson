@@ -1333,6 +1333,57 @@
   source_url: https://diabetesstrong.com/keto-mug-cake/
   total_time: ''
   uid: 3F013FC0-BF4A-46DB-A8AB-5B5C7E1E077B-14886-000005E4BE20F302
+- categories: []
+  cook_time: 3 hrs 50 mins
+  created: '2021-03-19 19:10:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - Rinse chicken and place in a large bowl. Cover with a brine (salted water - the
+    water should have the approximate saltiness of sea water). Place in fridge for
+    at least a couple hours or overnight.
+  - Remove chicken from brine and pat dry. Season the chicken with salt and pepper.
+    Truss if desired ( click here for trussing instructions
+  - ).
+  - "Light charcoal. If using a side smoker box, place the lit charcoal next to the\
+    \ side vent door (furthest from the grill), then stack the unlit charcoal going\
+    \ towards the grill (not on top of the already lit charcoal). Allow the smoker\
+    \ temperature to get between 275\xB0F-300\xB0F."
+  - Place the chicken in the smoker and close door.
+  - "While smoking occasionally adjust the vents to keep the cooking temperature between\
+    \ 275\xB0F-300\xB0F (less air to cool the temperature, more to increase the heat).\
+    \ If using briquettes *see head note, two or three times during the smoking, add\
+    \ a handful of wood cuttings or chips on top of the lit charcoal. (Don't do this\
+    \ too much or else the meat will be overly smoky. Once every hour - hour and half\
+    \ is usually perfect)."
+  - "Cook until the thickest part of the breast meat measures around 160-170\xB0F,\
+    \ usually about 3 1/2 hours but will vary greatly depending on your temperatures\
+    \ and the size of the chicken."
+  - After the chicken is cooked, remove from the smoker and allow to rest for 20 minutes.
+    After rested, carve and serve.
+  image_url: images/recipes/5041BFF7-B225-4078-853C-2AF96AF992FB.jpg
+  in_trash: false
+  ingredients:
+  - 4 lb. (1.82 kg) whole Chicken
+  - Kosher Salt or Sea Salt
+  - Black Pepper , fresh cracked if possible
+  is_pinned: false
+  name: Smoked Whole Chicken
+  notes: ''
+  nutritional_info: 'calories: 488kcal, protein: 42g, fat: 34g, saturated fat: 10g,
+    cholesterol: 170mg, sodium: 159mg, potassium: 429mg, vitamin a: 318IU, vitamin
+    c: 4mg, calcium: 25mg, iron: 2mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 mins
+  rating: 0
+  scale: null
+  servings: 'Yield: 4 servings'
+  source: bestrecipebox.com
+  source_url: https://bestrecipebox.com/smoked-chicken/
+  total_time: ''
+  uid: 43329B9B-B445-4EA8-A937-C897252C15E2
 - categories:
   - Dish Type
   - Dinner
