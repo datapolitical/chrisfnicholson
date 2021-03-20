@@ -1259,7 +1259,7 @@
   - Your chicken should be at 165 degrees. I like to check at the chicken breast and
     legs.
   - Let the chicken sit for about 10 minutes before slicing and eating.
-  image_url: null
+  image_url: images/recipes/42B2FC42-F306-4275-85C6-294BB82220ED.jpg
   in_trash: false
   ingredients:
   - "\xBC cup cup dark brown sugar, packed"
@@ -1415,7 +1415,14 @@
   source_url: https://diabetesstrong.com/keto-mug-cake/
   total_time: ''
   uid: 3F013FC0-BF4A-46DB-A8AB-5B5C7E1E077B-14886-000005E4BE20F302
-- categories: []
+- categories:
+  - Dinner
+  - Writeup
+  - Made at 307
+  - BBQ
+  - Chicken
+  - Web
+  - I Made This
   cook_time: 2 hr, 30 min
   created: '2021-03-19 19:10:15'
   description: ''
@@ -1457,8 +1464,28 @@
   in_trash: false
   ingredients:
   - 4 lb. (1.82 kg) whole Chicken
-  - Kosher Salt or Sea Salt
-  - Black Pepper , fresh cracked if possible
+  - "\xBD a white onion"
+  - "\xBD a large lemon"
+  - '**Brine**'
+  - 1 cup table salt
+  - 2 tbsp sugar
+  - 1 1/2 tsp black peppercorns
+  - 1 lemon rind
+  - 4 sprigs rosemary
+  - 3 peeled crushed cloves of garlic
+  - 1 quart hot water
+  - 3 quarts cold water
+  - 3 bay leaves
+  - "\xBC cup olive oil"
+  - '**Rub**'
+  - 3 teaspoons salt
+  - 2 teaspoons paprika*
+  - 2 teaspoons brown sugar
+  - 1.5 teaspoon black pepper (fresh if possible)
+  - 1 teaspoon onion powder
+  - 1 teaspoon garlic powder
+  - 1 teaspoon dried thyme
+  - "\xBD teaspoon cayenne pepper (optional, but recommended)**"
   is_pinned: false
   name: Smoked Whole Chicken
   notes: ''
