@@ -1259,7 +1259,7 @@
   - Your chicken should be at 165 degrees. I like to check at the chicken breast and
     legs.
   - Let the chicken sit for about 10 minutes before slicing and eating.
-  image_url: images/recipes/0D1BFF18-0F6E-43BE-B2DA-CC6B62DD182C.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - "\xBC cup cup dark brown sugar, packed"
@@ -1294,7 +1294,8 @@
     28.9g | Fat: 23g | Cholesterol: 115mg | Sodium: 110mg | Sugar: 6g'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/42B2FC42-F306-4275-85C6-294BB82220ED.jpg
   prep_time: ''
   rating: 0
   scale: null
