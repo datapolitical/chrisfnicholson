@@ -5931,3 +5931,83 @@
   source_url: https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta
   total_time: ''
   uid: F4D85915-CFBB-4137-93FD-25F0C79C9A4D-6315-0000022CD2A1EBDE
+- categories: []
+  cook_time: 25 minutes
+  created: '2021-03-21 03:36:13'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'FOR THE CRUST:'
+  - "Preheat oven to 375 \xB0F and set an oven rack in the middle position."
+  - "In a medium bowl, combine the graham cracker crumbs, brown sugar, and melted\
+    \ butter; stir with a fork first, and then your hands until the mixture is well\
+    \ combined. Using your fingers and the bottom of a glass or dry measuring cup,\
+    \ press the crumbs firmly into the bottom and up the sides of a 9 x 1.5-inch pie\
+    \ pan. The crust should be about \xBC-inch thick. (Tip: do the sides first.)"
+  - Bake for 10 minutes, until just slightly browned. Let the crust cool on a wire
+    rack.
+  - 'FOR THE FILLING:'
+  - "Lower the oven temperature to 350\xB0F."
+  - In a large bowl, whisk together the sweetened condensed milk, yogurt, lime zest,
+    and lime juice. Pour the thick mixture into the warm graham cracker crust. Bake
+    for 15 minutes, until the filling is almost set; it should wobble a bit. Let cool
+    at room temperature for 30 minutes, then place in the refrigerator to chill thoroughly,
+    about 3 hours.
+  - 'FOR THE TOPPING:'
+  - "In the bowl of an electric mixer, beat the heavy cream until soft peaks form.\
+    \ Add the confectioners\u2019 sugar and beat until medium peaks form. Top the\
+    \ pie with the whipped cream. Decorate with the lime zest and lime slices. Store\
+    \ the pie in the refrigerator until ready to serve. Slice the pie into wedges,\
+    \ wiping your knife clean between slices, and serve cold."
+  - 'Make-Ahead Instructions: You can make the crust a day ahead of time, but the
+    filling should be added on the day of serving, otherwise the crust will get soggy.'
+  image_url: images/recipes/EC8B02E6-EA01-4F7A-9CF1-85CA369B5816.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR THE CRUST:'
+  - 1-1/2 cups finely crushed graham cracker crumbs, from about 12 whole graham crackers
+  - 1/3 cup packed light brown sugar
+  - 4 tablespoons unsalted butter, melted
+  - 'FOR THE FILLING:'
+  - Two 14-oz cans sweetened condensed milk
+  - 1 cup plain Greek yogurt (2% or whole milk)
+  - 1 tablespoon grated lime zest
+  - 3/4 cup fresh lime juice
+  - 'FOR THE TOPPING:'
+  - 1 cup cold heavy cream
+  - 2 tablespoons confectioners' sugar
+  - 1 teaspoon grated lime zest
+  - 8 to 10 thin lime slices
+  is_pinned: false
+  name: Key Lime Pie
+  notes: 'Note: The nutritional information was calculated using 2% Greek yogurt.'
+  nutritional_info: 'Per serving (10 servings)
+
+    Calories: 481
+
+    Fat: 24 g
+
+    Saturated fat: 14 g
+
+    Carbohydrates: 60 g
+
+    Sugar: 54 g
+
+    Fiber: 0 g
+
+    Protein: 10 g
+
+    Sodium: 183 mg
+
+    Cholesterol: 76 mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 20 minutes
+  rating: 0
+  scale: null
+  servings: 'Servings: 8 to 10'
+  source: onceuponachef.com
+  source_url: https://www.onceuponachef.com/recipes/key-lime-pie.html
+  total_time: ''
+  uid: F820FC40-7A6B-4C6E-8CEA-9D756DC6B124
