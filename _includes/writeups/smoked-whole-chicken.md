@@ -10,6 +10,8 @@ Stuffing — if you can, empty the chest cavity and stuff it with some lemons an
 
 Dry rub — there were almost too many good dry rub options. I wanted something with a lower amount of sugar, so I went with [this one](https://blackberrybabe.com/2020/03/19/perfect-smoked-chicken-rub/). Start with a quarter cup of olive oil, rubbed all over, followed by the rub. I used about 2/3s of the total rub I made from that recipe.
 
+{% picture writeup images/pages/smoked-whole-chicken-3.jpeg 1:1 --alt "heating up the coals" %}
+
 Set up the BBQ — I heated up a full chimney of briquettes for about 45 minutes, longer than I intended but it worked out fine. Then when I was ready to dump them, I filled up a drip pan with water, put it to one side, and put the coals on the other side, directly under the door.  
 
 On top of the coals I added a handful of hickory wood chips I soaked in water  for about 10 minutes. Next time I’ll soak them longer.
@@ -18,10 +20,10 @@ On top of the coals I added a handful of hickory wood chips I soaked in water  f
 
 I placed the chicken on the grill in the center, above the drip pan, stuck one probe [in the breast](https://www.weber.com/NZ/en/grill-skills/mastering-poultry/chicken/how-to-probe-a-whole-chicken/weber-1720834.html) and affixed the other to the grate.
 <br>
-{% picture writeup images/pages/smoked-whole-chicken-3.jpeg 1:1 --alt "heating up the coals" %}
 
 Now, we wait — I monitored the temperature on my dual probe thermometer, adjusting the bottom vent to keep temp around 275 degrees Fahrenheit. This meant occasionally adding additional coals and additional wood chips. When adding coals, make sure to lift the lid straight up and try to keep it open for no more than 30 seconds.
-8. Once the Chicken temperate hit 145 I opened up the bottom grates to boost the oven temperature to 350.
+
+Once the Chicken temperate hit 145 I opened up the bottom grates to boost the oven temperature to 350.
 <br>
 {% picture writeup images/pages/smoked-whole-chicken-4.jpeg 1:1 --alt "monitoring the cook" %}
 
