@@ -46,12 +46,12 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: _site/*
-          key: ${{ runner.os }}-site-${{ hashFiles('**/index.html') }}
+          key: ${{ runner.os }}-build-${{ hashFiles('**/_data/picture.yml') }}
           restore-keys: |
-            ${{ runner.os }}-site-
+            ${{ runner.os }}-build-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: datapolitical/jekyll-deploy-action@v0.2.7
+      - uses: jeffreytse/jekyll-deploy-action@master
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
