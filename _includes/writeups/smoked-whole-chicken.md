@@ -31,3 +31,4 @@ After 20 minutes, time to eat!
 <br>
 {% picture writeup images/pages/smoked-whole-chicken-5.jpeg 1:1 --alt "finished chicken" %}
 
+
