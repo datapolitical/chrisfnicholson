@@ -22,10 +22,10 @@ presets:
     nomarkdown: true
     dimension_attributes: true
     attributes:
-      img: class="photo"
+      img: class="writeup-photo"
     sizes:
-      mobile: 90vw
-      desktop: 50vw
+      mobile: 80vw
+      desktop: 80vw
     size: 500px
 
   lazy:
