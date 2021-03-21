@@ -42,6 +42,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
+      # Use GitHub Actions' cache to cache site on servers
+      - uses: actions/cache@v2
+        with:
+          path: _site
+          key: ${{ runner.os }}-site-${{ hashFiles('**/index.html') }}
+          restore-keys: |
+            ${{ runner.os }}-site-
+
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: datapolitical/jekyll-deploy-action@v0.2.7
         with:
