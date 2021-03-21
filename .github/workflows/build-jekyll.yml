@@ -45,7 +45,7 @@ jobs:
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
         with:
-          path: _site
+          path: _site/*
           key: ${{ runner.os }}-site-${{ hashFiles('**/index.html') }}
           restore-keys: |
             ${{ runner.os }}-site-
