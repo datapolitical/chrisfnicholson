@@ -30,5 +30,3 @@ At 161 degrees internal temperature, I took the bird out, placed it on a wood cu
 After 20 minutes, time to eat!
 <br>
 {% picture writeup images/pages/smoked-whole-chicken-5.jpeg 1:1 --alt "finished chicken" %}
-
-
