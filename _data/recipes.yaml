@@ -1172,6 +1172,84 @@
   total_time: ''
   uid: 2EF72996-4FA5-4289-8F5A-A320574AFE11-7739-00000393F9EDA5F9
 - categories: []
+  cook_time: 1 hour 35 minutes
+  created: '2021-03-22 00:52:34'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat the oven to 375\xBA F."
+  - "Heat the oil in a medium skillet. Add the onion and saut\xE9 until translucent.\
+    \ Add the bell pepper and garlic and continue to saut\xE9 until all are golden."
+  - In a mixing bowl, combine the skillet mixture with all the remaining ingredients
+    (other than the optional glaze topping). Work together thoroughly with a large
+    spoon or clean hands.
+  - Transfer the mixture to an oiled 9-by-5-by 3-inch loaf pan (metal is preferable,
+    though ceramic works, too. Glass is less desirable) and pat in. If you think your
+    loaf pan will be sticky, line the bottom with a fitting piece of parchment. Or,
+    if you want to be able to easily lift the loaf out of the pan, cut a piece of
+    parchment to fit the bottom, sides, and enough to make "wings" on the side of
+    the pan.
+  - Cover with foil and bake for 45 minutes.
+  - "If you\u2019re using the optional glaze, combine the ingredients in a small bowl\
+    \ and stir together. After the initial 45 minutes of baking time, spread evenly\
+    \ on top of the loaf."
+  - Whether or not you're using the glaze, bake for 20 to 30 minutes longer, uncovered,
+    or until the loaf looks firm and you can see browning around the edges.
+  - Remove from the oven and let the loaf stand for about 15 minutes. Loosen the loaf
+    around the edges with a knife. Use a sharp knife to cut into 8 to 10 slices. Or
+    if you've made parchment "wings," carefully lift out of the pan and set on an
+    oblong serving plate before cutting.
+  image_url: images/recipes/D0611603-DD7C-45B2-AD1E-6FD057F2A13C.jpg
+  in_trash: false
+  ingredients:
+  - 1 tablespoon olive oil
+  - 1 medium onion, very finely chopped
+  - 1/2 medium bell pepper, finely chopped
+  - 2 to 3 cloves garlic, minced
+  - 16-ounce package Beyond Meat's Beyond Beef Plant-Based Ground (or see red bean
+    and walnut alternative in Notes)
+  - 1 cup tomato sauce
+  - 2 tablespoons maple syrup or agave
+  - 2 tablespoons soy sauce or tamari
+  - 1 tablespoon barbecue seasoning blend (see Note)
+  - 2 teaspoons Italian seasoning
+  - 2/3 cup quick-cooking oats (oatmeal)
+  - "1 cup fine breadcrumbs\L (see Note)"
+  - Freshly ground pepper to taste
+  - GLAZE TOPPING (OPTIONAL BUT HIGHLY RECOMMENDED)
+  - 1/2 cup tomato sauce
+  - 1 tablespoon soy sauce or tamari
+  - 1 tablespoon maple syrup or agave
+  - 1 teaspoon barbecue seasoning blend
+  is_pinned: false
+  name: "CLASSIC VEGAN MEATLOAF (MADE WITH BEYOND BEEF\xAE PLANT-BASED GROUND)"
+  notes: "I made this exact recipe using red beans and walnuts instead of the Beyond\xAE\
+    \ Ground and it tastes almost exactly the same \u2014 a whole food option at a\
+    \ fraction of the cost! Simply pulverize 1/2 cup walnuts in a food processor until\
+    \ just about powdered. Add a 15-ounce can red beans, drained and rinsed, and pulse\
+    \ on and off until the mixture has the texture of ground. Then add to the mixing\
+    \ bowl in place of the Beyond Ground. I'll have a separate post for this formulation\
+    \ soon!\n\nBarbecue seasonings are available in the spice section of most supermarkets.\
+    \ One of the best-known brands is McCormick\xAE. Varieties include smokehouse\
+    \ maple, mesquite, chipotle, and there are lots of others. Discover your favorites,\
+    \ and keep a couple on hand.\n\nIf you don't have breadcrumbs on hand, you can\
+    \ make them by whirling two slices of whole-grain bread in the food processor\
+    \ fitted with the metal blade. That should make about a cup.\n\nAs shown, you\
+    \ can top with some finely chopped fresh herb or greens of your choice \u2014\
+    \ parsley, cilantro, scallions, or baby spinach.\n\nLeftovers make delicious sandwiches!"
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 15 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 10 slices'
+  source: Theveganatlas.com
+  source_url: https://theveganatlas.com/classic-vegan-meatloaf-made-with-beyond-beef-plant-based-ground/
+  total_time: ''
+  uid: 3282F514-AECA-47F5-90F7-0D108A9F1354
+- categories: []
   cook_time: 10 minutes
   created: '2021-01-15 01:33:02'
   description: ''
