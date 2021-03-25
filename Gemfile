@@ -8,6 +8,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll", '~>4'
 gem "jekyll-feed"
 gem "jekyll-gist"
+gem "json"
 gem "ffi"
 gem 'rmagick'
 gem "jekyll-remote-theme"
