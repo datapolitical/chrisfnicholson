@@ -202,8 +202,7 @@
   source_url: https://www.kelloggs.com/en_US/recipes/the-original-treats-recipe.html
   total_time: ''
   uid: 04DF0026-7FB3-43D1-BBFB-CCBD5FEBA40F-3712-00000164898B96F0
-- categories:
-  - Web
+- categories: []
   cook_time: 'prep/total time: 30 min.'
   created: '2020-12-18 01:18:18'
   description: ''
@@ -248,7 +247,7 @@
   photos:
   - '1': images/recipes/ACA7AE31-5A5B-4CAF-890B-3C6E723E1A95.jpg
   prep_time: 10 min
-  rating: 0
+  rating: 3
   scale: 1/1
   servings: 9 servings
   source: tasteofhome.com
@@ -1409,7 +1408,7 @@
   - 1 tsp pure vanilla extract
   - 6 cups rice krispies cereal
   is_pinned: false
-  name: Perfect Rice Krispie Treats
+  name: Rice Krispie Treats
   notes: 'Why do my rice krispies treats get hard?A: Could be many factors. Starting
     with stale marshmallows or cereal. Keep heat on low while adding marshmallows.
     And finally, do NOT press too firm when you''re adding the treats to the pan.
@@ -1636,7 +1635,7 @@
   - 4 ounces cream cheese, room temperature
   - 'toppings: chopped fresh chives or green onions, freshly-cracked black pepper'
   is_pinned: false
-  name: The Best Mashed Potatoes
+  name: Mashed Potatoes
   notes: ''
   nutritional_info: ''
   on_favorites: false
@@ -1763,7 +1762,7 @@
   - 6 ounces hot water
   - Cinnamon stick, for garnish (optional)
   is_pinned: false
-  name: The Original Hot Buttered Rum
+  name: Hot Buttered Rum
   notes: ''
   nutritional_info: ''
   on_favorites: false
@@ -2017,8 +2016,7 @@
   source_url: https://www.historyisfun.org/jamestown-settlement/foods-and-feasts/colonial-recipes/
   total_time: ''
   uid: 53FC32FF-C28D-43C5-B190-CE10D9652E71-646-000000179312F609
-- categories:
-  - Web
+- categories: []
   cook_time: 15 minutes
   created: '2020-12-23 23:57:07'
   description: ''
@@ -2056,7 +2054,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos:
   - '1': images/recipes/9B8B0603-97A3-43AC-9BA1-E3DBC30241AA-610-0000018EBF7ADC94.jpg
   prep_time: 15 minutes
@@ -2948,7 +2946,12 @@
   source_url: https://www.washingtonpost.com/food/2021/02/11/baked-feta-pasta-recipe-tiktok/
   total_time: ''
   uid: 790A36B1-FBD2-4C3A-BD54-7AD8DA671109-9053-000003023DED6ED6
-- categories: []
+- categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - Pastry
+  - I Made This
   cook_time: 15 to 18 mins
   created: '2021-01-21 14:36:15'
   description: ''
@@ -3018,7 +3021,7 @@
     \ tightly covered, until you\u2019re ready to use it."
   - Store completely cooled rolls, un-iced and well wrapped, for a couple of days
     at room temperature; or freeze for up to 1 month.
-  image_url: images/recipes/F25E0C35-79D3-4690-BDBB-F67691E5CA28-14886-000005DABC025341.jpg
+  image_url: images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0.jpg
   in_trash: false
   ingredients:
   - 1/2 cup (113g) whole milk
@@ -3041,14 +3044,15 @@
   - 1 to 2 tablespoons (14g to 28g) milk, cream, or buttermilk; enough to thin to
     desired consistency
   is_pinned: false
-  name: Perfectly Pillowy Cinnamon Rolls
+  name: Cinnamon Rolls
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
-  photos: []
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0.jpg
   prep_time: 30 mins
-  rating: 0
+  rating: 5
   scale: null
   servings: 8 large rolls
   source: kingarthurbaking.com
