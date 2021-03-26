@@ -31,17 +31,17 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gems-tse-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-gems-tse-
 
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
         with:
           path: build
-          key: ${{ runner.os }}-build-${{ hashFiles('**/_data/picture.yml') }}
+          key: ${{ runner.os }}-build-tse-${{ hashFiles('**/_data/picture.yml') }}
           restore-keys: |
-            ${{ runner.os }}-build-
+            ${{ runner.os }}-build-tse-
 
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@master
