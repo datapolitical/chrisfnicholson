@@ -1118,6 +1118,78 @@
   source_url: https://www.epicurious.com/recipes/food/views/slow-smoked-barbecue-chicken-56389582
   total_time: ''
   uid: 2C7FD9E7-7F0E-47DE-879E-1C6D66CFCACD
+- categories: []
+  cook_time: 20 mins
+  created: '2021-03-31 17:10:00'
+  description: ''
+  difficulty: ''
+  directions:
+  - Steps to Make It
+  - Preheat the oven to 325 F. Line two baking sheets with parchment paper.
+  - Beat the egg whites with an electric mixer until they are light and fluffy.
+  - Gradually beat in the sugar and vanilla. Beat until the egg whites form very stiff
+    peaks. Stir in the coconut by hand.
+  - Drop the coconut mixture by rounded teaspoons onto the lined baking sheets, placing
+    them at least 2 inches apart.
+  - Bake the macaroons about 20 minutes, until they are slightly golden and some of
+    the coconut is crispy.
+  - Allow them to cool completely and then carefully remove them from the parchment
+    paper. Store for up to 1 week in an air-tight container at room temperature, or
+    for longer storage, wrap individually in plastic wrap and freeze.
+  image_url: images/recipes/9ED2E831-1E4F-48C5-81BA-AD4223777C19.jpg
+  in_trash: false
+  ingredients:
+  - 3 eggs (whites only)
+  - 1 cup sugar
+  - 1 teaspoon vanilla extract
+  - 3 cups shredded coconut
+  - 'Optional: 2 squares (2 ounces) unsweetened or semi-sweet Kosher chocolate'
+  is_pinned: false
+  name: Passover Macaroons
+  notes: ''
+  nutritional_info: 'Guidelines (per serving)
+
+    184 Calories 10g Fat 22g Carbs 3g Protein
+
+    Nutrition Facts
+
+    Servings: 12
+
+    Amount per serving
+
+    Calories 184
+
+    % Daily Value*
+
+    Total Fat 10g 13%
+
+    Saturated Fat 8g 38%
+
+    Cholesterol 52mg 17%
+
+    Sodium 25mg 1%
+
+    Total Carbohydrate 22g 8%
+
+    Dietary Fiber 2g 8%
+
+    Protein 3g
+
+    Calcium 14mg 1%
+
+    *The % Daily Value (DV) tells you how much a nutrient in a food serving contributes
+    to a daily diet. 2,000 calories a day is used for general nutrition advice.'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 25 mins
+  rating: 0
+  scale: null
+  servings: 'Servings: 12 servings'
+  source: thespruceeats.com
+  source_url: https://www.thespruceeats.com/kosher-passover-macaroons-recipe-304855
+  total_time: ''
+  uid: 2E1D5034-829E-4788-AC48-9C9EE16DECCB
 - categories:
   - Made at 307
   - Web
