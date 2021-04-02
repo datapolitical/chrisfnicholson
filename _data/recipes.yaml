@@ -1118,7 +1118,13 @@
   source_url: https://www.epicurious.com/recipes/food/views/slow-smoked-barbecue-chicken-56389582
   total_time: ''
   uid: 2C7FD9E7-7F0E-47DE-879E-1C6D66CFCACD
-- categories: []
+- categories:
+  - Made at 307
+  - Jewish
+  - Cookie
+  - Dessert
+  - Web
+  - I Made This
   cook_time: 20 mins
   created: '2021-03-31 17:10:00'
   description: ''
@@ -1136,7 +1142,7 @@
   - Allow them to cool completely and then carefully remove them from the parchment
     paper. Store for up to 1 week in an air-tight container at room temperature, or
     for longer storage, wrap individually in plastic wrap and freeze.
-  image_url: images/recipes/9ED2E831-1E4F-48C5-81BA-AD4223777C19.jpg
+  image_url: images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE.jpg
   in_trash: false
   ingredients:
   - 3 eggs (whites only)
@@ -1181,9 +1187,10 @@
     to a daily diet. 2,000 calories a day is used for general nutrition advice.'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '2': images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE.jpg
   prep_time: 25 mins
-  rating: 0
+  rating: 5
   scale: null
   servings: 'Servings: 12 servings'
   source: thespruceeats.com
