@@ -61,11 +61,11 @@
   - 2 c. apple cider
   - 1 c. rum
   is_pinned: false
-  name: Hot Buttered Rum
+  name: Hot Buttered Rum 2
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: '5'
   rating: 0
