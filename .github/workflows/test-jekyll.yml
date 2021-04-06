@@ -44,7 +44,7 @@ jobs:
             ${{ runner.os }}-build-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: jeffreytse/jekyll-deploy-action@master
+      - uses: jeffreytse/jekyll-deploy-action@69e1549e57c4748593e91e2cd7887ba124c36835
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)

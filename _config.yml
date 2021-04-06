@@ -58,7 +58,7 @@ exclude:
   - Pipfile
   - package.json
 
-remote_theme: datapolitical/contrast
+remote_theme: datapolitical/contrast@v3.0.2
 
 page_gen-dirs: false
 

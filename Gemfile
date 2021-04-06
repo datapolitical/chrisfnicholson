@@ -13,7 +13,6 @@ gem 'rmagick'
 gem "jekyll-remote-theme"
 gem 'jekyll-paginate', group: :jekyll_plugins
 gem "jekyll-datapage-generator", github: 'datapolitical/jekyll-datapage_gen'
-gem "jekyll-webp", github: 'datapolitical/jekyll-webp'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-pwa-workbox'
