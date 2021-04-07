@@ -924,6 +924,70 @@
   total_time: ''
   uid: 242A7BA5-7A57-4076-A8CF-1A2513DC5278-14886-000005E234510653
 - categories: []
+  cook_time: 40 minutes
+  created: '2021-04-06 19:01:52'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat the oven to 375.
+  - Cream the butter and 1 1/4 cups sugar until light.
+  - Add the eggs, one at a time, beating well after each addition. Add vanilla.
+  - Sift together the flour, salt and baking powder, and add to the creamed mixture
+    alternately with the milk.
+  - Crush 1/2 cup blueberries with a fork, and mix into the batter. Fold in the remaining
+    whole berries.
+  - Line a 12 cup standard muffin tin with cupcake liners, and fill with batter. Sprinkle
+    the 3 teaspoons sugar over the tops of the muffins, and bake at 375 degrees for
+    about 30-35 minutes.
+  - Remove muffins from tin and cool at least 30 minutes. Store, uncovered, or the
+    muffins will be too moist the second day, if they last that long.
+  image_url: images/recipes/D0B835BE-37C6-4A2E-A1E5-7455660F4F7B.jpg
+  in_trash: false
+  ingredients:
+  - "\xBD cup softened butter"
+  - "1 \xBC cups sugar"
+  - 2 eggs
+  - 1 teaspoon vanilla extract
+  - 2 cups flour
+  - "\xBD teaspoon salt"
+  - 2 teaspoons baking powder
+  - "\xBD cup milk"
+  - 2 cups blueberries, washed, drained and picked over
+  - 3 teaspoons sugar
+  is_pinned: false
+  name: "Jordan Marsh\u2019s Blueberry Muffins"
+  notes: ''
+  nutritional_info: 'Trans Fat: 0 grams
+
+    Fat: 9 grams
+
+    Calories: 260
+
+    Saturated Fat: 5 grams
+
+    Unsaturated Fat: 3 grams
+
+    Sodium: 174 milligrams
+
+    Sugar: 25 grams
+
+    Fiber: 1 gram
+
+    Carbohydrate: 42 grams
+
+    Protein: 4 grams'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 12 muffins
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/2868-jordan-marshs-blueberry-muffins
+  total_time: ''
+  uid: 24B4847D-85D1-428B-8750-31B0FA6E56C9
+- categories: []
   cook_time: 2 minutes
   created: '2021-03-07 13:56:41'
   description: ''
@@ -1249,6 +1313,77 @@
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
   uid: 2EF72996-4FA5-4289-8F5A-A320574AFE11-7739-00000393F9EDA5F9
+- categories: []
+  cook_time: 18 to 24 mins
+  created: '2021-04-06 19:09:03'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat the oven to 375\xB0F. Line a muffin pan with papers, and grease the papers."
+  - Measure the flour by gently spooning it into a cup, then sweeping off any excess.
+    In a medium-sized bowl, whisk together the flour, baking powder, baking soda,
+    and salt, then set aside.
+  - In a large bowl, beat the butter or vegetable oil and sugar with a hand-held or
+    stand mixer, until light and fluffy. Start the mixer at low speed until the ingredients
+    are incorporated, then gradually increase speed to medium-high. If using butter,
+    the mixture should turn almost white in color; if using oil, the mixture should
+    look frothy.
+  - Scrape down the bowl to make sure all the butter or oil is incorporated, then
+    add the eggs one at a time, beating well after each addition.
+  - Add the vanilla and sour cream or yogurt, and mix until incorporated.
+  - Add the dry ingredients and mix on low speed just until the batter is smooth.
+    The batter will be very thick, almost like cookie dough.
+  - Fold in the berries by hand. If you use frozen berries, the batter will become
+    even stiffer; don't worry about it, it's fine.
+  - Scoop the batter into the prepared muffin cups, using a heaping 1/4-cup for each.
+    Again, the batter will be thick and stiff; don't expect it to settle. Sprinkle
+    with regular granulated or coarse white sugar, if desired.
+  - Bake the muffins for 18 to 24 minutes, until a cake tester inserted in the center
+    of one comes out clean.
+  - Remove them from the oven, and take them out of the baking pan as soon as you
+    can and transfer to a rack to finish cooling. (Leaving hot muffins in the pan
+    creates steam that will toughen the muffins as they sit.)
+  - Store leftovers for a couple of days at room temperature in an airtight container,
+    or freeze for up to 1 month.
+  - Tips from our Bakers
+  - If you're using frozen berries, mix them into the batter while still frozen. They'll
+    turn the batter a streaky blue color. They'll also increase the baking time by
+    as much as 5 minutes.
+  - "To make handling baked muffins easier, use a potholder to tilt the hot pan at\
+    \ a 45\xB0 angle. The muffins will tilt enough that you can lift them out of the\
+    \ cups easily. Place them on a rack to finish cooling."
+  - You can use any kind of fresh berry, dried fruit, diced peaches, bananas, or nectarines
+    in this recipe. Canned blueberries are fine, but drain them well first and make
+    sure you have 1 3/4 cups (273g) of berries.
+  image_url: images/recipes/7276ABB4-A713-423D-B778-B59D0F5779D3.jpg
+  in_trash: false
+  ingredients:
+  - 2 1/4 cups (269g) King Arthur Unbleached All-Purpose Flour
+  - 1 1/2 teaspoons baking powder
+  - 1/2 teaspoon baking soda
+  - 1/2 to 3/8 teaspoon salt, to taste
+  - 1/4 cup (50g) vegetable oil or 4 tablespoons (57g) unsalted butter, at room temperature
+  - 3/4 cup to 7/8 cup (149g to 174g) granulated sugar*
+  - 2 large eggs
+  - 2 teaspoons vanilla extract
+  - 1/2 cup (113g) sour cream or yogurt (full-fat will yield the most tender muffins)
+  - 1 1/2 cups (213g) blueberries, fresh or frozen
+  - coarse sparkling sugar, for garnish, optional
+  is_pinned: false
+  name: Blueberry Muffins
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 20 mins
+  rating: 0
+  scale: null
+  servings: 12 muffins
+  source: kingarthurbaking.com
+  source_url: https://www.kingarthurbaking.com/recipes/blueberry-muffins-recipe#review-section
+  total_time: ''
+  uid: 2F63524A-24B6-45AE-89A7-41695A07A778
 - categories: []
   cook_time: 1 hour 35 minutes
   created: '2021-03-22 00:52:34'
