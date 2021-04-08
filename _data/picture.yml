@@ -38,7 +38,7 @@ presets:
       desktop: [280]
     sizes:
       desktop: 20vw
-      mobile: 90vw
+      mobile: 50vw
     size: 300px
 
   drinks:
