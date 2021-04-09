@@ -34,7 +34,17 @@ workbox.routing.registerRoute(
 );
 
 // use `StaleWhileRevalidate` third party files
-// workbox.routing.registerRoute(
-//     /^https?:\/\/cdn\.staticfile\.org/,
-//     new workbox.strategies.StaleWhileRevalidate()
-// );
+workbox.routing.registerRoute(
+    /^https?:\/\/ajax\.cloudflare\.com/,
+    new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.routing.registerRoute(
+    /^https?:\/\/cdnjs\.cloudflare\.com/,
+    new workbox.strategies.StaleWhileRevalidate()
+);
+
+workbox.routing.registerRoute(
+    /^https?:\/\/cdn\.jsdelivr\.net/,
+    new workbox.strategies.StaleWhileRevalidate()
+);
