@@ -101,6 +101,7 @@ pwa:
     - "/assets/generated/images/recipes/*-280-*.{webp}"
     - "/assets/generated/images/recipes/*-400-*.{webp}"
     - "/assets/generated/images/recipes/*-600-*.{webp}"
+    - "/assets/fontawesome/icons.svg"
 #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
 #    - "/recipes/*.html"
 #    - "/index.html"
