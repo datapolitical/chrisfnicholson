@@ -5105,6 +5105,65 @@
   source_url: https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon?smid=ig-nytcooking&utm_source=curalate_like2buy&utm_medium=curalate_like2buy_gnauQ5q1__9af0a553-507b-4f90-9db0-6ae44a9e86b2&crl8_id=9af0a553-507b-4f90-9db0-6ae44a9e86b2
   total_time: ''
   uid: CA825811-8A99-4359-8A90-1C3CC7339D6C-42950-00000C81FB2B4E72
+- categories: []
+  cook_time: 10 mins
+  created: '2021-04-09 23:13:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - Press the tofu. Slice the block of tofu into 1/2-inch slabs. Lay some paper towels
+    or a clean tea towel on a flat surface, and place the slabs side by side on top
+    of the paper towels. Cover with another layer of paper towels, then place a cutting
+    board on top of the tofu, and stack a bunch of heavy cans or pots or whatever
+    you can safely balance on the cutting board. Let the tofu drain for at least 15-30
+    minutes.
+  - Make the five spice sauce. Whisk together the hoisin, rice vinegar and five spice
+    powder until combined. Set aside.
+  - Make the sesame noodles. Make the sesame noodles according to recipe instructions
+    here.
+  - "Cook the tofu. Remove the paper towels and slice the tofu into 1/2-inch cubes.\
+    \ Heat the oil in a large non-stick saut\xE9 pan over medium-high heat. Add the\
+    \ tofu and saut\xE9 for 8-10 minutes, flipping and tossing the tofu every 2 or\
+    \ so minutes, until it is crispy and browned. Remove pan from heat, add hoisin\
+    \ sauce, and toss until combined."
+  - Serve. Serve the sesame noodles topped with the tofu (plus any extra veggies you
+    might like to add), sprinkled with toasted sesame seeds and thinly-sliced green
+    onions for garnish. Enjoy!!
+  image_url: images/recipes/4F04BD42-AC1B-45FC-A7D6-665AE4C78334.jpg
+  in_trash: false
+  ingredients:
+  - 'FIVE SPICE TOFU INGREDIENTS:'
+  - 1 pound block of extra-firm tofu
+  - 2 tablespoons olive oil
+  - 1/2 cup hoisin sauce
+  - 2 tablespoons rice vinegar
+  - 1 tablespoon five spice powder
+  - 'toppings: toasted sesame seeds and thinly-sliced green onions'
+  - 'SESAME NOODLES INGREDIENTS:'
+  - 1 pound uncooked pasta noodles
+  - 1/4 cup low-sodium soy sauce
+  - 2 tablespoons rice vinegar
+  - 1 tablespoon toasted sesame oil
+  - 1 teaspoon ground ginger
+  - 1/2 teaspoon chili garlic sauce or sriracha
+  - 1/2 teaspoon garlic powder
+  - 1/4 teaspoon freshly-cracked black pepper
+  - 1/2 cup thinly-sliced green onions
+  is_pinned: false
+  name: Five Spice Tofu with Sesame Noodles
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 35 mins
+  rating: 0
+  scale: null
+  servings: 'Yield: 6'
+  source: Gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/five-spice-tofu-with-sesame-noodles/
+  total_time: ''
+  uid: CC94B967-F3DD-42E1-A574-5607F34B5C7F
 - categories:
   - Dinner
   - Made at 307
