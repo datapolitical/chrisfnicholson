@@ -6093,6 +6093,62 @@
   total_time: ''
   uid: F0CE7958-1E44-4B90-8DA7-92CCF78BF0CD-44400-000010DDF544A4E9
 - categories: []
+  cook_time: 15 minutes
+  created: '2021-04-09 00:15:27'
+  description: ''
+  difficulty: ''
+  directions:
+  - Cook egg noodles al dente in boiling, generously-salted water according to package
+    instructions. (For optimal timing, I recommend actually adding the egg noodles
+    to the boiling water at the same time that the vegetable stock is added to the
+    stroganoff.)
+  - "Melt 1 tablespoon butter in a large saut\xE9 pan over medium-high heat. Add onions\
+    \ and saut\xE9 for 5 minutes, stirring occasionally. Add the remaining 2 tablespoons\
+    \ butter, garlic and mushrooms, and stir to combine. Continue saut\xE9ing for\
+    \ an additional 5-7 minutes, until the mushrooms are cooked and tender. Add the\
+    \ white wine, and deglaze the pan by using a wooden spoon to scrape the brown\
+    \ bits off the bottom of the pan. Let the sauce simmer for 3 minutes."
+  - Meanwhile, in a separate bowl, whisk together the vegetable stock, Worcestershire
+    and flour until smooth. Pour the vegetable stock mixture into the pan, along with
+    the thyme, and stir to combine. Let the mixture simmer for an additional 5 minutes,
+    stirring occasionally, until slightly thickened. Then, stir in the Greek yogurt
+    (or sour cream) evenly into the sauce. Taste, and season with a generous pinch
+    of two of salt and pepper as needed.
+  - Serve immediately over the egg noodles, garnished with your desired toppings.
+  image_url: images/recipes/4AA0953E-D715-4470-94A0-233F4E20A3A7.jpg
+  in_trash: false
+  ingredients:
+  - 1 pound wide egg noodles
+  - 3 tablespoons butter, divided
+  - 1 small white onion, thinly sliced
+  - 4 cloves garlic, minced
+  - 1 pound baby bella mushrooms*
+  - 1/2 cup dry white wine
+  - 1.5 cups vegetable stock
+  - 1 tablespoon Worcestershire sauce (here is a vegetarian brand)
+  - 3 1/2 tablespoons flour
+  - 3 small sprigs of fresh thyme (or 1/4 teaspoon dried thyme)
+  - 1/2 cup plain Greek yogurt or light sour cream
+  - Kosher salt and freshly-cracked black pepper
+  - 'optional toppings: freshly-grated Parmesan cheese, chopped fresh parsley, extra
+    black pepper'
+  is_pinned: false
+  name: Mushroom Stroganoff (Vegetarian)
+  notes: '*Feel free to use whatever mushrooms you have available. A mixture of your
+    faves would be great!'
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 15 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 4 -6 servings'
+  source: Gimmesomeoven.com
+  source_url: https://www.gimmesomeoven.com/mushroom-stroganoff/
+  total_time: ''
+  uid: F194EC07-13F2-4918-920F-B898C505B561
+- categories: []
   cook_time: 3 min
   created: '2020-12-06 01:33:33'
   description: ''
