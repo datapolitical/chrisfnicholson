@@ -29,12 +29,12 @@ workbox.routing.registerRoute(
 
 // use `CacheFirst` strategy for images
 workbox.routing.registerRoute(
-    /assets\/(img|icons)/,
+    /assets\/images/,
     new workbox.strategies.CacheFirst()
 );
 
 // use `StaleWhileRevalidate` third party files
-workbox.routing.registerRoute(
-    /^https?:\/\/cdn.staticfile.org/,
-    new workbox.strategies.StaleWhileRevalidate()
-);
+// workbox.routing.registerRoute(
+//     /^https?:\/\/cdn\.staticfile\.org/,
+//     new workbox.strategies.StaleWhileRevalidate()
+// );
