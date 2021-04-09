@@ -29,7 +29,7 @@ workbox.routing.registerRoute(
 
 // use `CacheFirst` strategy for images
 workbox.routing.registerRoute(
-    /assets\/images/,
+    /assets\/(fontawesome|images)/,
     new workbox.strategies.CacheFirst()
 );
 
