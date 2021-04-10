@@ -1645,7 +1645,7 @@
   prep_time: 5 minutes
   rating: 5
   scale: null
-  servings: 'Yield: 9 large bars'
+  servings: 9 large bars
   source: shugarysweets.com
   source_url: https://www.shugarysweets.com/perfect-rice-krispie-treats/
   total_time: ''
@@ -1986,7 +1986,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: ''
+  servings: '1'
   source: winemag.com
   source_url: https://www.winemag.com/recipe/hot-buttered-rum-recipe/
   total_time: ''
@@ -4999,7 +4999,7 @@
   prep_time: ''
   rating: 5
   scale: 2/1
-  servings: 8 servings
+  servings: 8 slices
   source: chocolatecoveredkatie.com
   source_url: https://chocolatecoveredkatie.com/keto-cake-recipe/
   total_time: ''
