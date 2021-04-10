@@ -343,7 +343,7 @@
   prep_time: 5 minutes
   rating: 5
   scale: 4/3
-  servings: 'Servings: 4 calories: 491'
+  servings: '4'
   source: gimmedelicious.com
   source_url: https://gimmedelicious.com/easy-20-minute-butter-chicken/
   total_time: ''
@@ -413,7 +413,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: 'Serving: 1'
+  servings: 6 biscuits
   source: sugarspunrun.com
   source_url: https://sugarspunrun.com/easy-homemade-biscuits/#wprm-recipe-container-13245
   total_time: ''
@@ -869,7 +869,7 @@
   prep_time: 30 min
   rating: 5
   scale: null
-  servings: 2 loaves (16 slices each)
+  servings: 32 slices (two loaves)
   source: tasteofhome.com
   source_url: https://www.tasteofhome.com/recipes/challah/
   total_time: ''
@@ -1302,13 +1302,13 @@
     \ \u2013 and particularly like raspberries. Fresh would be lovely, too."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos:
   - '1': images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383.jpg
   prep_time: ''
   rating: 5
   scale: null
-  servings: ''
+  servings: '3'
   source: cucinanicolina.com
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
@@ -1859,7 +1859,7 @@
   prep_time: 20 minutes
   rating: 5
   scale: null
-  servings: 'Yield: 10 -12 servings'
+  servings: '10'
   source: gimmesomeoven.com
   source_url: https://www.gimmesomeoven.com/best-mashed-potatoes-recipe/
   total_time: ''
@@ -2699,13 +2699,13 @@
 
     Sodium 170.0 mg (7.1%)'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   photos:
   - '1': images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9.jpg
   prep_time: ''
   rating: 5
   scale: 1/1
-  servings: 1 (8-inch) loaf
+  servings: 1 loaf
   source: thekitchn.com
   source_url: https://www.thekitchn.com/how-to-make-banana-bread-the-simplest-easiest-recipe-139900
   total_time: ''
@@ -3024,7 +3024,7 @@
   prep_time: 23 hours
   rating: 4
   scale: null
-  servings: Yield 2 x 900-gram loaves
+  servings: 2 loaves
   source: theperfectloaf.com
   source_url: https://www.theperfectloaf.com/beginners-sourdough-bread/
   total_time: ''
@@ -3758,7 +3758,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: Yield 4 servings
+  servings: '4'
   source: cooking.nytimes.com
   source_url: https://cooking.nytimes.com/recipes/1021468-ground-lamb-pulao?smid=ck-recipe-iOS-share
   total_time: ''
@@ -4585,7 +4585,7 @@
   prep_time: 25 mins
   rating: 4
   scale: 4/3
-  servings: 6 servings
+  servings: '6'
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/french-toast-recipe
   total_time: ''
@@ -5355,7 +5355,7 @@
   prep_time: 5 mins
   rating: 4
   scale: null
-  servings: 'Serves: 2'
+  servings: '2'
   source: tastykitchen.com
   source_url: https://tastykitchen.com/recipes/main-courses/parmesan-garlic-linguine/
   total_time: ''
@@ -6003,7 +6003,7 @@
   prep_time: 15 minutes
   rating: 5
   scale: 2/1
-  servings: About 20 small biscuits or about 8 large biscuits
+  servings: About 8 large biscuits
   source: Me
   source_url: ''
   total_time: ''
@@ -6293,7 +6293,7 @@
   prep_time: 25 mins
   rating: 4
   scale: null
-  servings: About 4 dozen
+  servings: About 48
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/hanukkah-jelly-doughnuts-sufganiyot-recipe
   total_time: ''
