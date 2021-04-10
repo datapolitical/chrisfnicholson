@@ -343,7 +343,7 @@
   prep_time: 5 minutes
   rating: 5
   scale: 4/3
-  servings: '4'
+  servings: 4 servings
   source: gimmedelicious.com
   source_url: https://gimmedelicious.com/easy-20-minute-butter-chicken/
   total_time: ''
@@ -667,7 +667,7 @@
   prep_time: 20 mins
   rating: 4
   scale: null
-  servings: '12'
+  servings: 12 servings
   source: Toriavey.com
   source_url: https://toriavey.com/toris-kitchen/cholent/
   total_time: ''
@@ -869,7 +869,7 @@
   prep_time: 30 min
   rating: 5
   scale: null
-  servings: 32 slices (two loaves)
+  servings: 2 loaves
   source: tasteofhome.com
   source_url: https://www.tasteofhome.com/recipes/challah/
   total_time: ''
@@ -1308,7 +1308,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: '3'
+  servings: 3 servings
   source: cucinanicolina.com
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
@@ -1859,7 +1859,7 @@
   prep_time: 20 minutes
   rating: 5
   scale: null
-  servings: '10'
+  servings: 10 servings
   source: gimmesomeoven.com
   source_url: https://www.gimmesomeoven.com/best-mashed-potatoes-recipe/
   total_time: ''
@@ -1986,7 +1986,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: '1'
+  servings: 1 drink
   source: winemag.com
   source_url: https://www.winemag.com/recipe/hot-buttered-rum-recipe/
   total_time: ''
@@ -2849,7 +2849,7 @@
   prep_time: 20 minutes
   rating: 5
   scale: 1/1
-  servings: '3'
+  servings: 3 servings
   source: dinneratthezoo.com
   source_url: https://www.dinneratthezoo.com/baked-buffalo-wings/
   total_time: ''
@@ -2947,7 +2947,7 @@
   prep_time: 10 min
   rating: 5
   scale: 3/1
-  servings: 'Serves: 2'
+  servings: 2 servings
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
   total_time: ''
@@ -3253,7 +3253,7 @@
   prep_time: 10 mins
   rating: 5
   scale: 1/1
-  servings: '4'
+  servings: 4 servings
   source: washingtonpost.com
   source_url: https://www.washingtonpost.com/food/2021/02/11/baked-feta-pasta-recipe-tiktok/
   total_time: ''
@@ -3758,7 +3758,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: '4'
+  servings: 4 servings
   source: cooking.nytimes.com
   source_url: https://cooking.nytimes.com/recipes/1021468-ground-lamb-pulao?smid=ck-recipe-iOS-share
   total_time: ''
@@ -4585,7 +4585,7 @@
   prep_time: 25 mins
   rating: 4
   scale: 4/3
-  servings: '6'
+  servings: 6 servings
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/french-toast-recipe
   total_time: ''
@@ -4888,7 +4888,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: '2'
+  servings: 2 servings
   source: cooking.nytimes.com
   source_url: https://cooking.nytimes.com/recipes/1021898-chocolate-pudding-with-raspberry-cream?referring_source=newsreader
   total_time: ''
@@ -5355,7 +5355,7 @@
   prep_time: 5 mins
   rating: 4
   scale: null
-  servings: '2'
+  servings: 2 servings
   source: tastykitchen.com
   source_url: https://tastykitchen.com/recipes/main-courses/parmesan-garlic-linguine/
   total_time: ''
@@ -6293,7 +6293,7 @@
   prep_time: 25 mins
   rating: 4
   scale: null
-  servings: About 48
+  servings: About 48 pieces
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/hanukkah-jelly-doughnuts-sufganiyot-recipe
   total_time: ''
