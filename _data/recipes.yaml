@@ -5572,10 +5572,10 @@
     into a ball.
   - Place the rolls into a lightly greased 8" or 9" round cake pan. Cover the pan,
     and let the rolls rest for 40 to 50 minutes, until puffy.
-  - "Preheat the oven to 350\xB0F. Brush the rolls with milk or egg wash (1 large\
-    \ egg beaten with 1 tablespoon cold water), and bake for 25 to 30 minutes, until\
-    \ golden brown on top; a digital thermometer inserted into the center of the middle\
-    \ roll should read at least 190\xB0F."
+  - "Regular Preheat the oven to 350\xB0F (do not use fast preheat). Brush the rolls\
+    \ with milk or egg wash (1 large egg beaten with 1 tablespoon cold water), and\
+    \ bake for 25 to 30 minutes, until golden brown on top; a digital thermometer\
+    \ inserted into the center of the middle roll should read at least 190\xB0F."
   - Remove the rolls from the oven. Allow them to cool in the pan for 10 minutes,
     then transfer them to a rack to cool completely.
   - Tips from our Bakers
@@ -5585,10 +5585,11 @@
     \ starting with a short end, roll them each into a log. Place the logs in a row\
     \ of four \u2014 seam side down and side by side \u2014 in a lightly greased 9\"\
     \ x 5\" loaf pan. Cover the loaf and allow it to rest/rise for 40 to 50 minutes,\
-    \ until puffy. Brush the loaf with milk or egg wash and bake at 350\xB0F for about\
-    \ 30 minutes, until golden brown on top and a digital thermometer inserted into\
-    \ the center of the loaf reads at least 190\xB0F. Remove the loaf from the oven,\
-    \ and cool it on a rack."
+    \ until puffy. "
+  - "Brush the loaf with milk or egg wash and bake at 350\xB0F on a lower-middle rack\
+    \ for about 30 minutes, until golden brown on top and a digital thermometer inserted\
+    \ into the center of the loaf reads at least 190\xB0F. Remove the loaf from the\
+    \ oven, and cool it on a rack."
   - 'This soft dough lends itself beautifully to fried doughnuts. After the dough
     has risen once, hop on over to our Yeast-Raised Doughnuts recipe and start at
     step #3 to see how it''s done.'
@@ -5612,7 +5613,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: 30 mins
   rating: 0
