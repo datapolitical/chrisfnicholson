@@ -42,7 +42,7 @@ presets:
     size: 300px
 
   drinks:
-    widths: [280, 360, 400, 600, 800, 1000]
+    widths: [400, 600, 800, 1000]
     formats: [webp, original]
 
     dimension_attributes: true
