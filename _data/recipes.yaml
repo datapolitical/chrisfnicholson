@@ -5551,7 +5551,10 @@
   source_url: ''
   total_time: ''
   uid: D8E000CA-A779-4F66-BD9A-EADA6EB0896F-16694-000007417269040B
-- categories: []
+- categories:
+  - Made at 307
+  - Web
+  - I Made This
   cook_time: 25 to 30 mins
   created: '2020-06-08 01:26:19'
   description: ''
@@ -5616,7 +5619,7 @@
   on_grocery_list: false
   photos: []
   prep_time: 30 mins
-  rating: 0
+  rating: 4
   scale: null
   servings: 8 rolls
   source: kingarthurflour.com
