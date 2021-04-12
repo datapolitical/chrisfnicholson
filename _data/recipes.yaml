@@ -343,7 +343,7 @@
   prep_time: 5 minutes
   rating: 5
   scale: 4/3
-  servings: 'Servings: 4 calories: 491'
+  servings: 4 servings
   source: gimmedelicious.com
   source_url: https://gimmedelicious.com/easy-20-minute-butter-chicken/
   total_time: ''
@@ -413,7 +413,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: 'Serving: 1'
+  servings: 6 biscuits
   source: sugarspunrun.com
   source_url: https://sugarspunrun.com/easy-homemade-biscuits/#wprm-recipe-container-13245
   total_time: ''
@@ -667,7 +667,7 @@
   prep_time: 20 mins
   rating: 4
   scale: null
-  servings: ''
+  servings: 12 servings
   source: Toriavey.com
   source_url: https://toriavey.com/toris-kitchen/cholent/
   total_time: ''
@@ -869,7 +869,7 @@
   prep_time: 30 min
   rating: 5
   scale: null
-  servings: 2 loaves (16 slices each)
+  servings: 2 loaves
   source: tasteofhome.com
   source_url: https://www.tasteofhome.com/recipes/challah/
   total_time: ''
@@ -1302,13 +1302,13 @@
     \ \u2013 and particularly like raspberries. Fresh would be lovely, too."
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos:
   - '1': images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383.jpg
   prep_time: ''
   rating: 5
   scale: null
-  servings: ''
+  servings: 3 servings
   source: cucinanicolina.com
   source_url: https://cucinanicolina.com/a-return-alice-waters-buttermilk-pancakes/
   total_time: ''
@@ -1645,7 +1645,7 @@
   prep_time: 5 minutes
   rating: 5
   scale: null
-  servings: 'Yield: 9 large bars'
+  servings: 9 large bars
   source: shugarysweets.com
   source_url: https://www.shugarysweets.com/perfect-rice-krispie-treats/
   total_time: ''
@@ -1859,7 +1859,7 @@
   prep_time: 20 minutes
   rating: 5
   scale: null
-  servings: 'Yield: 10 -12 servings'
+  servings: 10 servings
   source: gimmesomeoven.com
   source_url: https://www.gimmesomeoven.com/best-mashed-potatoes-recipe/
   total_time: ''
@@ -1986,7 +1986,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: ''
+  servings: 1 drink
   source: winemag.com
   source_url: https://www.winemag.com/recipe/hot-buttered-rum-recipe/
   total_time: ''
@@ -2496,7 +2496,7 @@
   prep_time: 40 minutes
   rating: 4
   scale: null
-  servings: Serves 6 to 8
+  servings: Around 7
   source: thekitchn.com
   source_url: https://www.thekitchn.com/chicken-nachos-22955990
   total_time: ''
@@ -2699,13 +2699,13 @@
 
     Sodium 170.0 mg (7.1%)'
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   photos:
   - '1': images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9.jpg
   prep_time: ''
   rating: 5
   scale: 1/1
-  servings: 1 (8-inch) loaf
+  servings: 1 loaf
   source: thekitchn.com
   source_url: https://www.thekitchn.com/how-to-make-banana-bread-the-simplest-easiest-recipe-139900
   total_time: ''
@@ -2849,7 +2849,7 @@
   prep_time: 20 minutes
   rating: 5
   scale: 1/1
-  servings: ''
+  servings: 3 servings
   source: dinneratthezoo.com
   source_url: https://www.dinneratthezoo.com/baked-buffalo-wings/
   total_time: ''
@@ -2947,7 +2947,7 @@
   prep_time: 10 min
   rating: 5
   scale: 3/1
-  servings: 'Serves: 2'
+  servings: 2 servings
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
   total_time: ''
@@ -3024,7 +3024,7 @@
   prep_time: 23 hours
   rating: 4
   scale: null
-  servings: Yield 2 x 900-gram loaves
+  servings: 2 loaves
   source: theperfectloaf.com
   source_url: https://www.theperfectloaf.com/beginners-sourdough-bread/
   total_time: ''
@@ -3252,8 +3252,8 @@
   - '1': images/recipes/2D30BBA6-9988-4B05-A56C-0D176584247C-9567-000003422DEFF996.jpg
   prep_time: 10 mins
   rating: 5
-  scale: 2/1
-  servings: '4'
+  scale: 1/1
+  servings: 4 servings
   source: washingtonpost.com
   source_url: https://www.washingtonpost.com/food/2021/02/11/baked-feta-pasta-recipe-tiktok/
   total_time: ''
@@ -3758,7 +3758,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: Yield 4 servings
+  servings: 4 servings
   source: cooking.nytimes.com
   source_url: https://cooking.nytimes.com/recipes/1021468-ground-lamb-pulao?smid=ck-recipe-iOS-share
   total_time: ''
@@ -4888,7 +4888,7 @@
   prep_time: ''
   rating: 5
   scale: null
-  servings: Yield 2 servings
+  servings: 2 servings
   source: cooking.nytimes.com
   source_url: https://cooking.nytimes.com/recipes/1021898-chocolate-pudding-with-raspberry-cream?referring_source=newsreader
   total_time: ''
@@ -4999,7 +4999,7 @@
   prep_time: ''
   rating: 5
   scale: 2/1
-  servings: 8 servings
+  servings: 8 slices
   source: chocolatecoveredkatie.com
   source_url: https://chocolatecoveredkatie.com/keto-cake-recipe/
   total_time: ''
@@ -5355,7 +5355,7 @@
   prep_time: 5 mins
   rating: 4
   scale: null
-  servings: 'Serves: 2'
+  servings: 2 servings
   source: tastykitchen.com
   source_url: https://tastykitchen.com/recipes/main-courses/parmesan-garlic-linguine/
   total_time: ''
@@ -5572,10 +5572,10 @@
     into a ball.
   - Place the rolls into a lightly greased 8" or 9" round cake pan. Cover the pan,
     and let the rolls rest for 40 to 50 minutes, until puffy.
-  - "Preheat the oven to 350\xB0F. Brush the rolls with milk or egg wash (1 large\
-    \ egg beaten with 1 tablespoon cold water), and bake for 25 to 30 minutes, until\
-    \ golden brown on top; a digital thermometer inserted into the center of the middle\
-    \ roll should read at least 190\xB0F."
+  - "Regular Preheat the oven to 350\xB0F (do not use fast preheat). Brush the rolls\
+    \ with milk or egg wash (1 large egg beaten with 1 tablespoon cold water), and\
+    \ bake for 25 to 30 minutes, until golden brown on top; a digital thermometer\
+    \ inserted into the center of the middle roll should read at least 190\xB0F."
   - Remove the rolls from the oven. Allow them to cool in the pan for 10 minutes,
     then transfer them to a rack to cool completely.
   - Tips from our Bakers
@@ -5585,10 +5585,11 @@
     \ starting with a short end, roll them each into a log. Place the logs in a row\
     \ of four \u2014 seam side down and side by side \u2014 in a lightly greased 9\"\
     \ x 5\" loaf pan. Cover the loaf and allow it to rest/rise for 40 to 50 minutes,\
-    \ until puffy. Brush the loaf with milk or egg wash and bake at 350\xB0F for about\
-    \ 30 minutes, until golden brown on top and a digital thermometer inserted into\
-    \ the center of the loaf reads at least 190\xB0F. Remove the loaf from the oven,\
-    \ and cool it on a rack."
+    \ until puffy. "
+  - "Brush the loaf with milk or egg wash and bake at 350\xB0F on a lower-middle rack\
+    \ for about 40 minutes, until golden brown on top and a digital thermometer inserted\
+    \ into the center of the loaf reads at least 190\xB0F. Remove the loaf from the\
+    \ oven, and cool it on a rack."
   - 'This soft dough lends itself beautifully to fried doughnuts. After the dough
     has risen once, hop on over to our Yeast-Raised Doughnuts recipe and start at
     step #3 to see how it''s done.'
@@ -5612,7 +5613,7 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: 30 mins
   rating: 0
@@ -6003,7 +6004,7 @@
   prep_time: 15 minutes
   rating: 5
   scale: 2/1
-  servings: About 20 small biscuits or about 8 large biscuits
+  servings: About 8 large biscuits
   source: Me
   source_url: ''
   total_time: ''
@@ -6293,7 +6294,7 @@
   prep_time: 25 mins
   rating: 4
   scale: null
-  servings: About 4 dozen
+  servings: About 48 pieces
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/hanukkah-jelly-doughnuts-sufganiyot-recipe
   total_time: ''
@@ -6308,18 +6309,22 @@
     instructions. (For optimal timing, I recommend actually adding the egg noodles
     to the boiling water at the same time that the vegetable stock is added to the
     stroganoff.)
-  - "Melt 1 tablespoon butter in a large saut\xE9 pan over medium-high heat. Add onions\
-    \ and saut\xE9 for 5 minutes, stirring occasionally. Add the remaining 2 tablespoons\
-    \ butter, garlic and mushrooms, and stir to combine. Continue saut\xE9ing for\
-    \ an additional 5-7 minutes, until the mushrooms are cooked and tender. Add the\
-    \ white wine, and deglaze the pan by using a wooden spoon to scrape the brown\
-    \ bits off the bottom of the pan. Let the sauce simmer for 3 minutes."
-  - Meanwhile, in a separate bowl, whisk together the vegetable stock, Worcestershire
-    and flour until smooth. Pour the vegetable stock mixture into the pan, along with
-    the thyme, and stir to combine. Let the mixture simmer for an additional 5 minutes,
-    stirring occasionally, until slightly thickened. Then, stir in the Greek yogurt
-    (or sour cream) evenly into the sauce. Taste, and season with a generous pinch
-    of two of salt and pepper as needed.
+  - "Melt 1 tablespoon butter in a large saut\xE9 pan over medium-high heat. "
+  - "Add onions and saut\xE9 for 5 minutes, stirring occasionally. "
+  - 'Add the remaining 2 tablespoons butter, garlic and mushrooms, and stir to combine. '
+  - "Continue saut\xE9ing for an additional 5-7 minutes, until the mushrooms are cooked\
+    \ and tender. "
+  - 'Add the white wine, and deglaze the pan by using a wooden spoon to scrape the
+    brown bits off the bottom of the pan. '
+  - Let the sauce simmer for 3 minutes.
+  - 'Meanwhile, in a separate bowl, whisk together the vegetable stock, Worcestershire
+    and flour until smooth. '
+  - 'Pour the vegetable stock mixture into the pan, along with the thyme, and stir
+    to combine. '
+  - 'Let the mixture simmer for an additional 5 minutes, stirring occasionally, until
+    slightly thickened. '
+  - 'Then, stir in the Greek yogurt (or sour cream) evenly into the sauce. '
+  - Taste, and season with a generous pinch of two of salt and pepper as needed.
   - Serve immediately over the egg noodles, garnished with your desired toppings.
   image_url: images/recipes/4AA0953E-D715-4470-94A0-233F4E20A3A7.jpg
   in_trash: false
@@ -6329,12 +6334,12 @@
   - 1 small white onion, thinly sliced
   - 4 cloves garlic, minced
   - 1 pound baby bella mushrooms*
-  - 1/2 cup dry white wine
-  - 1.5 cups vegetable stock
+  - 1/3 cup dry white wine
+  - "1 \u215B cups vegetable stock"
   - 1 tablespoon Worcestershire sauce (here is a vegetarian brand)
   - 3 1/2 tablespoons flour
   - 3 small sprigs of fresh thyme (or 1/4 teaspoon dried thyme)
-  - 1/2 cup plain Greek yogurt or light sour cream
+  - 1/3 cup plain Greek yogurt or light sour cream
   - Kosher salt and freshly-cracked black pepper
   - 'optional toppings: freshly-grated Parmesan cheese, chopped fresh parsley, extra
     black pepper'
@@ -6348,7 +6353,7 @@
   photos: []
   prep_time: 15 minutes
   rating: 0
-  scale: null
+  scale: 3/2
   servings: 'Yield: 4 -6 servings'
   source: Gimmesomeoven.com
   source_url: https://www.gimmesomeoven.com/mushroom-stroganoff/
