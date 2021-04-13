@@ -923,7 +923,10 @@
   source_url: https://www.thespruceeats.com/keto-chocolate-cookies-4769153
   total_time: ''
   uid: 242A7BA5-7A57-4076-A8CF-1A2513DC5278-14886-000005E234510653
-- categories: []
+- categories:
+  - Made at 307
+  - Web
+  - I Made This
   cook_time: 40 minutes
   created: '2021-04-06 19:01:52'
   description: ''
@@ -941,7 +944,7 @@
     about 30-35 minutes.
   - Remove muffins from tin and cool at least 30 minutes. Store, uncovered, or the
     muffins will be too moist the second day, if they last that long.
-  image_url: images/recipes/D0B835BE-37C6-4A2E-A1E5-7455660F4F7B.jpg
+  image_url: images/recipes/EEE30F21-951B-4EFC-8781-28D571F4102A.jpg
   in_trash: false
   ingredients:
   - "\xBD cup softened butter"
@@ -978,9 +981,10 @@
     Protein: 4 grams'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/EEE30F21-951B-4EFC-8781-28D571F4102A.jpg
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: null
   servings: Yield 12 muffins
   source: cooking.nytimes.com
@@ -5596,7 +5600,7 @@
   - 'This soft dough lends itself beautifully to fried doughnuts. After the dough
     has risen once, hop on over to our Yeast-Raised Doughnuts recipe and start at
     step #3 to see how it''s done.'
-  image_url: images/recipes/46B38E69-2C56-49EB-90E1-9D57BF23FF2D-3403-000000FEB9AD8BC3.jpg
+  image_url: images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D.jpg
   in_trash: false
   ingredients:
   - 3 tablespoons (43g) water
@@ -5617,7 +5621,8 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '2': images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D.jpg
   prep_time: 30 mins
   rating: 4
   scale: null
