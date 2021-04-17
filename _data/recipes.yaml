@@ -4304,6 +4304,55 @@
   total_time: ''
   uid: 8F70514F-B2B1-4B45-8F49-51D71CF835D2-7670-000002583F2F83B2
 - categories: []
+  cook_time: 15 mins
+  created: '2021-04-16 17:23:33'
+  description: ''
+  difficulty: ''
+  directions:
+  - If not already cut, dice the bacon/pancetta into relatively small pieces.
+  - Warm a skillet or other relatively large, open pan and put the bacon in to cook,
+    stirring now and then as it browns. Cook for a good 5min or so until it is starting
+    to crisp.
+  - Meanwhile cook the spaghetti according to the packet instructions, ideally al
+    dente.
+  - Remove the bacon from the pan and place on kitchen paper to drain.
+  - Add the garlic and mushrooms to the pan with the rendered bacon fat and cook until
+    tender - increase the heat if need be to remove excess liquid.
+  - Whisk the eggs and add the grated parmesan/pecorino so it is well mixed through.
+  - Drain the pasta once it is cooked, reserving some of the pasta water.
+  - Remove the mushrooms from the heat and add back the bacon and add the pasta.
+  - Pour over the egg mixture along with a little pasta water and mix through quickly
+    so that it coats the pasta and cooks but without making scrambled eggs. Add a
+    little more pasta water as needed to form a slight sauce but without being runny.
+  - Serve with a little more cheese on top.
+  image_url: images/recipes/29D7800D-DE41-4726-BB89-F1CE3FC62375.jpg
+  in_trash: false
+  ingredients:
+  - 6 oz smoked bacon 170g, or traditionally pancetta or guanciale - can use a blend
+  - 8 oz spaghetti 225g, or linguini
+  - 1 clove garlic finely chopped
+  - "4 \xBD oz mushrooms 125g, sliced"
+  - 2 eggs
+  - "\xBD cup pecorino 10g, approx, freshly grated - can also use parmesan"
+  is_pinned: false
+  name: Spaghetti Alla Carbonara with Mushrooms
+  notes: ''
+  nutritional_info: 'Calories: 951kcal | Carbohydrates: 89g | Protein: 41g | Fat:
+    46g | Saturated Fat: 17g | Cholesterol: 245mg | Sodium: 935mg | Potassium: 706mg
+    | Fiber: 4g | Sugar: 4g | Vitamin A: 375IU | Vitamin C: 1.8mg | Calcium: 314mg
+    | Iron: 3.1mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: 2/1
+  servings: ''
+  source: carolinescooking.com
+  source_url: https://www.carolinescooking.com/spaghetti-alla-carbonara-with-mushrooms/
+  total_time: ''
+  uid: 9315D531-779C-4348-8E97-74793EA8EAFD
+- categories: []
   cook_time: 5 minutes
   created: '2021-01-22 18:53:59'
   description: ''
