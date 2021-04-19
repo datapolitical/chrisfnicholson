@@ -103,7 +103,7 @@
     \ spatula along edge of cake to loosen and invert onto a platter."
   - 'Do Ahead: Cake can be made 3 days ahead (the flavor gets slightly more intense
     each day). Store in an airtight container at room temperature.'
-  image_url: images/recipes/C59D5EB9-0F45-4EA2-928A-EE787C391127-15739-0000046C6345AA4A.jpg
+  image_url: images/recipes/50B072C2-41AB-46A3-9EB2-01884F5F8A3A.jpg
   in_trash: false
   ingredients:
   - 1 cup mild extra-virgin olive oil, plus more for pan
@@ -145,8 +145,9 @@
 
     per serving (1 servings)'
   on_favorites: false
-  on_grocery_list: null
-  photos: []
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/50B072C2-41AB-46A3-9EB2-01884F5F8A3A.jpg
   prep_time: 20 minutes
   rating: 0
   scale: null
