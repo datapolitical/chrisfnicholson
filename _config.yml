@@ -63,8 +63,8 @@ exclude:
   - Pipfile
   - package.json
 
-# remote_theme: datapolitical/contrast@v3.0.5
-theme: contrast
+remote_theme: datapolitical/contrast
+# theme: contrast
 
 page_gen-dirs: false
 
