@@ -16,6 +16,9 @@ author:           'Chris F. Nicholson'
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
+# Debug
+debug: false
+
 # Layout
 
 show_social: false          # show site description and social links in the footer
@@ -48,6 +51,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-pwa-workbox
   - jekyll_picture_tag
+  - jekyll_version_plugin
 
 exclude:
   - Gemfile
@@ -59,7 +63,8 @@ exclude:
   - Pipfile
   - package.json
 
-remote_theme: datapolitical/contrast@v3.0.5
+# remote_theme: datapolitical/contrast@v3.0.5
+theme: contrast
 
 page_gen-dirs: false
 

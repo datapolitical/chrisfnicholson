@@ -17,3 +17,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-pwa-workbox'
 gem 'jekyll_picture_tag', '1.14.0', group: :jekyll_plugins
+gem 'jekyll_version_plugin', group: :jekyll_plugins
+gem "contrast", '3.0.6', github: "datapolitical/contrast", branch: "master"
