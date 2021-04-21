@@ -65,6 +65,7 @@ exclude:
 
 remote_theme: datapolitical/contrast
 # theme: contrast
+debug: true
 
 page_gen-dirs: false
 
