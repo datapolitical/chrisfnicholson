@@ -868,6 +868,9 @@
   on_favorites: false
   on_grocery_list: false
   photos:
+  - '3': images/recipes/7EC65C5C-DB80-4BD6-8A44-DA1561501090.jpg
+  - '4': images/recipes/4491CA2C-B5C5-4706-A97F-895FF3A698E8.jpg
+  - '2': images/recipes/9B0C5B06-C6F4-4949-8646-E0A52034A46B.jpg
   - '1': images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C.jpg
   prep_time: 30 min
   rating: 5
@@ -4306,7 +4309,11 @@
   source_url: https://www.allrecipes.com/recipe/229932/simple-pumpkin-pie/
   total_time: ''
   uid: 8F70514F-B2B1-4B45-8F49-51D71CF835D2-7670-000002583F2F83B2
-- categories: []
+- categories:
+  - Made at 307
+  - Web
+  - Pasta
+  - I Made This
   cook_time: 15 mins
   created: '2021-04-16 17:23:33'
   description: ''
@@ -4328,7 +4335,7 @@
     so that it coats the pasta and cooks but without making scrambled eggs. Add a
     little more pasta water as needed to form a slight sauce but without being runny.
   - Serve with a little more cheese on top.
-  image_url: images/recipes/29D7800D-DE41-4726-BB89-F1CE3FC62375.jpg
+  image_url: images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B.jpg
   in_trash: false
   ingredients:
   - 6 oz smoked bacon 170g, or traditionally pancetta or guanciale - can use a blend
@@ -4346,9 +4353,10 @@
     | Iron: 3.1mg'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B.jpg
   prep_time: 5 mins
-  rating: 0
+  rating: 5
   scale: 2/1
   servings: ''
   source: carolinescooking.com
@@ -5976,6 +5984,79 @@
   source_url: https://www.kingarthurbaking.com/recipes/chocolate-chip-cookies-recipe
   total_time: ''
   uid: E08F80E0-6254-4601-9BEB-E04211C5472C-30152-00000C6767FA8A16
+- categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
+  cook_time: 1 1/2 hours
+  created: '2021-04-25 17:01:01'
+  description: ''
+  difficulty: ''
+  directions:
+  - Heat oven to 425 degrees. Using the tip of a paring knife, scrape the pulp out
+    of the vanilla bean halves and add the pulp to a 1 1/2 quart gratin or baking
+    dish or 9-by-9-inch pan along with the scraped-out pods. (Alternatively, add the
+    paste or extract to the pan.) Add the rhubarb, sugar, zest and salt, and toss
+    well. Let sit at room temperature to macerate while preparing the biscuit dough.
+  - "Make the biscuit dough: Put the flour, sugar, baking powder and salt in a food\
+    \ processor. Pulse to combine. Add cubed butter, then pulse until the mixture\
+    \ has formed lime bean-size pieces. Drizzle in 1/3 cup heavy cream and pulse until\
+    \ everything just clumps together, taking care not to overprocess. (To make the\
+    \ dough by hand, put the flour, sugar, baking powder and salt in a large bowl\
+    \ and whisk to combine. Add cubed butter, then mix it in with your hands, pinching\
+    \ and squeezing with your fingers \u2014 or use a pastry blender \u2014 until\
+    \ the largest pieces are the size of peas. Drizzle in 1/3 cup heavy cream a little\
+    \ at a time, mixing until the dough comes together.)"
+  - "Dump the dough onto a lightly floured surface, and gently pat it together until\
+    \ it\u2019s a cohesive lump. Using a small ice cream scoop or a large spoon, form\
+    \ dough into 6 evenly sized balls. Slightly flatten dough balls into thick rounds.\
+    \ Cover rounds with plastic wrap and chill for at least 30 minutes (and up to\
+    \ 6 hours)."
+  - Put the rhubarb in the oven and roast, stirring halfway through, until the rhubarb
+    has softened and the liquid has formed a syrup, about 30 minutes.
+  - Remove pan from oven and use tongs to remove the vanilla bean pods.
+  - Lower oven temperature to 375 degrees. Arrange biscuit rounds on top of the rhubarb,
+    leaving space in between them. Brush biscuits with remaining tablespoon of heavy
+    cream and sprinkle with Demerara sugar.
+  - Bake cobbler until biscuits are golden brown, about 25 to 35 minutes. Serve warm
+    or at room temperature, with cream or ice cream, if you like.
+  image_url: images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014.jpg
+  in_trash: false
+  ingredients:
+  - 'FOR THE RHUBARB FILLING:'
+  - 1 vanilla bean, split lengthwise (or use 1/2 teaspoon vanilla paste or 1 tablespoon
+    vanilla extract)
+  - 2 pounds rhubarb, trimmed and cut into 1/2-inch pieces (about 7 cups)
+  - "\xBE cup/150 grams granulated sugar"
+  - 1 teaspoon finely grated orange zest
+  - Pinch of kosher salt
+  - 'FOR THE BISCUIT TOPPING:'
+  - "\xBE cups/96 grams all-purpose flour, plus more for shaping"
+  - 2 tablespoons granulated sugar
+  - "2 \xBC teaspoons baking powder"
+  - Pinch of kosher salt
+  - 3 tablespoon cold unsalted butter, cut into 1/2-inch cubes
+  - "\u2153 cup/79 milliliters plus 1 tablespoon heavy cream, plus more for serving,\
+    \ if you like"
+  - Demerara sugar, for sprinkling
+  - Ice cream, for serving (optional)
+  is_pinned: false
+  name: Roasted Rhubarb Cobbler
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014.jpg
+  prep_time: ''
+  rating: 4
+  scale: null
+  servings: Yield 6 to 8 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1022095-roasted-rhubarb-cobbler?smid=ck-recipe-iOS-share
+  total_time: ''
+  uid: E2477F71-EE47-4E74-B7EC-24A50441A471
 - categories:
   - Breakfast
   cook_time: 8 minutes
