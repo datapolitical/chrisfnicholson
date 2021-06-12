@@ -4068,6 +4068,41 @@
   total_time: ''
   uid: 84A1EA00-FEDA-439C-80D6-3E0A49654ACD-31731-00000BBA72CA018C
 - categories: []
+  cook_time: ''
+  created: '2021-06-12 15:54:52'
+  description: ''
+  difficulty: ''
+  directions:
+  - Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit
+    wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar
+    in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off
+    with club soda. Garnish with grapefruit wedge.
+  image_url: images/recipes/F6E1BB58-8E59-4F33-AEA5-37CD3012B335.jpg
+  in_trash: false
+  ingredients:
+  - Kosher salt
+  - 1 grapefruit wedge
+  - "\xBC cup fresh grapefruit juice"
+  - 1 tablespoon fresh lime juice
+  - 1 teaspoon sugar
+  - "\xBC cup mescal or tequila"
+  - "\xBC cup club soda"
+  is_pinned: false
+  name: Paloma
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: 8/1
+  servings: 1 servings
+  source: bonappetit.com
+  source_url: https://www.bonappetit.com/recipe/paloma
+  total_time: ''
+  uid: 851DF8D4-A6D8-42C2-8DD9-299738E6278A
+- categories: []
   cook_time: 'prep: 15 min. + cooling'
   created: '2020-12-23 00:10:16'
   description: ''
