@@ -23,13 +23,13 @@ jobs:
       # run: |
         # sudo apt-get update && sudo apt-get install -y libvips42
 
-      - name: Update path
-        run: |
-          echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
+    #  - name: Update path
+      #  run: |
+        #  echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
 
-      - name: Install RMagicwand
-        run: |
-          sudo apt-get install libmagickwand-dev
+    #  - name: Install RMagicwand
+      #  run: |
+        #  sudo apt-get install libmagickwand-dev
 
       - uses: actions/checkout@v2
         with:
@@ -52,7 +52,7 @@ jobs:
             ${{ runner.os }}-build-tse-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: jeffreytse/jekyll-deploy-action@v0.3.0
+      - uses: jeffreytse/jekyll-deploy-action@69e1549e57c4748593e91e2cd7887ba124c36835
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
