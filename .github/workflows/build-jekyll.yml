@@ -21,11 +21,11 @@ jobs:
 
       # - name: Clean install dependencies and build
         # run: |
-          # sudo apt-get update && sudo apt-get install -y libvips42
-          
+        # sudo apt-get update && sudo apt-get install -y libvips42
+
         - name: Update path
           run: |
-          echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
+            echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
 
       - uses: actions/checkout@v2
         with:
