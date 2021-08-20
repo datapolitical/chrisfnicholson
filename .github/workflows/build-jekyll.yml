@@ -19,9 +19,9 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
-    - name: Clean install dependencies and build
-      run: |
-        sudo apt-get update && sudo apt-get install -y libvips42
+    # - name: Clean install dependencies and build
+      # run: |
+        # sudo apt-get update && sudo apt-get install -y libvips42
 
     #  - name: Update path
       #  run: |
@@ -64,7 +64,7 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: 'www.chrisfnicholson.com'                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: 'pacman -S --noconfirm imagemagick'
+          pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp-dev'
 
       # Create Version
       - name: Create Version
