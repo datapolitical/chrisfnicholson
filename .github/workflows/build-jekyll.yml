@@ -19,9 +19,9 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
-    # - name: Clean install dependencies and build
-      # run: |
-        # sudo apt-get update && sudo apt-get install -y libvips42
+    - name: Clean install dependencies and build
+      run: |
+        sudo apt-get update && sudo apt-get install -y libvips42
 
     #  - name: Update path
       #  run: |
