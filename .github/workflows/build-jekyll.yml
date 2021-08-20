@@ -27,9 +27,9 @@ jobs:
         run: |
           echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
 
-      #- name: Install RMagicwand
-        #run: |
-          #sudo apt-get install libmagickwand-dev
+      - name: Install RMagicwand
+        run: |
+          sudo apt-get install libmagickwand-dev
 
       - uses: actions/checkout@v2
         with:
