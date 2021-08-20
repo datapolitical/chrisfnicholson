@@ -23,8 +23,8 @@ jobs:
       # run: |
         # sudo apt-get update && sudo apt-get install -y libvips42
 
-    #  - name: Update path
-      #  run: |
+    # - name: Update path
+      # run: |
         #  echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
 
     #  - name: Install RMagicwand
