@@ -64,7 +64,7 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: 'www.chrisfnicholson.com'                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp-dev'
+          pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp'
 
       # Create Version
       - name: Create Version
