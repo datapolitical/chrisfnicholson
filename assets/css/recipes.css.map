@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "recipes.css",
+	"sources": [
+		"recipes.scss"
+	],
+	"sourcesContent": [
+		"body {\n    font-family: HelveticaNeue, sans-serif;\n    font-size: 16.0px;\n    color: #34302e;\n    margin: 0.25in;\n}\n.name {\n    font-size: 18.0px;\n    font-family: Futura, Helvetica, sans-serif;\n    font-weight: normal;\n    margin: 0 0 10px 0;\n}\n.categories {\n    color: #605D5D;\n    font-size: 14.0px;\n    font-family: Helvetica, sans-serif;\n    font-style: italic;\n}\n.rating {\n    color: #d10505;\n    font-size: 14.0px;\n}\n.metadata {\n    font-size: 14.0px;\n}\n.infobox p {\n    margin: 0;\n    line-height: 150%;\n}\n.subhead {\n    color: #d10505;\n    font-weight: bold;\n    font-size: 14.0px;\n    text-transform: uppercase;\n    margin: 10px 0;\n}\n.ingredients p {\n    margin: 4px 0;\n}\n.clear {\n    clear:both;\n}\na {\n    color: #4990E2;\n    text-decoration: none;\n}\n/* Full page specific styles */\n.text {\n    line-height: 130%;\n}\n.photobox {\n    float: left;\n    margin-right: 14px;\n}\n.photo {\n    width: auto;\n    height: auto;\n}\n.writeup-photo {\n    width: 70%;\n    height: auto;\n  }\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,yBAAyB,EACtC,SAAS,EAAE,MAAM,EACjB,KAAK,EAAE,OAAO,EACd,MAAM,EAAE,MAAM,GACjB;;AACD,AAAA,KAAK,CAAC,EACF,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,6BAA6B,EAC1C,WAAW,EAAE,MAAM,EACnB,MAAM,EAAE,UAAU,GACrB;;AACD,AAAA,WAAW,CAAC,EACR,KAAK,EAAE,OAAO,EACd,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,qBAAqB,EAClC,UAAU,EAAE,MAAM,GACrB;;AACD,AAAA,OAAO,CAAC,EACJ,KAAK,EAAE,OAAO,EACd,SAAS,EAAE,MAAM,GACpB;;AACD,AAAA,SAAS,CAAC,EACN,SAAS,EAAE,MAAM,GACpB;;AACD,AAAA,QAAQ,CAAC,CAAC,CAAC,EACP,MAAM,EAAE,CAAC,EACT,WAAW,EAAE,IAAI,GACpB;;AACD,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,OAAO,EACd,WAAW,EAAE,IAAI,EACjB,SAAS,EAAE,MAAM,EACjB,cAAc,EAAE,SAAS,EACzB,MAAM,EAAE,MAAM,GACjB;;AACD,AAAA,YAAY,CAAC,CAAC,CAAC,EACX,MAAM,EAAE,KAAK,GAChB;;AACD,AAAA,MAAM,CAAC,EACH,KAAK,EAAC,IAAI,GACb;;AACD,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GACxB;;AACD,+BAA+B;AAC/B,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,IAAI,GACpB;;AACD,AAAA,SAAS,CAAC,EACN,KAAK,EAAE,IAAI,EACX,YAAY,EAAE,IAAI,GACrB;;AACD,AAAA,MAAM,CAAC,EACH,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACf;;AACD,AAAA,cAAc,CAAC,EACX,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACb"
+}

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!--[if RABBIT]>
+1b6092c
+       /\      |\
+      |  \    / |
+      |   \  |  /
+       \  _|/_ |
+        /      \
+       _|       |_
+      / /(|   |)\ \
+    /  /    _    \  \
+   /  |   /   \   |  \
+  /    \__\___/__/    |\
+ |                    | \
+ |                    |  |
+  \    \            //   |
+   |     \ ____  __//    |
+   |               /    /
+  /______wwww  wwww  __/
+<![endif]-->
+<html lang="en">
+<!-- v3.1.1-77-g1b6092c -->
+<head>
+  <meta charset="utf-8">
+  <style>
+  
+  #YUMMLY-YUM-IFRAME { width: 40px; height: 40px; }
+
+.photo { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+.writeup-photo { max-width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block; }
+
+@media (min-width: 900px) { .writeup-photo { width: 50%; } }
+
+.wide { float: left; max-width: 300px; max-height: 300px; width: auto; height: auto; width: 100%; }
+
+.button, input[type="submit"] { background: #fff; cursor: pointer; border: 1px solid #666; color: #000; text-decoration: none; padding: 5px 10px; display: inline-flex; align-items: flex-end; margin: 0; font-size: .8em; }
+
+.button:hover, input[type="submit"]:hover { background: #000; color: #fff; }
+
+.button:focus, input[type="submit"]:focus { outline: none; }
+
+.button { border-color: #000; }
+
+.button a { color: #000; }
+
+.button a:hover { color: #fff; }
+
+ol li + li { margin: 20px 0 0 0; }
+
+.post h1 a { color: #fff; text-decoration: none; }
+
+.post h1 a:hover { text-decoration: underline; }
+
+.post time { padding: 0 0 20px 0; display: block; }
+
+.post .recipe-author { padding: 0; margin: 0; margin-bottom: -.5em; font-size: small; }
+
+.post .recipe-overview { padding: 0; margin: 0; }
+
+.post .recipe-overview svg { position: relative; top: 6px; }
+
+.post .recipe-overview span { margin: 0 18px 0 3px; }
+
+.post .recipe-overview li { list-style: none; padding: 0; margin: 0; }
+
+@media (min-width: 900px) { .post .recipe-overview li { display: inline-block; } }
+
+@media (min-width: 900px) { .post .recipe-contents { display: flex; } }
+
+.post .recipe-contents ul { padding: 0; }
+
+.post .recipe-contents ul li { list-style-type: none; }
+
+.post .recipe-contents ul li:before { content: '\00bb'; color: #59abe3; padding-right: 0.5em; }
+
+.post .recipe-contents ol { padding: 0; }
+
+.post .recipe-contents ol li { counter-increment: step-counter; list-style-type: none; position: relative; margin-left: 34px; }
+
+.post .recipe-contents ol li:before { content: counter(step-counter); margin-right: 0px; background-color: #59abe3; color: white; /* padding: 1px 7px; */ font-size: .7em; position: absolute; left: -34px; top: 3px; width: 25px; text-align: center; }
+
+.post .recipe-contents .ingredients { width: 250px; padding: 0 43px 0 0; }
+
+@media (min-width: 900px) { .post .recipe-contents .directions { flex: 1; } }
+
+.sharing { margin: 50px 0 0 0; text-align: center; font-size: 0; }
+
+.sharing a { text-decoration: none; text-align: center; position: relative; width: 56px; display: inline-block; height: 44px; line-height: 0; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+.sharing a:hover:before { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.25); content: ""; }
+
+.sharing a svg { fill: #fff; }
+
+.sharing a.email { background-color: #ff9d09; }
+
+.sharing a.facebook { background-color: #3b5998; }
+
+.sharing a.twitter { background-color: #55acee; }
+
+.sharing a.google-plus { background-color: #db4437; }
+
+.sharing a.youtube { background-color: #cd201f; }
+
+.sharing a.instagram { background-color: #f167f5; }
+
+.sharing a.linkedin { background-color: #0077b5; }
+
+.sharing a.pinterest { background-color: #C92228; }
+
+.sharing a.pinterest-icon:hover svg { fill: #bd081c; }
+
+.cta { text-align: center; padding: 50px 0 0 0; }
+
+.rating { color: #c9f227; }
+
+div.stars { width: 200px; display: inline-block; }
+
+div.star-buttons { float: left; }
+
+input.star { display: none; }
+
+label.star { float: right; padding: 2px; font-size: 20px; color: #fff; transition: all .2s; }
+
+input.star:checked ~ label.star { color: #FD4; transition: all .25s; }
+
+input.star-5:checked ~ label.star { color: #FE7; text-shadow: 0 0 20px #952; }
+
+input.star-1:checked ~ label.star { color: #F62; }
+
+main .container { margin: 0; max-width: 5000px; }
+
+.text-hover { font-size: 14px; color: white; margin: 0px; }
+
+.bottom-left { /* position: absolute; */ /* bottom: 8px; */ /* left: 16px; */ height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 200px; object-fit: cover; }
+
+img:not([src]):not([srcset]) { visibility: hidden; }
+
+.text-hover { font-size: 14px; color: #fff; margin: 0; }
+
+.bottom-left { height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 180px; object-fit: cover; }
+
+html { font-size: 16px; font-size: calc(.8rem + .3vw); }
+
+body { background: #212228; color: #fff; font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif; font-weight: 400; line-height: 1.6; margin: 0; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+@media (prefers-color-scheme: dark) { body { background: #212228; color: #fff; } }
+
+h2, h3 { font-weight: 600; }
+
+b { font-weight: 600; }
+
+a { color: #68f; text-decoration: inherit; }
+
+header a { color: inherit; }
+
+img { margin: .5em 0; }
+
+img { border-radius: 2px; max-width: 100%; height: auto; }
+
+body { display: flex; flex-direction: column; min-height: 100vh; }
+
+body > header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+
+article { flex-grow: 1; }
+
+article header { margin-bottom: 1.5em; }
+
+nav { margin: .5em -1em; }
+
+nav a { margin: .5em .75em; }
+
+body > header, body > article { padding: 1.5em; }
+
+@media (min-width: 32em) { body > header, body > article { padding: 1.7em calc(28% - 12em); } }
+
+body > header { box-shadow: 0 0 0.6em rgba(33, 34, 40, 0.05); border-bottom: 1px solid rgba(144, 145, 148, 0.16); }
+
+.title { font-size: 1.4em; }
+
+.icon { height: 1.5em; width: 1.5em; fill: currentColor; vertical-align: middle; margin-bottom: .15em; }
+
+  </style>
+  <link rel="manifest" href="https://www.chrisfnicholson.com/manifest.json">
+  <link rel="apple-touch-icon" href="https://www.chrisfnicholson.com/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C1D22"/>
+  <meta name="author" content="Chris F. Nicholson">
+  <meta name="generator" content="Jekyll v4.2.0">
+  <link rel="canonical" href="https://www.chrisfnicholson.com/recipes/baked-salmon.html">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Chris F. Nicholson">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Baked Salmon | Chris F. Nicholson</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Baked Salmon" />
+<meta name="author" content="Chris F. Nicholson" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recipes and some writings by Chris F. Nicholson" />
+<meta property="og:description" content="Recipes and some writings by Chris F. Nicholson" />
+<link rel="canonical" href="https://www.chrisfnicholson.com/recipes/baked-salmon.html" />
+<meta property="og:url" content="https://www.chrisfnicholson.com/recipes/baked-salmon.html" />
+<meta property="og:site_name" content="Chris F. Nicholson" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Baked Salmon" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Chris F. Nicholson"},"description":"Recipes and some writings by Chris F. Nicholson","@type":"WebPage","headline":"Baked Salmon","url":"https://www.chrisfnicholson.com/recipes/baked-salmon.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+
+
+
+
+<header>
+  <a href="/" class="title">Chris F. Nicholson</a>
+  <nav>
+    <a href="/recipes/">
+        <svg aria-label="Recipes" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#utensils"></use>
+        </svg>
+    </a>
+    <a href="/drinks/">
+        <svg aria-label="Cocktails" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#glass-martini-alt"></use>
+        </svg>
+    </a>
+    <a href="/crosswords.html">
+        <svg aria-label="Crosswords" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#crossword"></use>
+        </svg>
+    </a>
+    <a href="/grady.html">
+        <svg aria-label="Grady" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#dragon"></use>
+        </svg>
+    </a>
+</nav>
+
+</header>
+
+<article>
+  
+    <header><h2><a href="/recipes/baked-salmon.html">Baked Salmon</a></h2></header>
+  
+  <script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Recipe",
+  "author": {
+		
+		"@type": "Organization",
+		"name": "gimmesomeoven.com",
+		"url": "https://www.gimmesomeoven.com/baked-salmon-recipe/"
+		
+	},
+	"description": "A recipe for Baked Salmon, with my rating and potentially some notes. Adapted from: https://www.gimmesomeoven.com/baked-salmon-recipe/",
+	"image": "/assets/images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940.webp",
+	"url": "/recipes/baked-salmon.html",
+	
+	"recipeYield": "Yield: 4 servings",
+	
+	
+	"prepTime": "5 minutes",
+	
+	
+	"cookTime": "10 minutes",
+	
+	
+	"recipeIngredient": [
+		
+		"4 salmon filets, skin-on (about 6–8 ounces each)",
+		
+		"2 tablespoons high-heat oil, such as avocado oil or canola oil",
+		
+		"Kosher salt and freshly-cracked black pepper",
+		
+		"fresh lemon wedges"
+		
+	],
+	"name": "Baked Salmon",
+	"recipeInstructions": [
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Let salmon rest on the counter for 15-30 minutes, until they have (at least mostly) come to room temperature."
+	},
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Heat oven to 450°F. Line a baking sheet with aluminum foil (or use an oven-proof non-stick skillet)."
+	},
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Blot the salmon filets dry on all sides with paper towels. Place the salmon skin-side-down the prepared baking sheet (or skillet). If the ends of the salmon filets are really thin, just tuck them under a bit for even cooking."
+	},
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Brush the salmon on all sides (except the bottom) with oil. Sprinkle each filet with a generous pinch of salt and black pepper, along with any other dry seasonings you prefer."
+	},
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Bake until the internal temperature of the salmon reaches 135-140°F*, about 4-6 minutes per half inch of thickness (measured by the thickest part of the filet). You can also test for doneness by inserting a fork or knife in the salmon and twisting it a bit; the fish should be opaque and flake easily."
+	},
+	
+	{
+  	"@type": "HowToStep",
+  	"text": "Remove pan from the oven and transfer the salmon to a clean serving plate, either with the skin or leaving the skin behind. Sprinkle each filet with a good squeeze of lemon juice, plus any extra fresh herbs or sauce that you prefer. Then serve warm and enjoy!"
+	}
+	
+	]
+}
+</script>
+
+<link rel="stylesheet" media="screen" href="/assets/css/screen.css">
+
+
+
+
+<article class="post">
+	<meta property="og:title" content="gimmesomeoven.com" />
+	<div class="photo">
+		
+			<picture>
+  <source sizes="(max-width: 600px) 90vw, (min-width: 601px) 50vw, 500px" srcset="/assets/generated/images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940-280-ee1a7f369.webp 280w" type="image/webp">
+  <source sizes="(max-width: 600px) 90vw, (min-width: 601px) 50vw, 500px" srcset="/assets/generated/images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940-280-ee1a7f369.jpg 280w" type="image/jpeg">
+  <img class="photo" src="/assets/generated/images/recipes/7A278DC2-9CD0-4F24-B651-139FEACA245B-640-000000498412F940-280-ee1a7f369.jpg" alt="Baked Salmon" width="280" height="280">
+</picture>
+
+		
+	</div>
+	
+	<ul id="recipe" class="recipe-overview">
+		
+		<li title="Servings">
+			<svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 0h24v24H0V0z" fill="none"/>
+					<path d="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z"/>
+			</svg>
+	
+<span>Yield: 4 servings</span></li>
+		
+		
+		<li title="Prep Time">
+		<svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+				<path d="M0 0h24v24H0z" fill="none"/>
+				<path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+		</svg>
+	
+<span>5 minutes</span></li>
+		
+		
+		<li title="Cook Time">
+	<svg version="1.1" fill="currentColor" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+	<g>
+		<path d="M1.296,21.654c0-6.055,0-12.108,0-18.163c0.127-0.257,0.34-0.336,0.616-0.335c7.158,0.002,14.316,0.002,21.471,0
+			C23.66,3.155,23.873,3.234,24,3.491c0,6.055,0,12.108,0,18.163c-0.112,0.257-0.309,0.345-0.586,0.345
+			c-7.177-0.006-14.354-0.006-21.531,0C1.605,21.999,1.408,21.911,1.296,21.654z M12.629,20.128c2.977,0,5.953,0,8.931,0
+			c0.429,0,0.55-0.122,0.55-0.551c0-3.866,0-7.732,0-11.598c0-0.415-0.129-0.543-0.542-0.543c-5.945,0-11.893,0-17.839,0
+			c-0.412,0-0.54,0.128-0.54,0.543c0,3.021,0,6.041,0,9.062c0,0.87-0.006,1.74,0.007,2.611c0.002,0.128,0.06,0.298,0.154,0.377
+			c0.097,0.079,0.268,0.095,0.407,0.095C6.714,20.129,9.672,20.128,12.629,20.128z M9.148,3.97C8.41,4.013,7.913,4.57,7.955,5.312
+			c0.034,0.619,0.651,1.161,1.273,1.121c0.706-0.05,1.251-0.617,1.213-1.267C10.4,4.463,9.826,3.931,9.148,3.97z M6.071,3.967
+			c-0.67-0.021-1.24,0.515-1.263,1.187c-0.021,0.697,0.523,1.264,1.23,1.282C6.705,6.451,7.276,5.897,7.3,5.214
+			C7.321,4.553,6.766,3.989,6.071,3.967z M17.348,5.199c0-0.682-0.548-1.229-1.237-1.234c-0.677-0.006-1.242,0.543-1.255,1.221
+			c-0.014,0.668,0.574,1.254,1.253,1.25C16.791,6.431,17.348,5.876,17.348,5.199z M20.489,5.201c0.003-0.682-0.542-1.227-1.232-1.235
+			c-0.685-0.009-1.267,0.562-1.26,1.237c0.007,0.672,0.575,1.232,1.249,1.232C19.927,6.436,20.487,5.88,20.489,5.201z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M4.059,24c-0.261-0.122-0.351-0.337-0.336-0.613
+			c0.009-0.158-0.001-0.315,0.003-0.474c0.009-0.327,0.174-0.507,0.5-0.511c0.484-0.01,0.97-0.01,1.455,0
+			c0.29,0.006,0.452,0.15,0.477,0.433c0.021,0.243,0.009,0.49,0.001,0.736C6.15,23.784,6.003,23.899,5.837,24
+			C5.244,24,4.652,24,4.059,24z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M19.46,24c-0.267-0.132-0.347-0.358-0.33-0.637c0.011-0.195,0-0.393,0.025-0.584
+			c0.029-0.225,0.165-0.361,0.387-0.367c0.541-0.012,1.084-0.013,1.624,0.002c0.244,0.007,0.392,0.19,0.403,0.462
+			c0.011,0.214,0.004,0.429,0.001,0.644c-0.003,0.232-0.137,0.379-0.333,0.48C20.645,24,20.053,24,19.46,24z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M9.148,3.97c0.678-0.039,1.252,0.493,1.293,1.197
+			c0.038,0.649-0.508,1.217-1.213,1.267c-0.622,0.04-1.239-0.502-1.273-1.121C7.913,4.57,8.41,4.013,9.148,3.97z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M6.071,3.967C6.766,3.989,7.321,4.553,7.3,5.214
+			C7.276,5.897,6.705,6.451,6.039,6.436c-0.707-0.019-1.252-0.585-1.23-1.282C4.831,4.481,5.401,3.945,6.071,3.967z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M17.348,5.199c0,0.677-0.557,1.231-1.239,1.236
+			c-0.679,0.004-1.267-0.582-1.253-1.25c0.013-0.678,0.578-1.227,1.255-1.221C16.8,3.971,17.348,4.518,17.348,5.199z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M20.489,5.201c-0.002,0.679-0.562,1.234-1.243,1.234
+			c-0.674,0-1.242-0.561-1.249-1.232c-0.007-0.675,0.575-1.246,1.26-1.237C19.947,3.975,20.492,4.52,20.489,5.201z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M12.646,9.926c-2.112,0-4.225,0-6.336-0.002c-0.333,0-0.505-0.119-0.504-0.352
+			C5.808,9.346,5.986,9.22,6.314,9.22c4.225,0,8.449,0,12.672,0c0.014,0,0.025,0,0.038,0c0.294,0.006,0.469,0.14,0.467,0.358
+			c-0.002,0.221-0.171,0.346-0.472,0.346C16.895,9.926,14.771,9.926,12.646,9.926z"/>
+	</g>
+	</svg>
+
+<span>10 minutes</span></li>
+		
+		
+		<li>
+			
+			<a href="https://www.gimmesomeoven.com/baked-salmon-recipe/">gimmesomeoven.com</a>
+			
+		</li>
+	</ul>
+	<ul class="recipe-overview">
+		
+		
+		
+		
+		
+	</ul>
+	<div class="recipe-contents">
+		<div class="ingredients">
+			<h2>Ingredients</h2>
+            <ul>
+            
+							
+							
+	            	<li>4 salmon filets, skin-on (about 6–8 ounces each)
+</li>
+							
+            
+							
+							
+	            	<li>2 tablespoons high-heat oil, such as avocado oil or canola oil
+</li>
+							
+            
+							
+							
+	            	<li>Kosher salt and freshly-cracked black pepper
+</li>
+							
+            
+							
+							
+	            	<li>fresh lemon wedges
+</li>
+							
+            
+            </ul>
+		</div>
+
+		<div class="directions">
+			<h2>Directions</h2>
+            <ol>
+            
+							
+							
+								<li><p>Let salmon rest on the counter for 15-30 minutes, until they have (at least mostly) come to room temperature.</p>
+</li>
+							
+            
+							
+							
+								<li><p>Heat oven to 450°F. Line a baking sheet with aluminum foil (or use an oven-proof non-stick skillet).</p>
+</li>
+							
+            
+							
+							
+								<li><p>Blot the salmon filets dry on all sides with paper towels. Place the salmon skin-side-down the prepared baking sheet (or skillet). If the ends of the salmon filets are really thin, just tuck them under a bit for even cooking.</p>
+</li>
+							
+            
+							
+							
+								<li><p>Brush the salmon on all sides (except the bottom) with oil. Sprinkle each filet with a generous pinch of salt and black pepper, along with any other dry seasonings you prefer.</p>
+</li>
+							
+            
+							
+							
+								<li><p>Bake until the internal temperature of the salmon reaches 135-140°F*, about 4-6 minutes per half inch of thickness (measured by the thickest part of the filet). You can also test for doneness by inserting a fork or knife in the salmon and twisting it a bit; the fish should be opaque and flake easily.</p>
+</li>
+							
+            
+							
+							
+								<li><p>Remove pan from the oven and transfer the salmon to a clean serving plate, either with the skin or leaving the skin behind. Sprinkle each filet with a good squeeze of lemon juice, plus any extra fresh herbs or sauce that you prefer. Then serve warm and enjoy!</p>
+</li>
+							
+            
+            </ol>
+		</div>
+	</div>
+
+	<div class="sharing">
+		
+		<a class="facebook" aria-label="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.chrisfnicholson.com%2Frecipes%2Fbaked-salmon.html">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+	
+</a>
+		<a class="twitter" aria-label="twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.chrisfnicholson.com%2Frecipes%2Fbaked-salmon.html&amp;text=I'm%20going%20to%20this%20event!">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg>
+	
+</a>
+		<a class="instagram" aria-label="instagram" href="https://instagram.com">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
+	
+</a>
+		<a class="pinterest" aria-label="pinterest" href="//pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.chrisfnicholson.com%2Frecipes%2Fbaked-salmon.html&amp;description=">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M13,16.2C12.2,16.2 11.43,15.86 10.88,15.28L9.93,18.5L9.86,18.69L9.83,18.67C9.64,19 9.29,19.2 8.9,19.2C8.29,19.2 7.8,18.71 7.8,18.1C7.8,18.05 7.81,18 7.81,17.95H7.8L7.85,17.77L9.7,12.21C9.7,12.21 9.5,11.59 9.5,10.73C9.5,9 10.42,8.5 11.16,8.5C11.91,8.5 12.58,8.76 12.58,9.81C12.58,11.15 11.69,11.84 11.69,12.81C11.69,13.55 12.29,14.16 13.03,14.16C15.37,14.16 16.2,12.4 16.2,10.75C16.2,8.57 14.32,6.8 12,6.8C9.68,6.8 7.8,8.57 7.8,10.75C7.8,11.42 8,12.09 8.34,12.68C8.43,12.84 8.5,13 8.5,13.2A1,1 0 0,1 7.5,14.2C7.13,14.2 6.79,14 6.62,13.7C6.08,12.81 5.8,11.79 5.8,10.75C5.8,7.47 8.58,4.8 12,4.8C15.42,4.8 18.2,7.47 18.2,10.75C18.2,13.37 16.57,16.2 13,16.2M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+	
+</a>
+		<a class="email" aria-label="email" href="mailto:?subject=I've%20found%20a%20great%20recipe&amp;body=Check%20it%20out%20-%20https%3A%2F%2Fwww.chrisfnicholson.com%2Frecipes%2Fbaked-salmon.html">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+
+</a>
+	</div>
+
+	<div class="cta">
+		<h2>More delicious recipes</h2>
+		<div class="button"><a href="/recipes/">Check out more recipes</a></div>
+	</div>
+	
+		<section class="comments" id="comment-section">
+  <hr>
+
+  
+  
+  
+  <h2></h2>
+
+  
+
+
+
+
+  <!-- New comment form -->
+  <div id="respond" class="comment__new">
+    <form class="js-form form" id="new-comment" method="post" action="https://chrisfnicholson-staticman.herokuapp.com/v2/entry/datapolitical/chrisfnicholson.github.io/main/comments">
+  <input type="hidden" name="options[origin]" value="https://www.chrisfnicholson.com/recipes/baked-salmon.html">
+  <input type="hidden" name="options[parent]" value="https://www.chrisfnicholson.com/recipes/baked-salmon.html">
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
+  <input type="hidden" name="options[slug]" value="recipes/baked-salmon">
+  <input type="hidden" name="options[redirect]" value="https://www.chrisfnicholson.com/recipes/baked-salmon.html">
+
+
+  <div class="stars">
+    <label for="comment-form-rating"><h2>Rate this recipe! <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.chrisfnicholson.com/recipes/baked-salmon.html#respond" style="display:none;">(cancel reply)</a></small></h2></label>
+      <div class="star-buttons">
+        <input class="radio__input star star-5" id="star-5" type="radio" value="5" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-5" for="star-5">★</label>
+        <input class="radio__input star star-4" id="star-4" type="radio" value="4" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-4" for="star-4">★</label>
+        <input class="radio__input star star-3" id="star-3" type="radio" value="3" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-3" for="star-3">★</label>
+        <input class="radio__input star star-2" id="star-2" type="radio" value="2" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-2" for="star-2">★</label>
+        <input class="radio__input star star-1" id="star-1" type="radio" value="1" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-1" for="star-1">★</label>
+      </div>
+  </div>
+
+  <div class="textfield">
+    <label for="comment-form-message">Add a comment
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" rows="6"></textarea>
+    </label>
+  </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-name">Name
+        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
+      </label>
+    </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-email">E-mail
+        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
+      </label>
+    </div>
+
+    <div class="textfield narrowfield hp">
+      <label for="hp">
+        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
+      </label>
+    </div>
+
+    <button class="button" id="comment-form-submit">
+      Submit
+    </button>
+
+</form>
+
+<article class="modal mdl-card mdl-shadow--2dp">
+  <div>
+    <h3 class="modal-title js-modal-title"></h3>
+  </div>
+  <div class="mdl-card__supporting-text js-modal-text"></div>
+  <div class="mdl-card__actions mdl-card--border">
+    <button class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</button>
+  </div>
+</article>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none" >
+  <symbol id="icon-loading" viewBox="149.8 37.8 499.818 525"><path d="M557.8 187.8c13.8 0 24.601-10.8 24.601-24.6S571.6 138.6 557.8 138.6s-24.6 10.8-24.6 24.6c0 13.2 10.8 24.6 24.6 24.6zm61.2 90.6c-16.8 0-30.6 13.8-30.6 30.6s13.8 30.6 30.6 30.6 30.6-13.8 30.6-30.6c.6-16.8-13.2-30.6-30.6-30.6zm-61.2 145.2c-20.399 0-36.6 16.2-36.6 36.601 0 20.399 16.2 36.6 36.6 36.6 20.4 0 36.601-16.2 36.601-36.6C595 439.8 578.2 423.6 557.8 423.6zM409 476.4c-24 0-43.2 19.199-43.2 43.199s19.2 43.2 43.2 43.2 43.2-19.2 43.2-43.2S433 476.4 409 476.4zM260.8 411c-27 0-49.2 22.2-49.2 49.2s22.2 49.2 49.2 49.2 49.2-22.2 49.2-49.2-22.2-49.2-49.2-49.2zm-10.2-102c0-27.6-22.8-50.4-50.4-50.4-27.6 0-50.4 22.8-50.4 50.4 0 27.6 22.8 50.4 50.4 50.4 27.6 0 50.4-22.2 50.4-50.4zm10.2-199.8c-30 0-54 24-54 54s24 54 54 54 54-24 54-54-24.6-54-54-54zM409 37.8c-35.4 0-63.6 28.8-63.6 63.6S374.2 165 409 165s63.6-28.8 63.6-63.6-28.2-63.6-63.6-63.6z"/>
+  </symbol>
+</svg>
+
+
+
+  </div>
+</section>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="/assets/js/main.js"></script>
+
+	
+</article>
+
+</article>
+
+
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+
+<script src="https://www.chrisfnicholson.com/assets/js/pwa-1.0.min.js type="text/javascript"></script>
+<script>
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,"galite","script","https://www.chrisfnicholson.com/assets/js/ga-lite.min.js");
+
+galite('create', 'UA-387663-5', 'auto');
+galite('send', 'pageview');
+</script>
+
+</body>
+</html>

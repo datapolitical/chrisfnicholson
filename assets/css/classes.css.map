@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "classes.css",
+	"sources": [
+		"classes.sass",
+		"vendor/bundle/ruby/2.7.0/bundler/gems/contrast-76b6aa921e7b/_sass/index.sass"
+	],
+	"sourcesContent": [
+		"@import \"index\";\n\n.title {\n  font-size: 1.4em; }\n\n.archive {\n  font-size: 1.1em; }\n\n.archive time {\n  display: inline-block;\n  min-width: 10ch;\n  margin: 0 .2em; }\n\n.archive li {\n  list-style: none; }\n\n.icon {\n  height: 1.5em;\n  width: 1.5em;\n  fill: currentColor;\n  transition: .2s color;\n  vertical-align: middle;\n  margin-bottom: .15em; }\n\na:hover .icon {\n  color: reduce(100); }\n\n\n",
+		"$font-size: calc(0.8rem + 0.3vw) !default;\n$font-weight: 400 !default;\n$heading-weight: 600 !default;\n$line-height: 1.6 !default;\n$link-color: #68f !default;\n$dark: #212228 !default;\n$light: #ffffff !default;\n\n@function reduce ($percent) {\n  @return rgba(mix($dark, $light), $percent / 100); }\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,MAAM,CAAC,EACL,SAAS,EAAE,KAAK,GAAG;;AAErB,AAAA,QAAQ,CAAC,EACP,SAAS,EAAE,KAAK,GAAG;;AAErB,AAAA,QAAQ,CAAC,IAAI,CAAC,EACZ,OAAO,EAAE,YAAY,EACrB,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,MAAM,GAAG;;AAEnB,AAAA,QAAQ,CAAC,EAAE,CAAC,EACV,UAAU,EAAE,IAAI,GAAG;;AAErB,AAAA,KAAK,CAAC,EACJ,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,EACZ,IAAI,EAAE,YAAY,EAClB,UAAU,EAAE,SAAS,EACrB,cAAc,EAAE,MAAM,EACtB,aAAa,EAAE,KAAK,GAAG;;AAEzB,AAAA,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,EACZ,KAAK,EChBQ,OAAkB,GDgBV"
+}

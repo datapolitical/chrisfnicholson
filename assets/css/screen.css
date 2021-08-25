@@ -1,0 +1,192 @@
+#YUMMLY-YUM-IFRAME { width: 40px; height: 40px; }
+
+.photo { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+.writeup-photo { max-width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block; }
+
+@media (min-width: 900px) { .writeup-photo { width: 50%; } }
+
+.wide { float: left; max-width: 300px; max-height: 300px; width: auto; height: auto; width: 100%; }
+
+.button, input[type="submit"] { background: #fff; cursor: pointer; border: 1px solid #666; color: #000; text-decoration: none; padding: 5px 10px; display: inline-flex; align-items: flex-end; margin: 0; font-size: .8em; }
+
+.button:hover, input[type="submit"]:hover { background: #000; color: #fff; }
+
+.button:focus, input[type="submit"]:focus { outline: none; }
+
+.button { border-color: #000; }
+
+.button a { color: #000; }
+
+.button a:hover { color: #fff; }
+
+ol li + li { margin: 20px 0 0 0; }
+
+.post h1 a { color: #fff; text-decoration: none; }
+
+.post h1 a:hover { text-decoration: underline; }
+
+.post time { padding: 0 0 20px 0; display: block; }
+
+.post .recipe-author { padding: 0; margin: 0; margin-bottom: -.5em; font-size: small; }
+
+.post .recipe-overview { padding: 0; margin: 0; }
+
+.post .recipe-overview svg { position: relative; top: 6px; }
+
+.post .recipe-overview span { margin: 0 18px 0 3px; }
+
+.post .recipe-overview li { list-style: none; padding: 0; margin: 0; }
+
+@media (min-width: 900px) { .post .recipe-overview li { display: inline-block; } }
+
+@media (min-width: 900px) { .post .recipe-contents { display: flex; } }
+
+.post .recipe-contents ul { padding: 0; }
+
+.post .recipe-contents ul li { list-style-type: none; }
+
+.post .recipe-contents ul li:before { content: '\00bb'; color: #59abe3; padding-right: 0.5em; }
+
+.post .recipe-contents ol { padding: 0; }
+
+.post .recipe-contents ol li { counter-increment: step-counter; list-style-type: none; position: relative; margin-left: 34px; }
+
+.post .recipe-contents ol li:before { content: counter(step-counter); margin-right: 0px; background-color: #59abe3; color: white; /* padding: 1px 7px; */ font-size: .7em; position: absolute; left: -34px; top: 3px; width: 25px; text-align: center; }
+
+.post .recipe-contents .ingredients { width: 250px; padding: 0 43px 0 0; }
+
+@media (min-width: 900px) { .post .recipe-contents .directions { flex: 1; } }
+
+.sharing { margin: 50px 0 0 0; text-align: center; font-size: 0; }
+
+.sharing a { text-decoration: none; text-align: center; position: relative; width: 56px; display: inline-block; height: 44px; line-height: 0; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+.sharing a:hover:before { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.25); content: ""; }
+
+.sharing a svg { fill: #fff; }
+
+.sharing a.email { background-color: #ff9d09; }
+
+.sharing a.facebook { background-color: #3b5998; }
+
+.sharing a.twitter { background-color: #55acee; }
+
+.sharing a.google-plus { background-color: #db4437; }
+
+.sharing a.youtube { background-color: #cd201f; }
+
+.sharing a.instagram { background-color: #f167f5; }
+
+.sharing a.linkedin { background-color: #0077b5; }
+
+.sharing a.pinterest { background-color: #C92228; }
+
+.sharing a.pinterest-icon:hover svg { fill: #bd081c; }
+
+.cta { text-align: center; padding: 50px 0 0 0; }
+
+.rating { color: #c9f227; }
+
+div.stars { width: 200px; display: inline-block; }
+
+div.star-buttons { float: left; }
+
+input.star { display: none; }
+
+label.star { float: right; padding: 2px; font-size: 20px; color: #fff; transition: all .2s; }
+
+input.star:checked ~ label.star { color: #FD4; transition: all .25s; }
+
+input.star-5:checked ~ label.star { color: #FE7; text-shadow: 0 0 20px #952; }
+
+input.star-1:checked ~ label.star { color: #F62; }
+
+/**
+* @license lyradesigns.com v1
+* Updated: Dec 17, 2014
+* Add pin buttons to images
+* Copyright (c) 2014 Jonas Goslow - LYRA
+* Released under the MIT license
+* https://github.com/timmywil/jquery.panzoom/blob/master/MIT-License.txt
+
+Customize these however you like.
+
+*/
+.imgPinWrap { position: relative; display: inline-block; }
+
+.imgPinWrap .pin { opacity: 0; position: absolute; display: block; -webkit-transition: all .25s ease-in-out; -moz-transition: all .25s ease-in-out; -o-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
+
+.imgPinWrap .pin img { display: block; }
+
+.imgPinWrap .pin:hover { box-shadow: 0 0 5px #fff; }
+
+.imgPinWrap:hover .pin { opacity: 1; }
+
+.imgPinWrap .left { left: 15px; }
+
+.imgPinWrap .right { right: 15px; }
+
+.imgPinWrap .bottom { bottom: 15px; }
+
+.imgPinWrap .top { top: 15px; }
+
+.imgPinWrap .center { left: 50%; top: 50%; }
+
+input, select, textarea, label, button { font: 400 16pt/1.6 -apple-system, sans-serif; color: #ffffff; background-color: #212228; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
+
+fieldset { border: none; padding: 0; }
+
+.textfield { max-width: 100%; padding: 0.5rem 0; }
+
+.narrowfield { width: 420px; }
+
+.hp { display: none; }
+
+textarea { vertical-align: top; }
+
+.textfield__input { border: 1px solid #ffffff; padding: 4px 5px; width: 100%; font-size: 12.8pt; }
+
+.notify-me, .g-recaptcha { padding: 0.5rem 0; }
+
+.button { background: white; box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.14); border: none; border-radius: 2px; padding: 4px 8px; overflow: hidden; cursor: pointer; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; margin: 4px 0px 0px 0px; }
+
+button:hover { background-color: #f2f2f2; color: white; }
+
+.comment__new { padding: 0px 0px 14px 0px; }
+
+.comment__author { color: #f2f2f2; }
+
+.comment__date { font-size: 12.8pt; }
+
+.comment__body { font-size: 12.8pt; }
+
+.comment__meta { text-align: left; color: #f2f2f2; font-size: 12.8pt; }
+
+.comments__existing { padding: 8px 0px 0px 0px; }
+
+.comment { border-top: 0px solid #f2f2f2; padding: 0px 0px 0px 0px; margin-bottom: 1em; }
+
+.comment.child { margin-left: 3em; }
+
+.comment__reply-link { color: #f2f2f2; font-size: 12.8pt; cursor: pointer; }
+
+.show-modal { overflow: hidden; position: relative; }
+
+.show-modal:before { position: absolute; content: ''; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background-color: rgba(255, 255, 255, 0); }
+
+.show-modal .modal { display: block; }
+
+.mdl-card { min-height: 200px; overflow: hidden; z-index: 1; position: relative; background: #fff; box-sizing: border-box; }
+
+.modal { display: none; position: fixed; width: 330px; top: 50%; left: 50%; margin-left: -150px; margin-top: -150px; min-height: 0; z-index: 9999; box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.14); padding: 16px; border-radius: 2px; background: white; }
+
+.mdl-shadow--16dp { box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
+
+.mdl-card__supporting-text { overflow: hidden; padding: 16px; width: 90%; color: black; }
+
+.modal-title { margin-bottom: 0px; }
+
+.disabled input, .disabled button, .disabled textarea, .disabled label { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); box-shadow: none; opacity: 0.65; }
+
+/*# sourceMappingURL=screen.css.map */

@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<!--[if RABBIT]>
+1b6092c
+       /\      |\
+      |  \    / |
+      |   \  |  /
+       \  _|/_ |
+        /      \
+       _|       |_
+      / /(|   |)\ \
+    /  /    _    \  \
+   /  |   /   \   |  \
+  /    \__\___/__/    |\
+ |                    | \
+ |                    |  |
+  \    \            //   |
+   |     \ ____  __//    |
+   |               /    /
+  /______wwww  wwww  __/
+<![endif]-->
+<html lang="en">
+<!-- v3.1.1-77-g1b6092c -->
+<head>
+  <meta charset="utf-8">
+  <style>
+  
+  #YUMMLY-YUM-IFRAME { width: 40px; height: 40px; }
+
+.photo { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+.writeup-photo { max-width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block; }
+
+@media (min-width: 900px) { .writeup-photo { width: 50%; } }
+
+.wide { float: left; max-width: 300px; max-height: 300px; width: auto; height: auto; width: 100%; }
+
+.button, input[type="submit"] { background: #fff; cursor: pointer; border: 1px solid #666; color: #000; text-decoration: none; padding: 5px 10px; display: inline-flex; align-items: flex-end; margin: 0; font-size: .8em; }
+
+.button:hover, input[type="submit"]:hover { background: #000; color: #fff; }
+
+.button:focus, input[type="submit"]:focus { outline: none; }
+
+.button { border-color: #000; }
+
+.button a { color: #000; }
+
+.button a:hover { color: #fff; }
+
+ol li + li { margin: 20px 0 0 0; }
+
+.post h1 a { color: #fff; text-decoration: none; }
+
+.post h1 a:hover { text-decoration: underline; }
+
+.post time { padding: 0 0 20px 0; display: block; }
+
+.post .recipe-author { padding: 0; margin: 0; margin-bottom: -.5em; font-size: small; }
+
+.post .recipe-overview { padding: 0; margin: 0; }
+
+.post .recipe-overview svg { position: relative; top: 6px; }
+
+.post .recipe-overview span { margin: 0 18px 0 3px; }
+
+.post .recipe-overview li { list-style: none; padding: 0; margin: 0; }
+
+@media (min-width: 900px) { .post .recipe-overview li { display: inline-block; } }
+
+@media (min-width: 900px) { .post .recipe-contents { display: flex; } }
+
+.post .recipe-contents ul { padding: 0; }
+
+.post .recipe-contents ul li { list-style-type: none; }
+
+.post .recipe-contents ul li:before { content: '\00bb'; color: #59abe3; padding-right: 0.5em; }
+
+.post .recipe-contents ol { padding: 0; }
+
+.post .recipe-contents ol li { counter-increment: step-counter; list-style-type: none; position: relative; margin-left: 34px; }
+
+.post .recipe-contents ol li:before { content: counter(step-counter); margin-right: 0px; background-color: #59abe3; color: white; /* padding: 1px 7px; */ font-size: .7em; position: absolute; left: -34px; top: 3px; width: 25px; text-align: center; }
+
+.post .recipe-contents .ingredients { width: 250px; padding: 0 43px 0 0; }
+
+@media (min-width: 900px) { .post .recipe-contents .directions { flex: 1; } }
+
+.sharing { margin: 50px 0 0 0; text-align: center; font-size: 0; }
+
+.sharing a { text-decoration: none; text-align: center; position: relative; width: 56px; display: inline-block; height: 44px; line-height: 0; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+.sharing a:hover:before { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.25); content: ""; }
+
+.sharing a svg { fill: #fff; }
+
+.sharing a.email { background-color: #ff9d09; }
+
+.sharing a.facebook { background-color: #3b5998; }
+
+.sharing a.twitter { background-color: #55acee; }
+
+.sharing a.google-plus { background-color: #db4437; }
+
+.sharing a.youtube { background-color: #cd201f; }
+
+.sharing a.instagram { background-color: #f167f5; }
+
+.sharing a.linkedin { background-color: #0077b5; }
+
+.sharing a.pinterest { background-color: #C92228; }
+
+.sharing a.pinterest-icon:hover svg { fill: #bd081c; }
+
+.cta { text-align: center; padding: 50px 0 0 0; }
+
+.rating { color: #c9f227; }
+
+div.stars { width: 200px; display: inline-block; }
+
+div.star-buttons { float: left; }
+
+input.star { display: none; }
+
+label.star { float: right; padding: 2px; font-size: 20px; color: #fff; transition: all .2s; }
+
+input.star:checked ~ label.star { color: #FD4; transition: all .25s; }
+
+input.star-5:checked ~ label.star { color: #FE7; text-shadow: 0 0 20px #952; }
+
+input.star-1:checked ~ label.star { color: #F62; }
+
+main .container { margin: 0; max-width: 5000px; }
+
+.text-hover { font-size: 14px; color: white; margin: 0px; }
+
+.bottom-left { /* position: absolute; */ /* bottom: 8px; */ /* left: 16px; */ height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 200px; object-fit: cover; }
+
+img:not([src]):not([srcset]) { visibility: hidden; }
+
+.text-hover { font-size: 14px; color: #fff; margin: 0; }
+
+.bottom-left { height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 180px; object-fit: cover; }
+
+html { font-size: 16px; font-size: calc(.8rem + .3vw); }
+
+body { background: #212228; color: #fff; font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif; font-weight: 400; line-height: 1.6; margin: 0; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+@media (prefers-color-scheme: dark) { body { background: #212228; color: #fff; } }
+
+h2, h3 { font-weight: 600; }
+
+b { font-weight: 600; }
+
+a { color: #68f; text-decoration: inherit; }
+
+header a { color: inherit; }
+
+img { margin: .5em 0; }
+
+img { border-radius: 2px; max-width: 100%; height: auto; }
+
+body { display: flex; flex-direction: column; min-height: 100vh; }
+
+body > header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+
+article { flex-grow: 1; }
+
+article header { margin-bottom: 1.5em; }
+
+nav { margin: .5em -1em; }
+
+nav a { margin: .5em .75em; }
+
+body > header, body > article { padding: 1.5em; }
+
+@media (min-width: 32em) { body > header, body > article { padding: 1.7em calc(28% - 12em); } }
+
+body > header { box-shadow: 0 0 0.6em rgba(33, 34, 40, 0.05); border-bottom: 1px solid rgba(144, 145, 148, 0.16); }
+
+.title { font-size: 1.4em; }
+
+.icon { height: 1.5em; width: 1.5em; fill: currentColor; vertical-align: middle; margin-bottom: .15em; }
+
+  </style>
+  <link rel="manifest" href="https://www.chrisfnicholson.com/manifest.json">
+  <link rel="apple-touch-icon" href="https://www.chrisfnicholson.com/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C1D22"/>
+  <meta name="author" content="Chris F. Nicholson">
+  <meta name="generator" content="Jekyll v4.2.0">
+  <link rel="canonical" href="https://www.chrisfnicholson.com/recipes/">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Chris F. Nicholson">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Recipe Book | Chris F. Nicholson</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Recipe Book" />
+<meta name="author" content="Chris F. Nicholson" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recipes and some writings by Chris F. Nicholson" />
+<meta property="og:description" content="Recipes and some writings by Chris F. Nicholson" />
+<link rel="canonical" href="https://www.chrisfnicholson.com/recipes/" />
+<meta property="og:url" content="https://www.chrisfnicholson.com/recipes/" />
+<meta property="og:site_name" content="Chris F. Nicholson" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Recipe Book" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Chris F. Nicholson"},"description":"Recipes and some writings by Chris F. Nicholson","@type":"WebPage","headline":"Recipe Book","url":"https://www.chrisfnicholson.com/recipes/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+
+
+
+
+<header>
+  <a href="/" class="title">Chris F. Nicholson</a>
+  <nav>
+    <a href="/recipes/">
+        <svg aria-label="Recipes" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#utensils"></use>
+        </svg>
+    </a>
+    <a href="/drinks/">
+        <svg aria-label="Cocktails" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#glass-martini-alt"></use>
+        </svg>
+    </a>
+    <a href="/crosswords.html">
+        <svg aria-label="Crosswords" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#crossword"></use>
+        </svg>
+    </a>
+    <a href="/grady.html">
+        <svg aria-label="Grady" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#dragon"></use>
+        </svg>
+    </a>
+</nav>
+
+</header>
+
+<article>
+  
+    <header><h2><a href="/recipes/">Recipe Book</a></h2></header>
+  
+  		<link rel="stylesheet" media="screen" href="https://www.chrisfnicholson.com/assets/css/recipe-list.css">
+		<link rel="preload" as="script" href="https://cdn.jsdelivr.net">
+
+        <div class="image-grid">
+				
+				
+        
+        	
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="spaghetti-alla-carbonara-with-mushrooms.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-400-b15062979.webp 400w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-600-b15062979.webp 600w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-800-b15062979.webp 800w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-1000-b15062979.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-400-b15062979.jpg 400w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-600-b15062979.jpg 600w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-800-b15062979.jpg 800w, /assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-1000-b15062979.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/D654A389-4FEE-4CF2-B394-C8814F5D313B-800-b15062979.jpg" alt="Spaghetti Alla Carbonara with Mushrooms" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Spaghetti Alla Carbonara with Mushrooms</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="jordan-marshs-blueberry-muffins.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-400-38d3cfee0.webp 400w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-600-38d3cfee0.webp 600w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-800-38d3cfee0.webp 800w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-1000-38d3cfee0.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-400-38d3cfee0.jpg 400w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-600-38d3cfee0.jpg 600w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-800-38d3cfee0.jpg 800w, /assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-1000-38d3cfee0.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/7AF7EAAF-7533-4702-9ACD-8667B99770B9-800-38d3cfee0.jpg" alt="Jordan Marsh’s Blueberry Muffins" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Jordan Marsh’s Blueberry Muffins</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="passover-macaroons.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-400-2c0603ee4.webp 400w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-600-2c0603ee4.webp 600w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-800-2c0603ee4.webp 800w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-1000-2c0603ee4.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-400-2c0603ee4.jpg 400w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-600-2c0603ee4.jpg 600w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-800-2c0603ee4.jpg 800w, /assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-1000-2c0603ee4.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/D6800038-511A-4B5F-B94D-C7CB27A2A1CE-800-2c0603ee4.jpg" alt="Passover Macaroons" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Passover Macaroons</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="smoked-whole-chicken.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-400-0ba3516a6.webp 400w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-600-0ba3516a6.webp 600w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-800-0ba3516a6.webp 800w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-1000-0ba3516a6.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-400-0ba3516a6.jpg 400w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-600-0ba3516a6.jpg 600w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-800-0ba3516a6.jpg 800w, /assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-1000-0ba3516a6.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172-800-0ba3516a6.jpg" alt="Smoked Whole Chicken" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Smoked Whole Chicken</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="tiktok-feta-pasta.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-400-21416fca5.webp 400w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-600-21416fca5.webp 600w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-800-21416fca5.webp 800w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-1000-21416fca5.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-400-21416fca5.jpg 400w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-600-21416fca5.jpg 600w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-800-21416fca5.jpg 800w, /assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-1000-21416fca5.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/43FC69C8-0B6E-455B-B36D-7ADE9F551958-800-21416fca5.jpg" alt="TikTok Feta Pasta" width="1475" height="1475"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>TikTok Feta Pasta</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="chocolate-pudding-with-raspberry-cream.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/59F1F9AB-94B8-4582-B51C-EC5EC5DDDAF1-400-895368516.webp 400w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/59F1F9AB-94B8-4582-B51C-EC5EC5DDDAF1-400-895368516.jpg 400w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/59F1F9AB-94B8-4582-B51C-EC5EC5DDDAF1-400-895368516.jpg" alt="Chocolate Pudding with Raspberry Cream" width="400" height="400"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Chocolate Pudding with Raspberry Cream</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="baked-buffalo-wings.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-400-63267d66a.webp 400w, /assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-600-63267d66a.webp 600w, /assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-680-63267d66a.webp 680w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-400-63267d66a.jpg 400w, /assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-600-63267d66a.jpg 600w, /assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-680-63267d66a.jpg 680w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/60FA2436-C054-4EFE-A595-40204E9CBF18-680-63267d66a.jpg" alt="Baked Buffalo Wings" width="680" height="680"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Baked Buffalo Wings</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="rice-krispie-treats.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-400-9b451c889.webp 400w, /assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-600-9b451c889.webp 600w, /assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-686-9b451c889.webp 686w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-400-9b451c889.jpg 400w, /assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-600-9b451c889.jpg 600w, /assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-686-9b451c889.jpg 686w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/F6097387-10A6-477A-8AA3-80F5F7D4CEFA-16078-0000066088E11AAE-686-9b451c889.jpg" alt="Rice Krispie Treats" width="686" height="686"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Rice Krispie Treats</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="chocolate-keto-cake.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-400-e8cd36892.webp 400w, /assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-600-e8cd36892.webp 600w, /assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-710-e8cd36892.webp 710w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-400-e8cd36892.jpg 400w, /assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-600-e8cd36892.jpg 600w, /assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-710-e8cd36892.jpg 710w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/192339AB-7E5A-4683-AAF0-D314CC2674ED-16078-00000659BD278AB4-710-e8cd36892.jpg" alt="Chocolate Keto Cake" width="710" height="710"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Chocolate Keto Cake</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="cinnamon-rolls.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-400-2700e60fa.webp 400w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-600-2700e60fa.webp 600w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-800-2700e60fa.webp 800w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-1000-2700e60fa.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-400-2700e60fa.jpg 400w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-600-2700e60fa.jpg 600w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-800-2700e60fa.jpg 800w, /assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-1000-2700e60fa.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/D34F863A-A0F3-4CD0-B33D-40CEB8C805C0-800-2700e60fa.jpg" alt="Cinnamon Rolls" width="1362" height="1362"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Cinnamon Rolls</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="hot-buttered-rum.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-400-deb9e14ea.webp 400w, /assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-600-deb9e14ea.webp 600w, /assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-680-deb9e14ea.webp 680w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-400-deb9e14ea.jpg 400w, /assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-600-deb9e14ea.jpg 600w, /assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-680-deb9e14ea.jpg 680w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/E0E34169-7D74-47E1-9110-E85559AE760E-680-deb9e14ea.jpg" alt="Hot Buttered Rum" width="680" height="680"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Hot Buttered Rum</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="caramelized-banana-with-rum-sauce.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-400-9a88e9d5d.webp 400w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-600-9a88e9d5d.webp 600w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-800-9a88e9d5d.webp 800w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-1000-9a88e9d5d.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-400-9a88e9d5d.jpg 400w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-600-9a88e9d5d.jpg 600w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-800-9a88e9d5d.jpg 800w, /assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-1000-9a88e9d5d.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/934AB56B-3C05-4E07-8F48-268187B0844F-800-9a88e9d5d.jpg" alt="Caramelized Banana with Rum Sauce" width="1024" height="1024"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Caramelized Banana with Rum Sauce</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="alice-waters-buttermilk-pancakes.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383-400-844214534.webp 400w, /assets/generated/images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383-500-844214534.webp 500w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383-400-844214534.jpg 400w, /assets/generated/images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383-500-844214534.jpg 500w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/FD663AC7-650B-49D6-AF78-25EE8375C74E-7739-0000039408A5A383-500-844214534.jpg" alt="Alice Waters’ Buttermilk Pancakes" width="500" height="500"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Alice Waters’ Buttermilk Pancakes</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="whole-wheat-drop-biscuits.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-400-0935e8e08.webp 400w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-600-0935e8e08.webp 600w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-800-0935e8e08.webp 800w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-1000-0935e8e08.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-400-0935e8e08.jpg 400w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-600-0935e8e08.jpg 600w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-800-0935e8e08.jpg 800w, /assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-1000-0935e8e08.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/A8744EE0-8FC1-49F4-8133-A017677C3637-7551-000002720C90D247-800-0935e8e08.jpg" alt="Whole Wheat Drop Biscuits" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Whole Wheat Drop Biscuits</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="mashed-potatoes.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-400-26a91104a.webp 400w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-600-26a91104a.webp 600w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-800-26a91104a.webp 800w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-1000-26a91104a.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-400-26a91104a.jpg 400w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-600-26a91104a.jpg 600w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-800-26a91104a.jpg 800w, /assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-1000-26a91104a.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/C79536F9-6D2A-44EB-84D4-60A7AD7A9B37-800-26a91104a.jpg" alt="Mashed Potatoes" width="1366" height="1366"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Mashed Potatoes</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="tuna-salad.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-400-57c47cf87.webp 400w, /assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-600-57c47cf87.webp 600w, /assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-633-57c47cf87.webp 633w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-400-57c47cf87.jpg 400w, /assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-600-57c47cf87.jpg 600w, /assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-633-57c47cf87.jpg 633w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/87181A41-1000-478C-A258-F53C204FD9D6-633-57c47cf87.jpg" alt="Tuna Salad" width="633" height="633"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Tuna Salad</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="ground-lamb-pulao.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-400-5f7803c44.webp 400w, /assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-600-5f7803c44.webp 600w, /assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-720-5f7803c44.webp 720w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-400-5f7803c44.jpg 400w, /assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-600-5f7803c44.jpg 600w, /assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-720-5f7803c44.jpg 720w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/53A26643-4904-46E1-ACC7-687C1BA5F549-720-5f7803c44.jpg" alt="Ground Lamb Pulao" width="720" height="720"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Ground Lamb Pulao</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="chocolate-chip-cookies.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-400-b6a7f0149.webp 400w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-600-b6a7f0149.webp 600w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-800-b6a7f0149.webp 800w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-1000-b6a7f0149.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-400-b6a7f0149.jpg 400w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-600-b6a7f0149.jpg 600w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-800-b6a7f0149.jpg 800w, /assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-1000-b6a7f0149.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B-800-b6a7f0149.jpg" alt="Chocolate Chip Cookies" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Chocolate Chip Cookies</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+            			<a class="image-container" href="baking-powder-biscuits.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-400-84aaf7a89.webp 400w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-600-84aaf7a89.webp 600w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-800-84aaf7a89.webp 800w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-1000-84aaf7a89.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-400-84aaf7a89.jpg 400w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-600-84aaf7a89.jpg 600w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-800-84aaf7a89.jpg 800w, /assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-1000-84aaf7a89.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/F32BE374-7543-496E-9DA9-99E4907CE6F6-800-84aaf7a89.jpg" alt="Baking Powder Biscuits" width="1772" height="1772"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Baking Powder Biscuits</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+            	
+              	
+            			<a class="image-container" href="20-minute-butter-chicken.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-400-cfc5bf0fb.webp 400w, /assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-600-cfc5bf0fb.webp 600w, /assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-750-cfc5bf0fb.webp 750w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-400-cfc5bf0fb.jpg 400w, /assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-600-cfc5bf0fb.jpg 600w, /assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-750-cfc5bf0fb.jpg 750w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/21F333A0-1CD6-4776-86DF-CC040B4E2E54-610-000000797B162C3C-750-cfc5bf0fb.jpg" alt="20 Minute Butter Chicken" width="750" height="750"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>20 Minute Butter Chicken</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+            			<a class="image-container" href="homemade-biscuits.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-400-cb7621278.webp 400w, /assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-600-cb7621278.webp 600w, /assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-700-cb7621278.webp 700w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-400-cb7621278.jpg 400w, /assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-600-cb7621278.jpg 600w, /assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-700-cb7621278.jpg 700w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/D5C33AEE-2F3D-48EC-BF62-0873E4525AA2-700-cb7621278.jpg" alt="Homemade Biscuits" width="700" height="700"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Homemade Biscuits</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="challah.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-400-4fed53c56.webp 400w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-600-4fed53c56.webp 600w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-800-4fed53c56.webp 800w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-1000-4fed53c56.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-400-4fed53c56.jpg 400w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-600-4fed53c56.jpg 600w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-800-4fed53c56.jpg 800w, /assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-1000-4fed53c56.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/B9DE2765-7BC4-4BE6-BBFD-57AB23E8FA8C-800-4fed53c56.jpg" alt="Challah" width="1536" height="1536"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Challah</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="banana-bread.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-400-ca84b4e92.webp 400w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-600-ca84b4e92.webp 600w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-800-ca84b4e92.webp 800w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-1000-ca84b4e92.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-400-ca84b4e92.jpg 400w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-600-ca84b4e92.jpg 600w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-800-ca84b4e92.jpg 800w, /assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-1000-ca84b4e92.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9-800-ca84b4e92.jpg" alt="Banana Bread" width="1500" height="1500"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Banana Bread</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+        
+        	
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="roasted-rhubarb-cobbler.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-400-a1dcd650f.webp 400w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-600-a1dcd650f.webp 600w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-800-a1dcd650f.webp 800w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-1000-a1dcd650f.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-400-a1dcd650f.jpg 400w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-600-a1dcd650f.jpg 600w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-800-a1dcd650f.jpg 800w, /assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-1000-a1dcd650f.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/83F7E7AB-9FDA-4F38-BD5F-B512E029D014-800-a1dcd650f.jpg" alt="Roasted Rhubarb Cobbler" width="1500" height="1500"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Roasted Rhubarb Cobbler</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="sheet-pan-chicken-nachos.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-400-8aedd6d9d.webp 400w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-600-8aedd6d9d.webp 600w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-800-8aedd6d9d.webp 800w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-1000-8aedd6d9d.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-400-8aedd6d9d.jpg 400w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-600-8aedd6d9d.jpg 600w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-800-8aedd6d9d.jpg 800w, /assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-1000-8aedd6d9d.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/6FDFF345-ABA9-42D9-A2B7-8ECF1C2C66DC-800-8aedd6d9d.jpg" alt="Sheet Pan Chicken Nachos" width="1392" height="1392"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Sheet Pan Chicken Nachos</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="cholent.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9-400-dcf49501f.webp 400w, /assets/generated/images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9-555-dcf49501f.webp 555w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9-400-dcf49501f.jpg 400w, /assets/generated/images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9-555-dcf49501f.jpg 555w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9-555-dcf49501f.jpg" alt="Cholent" width="555" height="555"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Cholent</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="parmesan--garlic-linguine.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2-400-dcd34633e.webp 400w, /assets/generated/images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2-521-dcd34633e.webp 521w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2-400-dcd34633e.jpg 400w, /assets/generated/images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2-521-dcd34633e.jpg 521w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2-521-dcd34633e.jpg" alt="Parmesan & Garlic Linguine" width="521" height="521"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Parmesan & Garlic Linguine</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="beginners-sourdough-bread.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-400-531ce3a1e.webp 400w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-600-531ce3a1e.webp 600w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-800-531ce3a1e.webp 800w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-1000-531ce3a1e.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-400-531ce3a1e.jpg 400w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-600-531ce3a1e.jpg 600w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-800-531ce3a1e.jpg 800w, /assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-1000-531ce3a1e.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/BC8DEA68-0ED1-4DB7-A129-E30D82297E2D-800-531ce3a1e.jpg" alt="Beginner's Sourdough Bread" width="1683" height="1683"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Beginner's Sourdough Bread</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+            			<a class="image-container" href="hanukkah-jelly-doughnuts-sufganiyot.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-400-9d6c9fc24.webp 400w, /assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-600-9d6c9fc24.webp 600w, /assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-636-9d6c9fc24.webp 636w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-400-9d6c9fc24.jpg 400w, /assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-600-9d6c9fc24.jpg 600w, /assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-636-9d6c9fc24.jpg 636w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/BDF8FE52-A44A-49E8-8377-E2EDF460DD01-636-9d6c9fc24.jpg" alt="Hanukkah Jelly Doughnuts (Sufganiyot)" width="636" height="636"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Hanukkah Jelly Doughnuts (Sufganiyot)</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+            			<a class="image-container" href="french-toast.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-400-951ccd849.webp 400w, /assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-600-951ccd849.webp 600w, /assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-636-951ccd849.webp 636w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-400-951ccd849.jpg 400w, /assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-600-951ccd849.jpg 600w, /assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-636-951ccd849.jpg 636w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/FC600CE7-7913-4E0E-BE7F-B357FE7899B0-636-951ccd849.jpg" alt="French Toast" width="636" height="636"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>French Toast</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+            			<a class="image-container" href="japanese-milk-bread-rolls.html">
+										
+											<picture><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-400-d1a77adb4.webp 400w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-600-d1a77adb4.webp 600w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-800-d1a77adb4.webp 800w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-1000-d1a77adb4.webp 1000w" type="image/webp"><source sizes="(min-width: 601px) 20vw, (max-width: 600px) 50vw, 300px" srcset="/assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-400-d1a77adb4.jpg 400w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-600-d1a77adb4.jpg 600w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-800-d1a77adb4.jpg 800w, /assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-1000-d1a77adb4.jpg 1000w" type="image/jpeg"><img class="lazy photo-large" src="/assets/generated/images/recipes/DD1BB730-82D9-4B19-8383-2BD7EF64302D-800-d1a77adb4.jpg" alt="Japanese Milk Bread Rolls" width="1957" height="1957"></picture>
+
+										
+                		<div class="bottom-left"><h3 class="text-hover"><b>Japanese Milk Bread Rolls</b></h3></div>
+            			</a>
+									
+                
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+        	
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+        	
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+        	
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+        	
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+              	
+              
+    		    
+          
+            
+            	
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+            	
+              	
+              
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+              	
+              
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+    		    
+          
+            
+            	
+    		    
+          
+            
+          
+            
+            	
+              	
+              
+              	
+              
+              	
+              
+    		    
+          
+            
+            	
+    		    
+          
+        
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js" type="text/javascript"></script>
+
+</article>
+
+
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+
+<script src="https://www.chrisfnicholson.com/assets/js/pwa-1.0.min.js type="text/javascript"></script>
+<script>
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,"galite","script","https://www.chrisfnicholson.com/assets/js/ga-lite.min.js");
+
+galite('create', 'UA-387663-5', 'auto');
+galite('send', 'pageview');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<!--[if RABBIT]>
+1b6092c
+       /\      |\
+      |  \    / |
+      |   \  |  /
+       \  _|/_ |
+        /      \
+       _|       |_
+      / /(|   |)\ \
+    /  /    _    \  \
+   /  |   /   \   |  \
+  /    \__\___/__/    |\
+ |                    | \
+ |                    |  |
+  \    \            //   |
+   |     \ ____  __//    |
+   |               /    /
+  /______wwww  wwww  __/
+<![endif]-->
+<html lang="en">
+<!-- v3.1.1-77-g1b6092c -->
+<head>
+  <meta charset="utf-8">
+  <style>
+  
+  #YUMMLY-YUM-IFRAME { width: 40px; height: 40px; }
+
+.photo { max-width: 100%; max-height: 100%; width: auto; height: auto; }
+
+.writeup-photo { max-width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block; }
+
+@media (min-width: 900px) { .writeup-photo { width: 50%; } }
+
+.wide { float: left; max-width: 300px; max-height: 300px; width: auto; height: auto; width: 100%; }
+
+.button, input[type="submit"] { background: #fff; cursor: pointer; border: 1px solid #666; color: #000; text-decoration: none; padding: 5px 10px; display: inline-flex; align-items: flex-end; margin: 0; font-size: .8em; }
+
+.button:hover, input[type="submit"]:hover { background: #000; color: #fff; }
+
+.button:focus, input[type="submit"]:focus { outline: none; }
+
+.button { border-color: #000; }
+
+.button a { color: #000; }
+
+.button a:hover { color: #fff; }
+
+ol li + li { margin: 20px 0 0 0; }
+
+.post h1 a { color: #fff; text-decoration: none; }
+
+.post h1 a:hover { text-decoration: underline; }
+
+.post time { padding: 0 0 20px 0; display: block; }
+
+.post .recipe-author { padding: 0; margin: 0; margin-bottom: -.5em; font-size: small; }
+
+.post .recipe-overview { padding: 0; margin: 0; }
+
+.post .recipe-overview svg { position: relative; top: 6px; }
+
+.post .recipe-overview span { margin: 0 18px 0 3px; }
+
+.post .recipe-overview li { list-style: none; padding: 0; margin: 0; }
+
+@media (min-width: 900px) { .post .recipe-overview li { display: inline-block; } }
+
+@media (min-width: 900px) { .post .recipe-contents { display: flex; } }
+
+.post .recipe-contents ul { padding: 0; }
+
+.post .recipe-contents ul li { list-style-type: none; }
+
+.post .recipe-contents ul li:before { content: '\00bb'; color: #59abe3; padding-right: 0.5em; }
+
+.post .recipe-contents ol { padding: 0; }
+
+.post .recipe-contents ol li { counter-increment: step-counter; list-style-type: none; position: relative; margin-left: 34px; }
+
+.post .recipe-contents ol li:before { content: counter(step-counter); margin-right: 0px; background-color: #59abe3; color: white; /* padding: 1px 7px; */ font-size: .7em; position: absolute; left: -34px; top: 3px; width: 25px; text-align: center; }
+
+.post .recipe-contents .ingredients { width: 250px; padding: 0 43px 0 0; }
+
+@media (min-width: 900px) { .post .recipe-contents .directions { flex: 1; } }
+
+.sharing { margin: 50px 0 0 0; text-align: center; font-size: 0; }
+
+.sharing a { text-decoration: none; text-align: center; position: relative; width: 56px; display: inline-block; height: 44px; line-height: 0; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+.sharing a:hover:before { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgba(0, 0, 0, 0.25); content: ""; }
+
+.sharing a svg { fill: #fff; }
+
+.sharing a.email { background-color: #ff9d09; }
+
+.sharing a.facebook { background-color: #3b5998; }
+
+.sharing a.twitter { background-color: #55acee; }
+
+.sharing a.google-plus { background-color: #db4437; }
+
+.sharing a.youtube { background-color: #cd201f; }
+
+.sharing a.instagram { background-color: #f167f5; }
+
+.sharing a.linkedin { background-color: #0077b5; }
+
+.sharing a.pinterest { background-color: #C92228; }
+
+.sharing a.pinterest-icon:hover svg { fill: #bd081c; }
+
+.cta { text-align: center; padding: 50px 0 0 0; }
+
+.rating { color: #c9f227; }
+
+div.stars { width: 200px; display: inline-block; }
+
+div.star-buttons { float: left; }
+
+input.star { display: none; }
+
+label.star { float: right; padding: 2px; font-size: 20px; color: #fff; transition: all .2s; }
+
+input.star:checked ~ label.star { color: #FD4; transition: all .25s; }
+
+input.star-5:checked ~ label.star { color: #FE7; text-shadow: 0 0 20px #952; }
+
+input.star-1:checked ~ label.star { color: #F62; }
+
+main .container { margin: 0; max-width: 5000px; }
+
+.text-hover { font-size: 14px; color: white; margin: 0px; }
+
+.bottom-left { /* position: absolute; */ /* bottom: 8px; */ /* left: 16px; */ height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 200px; object-fit: cover; }
+
+img:not([src]):not([srcset]) { visibility: hidden; }
+
+.text-hover { font-size: 14px; color: #fff; margin: 0; }
+
+.bottom-left { height: 30px; width: 100%; }
+
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 3fr)); grid-gap: 10px; align-items: stretch; }
+
+.image-container { float: left; position: relative; text-align: center; }
+
+.photo-large { width: 100%; height: 180px; object-fit: cover; }
+
+html { font-size: 16px; font-size: calc(.8rem + .3vw); }
+
+body { background: #212228; color: #fff; font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif; font-weight: 400; line-height: 1.6; margin: 0; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+@media (prefers-color-scheme: dark) { body { background: #212228; color: #fff; } }
+
+h2, h3 { font-weight: 600; }
+
+b { font-weight: 600; }
+
+a { color: #68f; text-decoration: inherit; }
+
+header a { color: inherit; }
+
+img { margin: .5em 0; }
+
+img { border-radius: 2px; max-width: 100%; height: auto; }
+
+body { display: flex; flex-direction: column; min-height: 100vh; }
+
+body > header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+
+article { flex-grow: 1; }
+
+article header { margin-bottom: 1.5em; }
+
+nav { margin: .5em -1em; }
+
+nav a { margin: .5em .75em; }
+
+body > header, body > article { padding: 1.5em; }
+
+@media (min-width: 32em) { body > header, body > article { padding: 1.7em calc(28% - 12em); } }
+
+body > header { box-shadow: 0 0 0.6em rgba(33, 34, 40, 0.05); border-bottom: 1px solid rgba(144, 145, 148, 0.16); }
+
+.title { font-size: 1.4em; }
+
+.icon { height: 1.5em; width: 1.5em; fill: currentColor; vertical-align: middle; margin-bottom: .15em; }
+
+  </style>
+  <link rel="manifest" href="https://www.chrisfnicholson.com/manifest.json">
+  <link rel="apple-touch-icon" href="https://www.chrisfnicholson.com/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1C1D22"/>
+  <meta name="author" content="Chris F. Nicholson">
+  <meta name="generator" content="Jekyll v4.2.0">
+  <link rel="canonical" href="https://www.chrisfnicholson.com/drinks/tom-collins.html">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Chris F. Nicholson">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Tom Collins | Chris F. Nicholson</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Tom Collins" />
+<meta name="author" content="Chris F. Nicholson" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A classic and popular mixed drink. This drink resembles a sparkling lemonade and typically includes gin, lemon and soda." />
+<meta property="og:description" content="A classic and popular mixed drink. This drink resembles a sparkling lemonade and typically includes gin, lemon and soda." />
+<link rel="canonical" href="https://www.chrisfnicholson.com/drinks/tom-collins.html" />
+<meta property="og:url" content="https://www.chrisfnicholson.com/drinks/tom-collins.html" />
+<meta property="og:site_name" content="Chris F. Nicholson" />
+<meta property="og:image" content="https://www.chrisfnicholson.com/tom-collins.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.chrisfnicholson.com/tom-collins.jpg" />
+<meta property="twitter:title" content="Tom Collins" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Chris F. Nicholson"},"description":"A classic and popular mixed drink. This drink resembles a sparkling lemonade and typically includes gin, lemon and soda.","image":"https://www.chrisfnicholson.com/tom-collins.jpg","@type":"WebPage","headline":"Tom Collins","url":"https://www.chrisfnicholson.com/drinks/tom-collins.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+
+
+
+
+<header>
+  <a href="/" class="title">Chris F. Nicholson</a>
+  <nav>
+    <a href="/recipes/">
+        <svg aria-label="Recipes" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#utensils"></use>
+        </svg>
+    </a>
+    <a href="/drinks/">
+        <svg aria-label="Cocktails" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#glass-martini-alt"></use>
+        </svg>
+    </a>
+    <a href="/crosswords.html">
+        <svg aria-label="Crosswords" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#crossword"></use>
+        </svg>
+    </a>
+    <a href="/grady.html">
+        <svg aria-label="Grady" class="icon">
+            <use xlink:href="/assets/fontawesome/icons.svg#dragon"></use>
+        </svg>
+    </a>
+</nav>
+
+</header>
+
+<article>
+  
+    <header><h2><a href="/drinks/tom-collins.html">Tom Collins</a></h2></header>
+  
+  		<link rel="stylesheet" media="screen" href="/assets/css/screen.css">
+		
+
+<article class="post">
+	<div class="image">
+		
+			<picture>
+  <source sizes="(min-width: 601px) 50vw, (max-width: 600px) 90vw, 400px" srcset="/assets/generated/images/drinks/tom-collins-400-e7b2a98fb.webp 400w, /assets/generated/images/drinks/tom-collins-600-e7b2a98fb.webp 600w, /assets/generated/images/drinks/tom-collins-800-e7b2a98fb.webp 800w" type="image/webp">
+  <source sizes="(min-width: 601px) 50vw, (max-width: 600px) 90vw, 400px" srcset="/assets/generated/images/drinks/tom-collins-400-e7b2a98fb.jpg 400w, /assets/generated/images/drinks/tom-collins-600-e7b2a98fb.jpg 600w, /assets/generated/images/drinks/tom-collins-800-e7b2a98fb.jpg 800w" type="image/jpeg">
+  <img src="/assets/generated/images/drinks/tom-collins-800-e7b2a98fb.jpg" alt="tom-collins.html" width="800" height="800">
+</picture>
+
+		
+
+	</div>
+
+	<div class="recipe-contents">
+		<div class="ingredients">
+			<h2>Ingredients</h2>
+            <ul>
+            
+            <li><b>1 1/2</b> ounces gin</li>
+            
+            <li><b>1</b> ounce lemon juice</li>
+            
+            <li><b>1/2</b> ounce simple syrup</li>
+            
+            <li><b>3</b> ounces club soda</li>
+            
+            <li><b></b>  Optional: maraschino cherry or lemon slice for garnish</li>
+            
+            </ul>
+		</div>
+
+		<div class="directions">
+			<h2>Directions</h2>
+            <ol>
+            
+            <li>Gather the ingredients.</li>
+            
+            <li>Add ice cubes, gin, lemon juice, and simple syrup in a collins glass.</li>
+            
+            <li>Stir thoroughly.</li>
+            
+            <li>Top with club soda.</li>
+            
+            <li>Optional: Garnish with cherry or lemon slice</li>
+            
+            <li>Serve and enjoy!</li>
+            
+            </ol>
+		</div>
+	</div>
+
+	<div class="sharing">
+		
+		<a class="facebook" aria-label="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.chrisfnicholson.com%2Fdrinks%2Ftom-collins.html">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+	
+</a>
+		<a class="twitter" aria-label="twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.chrisfnicholson.com%2Fdrinks%2Ftom-collins.html&amp;text=I'm%20going%20to%20this%20event!">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg>
+	
+</a>
+		<a class="instagram" aria-label="instagram" href="https://instagram.com">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
+	
+</a>
+		<a class="email" aria-label="email" href="mailto:?subject=I've%20found%20a%20great%20recipe&amp;body=Check%20it%20out%20-%20https%3A%2F%2Fwww.chrisfnicholson.com%2Fdrinks%2Ftom-collins.html">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+
+</a>
+	</div>
+
+	<section class="comments" id="comment-section">
+  <hr>
+
+  
+  
+  
+  <h2></h2>
+
+  
+
+
+
+
+  <!-- New comment form -->
+  <div id="respond" class="comment__new">
+    <form class="js-form form" id="new-comment" method="post" action="https://chrisfnicholson-staticman.herokuapp.com/v2/entry/datapolitical/chrisfnicholson.github.io/main/comments">
+  <input type="hidden" name="options[origin]" value="https://www.chrisfnicholson.com/drinks/tom-collins.html">
+  <input type="hidden" name="options[parent]" value="https://www.chrisfnicholson.com/drinks/tom-collins.html">
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
+  <input type="hidden" name="options[slug]" value="drinks/tom-collins">
+  <input type="hidden" name="options[redirect]" value="https://www.chrisfnicholson.com/drinks/tom-collins.html">
+
+
+  <div class="stars">
+    <label for="comment-form-rating"><h2>Rate this recipe! <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.chrisfnicholson.com/drinks/tom-collins.html#respond" style="display:none;">(cancel reply)</a></small></h2></label>
+      <div class="star-buttons">
+        <input class="radio__input star star-5" id="star-5" type="radio" value="5" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-5" for="star-5">★</label>
+        <input class="radio__input star star-4" id="star-4" type="radio" value="4" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-4" for="star-4">★</label>
+        <input class="radio__input star star-3" id="star-3" type="radio" value="3" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-3" for="star-3">★</label>
+        <input class="radio__input star star-2" id="star-2" type="radio" value="2" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-2" for="star-2">★</label>
+        <input class="radio__input star star-1" id="star-1" type="radio" value="1" name="fields[rating]" placeholder="Your recipe rating (optional)"/>
+        <label class="radio__label star star-1" for="star-1">★</label>
+      </div>
+  </div>
+
+  <div class="textfield">
+    <label for="comment-form-message">Add a comment
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" rows="6"></textarea>
+    </label>
+  </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-name">Name
+        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
+      </label>
+    </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-email">E-mail
+        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
+      </label>
+    </div>
+
+    <div class="textfield narrowfield hp">
+      <label for="hp">
+        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
+      </label>
+    </div>
+
+    <button class="button" id="comment-form-submit">
+      Submit
+    </button>
+
+</form>
+
+<article class="modal mdl-card mdl-shadow--2dp">
+  <div>
+    <h3 class="modal-title js-modal-title"></h3>
+  </div>
+  <div class="mdl-card__supporting-text js-modal-text"></div>
+  <div class="mdl-card__actions mdl-card--border">
+    <button class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</button>
+  </div>
+</article>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none" >
+  <symbol id="icon-loading" viewBox="149.8 37.8 499.818 525"><path d="M557.8 187.8c13.8 0 24.601-10.8 24.601-24.6S571.6 138.6 557.8 138.6s-24.6 10.8-24.6 24.6c0 13.2 10.8 24.6 24.6 24.6zm61.2 90.6c-16.8 0-30.6 13.8-30.6 30.6s13.8 30.6 30.6 30.6 30.6-13.8 30.6-30.6c.6-16.8-13.2-30.6-30.6-30.6zm-61.2 145.2c-20.399 0-36.6 16.2-36.6 36.601 0 20.399 16.2 36.6 36.6 36.6 20.4 0 36.601-16.2 36.601-36.6C595 439.8 578.2 423.6 557.8 423.6zM409 476.4c-24 0-43.2 19.199-43.2 43.199s19.2 43.2 43.2 43.2 43.2-19.2 43.2-43.2S433 476.4 409 476.4zM260.8 411c-27 0-49.2 22.2-49.2 49.2s22.2 49.2 49.2 49.2 49.2-22.2 49.2-49.2-22.2-49.2-49.2-49.2zm-10.2-102c0-27.6-22.8-50.4-50.4-50.4-27.6 0-50.4 22.8-50.4 50.4 0 27.6 22.8 50.4 50.4 50.4 27.6 0 50.4-22.2 50.4-50.4zm10.2-199.8c-30 0-54 24-54 54s24 54 54 54 54-24 54-54-24.6-54-54-54zM409 37.8c-35.4 0-63.6 28.8-63.6 63.6S374.2 165 409 165s63.6-28.8 63.6-63.6-28.2-63.6-63.6-63.6z"/>
+  </symbol>
+</svg>
+
+
+
+  </div>
+</section>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="/assets/js/main.js"></script>
+
+
+	<div class="cta">
+		<h2>More delicious cocktails</h2>
+		<div class="button"><a href="/drinks/">Check out more delicious cocktails</a></div>
+	</div>
+</article>
+
+</article>
+
+
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+
+<script src="https://www.chrisfnicholson.com/assets/js/pwa-1.0.min.js type="text/javascript"></script>
+<script>
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,"galite","script","https://www.chrisfnicholson.com/assets/js/ga-lite.min.js");
+
+galite('create', 'UA-387663-5', 'auto');
+galite('send', 'pageview');
+</script>
+
+</body>
+</html>
