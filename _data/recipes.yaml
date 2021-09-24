@@ -868,6 +868,58 @@
   uid: 1B38C03A-7088-4319-8724-F58930CE5450-15656-00000468553228D7
 - categories: []
   cook_time: ''
+  created: '2021-08-17 12:20:03'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a medium pot over high heat, combine the water and tea bags. Bring to a boil,
+    then remove the pan from the heat and let the tea cool to room temperature.
+  - Bring a medium pot of water to boil over high heat. Once the water is boiling,
+    add the tapioca pearls and boil until softened, about 20 minutes.
+  - Drain the pearls through a strainer.
+  - Set the strainer with the pearls over a medium bowl. Add the brown sugar to the
+    strainer and pour the hot water over.
+  - Stir to dissolve the brown sugar. Soak the pearls in brown sugar syrup for 30
+    minutes, then store the bubbles and syrup separately until ready to serve.
+  - 'Assemble the tea: Divide the pearls and ice between 2 glasses, then add the brown
+    sugar syrup, tea, and half and half.'
+  - Stir with a wide-opening straw, then serve.
+  - Enjoy!
+  image_url: images/recipes/44783990-43D9-47B1-BCA8-2F23AB02B4BD.jpg
+  in_trash: false
+  ingredients:
+  - BLACK TEA
+  - 2 cups water
+  - 6 black tea bags
+  - TAPIOCA PEARLS AND BROWN SUGAR SYRUP
+  - "\xBD cup medium black tapioca pearls"
+  - 2 cups brown sugar
+  - 1 cup hot water
+  - ASSEMBLY
+  - "\xBD cup tapioca pearls, cooked"
+  - "\xBD cup ice"
+  - brown sugar syrup, to taste
+  - 1 cup black tea, chilled
+  - "\xBC cup half & half"
+  - SPECIAL EQUIPMENT
+  - 2 wide-opening straws
+  is_pinned: false
+  name: Taiwanese Bubble Tea
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 2 servings
+  source: tasty.co
+  source_url: https://tasty.co/recipe/taiwanese-bubble-tea
+  total_time: ''
+  uid: 1BA9C42E-916D-4394-8385-F512DF926D0B
+- categories: []
+  cook_time: ''
   created: '2021-03-15 19:15:15'
   description: ''
   difficulty: ''
