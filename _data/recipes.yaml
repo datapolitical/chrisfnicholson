@@ -4498,6 +4498,54 @@
   source_url: https://www.allrecipes.com/recipe/229932/simple-pumpkin-pie/
   total_time: ''
   uid: 8F70514F-B2B1-4B45-8F49-51D71CF835D2-7670-000002583F2F83B2
+- categories: []
+  cook_time: ''
+  created: '2021-09-27 23:54:40'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat oven to 350F.
+  - 'Mix together in a medium stainless steel mixing bowl the following: almond meal,
+    coconut flour, baking soda, pumpkin pie spice and salt.'
+  - In a separate bowl mix together the eggs, maple syrup, melted butter, vanilla
+    and canned pumpkin.
+  - Add egg mixture to the flour mixture. Add chocolate chips and chopped walnuts.
+    Mix well.
+  - Cover a large cookie sheet with parchment paper. Scoop 2 tbsp of dough onto parchment
+    paper for each cookie.
+  - Press down the dough of each cookie with a fork to lightly flatten it. Now bake
+    in the oven for 20 minutes. Serve hot or cold. These cookies freeze well.
+  - This recipe makes 24 cookies
+  image_url: images/recipes/E333C385-4FDC-4676-BFBA-CD2E12F5774B.jpg
+  in_trash: false
+  ingredients:
+  - 2 cup Almond meal
+  - 2 tbsp Coconut flour
+  - 1/2 tsp Baking soda
+  - 3/4 tsp Pumpkin pie spice
+  - 1/4 tsp Salt table
+  - 2 large egg Egg whole raw
+  - 3 tbsp Maple syrup
+  - 2 tbsp Butter unsalted
+  - 2 tsp Vanilla extract
+  - 1/2 cup Pumpkin canned without salt
+  - 6 oz Dark chocolate baking chips no sugar added
+  - 1/2 cup, chopped Walnuts raw
+  is_pinned: false
+  name: Low-Carb Pumpkin Chocolate Chip Cookies
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 24 serving
+  source: mynetdiary.com
+  source_url: https://www.mynetdiary.com/shareRecipe.do?id=26768545&appName=ProIp
+  total_time: ''
+  uid: 905E5110-B720-46A0-8831-BFD88BF2400E
 - categories:
   - Made at 307
   - Web
@@ -6098,6 +6146,70 @@
   source_url: https://www.kingarthurbaking.com/recipes/never-fail-biscuits-recipe
   total_time: ''
   uid: DCE96A75-4E74-450D-A1B2-0192FB731BBA-6213-00000206512C4DF2
+- categories:
+  - Made at 307
+  - Vegan
+  - Dressing
+  - Web
+  cook_time: ''
+  created: '2021-09-28 18:50:24'
+  description: ''
+  difficulty: ''
+  directions:
+  - '1. To make salad: toss together all ingredients in large bowl.'
+  - '2. To make Lemon-Basil Vinaigrette: Whisk together lemon juice, mustard, and
+    garlic in small bowl. Whisk in oil and basil.'
+  - '3. To serve: top 2 1/2 cups salad with 1 Tbs. Lemon-Basil Vinaigrette.'
+  image_url: images/recipes/B598EEF5-E729-4D60-86CD-B680E89BFD71.jpg
+  in_trash: false
+  ingredients:
+  - '**Salad**'
+  - 1 head leaf or red leaf lettuce, torn into bite-sized pieces, or 4 cups mesclun
+    mix
+  - 1 small head radicchio, torn into bite-sized pieces (2 cups)
+  - 1/2 cup jicama cubes
+  - 1/2 cup fresh peas or frozen peas, thawed
+  - 1/2 cup slivered almonds
+  - '**Lemon-basil vinaigrette**'
+  - 1/4 cup lemon juice
+  - 2 tsp. Dijon mustard
+  - 1 clove garlic, minced (1 tsp.)
+  - 1/4 cup olive oil
+  - 1/4 cup fresh basil leaves, finely chopped
+  is_pinned: false
+  name: All-You-Can-Eat Salad with Lemon-Basil Vinaigrette
+  notes: ''
+  nutritional_info: 'Serving Size 2 1/2 c salad and 1 T vinaigrette
+
+    Calories 185
+
+    Carbohydrate Content 17 g
+
+    Cholesterol Content 0 mg
+
+    Fat Content 12 g
+
+    Fiber Content 7 g
+
+    Protein Content 6 g
+
+    Saturated Fat Content 1 g
+
+    Sodium Content 83 mg
+
+    Sugar Content 6 g'
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/B598EEF5-E729-4D60-86CD-B680E89BFD71.jpg
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: '4'
+  source: vegetariantimes.com
+  source_url: https://www.vegetariantimes.com/recipes/all-you-can-eat-salad-with-lemon-basil-vinaigrette/
+  total_time: 30 min
+  uid: E04B6E53-D5A9-42D3-BC56-E1C3596E1315
 - categories:
   - Dessert
   - Web
