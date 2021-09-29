@@ -1035,6 +1035,79 @@
   total_time: ''
   uid: 1F3EEADC-B104-4BCD-9D9D-F818F44B8F70-36654-00000B99F35F2F02
 - categories: []
+  cook_time: ''
+  created: '2021-09-29 14:58:48'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Tools:'
+  - Large bowl
+  - Clean kitchen towel
+  - Rolling pit
+  - Egg brush
+  - "*TIP*: Preheat the oven to 190\xB0C"
+  - MIX
+  - Mix all of the mentioned ingredients (for the dough) in a stand mixer for 5 minutes
+    on speed level two and 7 minutes on speed level four.
+  - The dough should be smooth after mixing and make sure it is not sticking to the
+    bowl.
+  - LET THE DOUGH RISE
+  - "Cover the dough and let it rest for a total of 30 minutes at 20-22\xB0C"
+  - PREPARATIONS
+  - 'While the dough rests we will prepare:'
+  - the surface on which we will place the rolls - place baking paper on a baking
+    pan.
+  - the surface on which we will work - sprinkle flour on a clean space.
+  - 'Optional: play tic-tac-toe while waiting.'
+  - STATUS CHECK
+  - Check if the dough rise double than it was.
+  - Take out the dough and put it on the floured surface.
+  - FILLING
+  - Take a small piece of dough - in a size of a fist.
+  - Roll down using the rolling pin.
+  - Spread Nutella or Lotus Spread as you wish.
+  - Gently roll the dough.
+  - Cut the edges off and cut the rest into equal pieces.
+  - Place in the baking pan.
+  - EGG WASH
+  - Scrumble an egg into a small bowl.
+  - Use the egg brush and brush all the rolls.
+  - BAKING TIME
+  - "Preheat the oven to 190\xB0C"
+  - Bake for about 15-20 minutes or until golden brown.
+  - DONE!
+  - Finally, you can make a cup of coffee and enjoy!
+  image_url: images/recipes/F81A761D-6E89-472B-87BF-753AAC9801A1.jpg
+  in_trash: false
+  ingredients:
+  - 4 cup all-purpose flour
+  - 25g dry yeast
+  - 1 vanilla instant pudding
+  - 1 tbsp. brown sugar
+  - 1 1/2 cup milk
+  - 1 eggs
+  - 40g butter
+  - 1/2 tps. salt
+  - 'Other Ingredients:'
+  - 1 eggs
+  - Nutella
+  is_pinned: false
+  name: The Best Nutella and Lotus Rolls
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/F81A761D-6E89-472B-87BF-753AAC9801A1.jpg
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: instructables.com
+  source_url: https://www.instructables.com/The-Best-Nutella-and-Lotus-Rolls/?amp_page=true
+  total_time: ''
+  uid: 227B0967-CC1A-4D43-9656-22AA9A9C4D7B
+- categories: []
   cook_time: 10 mins
   created: '2021-01-21 15:00:07'
   description: ''
