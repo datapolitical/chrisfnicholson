@@ -2667,6 +2667,44 @@
   uid: 5FE327EC-6211-43C6-81CA-9FE02FF04D87-17495-000006E304359C57
 - categories: []
   cook_time: ''
+  created: '2021-09-28 19:40:29'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add 4 ice cubes to the blender. Let sit for 5 minutes to soften.
+  - Add frozen strawberries, basil, almond milk, yogurt, and chia seeds and blend
+    until smooth. Enjoy!
+  - Enjoy healthy recipes created by our Registered Dietitians!
+  image_url: images/recipes/5F2B52D0-A1B5-4F0A-9B29-74A5C8F4DBBF.jpg
+  in_trash: false
+  ingredients:
+  - 4 tablespoon Ice (frozen water)
+  - 1 cup, unthawed Strawberries frozen unsweetened
+  - 5 leaves Basil fresh or raw herb
+  - 1/2 cup Almond milk unsweetened fortified
+  - 1/2 cup Greek yogurt plain whole milk
+  - 1 teaspoon Chia seeds
+  is_pinned: false
+  name: Low-Carb Strawberry Smoothie with Basil
+  notes: 'If you prefer a sweeter taste, try mixing in 2-3 drops of liquid stevia
+    or the sweetener of your choice.
+
+
+    4 tbsp is equivalent to about 4 ice cubes.'
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 2 servings
+  source: mynetdiary.com
+  source_url: https://www.mynetdiary.com/shareRecipe.do?id=26907600&appName=ProIp
+  total_time: ''
+  uid: 6317E661-2EAE-49EC-87F2-5AACD21B0CD6
+- categories: []
+  cook_time: ''
   created: '2020-06-08 01:25:48'
   description: ''
   difficulty: ''
