@@ -60,7 +60,7 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
-          curl https://github.com/datapolitical/mnd-exporter/raw/main/recent_food.txt --output _data/recent_food.txt
+          curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.csv --output _data/recent_food.csv
           git add _data/recent_food.txt
           git commit -am "Update last meal" || echo "Nothing to update"
       - name: Push changes
