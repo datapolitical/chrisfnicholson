@@ -1,4 +1,4 @@
-name: Update Recipes
+name: Update Diary
 
 on:
   workflow_dispatch:
@@ -15,26 +15,12 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Setup Python Environment
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-
-      - name: Install Requirements
-        run: pip install -r requirements.txt
-
-      - name: Execute Python script
-        run: |
-          python3 export_diary.py
-        env:
-          MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
-          MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
-
       - name: setup git config
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
+          curl https://github.com/datapolitical/mnd-exporter/raw/main/recent_food.txt --output recent_food.txt
           git add recent_food.txt
           git commit -am "Update last meal" || echo "Nothing to update"
       - name: Push changes
