@@ -6267,10 +6267,10 @@
   description: ''
   difficulty: ''
   directions:
-  - '1. To make salad: toss together all ingredients in large bowl.'
-  - '2. To make Lemon-Basil Vinaigrette: Whisk together lemon juice, mustard, and
-    garlic in small bowl. Whisk in oil and basil.'
-  - '3. To serve: top 2 1/2 cups salad with 1 Tbs. Lemon-Basil Vinaigrette.'
+  - 'To make salad: toss together all ingredients in large bowl.'
+  - 'To make Lemon-Basil Vinaigrette: Whisk together lemon juice, mustard, and garlic
+    in small bowl. Whisk in oil and basil.'
+  - 'To serve: top 2 1/2 cups salad with 1 Tbs. Lemon-Basil Vinaigrette.'
   image_url: images/recipes/B598EEF5-E729-4D60-86CD-B680E89BFD71.jpg
   in_trash: false
   ingredients:
@@ -6288,7 +6288,7 @@
   - 1/4 cup olive oil
   - 1/4 cup fresh basil leaves, finely chopped
   is_pinned: false
-  name: All-You-Can-Eat Salad with Lemon-Basil Vinaigrette
+  name: All You Can Eat Salad with Lemon-Basil Vinaigrette
   notes: ''
   nutritional_info: 'Serving Size 2 1/2 c salad and 1 T vinaigrette
 
