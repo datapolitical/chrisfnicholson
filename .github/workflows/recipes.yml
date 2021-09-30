@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  build:
+  recipes:
     runs-on: ubuntu-latest
 
     steps:

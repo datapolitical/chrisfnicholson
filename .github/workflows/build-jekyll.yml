@@ -7,8 +7,72 @@ on:
   workflow_dispatch:
 
 jobs:
+  recipes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install Requirements
+        run: pip install -r requirements.txt
+
+      - name: Execute Python script
+        run: |
+          python3 -m papexp
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+
+      - name: setup git config
+        run: |
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
+          git config --local user.email ${{ secrets.EMAIL }}
+          git pull --ff-only origin main
+          git add assets/images/recipes/*
+          git add .
+          git commit -am "Update recipes" || echo "Nothing to update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN_RECIPES }}
+          branch: ${{ github.ref }}
+
+
+  diary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: setup git config
+        run: |
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
+          git config --local user.email ${{ secrets.EMAIL }}
+          git pull --ff-only origin main
+          curl https://github.com/datapolitical/mnd-exporter/raw/main/recent_food.txt --output recent_food.txt
+          git add recent_food.txt
+          git commit -am "Update last meal" || echo "Nothing to update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN_RECIPES }}
+          branch: ${{ github.ref }}
+
+
   build_and_deploy:
     runs-on: ubuntu-20.04
+    needs: [recipes, diary]
     steps:
       - name: 'Wait for status checks'
         id: waitforstatuschecks
