@@ -61,7 +61,7 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
           curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.csv --output _data/recent_food.csv
-          git add _data/recent_food.txt
+          git add _data/recent_food.yml
           git commit -am "Update last meal" || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
