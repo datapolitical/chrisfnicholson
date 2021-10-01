@@ -83,7 +83,7 @@ jobs:
     concurrency: deployment
     runs-on: ubuntu-20.04
     needs: [recipes, diary]
-    if: needs.recipes.outputs.status == 'Nothing to update' && needs.diary.outputs.status == 'Nothing to update'
+    # if: needs.recipes.outputs.status == 'Nothing to update' && needs.diary.outputs.status == 'Nothing to update'
     steps:
       - name: Echo variables
         run: |
