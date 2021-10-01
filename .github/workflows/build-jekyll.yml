@@ -9,7 +9,7 @@ on:
 jobs:
   recipes:
     runs-on: ubuntu-latest
-
+    concurrency: recipes
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -52,7 +52,7 @@ jobs:
 
   diary:
     runs-on: ubuntu-latest
-
+    concurrency: diary
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2

@@ -9,7 +9,7 @@ jobs:
 
   diary:
     runs-on: ubuntu-latest
-
+    concurrency: diary
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2

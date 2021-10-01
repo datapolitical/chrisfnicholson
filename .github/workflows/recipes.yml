@@ -10,7 +10,7 @@ jobs:
 
   recipes:
     runs-on: ubuntu-latest
-
+    concurrency: recipes
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
