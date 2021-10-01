@@ -47,6 +47,8 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
+    outputs:
+      status: ${{ steps.diary.outputs.status }}
 
   diary:
     runs-on: ubuntu-latest
@@ -73,6 +75,8 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
+    outputs:
+      status: ${{ steps.diary.outputs.status }}
 
 
   build_and_deploy:
@@ -82,7 +86,7 @@ jobs:
     steps:
       - name: Echo variables
         run: |
-          echo "short version ${{ steps.diary.outputs.diary.status }}"
+          echo "short version ${{ needs.diary.outputs.status }}"
       - name: 'Wait for status checks'
         id: waitforstatuschecks
         uses: "WyriHaximus/github-action-wait-for-status@v1.2"
