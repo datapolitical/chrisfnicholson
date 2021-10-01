@@ -41,7 +41,7 @@ jobs:
       - name: commit
         id: recipes
         run: |
-          echo "::set-output name=status::$(git commit -am "Update recipes" || echo "Nothing to update")
+          echo "::set-output name=status::$(git commit -am "Update recipes" || echo "Nothing to update")"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -70,7 +70,7 @@ jobs:
       - name: commit
         id: diary
         run: |
-          echo "::set-output name=status::$(git commit -am "Update last meal" || echo "Nothing to update" | read diary_status)
+          echo "::set-output name=status::$(git commit -am "Update last meal" || echo "Nothing to update" | read diary_status)"
           echo
       - name: Push changes
         uses: ad-m/github-push-action@master
