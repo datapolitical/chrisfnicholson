@@ -48,7 +48,7 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
     outputs:
-      status: ${{ steps.diary.outputs.status }}
+      status: ${{ steps.recipes.outputs.status }}
 
   diary:
     runs-on: ubuntu-latest
