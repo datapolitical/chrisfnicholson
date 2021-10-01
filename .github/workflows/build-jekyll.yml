@@ -32,13 +32,15 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
 
       - name: setup git config
-        id: recipes_status
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
           git add assets/images/recipes/*
           git add .
+      - name: commit
+        id: recipes_status
+        run: |
           git commit -am "Update recipes" || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -59,13 +61,15 @@ jobs:
           persist-credentials: false
 
       - name: setup git config
-        id: diary_status
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
           curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.yml --output _data/recent_food.yml
           git add _data/recent_food.yml
+      - name: commit
+        id: diary_status
+        run: |
           git commit -am "Update last meal" || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
