@@ -39,16 +39,16 @@ jobs:
           git add assets/images/recipes/*
           git add .
       - name: commit
-        id: recipes_status
+        id: recipes
         run: |
-          git commit -am "Update recipes" || echo "Nothing to update"
+          echo "::set-output name=status::$(git commit -am "Update recipes" || echo "Nothing to update")
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
     outputs:
-      recipes_status: ${{ steps.diary.outputs.recipes_status }}
+      recipes_status: ${{ steps.diary.outputs.recipes }}
 
 
   diary:
@@ -68,9 +68,10 @@ jobs:
           curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.yml --output _data/recent_food.yml
           git add _data/recent_food.yml
       - name: commit
-        id: diary_status
+        id: diary
         run: |
-          git commit -am "Update last meal" || echo "Nothing to update"
+          echo "::set-output name=status::$(git commit -am "Update last meal" || echo "Nothing to update" | read diary_status)
+          echo
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
