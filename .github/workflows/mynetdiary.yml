@@ -1,6 +1,8 @@
 name: Update Diary
 
 on:
+  schedule:
+    - cron:  '10 * * * *'
   workflow_dispatch:
 
 jobs:
