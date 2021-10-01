@@ -41,15 +41,12 @@ jobs:
       - name: commit
         id: recipes
         run: |
-          git commit -am "Update recipes" || echo "::set-output name=status::'Nothing to update'"
+          git commit -am "Update recipes" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
-    outputs:
-      recipes_status: ${{ steps.diary.outputs.recipes }}
-
 
   diary:
     runs-on: ubuntu-latest
@@ -70,22 +67,22 @@ jobs:
       - name: commit
         id: diary
         run: |
-          git commit -am "Update last meal" || echo "::set-output name=status::'Nothing to update'"
+          git commit -am "Update last meal" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
 
-    outputs:
-      diary_status: ${{ steps.diary.outputs.diary_status }}
-
 
   build_and_deploy:
     runs-on: ubuntu-20.04
     needs: [recipes, diary]
-    if: needs.recipes.outputs.recipes_status == 'Nothing to update' && needs.diary.outputs.diary_status == 'Nothing to update'
+    # if: needs.recipes.outputs.recipes_status == 'Nothing to update' && needs.diary.outputs.diary_status == 'Nothing to update'
     steps:
+      - name: Echo variables
+        run: |
+          echo "short version ${{ needs.diary.outputs.diary.status }}"
       - name: 'Wait for status checks'
         id: waitforstatuschecks
         uses: "WyriHaximus/github-action-wait-for-status@v1.2"
