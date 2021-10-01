@@ -82,7 +82,7 @@ jobs:
     steps:
       - name: Echo variables
         run: |
-          echo "short version ${{ needs.diary.outputs.diary.status }}"
+          echo "short version ${{ steps.diary.outputs.diary.status }}"
       - name: 'Wait for status checks'
         id: waitforstatuschecks
         uses: "WyriHaximus/github-action-wait-for-status@v1.2"
