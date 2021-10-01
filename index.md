@@ -8,4 +8,4 @@ If you're hungry, check out [my favorite recipes](https://www.chrisfnicholson.co
 
 I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
 
-I use [MyNetDaily](https://www.mynetdaily.com) to track what I eat. {{site.data.recent_food.food}}.
+I use [MyNetDaily](https://www.mynetdaily.com) to track <span title="{{site.data.recent_food.food}}">what I eat.</span>
