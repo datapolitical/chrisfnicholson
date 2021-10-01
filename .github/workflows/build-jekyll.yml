@@ -32,6 +32,7 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
 
       - name: setup git config
+        id: recipes_status
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
@@ -44,6 +45,8 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
+    outputs:
+      recipes_status: ${{ steps.diary.outputs.recipes_status }}
 
 
   diary:
@@ -56,12 +59,13 @@ jobs:
           persist-credentials: false
 
       - name: setup git config
+        id: diary_status
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
           curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.yml --output _data/recent_food.yml
-          git add _data/recent_food.yml
+          git add _data/recent_food.txt
           git commit -am "Update last meal" || echo "Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -69,10 +73,14 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN_RECIPES }}
           branch: ${{ github.ref }}
 
+    outputs:
+      diary_status: ${{ steps.diary.outputs.diary_status }}
+
 
   build_and_deploy:
     runs-on: ubuntu-20.04
     needs: [recipes, diary]
+    if: needs.recipes.outputs.recipes_status == "Nothing to update" && needs.diary.outputs.diary_status == "Nothing to update" 
     steps:
       - name: 'Wait for status checks'
         id: waitforstatuschecks
