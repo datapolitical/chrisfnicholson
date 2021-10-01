@@ -87,14 +87,14 @@ jobs:
       - name: Echo variables
         run: |
           echo "short version ${{ needs.diary.outputs.status }}"
-      - name: 'Wait for status checks'
-        id: waitforstatuschecks
-        uses: "WyriHaximus/github-action-wait-for-status@v1.2"
-        with:
-          ignoreActions: build_and_deploy,analyze
-          checkInterval: 10
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      # - name: 'Wait for status checks'
+      #  id: waitforstatuschecks
+      #  uses: "WyriHaximus/github-action-wait-for-status@v1.2"
+      #  with:
+      #    ignoreActions: build_and_deploy,analyze
+      #    checkInterval: 10
+      #  env:
+      #    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
     # - name: Clean install dependencies and build
       # run: |
