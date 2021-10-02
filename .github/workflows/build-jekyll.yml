@@ -64,7 +64,7 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
-          curl https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.yml --output _data/recent_food.yml
+          curl https://raw.githubusercontent.com/datapolitical/mndexp/main/recent_food.yml --output _data/recent_food.yml
           git add _data/recent_food.yml
       - name: commit
         id: diary
