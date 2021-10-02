@@ -3195,6 +3195,8 @@
   - "1 \xBE teaspoon Mrs. Dash"
   - 1 pinch of pepper
   - "4 \u2153 tablespoons mayonnaise"
+  - "\xBC of a small lemon\u2019s juice"
+  - 1 pinch of salt
   is_pinned: false
   name: Tuna Salad
   notes: ''
@@ -3221,7 +3223,7 @@
   - '1': images/recipes/87181A41-1000-478C-A258-F53C204FD9D6.jpg
   prep_time: 10 min
   rating: 5
-  scale: 3/1
+  scale: 2/1
   servings: 2 servings
   source: food.com
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182

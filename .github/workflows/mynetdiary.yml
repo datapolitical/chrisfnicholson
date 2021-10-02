@@ -1,4 +1,4 @@
-name: Update Diary
+name: Auto -> Update Diary
 
 on:
   schedule:

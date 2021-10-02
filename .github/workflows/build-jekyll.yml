@@ -41,7 +41,7 @@ jobs:
       - name: commit
         id: recipes
         run: |
-          git commit -am "Update recipes" || echo "::set-output name=status::Nothing to update"
+          git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -69,7 +69,7 @@ jobs:
       - name: commit
         id: diary
         run: |
-          git commit -am "Update last meal" || echo "::set-output name=status::Nothing to update"
+          git commit -am "Build -> Update Diary [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -87,7 +87,9 @@ jobs:
     steps:
       - name: Echo variables
         run: |
-          echo "short version ${{ needs.diary.outputs.status }}"
+          echo "event name: ${{github.event_name}}"
+          echo "commit message: ${{github.event.commits[0].message}}"
+          echo "short version: ${{ needs.diary.outputs.status }}"
       # - name: 'Wait for status checks'
       #  id: waitforstatuschecks
       #  uses: "WyriHaximus/github-action-wait-for-status@v1.2"
