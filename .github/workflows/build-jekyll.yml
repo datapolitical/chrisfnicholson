@@ -87,9 +87,9 @@ jobs:
     steps:
       - name: Echo variables
         run: |
-          echo "event name ${{github.event_name}}"
-          echo "commit message ${{github.event.commits[0].message}}"
-          echo "short version ${{ needs.diary.outputs.status }}"
+          echo "event name: ${{github.event_name}}"
+          echo "commit message: ${{github.event.commits[0].message}}"
+          echo "short version: ${{ needs.diary.outputs.status }}"
       # - name: 'Wait for status checks'
       #  id: waitforstatuschecks
       #  uses: "WyriHaximus/github-action-wait-for-status@v1.2"
