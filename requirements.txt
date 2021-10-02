@@ -1,4 +1,4 @@
 requests==2.25.0
--e git+https://github.com/datapolitical/paprika-exporter.git@v0.2.1#egg=papexp
+-e git+https://github.com/datapolitical/paprika-exporter.git@v0.3.0#egg=papexp
 python-dotenv==0.15.0
 PyYAML>=5.4
