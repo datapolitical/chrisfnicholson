@@ -13,6 +13,8 @@ jobs:
     concurrency: recipes
     permissions:
       contents: write
+      actions: write
+      checks: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
