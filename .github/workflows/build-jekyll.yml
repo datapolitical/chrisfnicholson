@@ -74,8 +74,8 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
-          git pull --ff-only origin main
           git add _data/recent_food.yml
+          git pull --ff-only origin main
       - name: commit
         id: diary
         run: |
