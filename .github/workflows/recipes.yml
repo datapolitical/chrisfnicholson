@@ -11,6 +11,8 @@ jobs:
   recipes:
     runs-on: ubuntu-latest
     concurrency: recipes
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -43,5 +45,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN_RECIPES }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
