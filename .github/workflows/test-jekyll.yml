@@ -47,7 +47,7 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@69e1549e57c4748593e91e2cd7887ba124c36835
         with:
           provider: 'github'
-          token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
+          token: ${{ secrets.GH_SECRET_TEST }} # It's your Personal Access Token(PAT)
           repository: 'datapolitical/cfndev.github.io'             # Default is current repository
           branch: 'gh-pages'         # Default is gh-pages for github provider
           jekyll_src: './'           # Default is root directory
