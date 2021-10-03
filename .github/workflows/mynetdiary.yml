@@ -2,7 +2,7 @@ name: Auto -> Update Diary
 
 on:
   schedule:
-    - cron:  '59 * * * *'
+    - cron:  '*/20 * * * *'
   workflow_dispatch:
 
 jobs:
