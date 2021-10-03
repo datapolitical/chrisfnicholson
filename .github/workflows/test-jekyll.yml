@@ -1,9 +1,6 @@
-name: Test Build and Deploy
+name: DEPRECATED - Test Build and Deploy
 
 on:
-  push:
-    branches:
-      - dev  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
