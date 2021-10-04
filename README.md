@@ -10,8 +10,6 @@ Drinks are from [aflg/opendrinks](https://www.github.com/aflg/opendrinks) with a
 
 The Crossword module is an embed of my crossword puzzles from [crosshare](https://www.crosshare.org)
 
-The Grady-cam is my [brother's](https://www.github.com/nicholsonjf) pet lizard.
-
 This blog is heavily optimized using plugins: [jekyll_picture_tag](https://github.com/rbuchberger/jekyll_picture_tag) makes the images responsive so that pages load super quickly.
 
 Posts are updated infrequently and occasionally often. New features should not be expected.
