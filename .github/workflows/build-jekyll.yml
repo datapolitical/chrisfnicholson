@@ -49,6 +49,7 @@ jobs:
         run: |
           git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
+        if: steps.recipes.outputs.status != 'Nothing to update'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
