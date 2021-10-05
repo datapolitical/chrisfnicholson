@@ -1,6 +1,8 @@
 name: Build and Deploy to Github Pages
 
 on:
+  schedule:
+    - cron:  '*/15 * * * *'
   push:
     branches:
       - main  # Here source code branch is `master`, it could be other branch
@@ -101,7 +103,7 @@ jobs:
           actions: write
           checks: write
     needs: [recipes, diary]
-    # if: needs.recipes.outputs.status == 'Nothing to update' && needs.diary.outputs.status == 'Nothing to update'
+    if: github.event_name != 'schedule' ||needs.recipes.outputs.status != 'Nothing to update' ||needs.diary.outputs.status != 'Nothing to update'
     steps:
       - name: Echo variables
         run: |
