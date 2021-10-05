@@ -1,9 +1,6 @@
-name: Test Build and Deploy
+name: DEPRECATED - Test Build and Deploy
 
 on:
-  push:
-    branches:
-      - dev  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
@@ -44,10 +41,10 @@ jobs:
             ${{ runner.os }}-build-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: jeffreytse/jekyll-deploy-action@69e1549e57c4748593e91e2cd7887ba124c36835
+      - uses: datapolitical/jekyll-deploy-action@master
         with:
           provider: 'github'
-          token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
+          token: ${{ secrets.GH_SECRET_TEST }} # It's your Personal Access Token(PAT)
           repository: 'datapolitical/cfndev.github.io'             # Default is current repository
           branch: 'gh-pages'         # Default is gh-pages for github provider
           jekyll_src: './'           # Default is root directory
@@ -56,3 +53,4 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
+          pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp'
