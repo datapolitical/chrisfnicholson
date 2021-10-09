@@ -78,13 +78,13 @@ jobs:
           actions: write
           checks: write
     needs: get_data
-    if: github.event_name != 'schedule' ||needs.recipes.outputs.status != 'Nothing to update'
+    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
       - name: Echo variables
         run: |
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.commits[0].message}}"
-          echo "short version: ${{ needs.diary.outputs.status }}"
+          echo "short version: ${{ needs.get_data.outputs.status }}"
       
       - uses: actions/checkout@v2
         with:
@@ -156,7 +156,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: steps.create_version.outputs.patch == 0
+        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '[RELEASE]')
         id: create_release
         uses: actions/create-release@v1
         env:
