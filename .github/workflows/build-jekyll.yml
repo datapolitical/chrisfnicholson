@@ -83,8 +83,8 @@ jobs:
       - name: Echo variables
         run: |
           echo "event name: ${{github.event_name}}"
-          echo "commit message: ${{github.event.commits[0].message}}"
-          echo "short version: ${{ needs.get_data.outputs.status }}"
+          echo "commit message: ${{github.event.head_commit.message}}"
+          echo "short version: ${{needs.get_data.outputs.status}}"
       
       - uses: actions/checkout@v2
         with:
