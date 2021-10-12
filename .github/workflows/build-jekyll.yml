@@ -28,7 +28,7 @@ jobs:
           python-version: 3.8
 
       - name: Install Requirements
-        run: pip install -e papexp
+        run: pip install -e .
 
       - name: setup git config
         run: |
