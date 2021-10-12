@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  recipes:
+  get_data:
     runs-on: ubuntu-latest
-    concurrency: recipes
+    concurrency: get_data
     permissions:
           contents: write
           actions: write
@@ -30,71 +30,44 @@ jobs:
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      - name: Execute Python script
+      - name: setup git config
+        run: |
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
+          git config --local user.email ${{ secrets.EMAIL }}
+          git pull --ff-only origin main
+          
+      - name: Execute Recipes Python script
         run: |
           python3 -m papexp
+          git add assets/images/recipes/*
+          git add .
+          git pull --ff-only origin main
         env:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
 
-      - name: setup git config
-        run: |
-          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
-          git config --local user.email ${{ secrets.EMAIL }}
-          git pull --ff-only origin main
-          git add assets/images/recipes/*
-          git add .
-      - name: commit
-        id: recipes
-        run: |
-          git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
-      - name: Push changes
-        if: steps.recipes.outputs.status != 'Nothing to update'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-    outputs:
-      status: ${{ steps.recipes.outputs.status }}
-
-  diary:
-    runs-on: ubuntu-latest
-    concurrency: diary
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-
-      - name: Install Requirements
-        run: pip install -r requirements.txt
-
-      - name: Execute Python script
+      - name: Execute Diary Python script
         run: |
           python3 -m mndexp
           mv recent_food.yml _data/recent_food.yml
+          git add _data/recent_food.yml
+          git pull --ff-only origin main
         env:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
           MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
 
-      - name: setup git config
-        run: |
-          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
-          git config --local user.email ${{ secrets.EMAIL }}
-          git add _data/recent_food.yml
-          git pull --ff-only origin main
       - name: commit
-        id: diary
+        id: get_data
         run: |
-          git commit -am "Build -> Update Diary [skip actions]" || echo "::set-output name=status::Nothing to update"
+          git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
-        if: steps.diary.outputs.status != 'Nothing to update'
+        if: steps.get_data.outputs.status != 'Nothing to update'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
     outputs:
-      status: ${{ steps.diary.outputs.status }}
+      status: ${{ steps.get_data.outputs.status }}
 
 
   build_and_deploy:
@@ -104,35 +77,15 @@ jobs:
           contents: write
           actions: write
           checks: write
-    needs: [recipes, diary]
-    if: github.event_name != 'schedule' ||needs.recipes.outputs.status != 'Nothing to update' ||needs.diary.outputs.status != 'Nothing to update'
+    needs: get_data
+    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
       - name: Echo variables
         run: |
           echo "event name: ${{github.event_name}}"
-          echo "commit message: ${{github.event.commits[0].message}}"
-          echo "short version: ${{ needs.diary.outputs.status }}"
-      # - name: 'Wait for status checks'
-      #  id: waitforstatuschecks
-      #  uses: "WyriHaximus/github-action-wait-for-status@v1.2"
-      #  with:
-      #    ignoreActions: build_and_deploy,analyze
-      #    checkInterval: 10
-      #  env:
-      #    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-
-    # - name: Clean install dependencies and build
-      # run: |
-        # sudo apt-get update && sudo apt-get install -y libvips42
-
-    # - name: Update path
-      # run: |
-        #  echo "/github/home/.gem/ruby/2.7.0/bin" >> $GITHUB_PATH
-
-    #  - name: Install RMagicwand
-      #  run: |
-        #  sudo apt-get install libmagickwand-dev
-
+          echo "commit message: ${{github.event.head_commit.message}}"
+          echo "short version: ${{needs.get_data.outputs.status}}"
+      
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
@@ -203,7 +156,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: steps.create_version.outputs.patch == 0
+        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '[RELEASE]')
         id: create_release
         uses: actions/create-release@v1
         env:
