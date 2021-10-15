@@ -64,6 +64,7 @@ exclude:
   - Pipfile
   - package.json
   - .jekyll-cache
+  - node_modules
 
 # markdown: CommonMark
 
