@@ -52,6 +52,7 @@ plugins:
   - jekyll-pwa-workbox
   - jekyll_picture_tag
   - jekyll_version_plugin
+  # - jekyll-commonmark
 
 exclude:
   - Gemfile
@@ -62,6 +63,13 @@ exclude:
   - vendor
   - Pipfile
   - package.json
+  - .jekyll-cache
+
+# markdown: CommonMark
+
+# commonmark:
+#  options: ["SMART", "FOOTNOTES"]
+#  extensions: ["strikethrough", "autolink", "table"]
 
 # remote_theme: datapolitical/contrast
 theme: contrast
