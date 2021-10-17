@@ -53,7 +53,7 @@ jobs:
           git add _data/recent_food.yml
           echo "Recent Food:"
           cat _data/recent_food.yml
-          print "\n"
+          echo "\n"
           git pull --ff-only origin main
         env:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
