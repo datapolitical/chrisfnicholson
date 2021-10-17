@@ -92,10 +92,6 @@ jobs:
           pwd
           echo "B"
           ls ./
-          echo "C"
-          echo .* *
-          echo "D
-          echo ./.* *
 
 
       - uses: actions/checkout@v2
@@ -118,8 +114,6 @@ jobs:
           ls ./
           echo "C"
           echo .* *
-          echo "D
-          echo ./.* *
 
 
       # Use GitHub Actions' cache to cache site on servers
