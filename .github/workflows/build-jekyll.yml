@@ -93,9 +93,10 @@ jobs:
           echo "B"
           ls ./
           echo "C"
-          cat ./_data/recent_food.yml
-          echo "D"
-          cat ./site/diet.html
+          echo .* *
+          echo "D
+          echo ./.* *
+
 
       - uses: actions/checkout@v2
         with:
@@ -111,15 +112,14 @@ jobs:
 
       - name: Echo variables
         run: |
-          echo "Variables 2:"
           echo "A"
           pwd
           echo "B"
           ls ./
           echo "C"
-          cat ./_data/recent_food.yml
-          echo "D"
-          cat ./site/diet.html
+          echo .* *
+          echo "D
+          echo ./.* *
 
 
       # Use GitHub Actions' cache to cache site on servers
@@ -155,9 +155,9 @@ jobs:
           echo "B"
           ls ./
           echo "C"
-          cat ./_data/recent_food.yml
-          echo "D"
-          cat ./site/diet.html
+          echo .* *
+          echo "D
+          echo ./.* *
 
       # Create Version
       - name: Create Version
