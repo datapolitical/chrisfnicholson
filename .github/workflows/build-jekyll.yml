@@ -83,7 +83,7 @@ jobs:
     needs: get_data
     if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
-      - name: Echo variables
+      - name: Echo variables 1
         run: |
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.head_commit.message}}"
@@ -92,8 +92,6 @@ jobs:
           pwd
           echo "B"
           ls ./
-          echo "C"
-          cat ./_data/recent_food.yml
 
 
       - uses: actions/checkout@v2
@@ -108,7 +106,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-tse-
 
-      - name: Echo variables
+      - name: Echo variables 2
         run: |
           echo "A"
           pwd
@@ -117,7 +115,7 @@ jobs:
           echo "C"
           ls
           echo "D"
-          cat diet.html
+          cat ./_data/recent_food.yml
 
 
       # Use GitHub Actions' cache to cache site on servers
@@ -143,7 +141,7 @@ jobs:
           actor: ''                  # Default is the GITHUB_ACTOR
           pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp'
 
-      - name: Echo variables
+      - name: Echo variables 3
         run: |
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.head_commit.message}}"
@@ -153,7 +151,9 @@ jobs:
           echo "B"
           ls ./
           echo "C"
-          cat ./diet.html
+          ls
+          echo "D"
+          cat diet.html
 
       # Create Version
       - name: Create Version
