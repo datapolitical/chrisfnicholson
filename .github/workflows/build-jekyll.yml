@@ -90,7 +90,7 @@ jobs:
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
           pwd
-          ls
+          ls ../
 
       - uses: actions/checkout@v2
         with:
