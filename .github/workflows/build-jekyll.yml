@@ -3,9 +3,9 @@ name: Build and Deploy to Github Pages
 on:
   schedule:
     - cron:  '*/15 * * * *'
-  # push:
-  #  branches:
-  #    - main  # Here source code branch is `master`, it could be other branch
+  push:
+    branches:
+      - main  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
@@ -88,7 +88,9 @@ jobs:
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
-          cat _data/recent_food.yml
+      #    cat _data/recent_food.yml
+          pwd
+          ls
 
       - uses: actions/checkout@v2
         with:
@@ -131,7 +133,7 @@ jobs:
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
-          cat site/diet.html
+      #    cat site/diet.html
 
       # Create Version
       - name: Create Version
