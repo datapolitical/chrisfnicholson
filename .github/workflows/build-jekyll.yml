@@ -88,7 +88,6 @@ jobs:
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
-    #    cat _data/recent_food.yml
           pwd
           ls
 
@@ -133,7 +132,6 @@ jobs:
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
-      #    cat site/diet.html
 
       # Create Version
       - name: Create Version
