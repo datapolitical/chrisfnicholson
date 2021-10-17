@@ -3,9 +3,9 @@ name: Build and Deploy to Github Pages
 on:
   schedule:
     - cron:  '*/15 * * * *'
-  push:
-    branches:
-      - main  # Here source code branch is `master`, it could be other branch
+  # push:
+  #  branches:
+  #    - main  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           git pull --ff-only origin main
-          
+
       - name: Execute Recipes Python script
         run: |
           python3 -m papexp
@@ -51,6 +51,8 @@ jobs:
           python3 -m mndexp
           mv recent_food.yml _data/recent_food.yml
           git add _data/recent_food.yml
+          echo "Recent Food:"
+          cat _data/recent_food.yml
           git pull --ff-only origin main
         env:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
@@ -85,7 +87,9 @@ jobs:
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
-      
+          echo "Recent Food:"
+          cat _data/recent_food.yml
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
@@ -120,6 +124,14 @@ jobs:
           cname: 'www.chrisfnicholson.com'                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
           pre_build_commands: 'pacman -S --noconfirm imagemagick libwebp'
+
+      - name: Echo variables
+        run: |
+          echo "event name: ${{github.event_name}}"
+          echo "commit message: ${{github.event.head_commit.message}}"
+          echo "short version: ${{needs.get_data.outputs.status}}"
+          echo "Recent Food:"
+          cat site/diet.html
 
       # Create Version
       - name: Create Version
