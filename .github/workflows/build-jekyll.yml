@@ -90,6 +90,7 @@ jobs:
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
           pwd
+          echo "Group X"
           ls ../
 
       - uses: actions/checkout@v2
@@ -108,7 +109,12 @@ jobs:
         run: |
           echo "Variables 2:"
           pwd
-          ls ./
+          echo "Group A"
+          echo .* *
+          echo "Group B"
+          echo ./.* *
+          echo "Group C"
+          echo ../.* *
 
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
