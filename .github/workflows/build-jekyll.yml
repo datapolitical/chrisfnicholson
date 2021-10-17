@@ -140,9 +140,9 @@ jobs:
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
           pwd
-          ls ./
+          echo .* *
           echo "Recent variables 3"
-          ls ../
+          echo ./.* *
 
       # Create Version
       - name: Create Version
