@@ -92,6 +92,8 @@ jobs:
           pwd
           echo "B"
           ls ./
+          echo "C"
+          cat ./_data/recent_food.yml
 
 
       - uses: actions/checkout@v2
@@ -113,7 +115,9 @@ jobs:
           echo "B"
           ls ./
           echo "C"
-          echo .* *
+          ls
+          echo "D"
+          cat diet.html
 
 
       # Use GitHub Actions' cache to cache site on servers
@@ -149,9 +153,7 @@ jobs:
           echo "B"
           ls ./
           echo "C"
-          echo .* *
-          echo "D
-          echo ./.* *
+          cat ./diet.html
 
       # Create Version
       - name: Create Version
