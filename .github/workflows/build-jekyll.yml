@@ -104,6 +104,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-tse-
 
+      - name: Echo variables
+        run: |
+          echo "Variables 2:"
+          pwd
+          ls ./
+
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
         with:
@@ -133,6 +139,10 @@ jobs:
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
           echo "Recent Food:"
+          pwd
+          ls ./
+          echo "Recent variables 3"
+          ls ../
 
       # Create Version
       - name: Create Version
