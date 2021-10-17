@@ -88,10 +88,14 @@ jobs:
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
-          echo "Recent Food:"
+          echo "A"
           pwd
-          echo "Group X"
-          ls ../
+          echo "B"
+          ls ./
+          echo "C"
+          cat ./_data/recent_food.yml
+          echo "D"
+          cat ./site/diet.html
 
       - uses: actions/checkout@v2
         with:
@@ -108,13 +112,15 @@ jobs:
       - name: Echo variables
         run: |
           echo "Variables 2:"
+          echo "A"
           pwd
-          echo "Group A"
-          echo .* *
-          echo "Group B"
-          echo ./.* *
-          echo "Group C"
-          echo ../.* *
+          echo "B"
+          ls ./
+          echo "C"
+          cat ./_data/recent_food.yml
+          echo "D"
+          cat ./site/diet.html
+
 
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
@@ -144,11 +150,14 @@ jobs:
           echo "event name: ${{github.event_name}}"
           echo "commit message: ${{github.event.head_commit.message}}"
           echo "short version: ${{needs.get_data.outputs.status}}"
-          echo "Recent Food:"
+          echo "A"
           pwd
-          echo .* *
-          echo "Recent variables 3"
-          echo ./.* *
+          echo "B"
+          ls ./
+          echo "C"
+          cat ./_data/recent_food.yml
+          echo "D"
+          cat ./site/diet.html
 
       # Create Version
       - name: Create Version
