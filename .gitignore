@@ -62,3 +62,6 @@ Gemfile.lock
 _config.dev.yml
 .vscode
 *.gem
+
+# Mistakes
+recent_food.txt

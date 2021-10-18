@@ -1,1 +1,0 @@
-<html><body>You are being <a href="https://raw.githubusercontent.com/datapolitical/mnd-exporter/main/recent_food.txt">redirected</a>.</body></html>
