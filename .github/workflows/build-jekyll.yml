@@ -193,10 +193,12 @@ jobs:
       
       - name: Get the changelog
         run: | 
-          cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          LOG = cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
           EOF
-        
+          echo "::set-output name=changelog_final::$LOG"
+        id: parsedlog
+
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
@@ -207,7 +209,7 @@ jobs:
           tag: v${{ steps.create_version.outputs.version }}
           name: Release ${{ steps.create_version.outputs.version }}
           body: |
-            ${{ steps.changelog.outputs.changelog }}
+            ${{ steps.parsedlog.outputs.changelog_final }}
 
           draft: false
           prerelease: false
