@@ -197,7 +197,7 @@ jobs:
         run: |
           echo "new changelog"
           echo "PATCH_WITH_OFFSET=$(($PATCH-1))" >> $GITHUB_ENV
-          echo `curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/chrisfnicholson.github.io/releases/generate-notes -d '{"tag_name":"v${{steps.create_version.outputs.major}}.${{steps.create_version.outputs.minor}}. {{env.PATCH_WITH_OFFSET}}"}'`
+          echo `curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/chrisfnicholson.github.io/releases/generate-notes -d '{"tag_name":"v${{steps.create_version.outputs.major}}.${{steps.create_version.outputs.minor}}. ${{env.PATCH_WITH_OFFSET}}"}'`
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
