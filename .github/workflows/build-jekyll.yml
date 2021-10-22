@@ -194,7 +194,7 @@ jobs:
       - name: New changelog test
         run: |
           echo "new changelog"
-          echo `curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/datapolitical.github.io/releases/generate-notes -d '{"tag_name":"v${{ steps.create_version.outputs.version }}"}'`
+          echo `curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/chrisfnicholson.github.io/releases/generate-notes -d '{"tag_name":"v${{ steps.create_version.outputs.version }}"}'`
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
