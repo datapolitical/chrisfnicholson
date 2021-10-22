@@ -206,7 +206,7 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Get the changelog
-          run: echo "${{ steps.changelog.outputs.changelog }}"
+        run: echo "${{ steps.changelog.outputs.changelog }}"
       
       #Create Release
       - name: Create Release
