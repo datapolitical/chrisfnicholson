@@ -193,16 +193,16 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '[RELEASE]')
+        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: v${{ steps.create_version.outputs.version }}
-          release_name: Release ${{ steps.create_version.outputs.version }}
+          token: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          tag: v${{ steps.create_version.outputs.version }}
+          name: Release ${{ steps.create_version.outputs.version }}
           body: |
             ${{ steps.Changelog.outputs.changelog }}
 
           draft: false
           prerelease: false
+          commit: 'main'
