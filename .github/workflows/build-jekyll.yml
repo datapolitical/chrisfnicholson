@@ -194,7 +194,7 @@ jobs:
       - name: Get the changelog
         run: | 
           cat << "EOF" | tac ${{ steps.changelog.outputs.changelog }} 
-          EOF 
+EOF 
           | sed -n '/gh-pages/!p'
         
         
