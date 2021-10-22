@@ -193,10 +193,9 @@ jobs:
       
       - name: Get the changelog
         run: | 
-          cat << "EOF" | tac ${{ steps.changelog.outputs.changelog }} 
+          cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          ${{ steps.changelog.outputs.changelog }}
           EOF
-          | sed -n '/gh-pages/!p'
-        
         
       #Create Release
       - name: Create Release
