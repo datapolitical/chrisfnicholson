@@ -184,29 +184,15 @@ jobs:
           short_tags: true
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
-
-      - name: Changelog
-        uses: scottbrenner/generate-changelog-action@master
-        id: Changelog
-        env:
-          REPO: ${{ github.repository }}
-          
-      - name: New changelog test
-        env: 
-          PATCH: ${{steps.create_version.outputs.patch         }}
-        run: |
-          echo "new changelog"
-          echo "PATCH_WITH_OFFSET=`$(($PATCH-1))`" >> $GITHUB_ENV
-          echo `curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/chrisfnicholson.github.io/releases/generate-notes -d '{"tag_name":"v${{steps.create_version.outputs.major}}.${{steps.create_version.outputs.minor}}.1"}'`
           
       - name: Generate changelog
-        id: changelog_new
-        uses: metcalfc/changelog-generator@v1.0.0
+        id: changelog
+        uses: metcalfc/changelog-generator@v1.0.1
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Get the changelog
-        run: echo "${{ steps.changelog.outputs.changelog_new }}"
+        run: echo "${{ steps.changelog.outputs.changelog }}"
       
       #Create Release
       - name: Create Release
@@ -218,7 +204,7 @@ jobs:
           tag: v${{ steps.create_version.outputs.version }}
           name: Release ${{ steps.create_version.outputs.version }}
           body: |
-            ${{ steps.Changelog.outputs.changelog }}
+            ${{ steps.changelog.outputs.changelog }}
 
           draft: false
           prerelease: false
