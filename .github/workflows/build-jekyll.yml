@@ -193,8 +193,10 @@ jobs:
       
       - name: Get the changelog
         run: | 
-        cat << "EOF" | tac ${{ steps.changelog.outputs.changelog }} EOF | sed -n '/gh-pages/!p'
-      
+          cat << "EOF" | tac ${{ steps.changelog.outputs.changelog }} EOF 
+          | sed -n '/gh-pages/!p'
+        
+        
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
