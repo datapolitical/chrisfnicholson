@@ -190,7 +190,12 @@ jobs:
         id: Changelog
         env:
           REPO: ${{ github.repository }}
-
+          
+      - name: New changelog test
+        run: |
+          output = curl -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/datapolitical/datapolitical.github.io/releases/generate-notes -d '{"tag_name":v${{ steps.create_version.outputs.version }}}'
+          echo "new changelog"
+          echo output
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
