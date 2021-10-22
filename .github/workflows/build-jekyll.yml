@@ -192,7 +192,11 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Get the changelog
-        run: tac << "EOF" ${{ steps.changelog.outputs.changelog }} EOF | sed -n '/gh-pages/!p'
+        run: |
+        tac << EOF 
+        ${{ steps.changelog.outputs.changelog }}
+        EOF 
+        | sed -n '/gh-pages/!p'
       
       #Create Release
       - name: Create Release
