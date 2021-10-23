@@ -192,7 +192,6 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
 
       #Add Date To Changelog
-      #Remove when released
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
