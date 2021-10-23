@@ -192,13 +192,12 @@ jobs:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Get the changelog
+        id: parsedlog
         run: | 
-          LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          echo "::set-output name=changelog_final::$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
           EOF
           )
-          echo "::set-output name=changelog_final::$LOG"
-        id: parsedlog
 
       - name: Test Release Notes
         run: |
