@@ -203,6 +203,7 @@ jobs:
 
 
       - name: Test Release Notes
+      run: |
           echo "Release notes: ${{steps.parsedlog.outputs.changelog_final}}"
       
       #Create Release
