@@ -200,10 +200,12 @@ jobs:
       - name: Modify the changelog
         id: modified
         run: |
-          LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          set -o noglob
+          log=$(cat << "EOF" | sed '/gh-pages/d' | tac
           ${{ steps.changelog.outputs.changelog }}
 
-          ${{ steps.date.outputs.date }}
+          ${{
+          steps.date.outputs.date }}
           EOF
           )
           log="${log//'%'/'%25'}"
@@ -214,8 +216,10 @@ jobs:
       - name: Print the modified changelog
         run: |
           cat << "EOF"
-          echo "${{ steps.modified.outputs.modified }}"
+          ${{ steps.modified.outputs.modified }}
           EOF
+
+
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
