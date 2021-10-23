@@ -213,9 +213,9 @@ jobs:
 
       - name: Print the modified changelog
         run: |
+          cat << "EOF"
           echo "${{ steps.modified.outputs.modified }}"
-
-
+          EOF
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
