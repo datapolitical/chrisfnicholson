@@ -187,23 +187,28 @@ jobs:
 
       - name: Generate changelog
         id: changelog
-        uses: metcalfc/changelog-generator@v1.0.1
+        uses: metcalfc/changelog-generator@v2.0.0
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Get the changelog
+      - name: Modify the changelog
+        id: modified
         run: |
           LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
           EOF
           )
-          echo "::set-output name=changelog_final::$LOG"
-        id: parsedlog
+          log="${log//'%'/'%25'}"
+          log="${log//$'\n'/'%0A'}"
+          log="${log//$'\r'/'%0D'}"
+          echo "::set-output name=modified::$log"
 
+      - name: Print the modified changelog
+        run: |
+          cat << "EOF"
+          ${{ steps.modified.outputs.modified }}
+          EOF
 
-
-      - name: Test Release Notes
-          echo "Release notes: ${{steps.parsedlog.outputs.changelog_final}}"
 
       #Create Release
       - name: Create Release
