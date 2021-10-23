@@ -187,9 +187,34 @@ jobs:
           
       - name: Generate changelog
         id: changelog
-        uses: metcalfc/changelog-generator@v1.0.1
+        uses: metcalfc/changelog-generator@main
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
+          
+          
+
+          
+
+      
+      - name: Modify the changelog
+        id: modified
+        run: |
+          set -o noglob
+          log=$(cat << "EOF" | sed '/gh-pages/d' | tac
+          ${{ steps.changelog.outputs.changelog }}
+          EOF
+          )
+          log="${log//'%'/'%25'}"
+          log="${log//$'\n'/'%0A'}"
+          log="${log//$'\r'/'%0D'}"
+          echo "::set-output name=modified::$log"
+          
+      - name: Print the modified changelog
+        run: |
+          cat << "EOF"
+          ${{ steps.modified.outputs.modified }}
+          EOF
+      
       
       - name: Get the changelog
         id: parsedlog
@@ -213,7 +238,7 @@ jobs:
           tag: v${{ steps.create_version.outputs.version }}
           name: Release ${{ steps.create_version.outputs.version }}
           body: |
-            ${{ steps.parsedlog.outputs.changelog_final }}
+            ${{ steps.modified.outputs.modified }}
 
           draft: false
           prerelease: false
