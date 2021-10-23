@@ -193,9 +193,10 @@ jobs:
       
       - name: Get the changelog
         run: | 
-          LOG = cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
           EOF
+          )
           echo "::set-output name=changelog_final::$LOG"
         id: parsedlog
 
