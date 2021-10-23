@@ -191,11 +191,19 @@ jobs:
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
 
+      #Add Date To Changelog
+      #Remove when released
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
       - name: Modify the changelog
         id: modified
         run: |
           LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
+
+          ${{ steps.date.outputs.date }}
           EOF
           )
           log="${log//'%'/'%25'}"
@@ -205,9 +213,7 @@ jobs:
 
       - name: Print the modified changelog
         run: |
-          cat << "EOF"
-          ${{ steps.modified.outputs.modified }}
-          EOF
+          echo "${{ steps.modified.outputs.modified }}"
 
 
       #Create Release
@@ -220,7 +226,7 @@ jobs:
           tag: v${{ steps.create_version.outputs.version }}
           name: Release ${{ steps.create_version.outputs.version }}
           body: |
-            ${{ steps.Changelog.outputs.changelog }}
+            ${{ steps.modified.outputs.modified }}
 
           draft: false
           prerelease: false
