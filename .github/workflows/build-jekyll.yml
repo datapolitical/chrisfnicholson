@@ -185,11 +185,25 @@ jobs:
           # If this is set to true, *every* commit will be treated as a new version.
           bump_each_commit: false
 
-      - name: Changelog
-        uses: scottbrenner/generate-changelog-action@master
-        id: Changelog
-        env:
-          REPO: ${{ github.repository }}
+      - name: Generate changelog
+        id: changelog
+        uses: metcalfc/changelog-generator@v1.0.1
+        with:
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get the changelog
+        run: |
+          LOG=$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
+          ${{ steps.changelog.outputs.changelog }}
+          EOF
+          )
+          echo "::set-output name=changelog_final::$LOG"
+        id: parsedlog
+
+
+
+      - name: Test Release Notes
+          echo "Release notes: ${{steps.parsedlog.outputs.changelog_final}}"
 
       #Create Release
       - name: Create Release
