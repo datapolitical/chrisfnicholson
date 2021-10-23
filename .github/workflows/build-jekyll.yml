@@ -200,7 +200,7 @@ jobs:
         id: modified
         run: |
           set -o noglob
-          log=$(cat << "EOF" | sed '/gh-pages/d' | tac
+          log=$(cat << "EOF" | sed '/gh-pages\|skip actions/d' | tac
           ${{ steps.changelog.outputs.changelog }}
 
           ${{
