@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .env
+.secrets
 opendrinks_old/
 webp-drinks/
 webp-recipes/
