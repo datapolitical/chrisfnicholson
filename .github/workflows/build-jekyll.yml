@@ -197,7 +197,7 @@ jobs:
           echo "::set-output name=changelog_final::$(cat << "EOF" | sed -n '/gh-pages/!p' | tac
           ${{ steps.changelog.outputs.changelog }}
           EOF
-          )
+          )"
 
       - name: Test Release Notes
         run: |
