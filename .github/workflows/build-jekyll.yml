@@ -187,7 +187,7 @@ jobs:
           
       - name: Generate changelog
         id: changelog
-        uses: metcalfc/changelog-generator@v1.0.0
+        uses: metcalfc/changelog-generator@v1.0.1
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       
@@ -200,6 +200,11 @@ jobs:
           echo "::set-output name=changelog_final::$LOG"
         id: parsedlog
 
+
+
+      - name: Test Release Notes
+          echo "Release notes: ${{steps.parsedlog.outputs.changelog_final}}"
+      
       #Create Release
       - name: Create Release
         if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
