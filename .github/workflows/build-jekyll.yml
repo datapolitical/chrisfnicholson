@@ -35,7 +35,7 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
           echo "Git Setup Status:"
-          git config
+          git config --list
           git status
           git remotes
           git pull --ff-only origin main
