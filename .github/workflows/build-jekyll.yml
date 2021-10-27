@@ -37,7 +37,7 @@ jobs:
           echo "Git Setup Status:"
           git config --list
           git status
-          git remotes
+          git remote -v
           git pull --ff-only origin main
 
       - name: Execute Recipes Python script
