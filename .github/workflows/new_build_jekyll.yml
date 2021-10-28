@@ -76,13 +76,5 @@ jobs:
           git config --local user.name ${{ secrets.USERNAME_GITHUB }} && \
           git config --local user.email ${{ secrets.EMAIL }} && \
           git add . && \
-          git commit -m "jekyll build from Action ${GITHUB_SHA}"
-          
-      - name: Push changes
-        if: ${{ !env.ACT }}
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "gh-test"
-          force: true
-          directory: "gh-test"
+          git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
+          git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/datapolitical/chrisfnicholson.github.io.git" HEAD:gh-test --force
