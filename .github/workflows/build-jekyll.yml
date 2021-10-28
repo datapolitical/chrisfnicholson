@@ -140,12 +140,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-tse-
 
-      # Fix FFI
-      - name: Fix FFI
-        run: |
-          gem uninstall ffi
-          gem install ffi
-
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: datapolitical/jekyll-deploy-action@master
         with:
