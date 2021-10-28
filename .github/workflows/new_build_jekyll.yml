@@ -32,9 +32,8 @@ jobs:
 
       - name: bundle install
         run: |
-          bundle install json
+          gem install json
           bundle install --path=vendor/bundle --jobs 4 --retry 3
-          bundle clean
 
       - name: jekyll build
         run: bundle exec jekyll build --destination gh-test
