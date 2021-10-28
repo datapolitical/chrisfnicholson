@@ -12,7 +12,7 @@ webp-recipes/
 webp-drinks/
 _data/ignore/
 workflows/
-
+.config/
 # Ignore docs files
 _gh_pages
 _site
