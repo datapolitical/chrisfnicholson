@@ -59,7 +59,6 @@ jobs:
         run: |
           rm -rf .git && \
           cd gh-test && \
-          rm -rf .git && \
           touch .nojekyll && \
           git init && \
           git config user.name "${GITHUB_ACTOR}" && \
@@ -67,4 +66,4 @@ jobs:
           git add . && \
           git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
           git remote add purple git@github.com:datapolitical/chrisfnicholson.github.io.git && \
-          git push -u --force purple gh-test
+          git push --force purple gh-test
