@@ -36,8 +36,6 @@ jobs:
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      - name:
-
       - name: setup git config
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
