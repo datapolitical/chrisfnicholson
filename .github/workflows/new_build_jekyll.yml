@@ -59,7 +59,7 @@ jobs:
         run: |
           rm -rf .git && \
           cd gh-test && \
-          rm -rf .git && \
+          rm -rf .git
           
       - name: Setup Key #webfactory/ssh-agent
         uses: webfactory/ssh-agent@v0.5.3
