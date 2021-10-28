@@ -59,6 +59,7 @@ jobs:
         run: |
           rm -rf .git && \
           cd gh-test && \
+          rm -rf .git && \
           touch .nojekyll && \
           git init && \
           git config user.name "${GITHUB_ACTOR}" && \
