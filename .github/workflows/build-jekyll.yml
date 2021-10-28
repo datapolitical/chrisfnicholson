@@ -53,7 +53,7 @@ jobs:
         run: |
           python3 -m papexp
           git add assets/images/recipes/*
-          git add .
+          git add _data/recipes.yaml
           git pull --ff-only origin main
         env:
           EMAIL: ${{ secrets.EMAIL }}
