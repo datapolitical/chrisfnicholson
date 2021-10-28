@@ -34,8 +34,6 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
-          echo "Git Setup Config:"
-          git config --list
           echo "Git Setup Status:"
           git status
           echo "Git Setup Remotes:"
