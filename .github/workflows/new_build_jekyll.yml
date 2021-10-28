@@ -1,6 +1,9 @@
 name: Deploy Jekyll
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
