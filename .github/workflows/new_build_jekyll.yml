@@ -52,7 +52,7 @@ jobs:
           bundle install --path=vendor/bundle --jobs 4 --retry 3
 
       - name: jekyll build
-        run: bundle exec jekyll build --destination gh-test
+        run: bundle exec jekyll build --profile --destination gh-test
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
