@@ -234,7 +234,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: ${{ !env.ACT }} && (steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
+        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
         id: create_release
         uses: ncipollo/release-action@v1
         with:
