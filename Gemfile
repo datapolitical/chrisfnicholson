@@ -23,3 +23,4 @@ gem 'jekyll_picture_tag', '1.14.0', group: :jekyll_plugins
 gem 'jekyll_version_plugin', group: :jekyll_plugins
 gem "contrast", '~>3.0.6',  github: "datapolitical/contrast", branch: "master"
 gem "jekyll-data", group: :jekyll_plugins
+gem 'jekyll-include-cache'

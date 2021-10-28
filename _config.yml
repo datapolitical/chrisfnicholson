@@ -53,6 +53,7 @@ plugins:
   - jekyll_picture_tag
   - jekyll_version_plugin
   # - jekyll-commonmark
+  - jekyll-include-cache
 
 exclude:
   - Gemfile
