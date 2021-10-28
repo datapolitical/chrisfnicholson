@@ -9,7 +9,7 @@ jobs:
 
     steps:
 
-      - name: checkout master
+      - name: checkout main
         uses: actions/checkout@v2
 
       - name: checkout gh-test
@@ -32,6 +32,7 @@ jobs:
 
       - name: bundle install
         run: |
+          bundle install json
           bundle install --path=vendor/bundle --jobs 4 --retry 3
           bundle clean
 
