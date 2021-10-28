@@ -27,6 +27,7 @@ jobs:
           ruby-version: 2.7
 
       - name: Clean install dependencies and build
+        if 1 == 0
         run: |
           sudo apt-get update && sudo apt-get install -y libvips42
           ldd --version
