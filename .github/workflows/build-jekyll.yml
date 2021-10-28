@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          # persist-credentials: false
 
       - name: Setup Python Environment
         uses: actions/setup-python@v2
@@ -29,6 +29,8 @@ jobs:
 
       - name: Install Requirements
         run: pip install -r requirements.txt
+
+      # - name: 
 
       - name: setup git config
         run: |
