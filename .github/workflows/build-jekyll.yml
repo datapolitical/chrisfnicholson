@@ -34,10 +34,13 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USERNAME_GITHUB }}
           git config --local user.email ${{ secrets.EMAIL }}
-          echo "Git Setup Status:"
+          echo "Git Setup Config:"
           git config --list
+          echo "Git Setup Status:"
           git status
+          echo "Git Setup Remotes:"
           git remotes
+          echo "Git Pull:"
           git pull --ff-only origin main
 
       - name: Execute Recipes Python script
