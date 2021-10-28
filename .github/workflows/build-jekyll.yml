@@ -36,8 +36,8 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }}
           echo "Git Setup Status:"
           git status
-          # echo "SSL Key List"
-          # ls -al ~/.ssh
+          echo "SSL Key setup info"
+          ssh -vT git@github.com
           echo "Git Setup Remotes:"
           git remote -v
           echo "Git Pull:"
