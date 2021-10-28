@@ -38,6 +38,14 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
 
+      # Use GitHub Actions' cache to cache site on servers
+      - uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-build-new-${{ hashFiles('**/_data/picture.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-new-
+
       - name: bundle install
         run: |
           gem install json
