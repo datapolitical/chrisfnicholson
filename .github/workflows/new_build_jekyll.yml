@@ -49,8 +49,6 @@ jobs:
 
       - name: bundle install
         run: |
-          gem install json
-          gem install webrick
           bundle install --path=vendor/bundle --jobs 4 --retry 3
 
       - name: jekyll build
