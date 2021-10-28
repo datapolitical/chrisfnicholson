@@ -1,6 +1,6 @@
 name: Deploy Jekyll
 
-on
+on:
   workflow_dispatch:
 
 jobs:
