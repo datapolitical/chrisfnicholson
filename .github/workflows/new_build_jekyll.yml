@@ -1,0 +1,50 @@
+name: Deploy Jekyll
+
+on
+  workflow_dispatch:
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: checkout master
+        uses: actions/checkout@v2
+
+      - name: checkout gh-test
+        uses: actions/checkout@v2
+        with:
+          ref: 'gh-test'
+          path: 'gh-test'
+
+      - name: setup ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
+      - name: cache gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gems-
+
+      - name: bundle install
+        run: |
+          bundle install --path=vendor/bundle --jobs 4 --retry 3
+          bundle clean
+
+      - name: jekyll build
+        run: JEKYLL_ENV=production bundle exec jekyll build --destination gh-test
+
+      - name: push gh-pages
+        run: |
+          cd gh-test && \
+          touch .nojekyll && \
+          git init && \
+          git config user.name "${GITHUB_ACTOR}" && \
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+          git add . && \
+          git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
+          git push gh-test
