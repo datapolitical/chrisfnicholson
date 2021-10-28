@@ -17,10 +17,16 @@ jobs:
           actions: write
           checks: write
     steps:
+      - name: Setup Key #webfactory/ssh-agent
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          # Private SSH key to register in the SSH agent
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
       - name: Checkout Code
         uses: actions/checkout@v2
         with:
-          # persist-credentials: false
+          persist-credentials: false
 
       - name: Setup Python Environment
         uses: actions/setup-python@v2
@@ -30,7 +36,7 @@ jobs:
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      # - name: 
+      - name:
 
       - name: setup git config
         run: |
