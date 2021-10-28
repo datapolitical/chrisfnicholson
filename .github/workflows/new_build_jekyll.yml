@@ -8,7 +8,7 @@ on:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-21.04
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -29,6 +29,7 @@ jobs:
       - name: Clean install dependencies and build
         run: |
           sudo apt-get update && sudo apt-get install -y libvips42
+          sudo apt-get install libc6
           /lib/x86_64-linux-gnu/libc
 
       - name: cache gems
