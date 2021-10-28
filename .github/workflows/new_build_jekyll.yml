@@ -42,7 +42,7 @@ jobs:
         run: |
           gem install json
           gem install webrick
-          gem install sassc
+          gem install sassc -v "~>2.0.1"
           bundle install --path=vendor/bundle --jobs 4 --retry 3
           gem uninstall ffi
           gem install ffi
