@@ -11,7 +11,7 @@ src/
 webp-recipes/
 webp-drinks/
 _data/ignore/
-workflows/
+/workflow/
 .config/
 # Ignore docs files
 _gh_pages
