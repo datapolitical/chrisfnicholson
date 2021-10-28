@@ -69,6 +69,7 @@ jobs:
           
       - name: push gh-pages
         run: |
+          pwd
           touch .nojekyll && \
           git init && \
           git config --local user.name ${{ secrets.USERNAME_GITHUB }} && \
@@ -83,3 +84,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: "gh-test"
           force: true
+          directory: "gh-test"
