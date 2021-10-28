@@ -41,7 +41,7 @@ jobs:
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
         with:
-          path: build
+          path: gh-test
           key: ${{ runner.os }}-build-new-${{ hashFiles('**/_data/picture.yml') }}
           restore-keys: |
             ${{ runner.os }}-build-new-
