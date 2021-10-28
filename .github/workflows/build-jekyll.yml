@@ -37,7 +37,7 @@ jobs:
           echo "Git Setup Status:"
           git status
           echo "Git Setup Remotes:"
-          git remotes
+          git remote -v
           echo "Git Pull:"
           git pull --ff-only origin main
 
