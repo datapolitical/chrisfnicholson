@@ -54,28 +54,11 @@ jobs:
 
       - name: jekyll build
         run: bundle exec jekyll build --destination gh-test
-
-      - name: setup push gh-pages
-        run: |
-          rm -rf .git && \
-          cd gh-test && \
-          rm -rf .git
           
-      - name: Setup Key #webfactory/ssh-agent
-        uses: webfactory/ssh-agent@v0.5.3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # Private SSH key to register in the SSH agent
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
-          
-      - name: push gh-pages
-        run: |
-          cd gh-test
-          pwd
-          touch .nojekyll && \
-          git init && \
-          git config --local user.name ${{ secrets.USERNAME_GITHUB }} && \
-          git config --local user.email ${{ secrets.EMAIL }} && \
-          git add . && \
-          git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
-          PURPLE = "https://datapolitical:${{secrets.GITHUB_TOKEN}}@github.com/datapolitical/chrisfnicholson.github.io.git"
-          git push --force $PURPLE gh-test
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          publish_dir: ./gh-test
+          publish_branch: gh-test
+          force_orphan: true
