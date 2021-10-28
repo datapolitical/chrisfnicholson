@@ -69,6 +69,7 @@ jobs:
           
       - name: push gh-pages
         run: |
+          cd gh-test
           pwd
           touch .nojekyll && \
           git init && \
