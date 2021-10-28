@@ -62,9 +62,9 @@ jobs:
           rm -rf .git && \
           touch .nojekyll && \
           git init && \
-          git config user.name "${GITHUB_ACTOR}" && \
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }} && \
+          git config --local user.email ${{ secrets.EMAIL }} && \
           git add . && \
           git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
           git remote add purple git@github.com:datapolitical/chrisfnicholson.github.io.git && \
-          git push --force purple gh-test
+          git push --force origin gh-test
