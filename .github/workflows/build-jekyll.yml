@@ -42,12 +42,12 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }}
           echo "Git Setup Status:"
           git status
-          echo "SSL Key setup info"
-          ssh -vT git@github.com
+          # echo "SSL Key setup info"
+          # ssh -vT git@github.com
           echo "Git Setup Remotes:"
           git remote -v
-          echo "Git Pull:"
-          git pull --ff-only origin main
+          # echo "Git Pull:"
+          # git pull --ff-only origin main
 
       - name: Execute Recipes Python script
         run: |
