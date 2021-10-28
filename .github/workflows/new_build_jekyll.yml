@@ -77,4 +77,4 @@ jobs:
           git config --local user.email ${{ secrets.EMAIL }} && \
           git add . && \
           git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
-          git push https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/datapolitical/chrisfnicholson.github.io.git gh-test --force
+          git push https://datapolitical:${{secrets.GITHUB_TOKEN}}@github.com/datapolitical/chrisfnicholson.github.io.git gh-test --force
