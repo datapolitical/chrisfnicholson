@@ -96,11 +96,11 @@ jobs:
       - name: checkout main
         uses: actions/checkout@v2
 
-      - name: checkout gh-test
+      - name: checkout gh-pages
         uses: actions/checkout@v2
         with:
-          ref: 'gh-test'
-          path: 'gh-test'
+          ref: 'gh-pages'
+          path: 'gh-pages'
 
       - name: setup ruby
         uses: actions/setup-ruby@v1
@@ -117,7 +117,7 @@ jobs:
       # Use GitHub Actions' cache to cache site on servers
       - uses: actions/cache@v2
         with:
-          path: gh-test
+          path: gh-pages
           key: ${{ runner.os }}-build-new-${{ hashFiles('**/_data/picture.yml') }}
           restore-keys: |
             ${{ runner.os }}-build-new-
@@ -127,14 +127,14 @@ jobs:
           bundle install --path=vendor/bundle --jobs 4 --retry 3
 
       - name: jekyll build
-        run: bundle exec jekyll build --profile --destination gh-test
+        run: bundle exec jekyll build --profile --destination gh-pages
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
-          publish_dir: ./gh-test
-          publish_branch: gh-test
+          publish_dir: ./gh-pages
+          publish_branch: gh-pages
           force_orphan: true
           cname: www.chrisfnicholson.com
           
