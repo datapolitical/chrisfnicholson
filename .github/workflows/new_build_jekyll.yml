@@ -1,13 +1,13 @@
 name: New Jekyll Build and Deploy
 
 on:
-  workflow_run:
-    workflows: ["Build and Deploy to Github Pages"]
-    branches: [main]
-    types:
-      - completed
+  schedule:
+    - cron:  '*/15 * * * *'
+  push:
+    branches:
+      - main  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
-
+  
 jobs:
   get_data:
     runs-on: ubuntu-latest
@@ -77,14 +77,13 @@ jobs:
         run: |
           git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
-        if: ${{ false }} # steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} 
+        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} 
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
     outputs:
       status: ${{ steps.get_data.outputs.status }}
-
 
 
   jekyll:
@@ -107,12 +106,6 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7
-
-      - name: Clean install dependencies and build
-        if: ${{ false }}
-        run: |
-          sudo apt-get update && sudo apt-get install -y libvips42
-          ldd --version
 
       - name: cache gems
         uses: actions/cache@v2
@@ -211,7 +204,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: ${{ false }} # steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
+        if: steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
         id: create_release
         uses: ncipollo/release-action@v1
         with:

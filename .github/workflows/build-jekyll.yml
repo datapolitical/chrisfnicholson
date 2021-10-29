@@ -1,11 +1,6 @@
 name: Build and Deploy to Github Pages
 
 on:
-  schedule:
-    - cron:  '*/15 * * * *'
-  push:
-    branches:
-      - main  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
