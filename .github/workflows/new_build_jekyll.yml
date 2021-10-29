@@ -1,4 +1,4 @@
-name: Deploy Jekyll
+name: New Jekyll Build and Deploy
 
 on:
   push:
@@ -7,6 +7,84 @@ on:
   workflow_dispatch:
 
 jobs:
+  get_data:
+    runs-on: ubuntu-latest
+    concurrency: get_data
+    permissions:
+          contents: write
+          actions: write
+          checks: write
+    steps:
+      - name: Setup Key #webfactory/ssh-agent
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          # Private SSH key to register in the SSH agent
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install Requirements
+        run: pip install -r requirements.txt
+
+      - name: setup git config
+        run: |
+          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
+          git config --local user.email ${{ secrets.EMAIL }}
+          echo "Git Setup Status:"
+          git status
+          # echo "SSL Key setup info"
+          # ssh -vT git@github.com
+          echo "Git Setup Remotes:"
+          git remote -v
+          echo "Git Pull:"
+          git pull --ff-only origin main
+
+      - name: Execute Recipes Python script
+        run: |
+          python3 -m papexp
+          git add assets/images/recipes/*
+          git add _data/recipes.yaml
+          git pull --ff-only origin main
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+
+      - name: Execute Diary Python script
+        run: |
+          python3 -m mndexp
+          mv recent_food.yml _data/recent_food.yml
+          git add _data/recent_food.yml
+          echo "Recent Food:"
+          cat _data/recent_food.yml
+          echo "\n"
+          git pull --ff-only origin main
+        env:
+          MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
+          MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
+
+      - name: commit
+        id: get_data
+        run: |
+          git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
+      - name: Push changes
+        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} && 1 == 0
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+    outputs:
+      status: ${{ steps.get_data.outputs.status }}
+
+
+
   jekyll:
     runs-on: ubuntu-latest
 
@@ -62,3 +140,80 @@ jobs:
           publish_branch: gh-test
           force_orphan: true
           cname: www.chrisfnicholson.com
+          
+      # Create Version
+      - name: Create Version
+        id: create_version
+        uses: paulhatch/semantic-version@v3.2
+        with:
+          # The prefix to use to identify tags
+          branch: "main"
+          # The prefix to use to identify tags
+          tag_prefix: "v"
+          # A string which, if present in a git commit, indicates that a change represents a
+          # major (breaking) change
+          major_pattern: "(MAJOR)"
+          # Same as above except indicating a minor change
+          minor_pattern: "(MINOR)"
+          # A string to determine the format of the version output
+          format: "${major}.${minor}.${patch}"
+          # Optional path to check for changes. If any changes are detected in the path the
+          # 'changed' output will true. Enter multiple paths separated by spaces.
+          # change_path: "src/my-service"
+          # Named version, will be used as suffix for name version tag
+          # namespace: project-b
+          # Indicate whether short tags like 'v1' should be supported. If false only full
+          # tags like 'v1.0.0' will be recognized.
+          short_tags: true
+          # If this is set to true, *every* commit will be treated as a new version.
+          bump_each_commit: false
+
+      - name: Generate changelog
+        id: changelog
+        uses: metcalfc/changelog-generator@v2.0.0
+        with:
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+
+      #Add Date To Changelog
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
+      - name: Modify the changelog
+        id: modified
+        run: |
+          set -o noglob
+          log=$(cat << "EOF" | sed '/gh-pages\|skip actions/d' | tac
+          ${{ steps.changelog.outputs.changelog }}
+
+          ${{
+          steps.date.outputs.date }}
+          EOF
+          )
+          log="${log//'%'/'%25'}"
+          log="${log//$'\n'/'%0A'}"
+          log="${log//$'\r'/'%0D'}"
+          echo "::set-output name=modified::$log"
+
+      - name: Print the modified changelog
+        run: |
+          cat << "EOF"
+          ${{ steps.modified.outputs.modified }}
+          EOF
+
+
+      #Create Release
+      - name: Create Release
+        if: (steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')) && 1==0
+        id: create_release
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          tag: v${{ steps.create_version.outputs.version }}
+          name: Release ${{ steps.create_version.outputs.version }}
+          body: |
+            ${{ steps.modified.outputs.modified }}
+
+          draft: false
+          prerelease: false
+          commit: 'main'
