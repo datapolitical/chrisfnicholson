@@ -141,6 +141,9 @@ jobs:
           force_orphan: true
           cname: www.chrisfnicholson.com
           
+      - name: checkout main
+        uses: actions/checkout@v2
+      
       # Create Version
       - name: Create Version
         id: create_version
