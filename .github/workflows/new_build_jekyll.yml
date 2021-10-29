@@ -75,7 +75,7 @@ jobs:
         run: |
           git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
-        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} && 1 == 0
+        if: ${{ false }} # steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} 
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -87,7 +87,9 @@ jobs:
 
   jekyll:
     runs-on: ubuntu-latest
-
+    concurrency: new_deployment
+    needs: get_data
+    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
 
       - name: checkout main
@@ -105,7 +107,7 @@ jobs:
           ruby-version: 2.7
 
       - name: Clean install dependencies and build
-        if: 1 == 0
+        if: ${{ false }}
         run: |
           sudo apt-get update && sudo apt-get install -y libvips42
           ldd --version
@@ -207,7 +209,7 @@ jobs:
 
       #Create Release
       - name: Create Release
-        if: (steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')) && 1==0
+        if: ${{ false }} # steps.create_version.outputs.patch == 0 || contains(github.event.commits[0].message, '(PATCH)')
         id: create_release
         uses: ncipollo/release-action@v1
         with:
