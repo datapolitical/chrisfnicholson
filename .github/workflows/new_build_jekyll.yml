@@ -140,6 +140,8 @@ jobs:
           
       - name: checkout main
         uses: actions/checkout@v2
+        with:
+          ref: 'main'
       
       # Create Version
       - name: Create Version
