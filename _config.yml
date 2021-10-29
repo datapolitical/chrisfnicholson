@@ -146,7 +146,6 @@ staticman_url: https://chrisfnicholson-staticman.herokuapp.com/v3/entry/datapoli
 
 comments: true
 
-
 reCaptcha:
   enabled: false
   siteKey_v2: 6Lc2ZnkaAAAAAEMYrdwBDeveZUzFW9mWRcO--6no
