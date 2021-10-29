@@ -2986,6 +2986,50 @@
   total_time: ''
   uid: 6867802C-60C1-4D49-B3F1-4FE04C79110F-46900-00000ECFBD1E7115
 - categories: []
+  cook_time: 15 minutes
+  created: '2021-10-29 09:21:27'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a medium saucepan, use a wooden spoon or silicone spatula to stir together
+    the sugar, cocoa, cornstarch and salt. Slowly stir in the milk and keep stirring
+    until smooth and combined.
+  - Stir the mixture constantly over medium-low heat, scraping the bottom, sides and
+    corners of the pan, until the pudding thickens, begins to bubble, and coats the
+    back of the spoon or spatula, 5 to 10 minutes. (If the pudding is coating the
+    bottom of the pan too quickly, reduce the heat.)
+  - Add the chocolate and stir vigorously until the pudding is very thick and smooth,
+    about 30 seconds longer.
+  - Remove from the heat and stir in the vanilla. Spoon the pudding into a serving
+    bowl or individual cups or ramekins. Serve warm, at room temperature or chilled
+    (see Tip 2). It will thicken as it cools.
+  image_url: images/recipes/002C2C8F-70FE-4D8C-9E2F-45D94B0DB367.jpg
+  in_trash: false
+  ingredients:
+  - "\u2153 cup/65 grams granulated sugar"
+  - "\u2153 cup/30 grams unsweetened cocoa powder"
+  - 2 tablespoons cornstarch
+  - "\u215B teaspoon fine sea salt"
+  - 2 cups/480 milliliters nondairy milk, preferably oat
+  - 3 to 4 ounces/85 to 115 grams bittersweet bar chocolate, finely chopped (see Tip
+    1)
+  - 1 teaspoon vanilla extract
+  is_pinned: false
+  name: Oat Milk Chocolate Pudding
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 4 to 6 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1020415-oat-milk-chocolate-pudding
+  total_time: ''
+  uid: 699945A5-5BB7-44BB-832C-A623385D6E7C
+- categories: []
   cook_time: 30 minutes
   created: '2020-12-18 00:43:43'
   description: ''
