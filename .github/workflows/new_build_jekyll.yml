@@ -93,8 +93,10 @@ jobs:
     if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
 
-      - name: checkout main
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: zero
+          ref: 'main'
 
       - name: checkout gh-pages
         uses: actions/checkout@v2
@@ -138,9 +140,9 @@ jobs:
           force_orphan: true
           cname: www.chrisfnicholson.com
           
-      - name: checkout main
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
+          fetch-depth: zero
           ref: 'main'
       
       # Create Version
