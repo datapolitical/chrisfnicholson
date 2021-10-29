@@ -5,7 +5,8 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem "jekyll", '~>4'
+gem "jekyll", '~>4.1.0'
+gem 'sassc', '~>2.1.0'
 gem "liquid-c", "~> 4.0"
 gem "jekyll-feed"
 gem "jekyll-gist"
@@ -22,3 +23,4 @@ gem 'jekyll_picture_tag', '1.14.0', group: :jekyll_plugins
 gem 'jekyll_version_plugin', group: :jekyll_plugins
 gem "contrast", '~>3.0.6',  github: "datapolitical/contrast", branch: "master"
 gem "jekyll-data", group: :jekyll_plugins
+gem 'jekyll-include-cache'

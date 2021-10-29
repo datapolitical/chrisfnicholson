@@ -27,9 +27,9 @@ jobs:
           ruby-version: 2.7
 
       - name: Clean install dependencies and build
+        if: 1 == 0
         run: |
           sudo apt-get update && sudo apt-get install -y libvips42
-          sudo apt install libc6=2.33
           ldd --version
 
       - name: cache gems
@@ -39,24 +39,26 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
 
+      # Use GitHub Actions' cache to cache site on servers
+      - uses: actions/cache@v2
+        with:
+          path: gh-test
+          key: ${{ runner.os }}-build-new-${{ hashFiles('**/_data/picture.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-new-
+
       - name: bundle install
         run: |
-          gem install json
-          gem install webrick
           bundle install --path=vendor/bundle --jobs 4 --retry 3
-          gem uninstall ffi
-          gem install ffi
 
       - name: jekyll build
-        run: bundle exec jekyll build --destination gh-test
-
-      - name: push gh-pages
-        run: |
-          cd gh-test && \
-          touch .nojekyll && \
-          git init && \
-          git config user.name "${GITHUB_ACTOR}" && \
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
-          git add . && \
-          git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
-          git push gh-test
+        run: bundle exec jekyll build --profile --destination gh-test
+          
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          publish_dir: ./gh-test
+          publish_branch: gh-test
+          force_orphan: true
+          cname: www.chrisfnicholson.com
