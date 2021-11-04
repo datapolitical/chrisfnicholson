@@ -149,7 +149,7 @@ jobs:
       # Create Version
       - name: Create Version
         id: create_version
-        uses: paulhatch/semantic-version@v3.2
+        uses: paulhatch/semantic-version@v4.0.3
         with:
           # The prefix to use to identify tags
           branch: "main"
