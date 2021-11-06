@@ -7307,7 +7307,11 @@
   source_url: https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta
   total_time: ''
   uid: F4D85915-CFBB-4137-93FD-25F0C79C9A4D-6315-0000022CD2A1EBDE
-- categories: []
+- categories:
+  - Made at 307
+  - Dessert
+  - Web
+  - I Made This
   cook_time: 25 minutes
   created: '2021-03-21 03:36:13'
   description: ''
@@ -7337,7 +7341,7 @@
     \ wiping your knife clean between slices, and serve cold."
   - 'Make-Ahead Instructions: You can make the crust a day ahead of time, but the
     filling should be added on the day of serving, otherwise the crust will get soggy.'
-  image_url: images/recipes/EC8B02E6-EA01-4F7A-9CF1-85CA369B5816.jpg
+  image_url: images/recipes/34CCBA17-2DF3-4BFD-889F-263BF0AF213E.jpg
   in_trash: false
   ingredients:
   - 'FOR THE CRUST:'
@@ -7378,9 +7382,10 @@
     Cholesterol: 76 mg'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/34CCBA17-2DF3-4BFD-889F-263BF0AF213E.jpg
   prep_time: 20 minutes
-  rating: 0
+  rating: 5
   scale: null
   servings: 'Servings: 8 to 10'
   source: onceuponachef.com
