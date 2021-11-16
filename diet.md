@@ -1,4 +1,4 @@
 ---
-layout: page
+layout: health
 ---
 ### {{site.data.recent_food.food}}.

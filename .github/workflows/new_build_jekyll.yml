@@ -7,7 +7,7 @@ on:
     branches:
       - main  # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
-  
+
 jobs:
   get_data:
     runs-on: ubuntu-latest
@@ -63,7 +63,9 @@ jobs:
         run: |
           python3 -m mndexp
           mv recent_food.yml _data/recent_food.yml
+          mv steps.yml _data/steps.yml
           git add _data/recent_food.yml
+          git add _data/steps.yml
           echo "Recent Food:"
           cat _data/recent_food.yml
           echo "\n"
@@ -77,7 +79,7 @@ jobs:
         run: |
           git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
-        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} 
+        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -130,9 +132,9 @@ jobs:
 
       - name: jekyll build
         run: bundle exec jekyll build --profile --destination gh-pages
-          
+
       - name: Deploy
-        if: ${{ !env.ACT }} 
+        if: ${{ !env.ACT }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -140,12 +142,12 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
           cname: www.chrisfnicholson.com
-          
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
           ref: 'main'
-      
+
       # Create Version
       - name: Create Version
         id: create_version
