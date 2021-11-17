@@ -2,7 +2,7 @@
 
 pwd
 echo $PATH
-export PATH = "/opt/buildhome/squashfs-root/:$PATH"
+export PATH = "/opt/buildhome/squashfs-root/usr/bin:$PATH"
 mogrify -version
 cd $HOME
 wget --no-check-certificate "https://download.imagemagick.org/ImageMagick/download/binaries/magick"
@@ -14,7 +14,7 @@ cd /opt/buildhome
 ls -l
 cd /opt/buildhome/repo
 echo "one"
-/opt/buildhome/squashfs-root/mogrify -version
+/opt/buildhome/squashfs-root/usr/bin/mogrify -version
 echo "two"
 mogrify -version
 bundle exec jekyll build --destination gh-pages
