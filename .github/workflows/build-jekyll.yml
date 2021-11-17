@@ -125,6 +125,10 @@ jobs:
           ls
           echo "D"
           cat ./_data/recent_food.yml
+          
+      - name: Clean install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y libvips42
 
 
       # Use GitHub Actions' cache to cache site on servers
