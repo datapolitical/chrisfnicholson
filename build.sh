@@ -8,7 +8,7 @@ cd $HOME
 wget --no-check-certificate "https://download.imagemagick.org/ImageMagick/download/binaries/magick"
 chmod a+x magick
 export MAGICK_HOME="/opt/buildhome/squashfs-root/usr"
-export LD_LIBRARY_PATH=$MAGICK_HOME/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="$MAGICK_HOME/lib:$LD_LIBRARY_PATH"
 ./magick --appimage-extract
 echo "zero"
 cd /opt/buildhome
