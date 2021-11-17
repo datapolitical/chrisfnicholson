@@ -9,5 +9,12 @@ wget --no-check-certificate "https://download.imagemagick.org/ImageMagick/downlo
 chmod a+x magick
 export MAGICK_HOME="/opt/buildhome/squashfs-root/"
 ./magick --appimage-extract
+echo "zero"
+cd /opt/buildhome
+pwd
 cd /opt/buildhome/repo
+echo "one
+/opt/buildhome/squashfs-root/mogrify -version
+echo "two"
+mogrify -version
 bundle exec jekyll build --destination gh-pages
