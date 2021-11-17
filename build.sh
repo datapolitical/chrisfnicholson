@@ -3,7 +3,6 @@
 pwd
 echo $PATH
 #!export PATH = "/opt/buildhome/squashfs-root/usr/bin:$PATH"
-sudo apt-get install fuse
 mogrify -version
 cd $HOME
 wget --no-check-certificate "https://download.imagemagick.org/ImageMagick/download/binaries/magick"
