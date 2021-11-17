@@ -129,6 +129,7 @@ jobs:
       - name: bundle install
         run: |
           bundle install --path=vendor/bundle --jobs 4 --retry 3
+          convert --version
 
       - name: jekyll build
         run: bundle exec jekyll build --profile --destination gh-pages
