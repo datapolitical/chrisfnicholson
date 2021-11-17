@@ -1,9 +1,10 @@
 #!/bin/bash
 
 pwd
-cd $HOME/bin
-wget "https://download.imagemagick.org/ImageMagick/download/binaries/magick"
+echo $PATH
+cd $HOME
+wget --no-check-certificate "https://download.imagemagick.org/ImageMagick/download/binaries/magick"
 chmod a+x magick
 ./magick -version
-cd /opt/buildhome
+cd /opt/buildhome/repo
 bundle exec jekyll build --destination gh-pages
