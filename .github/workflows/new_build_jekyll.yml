@@ -92,7 +92,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
+    if: github.event_name == 'false' #github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
 
       - uses: actions/checkout@v2
@@ -147,6 +147,13 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
           cname: www.chrisfnicholson.com
+
+  release:
+    runs-on: ubuntu-latest
+    concurrency: release
+    needs: get_data
+    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
+    steps:
 
       - uses: actions/checkout@v2
         with:
