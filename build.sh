@@ -11,9 +11,9 @@ export MAGICK_HOME="/opt/buildhome/squashfs-root/"
 ./magick --appimage-extract
 echo "zero"
 cd /opt/buildhome
-pwd
+ls -l
 cd /opt/buildhome/repo
-echo "one
+echo "one"
 /opt/buildhome/squashfs-root/mogrify -version
 echo "two"
 mogrify -version
