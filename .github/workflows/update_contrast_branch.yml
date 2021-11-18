@@ -37,6 +37,7 @@ jobs:
           echo "Git Setup Remotes:"
           git remote -v
           git fetch
+          git checkout main
           git checkout contrast
           git merge --ff-only main
 
