@@ -39,7 +39,7 @@ jobs:
           echo "Git Pull:"
           git pull --ff-only origin main
           git checkout contrast
-          git merge main
+          git merge --ff-only main
 
       - name: commit
         run: |
