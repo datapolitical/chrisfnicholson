@@ -39,7 +39,8 @@ jobs:
           git remote -v
           git fetch
           git checkout contrast
-          git pull --rebase 
+          git pull --rebase
+          git pull
 
       - name: Push changes
         uses: ad-m/github-push-action@master
