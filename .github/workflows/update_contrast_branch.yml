@@ -1,4 +1,4 @@
-name: New Jekyll Build and Deploy
+name: Merge Main into Contrast
 
 on:
   push:
@@ -38,6 +38,7 @@ jobs:
           git remote -v
           echo "Git Pull:"
           git pull --ff-only origin main
+          git fetch
           git checkout contrast
           git merge --ff-only main
 
