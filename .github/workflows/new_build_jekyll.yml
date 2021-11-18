@@ -1,4 +1,4 @@
-name: New Jekyll Build and Deploy
+name: Update External Data and Release
 
 on:
   schedule:
@@ -110,7 +110,7 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7
-          
+
       - name: Clean install dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y libvips42

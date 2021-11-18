@@ -36,8 +36,6 @@ jobs:
           # ssh -vT git@github.com
           echo "Git Setup Remotes:"
           git remote -v
-          echo "Git Pull:"
-          git pull --ff-only origin main
           git fetch
           git checkout contrast
           git merge --ff-only main
