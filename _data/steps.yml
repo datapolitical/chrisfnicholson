@@ -502,3 +502,11 @@
   Measurement: Daily Steps Count
   Unit: .nan
   Value: 7653.0
+63:
+  Date: !!python/object/apply:pandas._libs.tslibs.timestamps._unpickle_timestamp
+  - 1637280000000000000
+  - null
+  - null
+  Measurement: Daily Steps Count
+  Unit: .nan
+  Value: 23.0
