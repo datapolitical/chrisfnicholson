@@ -53,6 +53,6 @@ try {
         "content-type": "text/html;charset=UTF-8",
       },})
   }
-} catch (error){
-  return new Response(error);
+} catch (thrown){
+  return new Response(thrown);
 }
