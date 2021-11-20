@@ -35,12 +35,14 @@ export async function onRequest(context) {
   
   var propertystring = JSON.stringify(content2.properties.temperature,null,4)
   var temparray = content2.properties.temperature.values
-  var humantime= Date.fromISO(temparray[8].validTime).toLocaleString();
+  var d = new Date(temparray[8].validTime)
+  var humantime = d.toString()
+  var ftemp = (1.8 * temparray[8].value) + 32
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
   html_content += `<p>The forecast is: ${propertystring}.</p>`
-  html_content += `<p>The temp at ${humantime} is: ${(1.8 * temparray[8].value) + 32}.</p>`
+  html_content += `<p>The temp at ${humantime} is: ${ftemp}.</p>`
   let html = `
 <!DOCTYPE html>
 <head>
