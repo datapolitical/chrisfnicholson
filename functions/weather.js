@@ -36,13 +36,13 @@ export async function onRequest(context) {
   html_content += `<p>The O3 level is: ${content.data.iaqi.o3.v}.</p>`
   html_content += `<p>The temperature is: ${content.data.iaqi.t.v}°C.</p>`
   try{
-      html_content += `<p>The request is: ${context.request}°C.</p>`
+      html_content += `<p>The request is: ${context.request.cf.latitude}°C.</p>`
     } catch (thrown){
     thrown += "ContextRequest"
     return new Response(thrown);
   }
   try{
-      html_content += `<p>The temperature is: ${context}°C.</p>`
+      html_content += `<p>The temperature is: ${context.request.cf}°C.</p>`
     } catch (thrown){
     thrown += "PureContext"
     return new Response(thrown);
