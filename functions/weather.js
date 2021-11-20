@@ -29,7 +29,7 @@ export async function onRequest(context) {
 
   const response = await fetch(endpoint,init)
   const content = await response.json()
-  var propertystring = JSON.stringify(content,null,4)
+  var propertystring = content.context.properties.forecast
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
