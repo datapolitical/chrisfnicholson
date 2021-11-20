@@ -33,11 +33,13 @@ export async function onRequest(context) {
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
   
-  var propertystring = JSON.stringify(content2.properties.weather,null,4)
+  var propertystring = JSON.stringify(content2.properties.temperature,null,4)
+  var temparray = content2.properties.temperature
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
   html_content += `<p>The forecast is: ${propertystring}.</p>`
+  html_content += `<p>The temp at ${propertystring[5].validTime} is: ${propertystring[5].value}.</p>`
   let html = `
 <!DOCTYPE html>
 <head>
