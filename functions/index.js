@@ -45,4 +45,7 @@ export async function onRequestGet(context) {
       element.setInnerContent(ftemp)
     }
   }).transform(response) 
+  } catch (thrown){
+      return new Response(thrown);
+  }
 }
