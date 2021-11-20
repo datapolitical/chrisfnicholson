@@ -19,7 +19,7 @@ export async function onRequest(context) {
 
   var mylatitude = "39" //context.request.cf.latitude
   var yourlongitude = "-104" //context.request.cf.longitude
-  endpoint+= `${mylatitude};${yourlongitude}/?token=${token}`
+  endpoint+= `39.761;-104.88/?token=${token}`
   const init = {
     headers: {
       "content-type": "application/json;charset=UTF-8",
@@ -30,7 +30,7 @@ export async function onRequest(context) {
   const content = await response.json()
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
-  html_content += `You are located at: ${mylatitude},${yourlongitude}.</p>`
+  html_content += `You are located at: .</p>`
   html_content += `<p>Based off sensor data from <a href="${content.data.city.url}">${content.data.city.name}</a>:</p>`
   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`
   html_content += `<p>The N02 level is: ${content.data.iaqi.no2.v}.</p>`
