@@ -16,9 +16,9 @@ export async function onRequest(context) {
 
   let html_content = "<h1>Weather 🌦</h1>"
 
-    latitude = "39" //context.request.cf.latitude
-    longitude = "-104" //context.request.cf.longitude
-    endpoint+= `${latitude};${longitude}/?token=${token}`
+    // latitude = "39" //context.request.cf.latitude
+    // longitude = "-104" //context.request.cf.longitude
+    endpoint+= `39;104/?token=c531734b5df728158946e194a92d2477a713f44d`
     const init = {
       headers: {
         "content-type": "application/json;charset=UTF-8",
