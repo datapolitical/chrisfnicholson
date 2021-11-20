@@ -9,3 +9,5 @@ If you're hungry, check out [my favorite recipes](https://www.chrisfnicholson.co
 I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
 
 I use [MyNetDiary](https://www.mynetdiary.com) to track <a href="{{ site.baseurl }}/diet.html" style="color:#49D6EA !important;">what I eat</a>.
+
+no weather available. {#weather}
