@@ -34,7 +34,7 @@ export async function onRequest(context) {
   const content2 = await response2.json()
   
   var propertystring = JSON.stringify(content2.properties.temperature,null,4)
-  var temparray = content2.properties.temperature
+  var temparray = content2.properties.temperature.values
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
