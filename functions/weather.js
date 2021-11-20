@@ -16,9 +16,9 @@ export async function onRequest(context) {
 
   let html_content = "<h1>Weather 🌦</h1>"
 
-  var mylatitude = "39" //context.request.cf.latitude
-  var yourlongitude = "-104" //context.request.cf.longitude
-  endpoint+= `39.761;-104.88/?token=${token}`
+  mylatitude = context.request.cf.latitude
+  yourlongitude = context.request.cf.longitude
+  endpoint+= `${context.request.cf.latitude};${context.request.cf.longitude}/?token=${token}`
   const init = {
     headers: {
       "content-type": "application/json;charset=UTF-8",
@@ -36,13 +36,13 @@ export async function onRequest(context) {
   html_content += `<p>The O3 level is: ${content.data.iaqi.o3.v}.</p>`
   html_content += `<p>The temperature is: ${content.data.iaqi.t.v}°C.</p>`
   try{
-      html_content += `<p>The request is: ${context.request.cf.latitude}°C.</p>`
+      html_content += `<p>The request latitude is: ${context.request.cf.latitude}°C.</p>`
     } catch (thrown){
     thrown += "ContextRequest"
     return new Response(thrown);
   }
   try{
-      html_content += `<p>The temperature is: ${context.request.cf}°C.</p>`
+      html_content += `<p>The latitude is: ${mylatitude}.</p>`
     } catch (thrown){
     thrown += "PureContext"
     return new Response(thrown);
