@@ -22,15 +22,14 @@ export async function onRequest(context) {
   endpoint+= `${mylatitude}:${yourlongitude}`
   const init = {
     headers: {
-      "content-type": "GeoJSON: application/geo+json",
-      "User-Agent" : "(chrisfnicholson.com, datapolitical@gmail.com)",
+      "User-Agent" : "datapolitical@gmail.com",
 
     },
   }
 
   const response = await fetch(endpoint,init)
   const content = await response.json()
-  var propertystring = JSON.stringify(content.properties,null,4)
+  var propertystring = JSON.stringify(content,null,4)
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
