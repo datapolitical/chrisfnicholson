@@ -33,7 +33,7 @@ export async function onRequest(context) {
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
   
-  var propertystring = JSON.stringify(content2,null,4)
+  var propertystring = JSON.stringify(content2.properties.weather,null,4)
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
