@@ -39,7 +39,7 @@ export async function onRequest(context) {
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
   html_content += `<p>The forecast is: ${propertystring}.</p>`
-  html_content += `<p>The temp at ${temparray[5].validTime} is: ${temparray[5].value}.</p>`
+  html_content += `<p>The temp at ${temparray[8].validTime} is: ${temparray[8].value}.</p>`
   let html = `
 <!DOCTYPE html>
 <head>
