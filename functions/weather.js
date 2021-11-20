@@ -35,9 +35,9 @@ export async function onRequest(context) {
   
   var propertystring = JSON.stringify(content2.properties.temperature,null,4)
   var temparray = content2.properties.temperature.values
-  var dateStr = temparray[8].validTime
-  var humantime = new Date(Date.parse(dateStr.split('/')[0]));
-  
+  var dateStr = temparray[6].validTime
+  var d = new Date(Date.parse(dateStr.split('/')[0]));
+  var humantime = d.toLocaleString('en-US', { timeZone: 'America/Denver' })
   var ftemp = Math.round((1.8 * temparray[8].value) + 32)
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
