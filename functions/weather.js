@@ -30,10 +30,11 @@ export async function onRequest(context) {
 
   const response = await fetch(endpoint,init)
   const content = await response.json()
+  var propertystring = JSON.stringify(content.properties,null,4)
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
-  html_content += `<p>The forecast is: ${content.properties.forecast}.</p>`
+  html_content += `<p>The forecast is: ${propertystring}.</p>`
   let html = `
 <!DOCTYPE html>
 <head>
