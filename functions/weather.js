@@ -1,6 +1,6 @@
 
 
-export const onRequest = ({ request }) => {
+export async const onRequest = ({ request }) => {
   try {
     // Contents of context object
     const {
