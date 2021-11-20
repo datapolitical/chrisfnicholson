@@ -30,7 +30,7 @@ export async function onRequest(context) {
   const response = await fetch(endpoint,init)
   const content = await response.json()
   
-  const response2 = await fetch(content.properties.forecast,init)
+  const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
   
   var propertystring = JSON.stringify(content2,null,4)
