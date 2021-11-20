@@ -1,5 +1,5 @@
-try {
-  export async function onRequest(context) {
+export async function onRequest(context) {
+  try {
     // Contents of context object
     const {
       request, // same as existing Worker API
@@ -16,8 +16,8 @@ try {
 
     let html_content = "<h1>Weather 🌦</h1>"
 
-    latitude = request.cf.latitude
-    longitude = request.cf.longitude
+    latitude = context.request.cf.latitude
+    longitude = context.request.cf.longitude
     endpoint+= `${latitude};${longitude}/?token=${token}`
     const init = {
       headers: {
@@ -52,7 +52,7 @@ try {
       headers: {
         "content-type": "text/html;charset=UTF-8",
       },})
+  }catch (thrown){
+    return new Response(thrown);
   }
-} catch (thrown){
-  return new Response(thrown);
 }
