@@ -10,7 +10,7 @@ export async function onRequest(context) {
       data, // arbitrary space for passing data between middlewares
     } = context;
 
-  let endpoint = "https://api.waqi.info/feed/geo:"
+  let endpoint = "https://api.weather.gov/points/"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`
 
@@ -18,7 +18,7 @@ export async function onRequest(context) {
 
   var mylatitude = context.request.cf.latitude
   var yourlongitude = context.request.cf.longitude
-  endpoint+= `${mylatitude};${yourlongitude}/?token=${token}`
+  endpoint+= `${mylatitude}:${yourlongitude}`
   const init = {
     headers: {
       "content-type": "application/json;charset=UTF-8",
@@ -30,23 +30,7 @@ export async function onRequest(context) {
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
   html_content += `You are located in: ${context.request.cf.city}.</p>`
-  html_content += `<p>Based off sensor data from <a href="${content.data.city.url}">${content.data.city.name}</a>:</p>`
-  html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`
-  html_content += `<p>The N02 level is: ${content.data.iaqi.no2.v}.</p>`
-  html_content += `<p>The O3 level is: ${content.data.iaqi.o3.v}.</p>`
-  html_content += `<p>The temperature is: ${content.data.iaqi.t.v}°C.</p>`
-  try{
-      html_content += `<p>The request latitude is: ${context.request.cf.latitude}°C.</p>`
-    } catch (thrown){
-    thrown += "ContextRequest"
-    return new Response(thrown);
-  }
-  try{
-      html_content += `<p>The latitude is: ${mylatitude}.</p>`
-    } catch (thrown){
-    thrown += "PureContext"
-    return new Response(thrown);
-  }
+  html_content += `<p>The forecast is: ${content.properties.forecast}.</p>`
   let html = `
 <!DOCTYPE html>
 <head>
