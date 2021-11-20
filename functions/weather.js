@@ -21,7 +21,9 @@ export async function onRequest(context) {
   endpoint+= `${mylatitude}:${yourlongitude}`
   const init = {
     headers: {
-      "content-type": "application/json;charset=UTF-8",
+      "content-type": "GeoJSON: application/geo+json",
+      "User-Agent" : "(chrisfnicholson.com, datapolitical@gmail.com)",
+
     },
   }
 
