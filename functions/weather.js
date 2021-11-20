@@ -10,7 +10,6 @@ export async function onRequest(context) {
       data, // arbitrary space for passing data between middlewares
     } = context;
 
-async function handleRequest(request) {
   let endpoint = "https://api.waqi.info/feed/geo:"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`
@@ -53,7 +52,7 @@ async function handleRequest(request) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
       },})
-  }catch (thrown){
+  } catch (thrown){
     return new Response(thrown);
   }
 }
