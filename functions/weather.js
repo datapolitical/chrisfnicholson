@@ -29,7 +29,7 @@ export async function onRequest(context) {
   const content = await response.json()
 
   html_content += `<p>This is a demo using Workers geolocation data. </p>`
-  html_content += `You are located at: ${latitude},${longitude}.</p>`
+  html_content += `You are located at.</p>`
   html_content += `<p>Based off sensor data from <a href="${content.data.city.url}">${content.data.city.name}</a>:</p>`
   html_content += `<p>The AQI level is: ${content.data.aqi}.</p>`
   html_content += `<p>The N02 level is: ${content.data.iaqi.no2.v}.</p>`
