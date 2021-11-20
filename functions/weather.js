@@ -19,7 +19,7 @@ export async function onRequest(context) {
 
   var mylatitude = context.request.cf.latitude
   var yourlongitude = context.request.cf.longitude
-  endpoint+= `${mylatitude}:${yourlongitude}`
+  endpoint+= `${mylatitude},${yourlongitude}`
   const init = {
     headers: {
       "User-Agent" : "datapolitical@gmail.com",
