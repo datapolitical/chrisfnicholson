@@ -1,17 +1,21 @@
 // ./functions/index.js
-
-export const onRequestGet = ({ request, next }) => {
-  // Get the static asset response
-  const response = await next()
   
-  const { latitude, longitude } = request.cf
+export async function onRequestGet(context) {
+  try {
+    // Contents of context object
+    const {
+      request, // same as existing Worker API
+      env, // same as existing Worker API
+      params, // if filename includes [id] or [[path]]
+      waitUntil, // same as ctx.waitUntil in existing Worker API
+      next, // used for middleware or to fetch assets
+      data, // arbitrary space for passing data between middlewares
+    } = context;
+    
 
-
-
-
-// var mylatitude = context.request.cf.latitude
-  // var yourlongitude = context.request.cf.longitude
-  endpoint+= `${latitude},${longitude}`
+  var mylatitude = context.request.cf.latitude
+  var yourlongitude = context.request.cf.longitude
+  endpoint+= `${mylatitude},${yourlongitude}`
   const init = {
     headers: {
       "User-Agent" : "datapolitical@gmail.com",
