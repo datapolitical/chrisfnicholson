@@ -1,5 +1,6 @@
 
 export async function onRequest(context) {
+  try {
     // Contents of context object
     const {
       request, // same as existing Worker API
@@ -49,4 +50,7 @@ export async function onRequest(context) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
       },})
+    } catch (throw){
+    return new Response(thrown);
+  }
 }
