@@ -1,6 +1,5 @@
 
 export async function onRequest(context) {
-  try {
     // Contents of context object
     const {
       request, // same as existing Worker API
@@ -36,8 +35,18 @@ export async function onRequest(context) {
   html_content += `<p>The N02 level is: ${content.data.iaqi.no2.v}.</p>`
   html_content += `<p>The O3 level is: ${content.data.iaqi.o3.v}.</p>`
   html_content += `<p>The temperature is: ${content.data.iaqi.t.v}°C.</p>`
-  html_content += `<p>The request is: ${context.request}°C.</p>`
-  html_content += `<p>The temperature is: ${context}°C.</p>`
+  try{
+      html_content += `<p>The request is: ${context.request}°C.</p>`
+    } catch (thrown){
+    thrown += "ContextRequest"
+    return new Response(thrown);
+  }
+  try{
+      html_content += `<p>The temperature is: ${context}°C.</p>`
+    } catch (thrown){
+    thrown += "PureContext"
+    return new Response(thrown);
+  }
   let html = `
 <!DOCTYPE html>
 <head>
@@ -54,7 +63,4 @@ export async function onRequest(context) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
       },})
-  } catch (thrown){
-    return new Response(thrown);
-  }
 }
