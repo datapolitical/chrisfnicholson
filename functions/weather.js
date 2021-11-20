@@ -18,7 +18,7 @@ export async function onRequest(context) {
 
   var mylatitude = context.request.cf.latitude
   var yourlongitude = context.request.cf.longitude
-  endpoint+= `${context.request.cf.latitude};${context.request.cf.longitude}/?token=${token}`
+  endpoint+= `${mylatitude};${yourlongitude}/?token=${token}`
   const init = {
     headers: {
       "content-type": "application/json;charset=UTF-8",
