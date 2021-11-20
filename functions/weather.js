@@ -50,7 +50,7 @@ export async function onRequest(context) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
       },})
-    } catch (throw){
-    return new Response(thrown);
+    } catch (thrown){
+      return new Response(thrown);
   }
 }
