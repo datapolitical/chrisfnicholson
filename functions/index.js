@@ -54,9 +54,9 @@ try{
   var textSearch = textIntermediate.split('.')[0] + "+00:00/PT1H"
 
   //Find the object matching the date
-  //const obj = temparray.find(o => o.validTime === textSearch)
+  const obj = temparray.find(o => o.validTime === textSearch)
 
-  //const pickedTime = obj.validTime
+  const pickedTime = obj.validTime
 
   //var pd = new Date(Date.parse(pickedTime.split('/')[0]));
   //var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
@@ -66,14 +66,14 @@ try{
 
   //const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
   
-  var errorReport = textSearch + "\n" + propertystringTest
+  var errorReport = pickedTime + "\n" + textSearch + "\n" + propertystringTest
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(propertystringTest)
+      element.setInnerContent(pickedTime)
     }
   }).transform(response)
   } catch (thrown){
