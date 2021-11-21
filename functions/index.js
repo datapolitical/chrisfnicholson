@@ -49,7 +49,7 @@ try{
 
   var textIntermediate = currd.toISOString()
 
-  var textSearch = textIntermediate.split('Z')[0] + "+00:00/PT1H"
+  var textSearch = textIntermediate.split('.')[0] + "+00:00/PT1H"
 
   //Find the object matching the date
   const obj = temparray.find(o => o.validTime === textSearch)
