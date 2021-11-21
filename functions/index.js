@@ -23,8 +23,8 @@ try{
     },
   }
 
-  const response = await fetch(endpoint,init)
-  const content = await response.json()
+  const responseWeather = await fetch(endpoint,init)
+  const content = await responseWeather.json()
   
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
