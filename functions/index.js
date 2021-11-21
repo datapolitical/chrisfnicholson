@@ -71,7 +71,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(humantime)
+      element.setInnerContent(propertystringTest)
     }
   }).transform(response)
   } catch (thrown){
