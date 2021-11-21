@@ -6,7 +6,7 @@ try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude } = request.cf
+  const { latitude, longitude, city } = request.cf
 
     // const { latitude, longitude } = request.cf
 
@@ -34,17 +34,17 @@ try{
 
   var temparray = content2.properties.temperature.values
   var dateStr = temparray[6].validTime
-  //var d = new Date(Date.parse(dateStr.split('/')[0]));
-  //var humantime = d.toLocaleString('en-US', { timeZone: 'America/Denver' })
-  //var ftemp = "The temperature is" + Math.round((1.8 * temparray[8].value) + 32) + "degrees"
-  var ftemp = "testtest"
+  var tempStr = temparray[6].value
+  var d = new Date(Date.parse(dateStr.split('/')[0]));
+  var humantime = d.toLocaleString('en-US', { timeZone: 'America/Denver' })
+  var ftemp = "At " + humantime + " the temperature in + city + " is" + Math.round((1.8 * dateStr) + 32) + "degrees"
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(dateStr)
+      element.setInnerContent(ftemp)
     }
   }).transform(response)
   } catch (thrown){
