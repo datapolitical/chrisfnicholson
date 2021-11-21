@@ -1,24 +1,18 @@
 // ./functions/index.js
   
-export async function onRequest(context) {
-  try {
-    // Contents of context object
-    const {
-      request, // same as existing Worker API
-      env, // same as existing Worker API
-      params, // if filename includes [id] or [[path]]
-      waitUntil, // same as ctx.waitUntil in existing Worker API
-      next, // used for middleware or to fetch assets
-      data, // arbitrary space for passing data between middlewares
-    } = context;
+export const onRequestGet = async ({ request, next }) => {
+  // Get the static asset response
+  const response = await next()
+  
+  const { latitude, longitude } = request.cf
     
     // const { latitude, longitude } = request.cf
 
   let endpoint = "https://api.weather.gov/points/"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
 
-  var mylatitude = context.request.cf.latitude
-  var yourlongitude = context.request.cf.longitude
+  // var mylatitude = context.request.cf.latitude
+  // var yourlongitude = context.request.cf.longitude
   endpoint+= `${latitude},${longitude}`
   const init = {
     headers: {
