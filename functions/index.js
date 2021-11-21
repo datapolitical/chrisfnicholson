@@ -32,8 +32,8 @@ try{
   //var propertystring = JSON.stringify(content2.properties.temperature,null,4)
   var propertystringTest = JSON.stringify(content2.properties.temperature.values,null,4)
 
-  //var temparray = content2.properties.temperature.values
-  //var dateStr = temparray[6].validTime
+  var temparray = content2.properties.temperature.values
+  var dateStr = temparray[6].validTime
   //var d = new Date(Date.parse(dateStr.split('/')[0]));
   //var humantime = d.toLocaleString('en-US', { timeZone: 'America/Denver' })
   //var ftemp = "The temperature is" + Math.round((1.8 * temparray[8].value) + 32) + "degrees"
