@@ -9,6 +9,8 @@ try{
   const { latitude, longitude, city, timezone } = request.cf
 
     // const { latitude, longitude } = request.cf
+    
+  var timeZoneUpdated = "United States/" + timezone.split('/')[1])
 
   let endpoint = "https://api.weather.gov/points/"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
@@ -40,7 +42,7 @@ try{
   var dateStr = temparray[6].validTime
   var tempStr = temparray[6].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
-  var humantime = d.toLocaleTimeString('en-US', { timeZone: timezone })
+  var humantime = d.toLocaleTimeString('en-US', { timeZone: timezoneUpdated })
   var hourStr = d.getHours()
   var ftemp = "At " + humantime + "the hour is " + hourStr + "and the iso is " + isoDateStr + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
 
@@ -57,7 +59,7 @@ try{
   const pickedTime = obj.validTime
 
   var pd = new Date(Date.parse(pickedTime.split('/')[0]));
-  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
+  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezoneUpdated })
 
   //Get the value from the object
   const currentTemp = Math.round((1.8 * obj.value) + 32)
@@ -69,7 +71,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(timezone)
+      element.setInnerContent(weatherString)
     }
   }).transform(response)
   } catch (thrown){
