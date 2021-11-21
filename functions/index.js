@@ -31,7 +31,7 @@ try{
 
   const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
-  // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
+  var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
@@ -42,6 +42,6 @@ try{
     }
   }).transform(response)
   } catch (thrown){
-      return new Response(thrown + "\n" + errorReport);
+      return new Response(errorReport);
   }
 }
