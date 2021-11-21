@@ -44,7 +44,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(propertystringTest)
+      element.setInnerContent(dateStr)
     }
   }).transform(response)
   } catch (thrown){
