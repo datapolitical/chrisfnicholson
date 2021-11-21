@@ -1,6 +1,6 @@
 // ./functions/index.js
   
-export async function onRequestGet(context) {
+export async function onRequest(context) {
   try {
     // Contents of context object
     const {
@@ -12,13 +12,13 @@ export async function onRequestGet(context) {
       data, // arbitrary space for passing data between middlewares
     } = context;
     
-    const { latitude, longitude } = request.cf
+    // const { latitude, longitude } = request.cf
 
   let endpoint = "https://api.weather.gov/points/"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
 
-  // var mylatitude = context.request.cf.latitude
-  // var yourlongitude = context.request.cf.longitude
+  var mylatitude = context.request.cf.latitude
+  var yourlongitude = context.request.cf.longitude
   endpoint+= `${latitude},${longitude}`
   const init = {
     headers: {
