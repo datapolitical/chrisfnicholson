@@ -54,16 +54,22 @@ try{
   //Find the object matching the date
   const obj = temparray.find(o => o.validTime === textSearch)
 
-  //Get the value from the object
-  //const currentTemp = obj.value;
+  const pickedTime = obj.validTime
 
+  var pd = new Date(Date.parse(pickedTime.split('/')[0]));
+  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
+
+  //Get the value from the object
+  const currentTemp = Math.round((1.8 * obj.value) + 32)
+
+  const weatherString = "At " + humantime + "the time is " + humanPickedTime + " the temperature in " + city + " is" + Math.round((1.8 * currentTemp) + 32) + "degrees"
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(JSON.stringify(obj))
+      element.setInnerContent(weatherString)
     }
   }).transform(response)
   } catch (thrown){
