@@ -6,7 +6,7 @@ try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude, city, timezoneUser } = request.cf
+  const { latitude, longitude, city, timezone } = request.cf
 
     // const { latitude, longitude } = request.cf
 
@@ -40,7 +40,7 @@ try{
   var dateStr = temparray[6].validTime
   var tempStr = temparray[6].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
-  var humantime = d.toLocaleTimeString('en-US', { timeZone: timezoneUser })
+  var humantime = d.toLocaleTimeString('en-US', { timeZone: timezone })
   var hourStr = d.getHours()
   var ftemp = "At " + humantime + "the hour is " + hourStr + "and the iso is " + isoDateStr + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
 
@@ -57,7 +57,7 @@ try{
   const pickedTime = obj.validTime
 
   var pd = new Date(Date.parse(pickedTime.split('/')[0]));
-  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezoneUser })
+  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
   const currentTemp = Math.round((1.8 * obj.value) + 32)
@@ -69,7 +69,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(timezoneUser)
+      element.setInnerContent(timezone)
     }
   }).transform(response)
   } catch (thrown){
