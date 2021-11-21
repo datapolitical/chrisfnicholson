@@ -52,7 +52,7 @@ try{
   var textSearch = textIntermediate.split('Z')[0] + "+00:00/PT1H"
 
   //Find the object matching the date
-  const obj = temparray.find(obj => obj.validTime === textSearch)
+  const obj = temparray.find(o => o.validTime === textSearch)
 
   //Get the value from the object
   //const currentTemp = obj.value;
