@@ -8,7 +8,9 @@ try{
 
   const { latitude, longitude, city, timezone } = request.cf
 
-    let endpoint = "https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=15e9a7ef375c125ec4d72783818f684b"
+    let endpoint = "https://api.openweathermap.org/data/2.5/weather?"
+    
+    endpoint += "lat=" + latitude + "&lon=" + longitude + "&appid=15e9a7ef375c125ec4d72783818f684b"
     
     const init = {
     headers: {
@@ -26,8 +28,8 @@ try{
   var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
-  const currentTemp = content.main.temp
-  const currentTempF = ((9/5)* (currentTemp - 273)) + 32
+  // const currentTemp = content.main.temp
+  // const currentTempF = ((9/5)* (currentTemp - 273)) + 32
 
   // const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
@@ -38,7 +40,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(currentTemp)
+      element.setInnerContent(JSON.stringify(context))
     }
   }).transform(response)
   } catch (thrown){
