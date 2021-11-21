@@ -55,7 +55,7 @@ try{
   const obj = temparray.find(obj => obj.validTime === textSearch)
 
   //Get the value from the object
-  const currentTemp = obj.value;
+  //const currentTemp = obj.value;
 
 
   // Find the placeholder in our static asset
@@ -63,7 +63,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(currentTemp)
+      element.setInnerContent(JSON.stringify(obj))
     }
   }).transform(response)
   } catch (thrown){
