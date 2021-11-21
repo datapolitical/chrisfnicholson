@@ -29,9 +29,10 @@ try{
 
   //Get the value from the object
   const currentTemp = content.main.temp
+  const weatherIcon = content.weather.icon
   const currentTempF = Math.round(((9/5)* (currentTemp - 273)) + 32)
 
-  const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
+  const weatherString = "At " + humanTime + " the weather in " + city + "is <img src=\"http://openweathermap.org/img/wn/" + weatherIcon + "@2x.png\">" + " and the temperature is " + currentTempF + " degrees"
   
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
