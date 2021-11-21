@@ -30,7 +30,7 @@ try{
   const content2 = await response2.json()
   
   //var propertystring = JSON.stringify(content2.properties.temperature,null,4)
-  var propertystringTest = JSON.stringify(content2,null,4)
+  var propertystringTest = JSON.stringify(content2.properties,null,4)
 
   //var temparray = content2.properties.temperature.values
   //var dateStr = temparray[6].validTime
