@@ -29,19 +29,19 @@ try{
   const currentTemp = content.main.temp
   const currentTempF = ((9/5)* (currentTemp - 273)) + 32
 
-  const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
+  // const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
-  var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
+  // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(weatherString)
+      element.setInnerContent(currentTemp)
     }
   }).transform(response)
   } catch (thrown){
-      return new Response(errorReport);
+      return new Response(thrown);
   }
 }
