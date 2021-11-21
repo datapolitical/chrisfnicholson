@@ -19,15 +19,17 @@ try{
 
   const responseWeather = await fetch(endpoint,init)
   const content = await responseWeather.json()
+  
+  const currd = new Date()
     
     
-  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
+  var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
   const currentTemp = content.main.temp
   const currentTempF = ((9/5)* (currentTemp - 273)) + 32
 
-  const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTempF + " degrees"
+  const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
   var errorReport = timezone + "\n" + humanPickedTime + "\n" + JSON.stringify(context)
 
