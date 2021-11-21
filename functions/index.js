@@ -40,7 +40,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(JSON.stringify(context))
+      element.setInnerContent(JSON.stringify(content))
     }
   }).transform(response)
   } catch (thrown){
