@@ -65,6 +65,8 @@ try{
   //const currentTemp = Math.round((1.8 * obj.value) + 32)
 
   //const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
+  
+  var errorReport = textSearch + "\n" + propertystringTest
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
@@ -75,6 +77,6 @@ try{
     }
   }).transform(response)
   } catch (thrown){
-      return new Response(thrown);
+      return new Response(thrown + "\n" + errorReport);
   }
 }
