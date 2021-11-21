@@ -29,6 +29,10 @@ try{
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
 
+  const start = Date.now()
+
+  var isoDateStr = start.toISOString()
+
   //var propertystring = JSON.stringify(content2.properties.temperature,null,4)
   var propertystringTest = JSON.stringify(content2.properties.temperature.values,null,4)
 
@@ -38,7 +42,16 @@ try{
   var d = new Date(Date.parse(dateStr.split('/')[0]));
   var humantime = d.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
   var hourStr = d.getHours()
-  var ftemp = "At " + humantime + "the hour is " + hourStr + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
+  var ftemp = "At " + humantime + "the hour is " + hourStr + "and the iso is " + isoDateStr + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
+
+
+
+  // Find the object matching the date
+  const obj = temparray.find(obj => obj.validTime === '10-10-10')
+
+  // Get the value from the object
+  const value = obj.value;
+
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
