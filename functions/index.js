@@ -62,9 +62,9 @@ try{
   var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
-  //const currentTemp = Math.round((1.8 * obj.value) + 32)
+  const currentTemp = Math.round((1.8 * obj.value) + 32)
 
-  //const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
+  const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
   
   var errorReport = timezone + "\n" + pickedTime + "\n" + textSearch + "\n" + propertystringTest
 
@@ -73,7 +73,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(humanPickedTime + "\n" + timezone)
+      element.setInnerContent(weatherString)
     }
   }).transform(response)
   } catch (thrown){
