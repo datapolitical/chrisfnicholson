@@ -47,10 +47,10 @@ try{
 
 
   // Find the object matching the date
-  const obj = temparray.find(obj => obj.validTime === '10-10-10')
+  //const obj = temparray.find(obj => obj.validTime === '10-10-10')
 
   // Get the value from the object
-  const value = obj.value;
+  //const value = obj.value;
 
 
   // Find the placeholder in our static asset
