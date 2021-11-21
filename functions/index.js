@@ -58,22 +58,22 @@ try{
 
   const pickedTime = obj.validTime
 
-  //var pd = new Date(Date.parse(pickedTime.split('/')[0]));
-  //var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
+  var pd = new Date(Date.parse(pickedTime.split('/')[0]));
+  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
   //const currentTemp = Math.round((1.8 * obj.value) + 32)
 
   //const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
   
-  var errorReport = pickedTime + "\n" + textSearch + "\n" + propertystringTest
+  var errorReport = timezone + "\n" + pickedTime + "\n" + textSearch + "\n" + propertystringTest
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(pickedTime)
+      element.setInnerContent(humanPickedTime + "\n" + timezone)
     }
   }).transform(response)
   } catch (thrown){
