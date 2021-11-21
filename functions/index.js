@@ -69,7 +69,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(weatherString)
+      element.setInnerContent(timezoneUser)
     }
   }).transform(response)
   } catch (thrown){
