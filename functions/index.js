@@ -37,7 +37,7 @@ try{
   var tempStr = temparray[6].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
   var humantime = d.toLocaleString('en-US', { timeZone: 'America/Denver' })
-  var ftemp = "At " + humantime + " the temperature in + city + " is" + Math.round((1.8 * dateStr) + 32) + "degrees"
+  var ftemp = "At " + humantime + " the temperature in " + city + " is" + Math.round((1.8 * dateStr) + 32) + "degrees"
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
