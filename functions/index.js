@@ -1,6 +1,8 @@
 // ./functions/index.js
   
 export const onRequestGet = async ({ request, next }) => {
+
+try{
   // Get the static asset response
   const response = await next()
   
