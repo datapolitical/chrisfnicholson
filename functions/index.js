@@ -1,13 +1,13 @@
 // ./functions/index.js
-  
+
 export const onRequestGet = async ({ request, next }) => {
 
 try{
   // Get the static asset response
   const response = await next()
-  
+
   const { latitude, longitude } = request.cf
-    
+
     // const { latitude, longitude } = request.cf
 
   let endpoint = "https://api.weather.gov/points/"
@@ -25,12 +25,12 @@ try{
 
   const responseWeather = await fetch(endpoint,init)
   const content = await responseWeather.json()
-  
+
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
-  
+
   //var propertystring = JSON.stringify(content2.properties.temperature,null,4)
-  var propertystringTest = JSON.stringify(content2.properties,null,4)
+  var propertystringTest = JSON.stringify(content2.properties.temperature.values,null,4)
 
   //var temparray = content2.properties.temperature.values
   //var dateStr = temparray[6].validTime
@@ -46,7 +46,7 @@ try{
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
       element.setInnerContent(propertystringTest)
     }
-  }).transform(response) 
+  }).transform(response)
   } catch (thrown){
       return new Response(thrown);
   }
