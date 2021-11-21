@@ -28,8 +28,8 @@ try{
   var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
-  // const currentTemp = content.main.temp
-  // const currentTempF = ((9/5)* (currentTemp - 273)) + 32
+  const currentTemp = content.main.temp
+  const currentTempF = ((9/5)* (currentTemp - 273)) + 32
 
   // const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
@@ -40,7 +40,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(JSON.stringify(content.main))
+      element.setInnerContent(JSON.stringify(currentTempF))
     }
   }).transform(response)
   } catch (thrown){
