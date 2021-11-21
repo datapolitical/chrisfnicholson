@@ -33,8 +33,8 @@ try{
   var propertystringTest = JSON.stringify(content2.properties.temperature.values,null,4)
 
   var temparray = content2.properties.temperature.values
-  var dateStr = temparray[7].validTime
-  var tempStr = temparray[7].value
+  var dateStr = temparray[8].validTime
+  var tempStr = temparray[8].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
   var humantime = d.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
   var ftemp = "At " + humantime + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
