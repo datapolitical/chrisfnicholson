@@ -37,8 +37,8 @@ try{
   var propertystringTest = JSON.stringify(content2.properties.temperature.values,null,4)
 
   var temparray = content2.properties.temperature.values
-  var dateStr = temparray[8].validTime
-  var tempStr = temparray[8].value
+  var dateStr = temparray[6].validTime
+  var tempStr = temparray[6].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
   var humantime = d.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
   var hourStr = d.getHours()
@@ -62,7 +62,7 @@ try{
   //Get the value from the object
   const currentTemp = Math.round((1.8 * obj.value) + 32)
 
-  const weatherString = "At " + humantime + "the time is " + humanPickedTime + " the temperature in " + city + " is" + Math.round((1.8 * currentTemp) + 32) + "degrees"
+  const weatherString = "At " + humanPickedTime + " the temperature in " + city + " is " + currentTemp + " degrees"
 
   // Find the placeholder in our static asset
   return new HTMLRewriter().on('#weather', {
