@@ -47,9 +47,9 @@ try{
   const currd = new Date()
   currd.setTime(currd.getTime()-(currd.getTime() % 3600000))
 
-  textIntermediate = currd.toISOString()
+  var textIntermediate = currd.toISOString()
 
-  textSearch = textIntermediate.split('Z')[0] + "+00:00/PT1H"
+  var textSearch = textIntermediate.split('Z')[0] + "+00:00/PT1H"
 
   //Find the object matching the date
   const obj = temparray.find(obj => obj.validTime === textSearch)
