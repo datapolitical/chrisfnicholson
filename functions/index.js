@@ -29,9 +29,9 @@ try{
 
   //Get the value from the object
   const currentTemp = content.main.temp
-  const currentTempF = ((9/5)* (currentTemp - 273)) + 32
+  const currentTempF = Math.round(((9/5)* (currentTemp - 273)) + 32)
 
-  // const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
+  const weatherString = "At " + humanTime + " the temperature in " + city + " is " + currentTempF + " degrees"
   
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
@@ -40,7 +40,7 @@ try{
     // And act on the element
     element(element) {
       // https://developers.cloudflare.com/workers/runtime-apis/html-rewriter#methods
-      element.setInnerContent(JSON.stringify(currentTempF))
+      element.setInnerContent(weatherString)
     }
   }).transform(response)
   } catch (thrown){
