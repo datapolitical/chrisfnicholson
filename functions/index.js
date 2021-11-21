@@ -6,7 +6,7 @@ try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude, city } = request.cf
+  const { latitude, longitude, city, timezoneUser } = request.cf
 
     // const { latitude, longitude } = request.cf
 
@@ -40,7 +40,7 @@ try{
   var dateStr = temparray[6].validTime
   var tempStr = temparray[6].value
   var d = new Date(Date.parse(dateStr.split('/')[0]));
-  var humantime = d.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
+  var humantime = d.toLocaleTimeString('en-US', { timeZone: timezoneUser })
   var hourStr = d.getHours()
   var ftemp = "At " + humantime + "the hour is " + hourStr + "and the iso is " + isoDateStr + " the temperature in " + city + " is" + Math.round((1.8 * tempStr) + 32) + "degrees"
 
@@ -57,7 +57,7 @@ try{
   const pickedTime = obj.validTime
 
   var pd = new Date(Date.parse(pickedTime.split('/')[0]));
-  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: 'America/Denver' })
+  var humanPickedTime = pd.toLocaleTimeString('en-US', { timeZone: timezoneUser })
 
   //Get the value from the object
   const currentTemp = Math.round((1.8 * obj.value) + 32)
