@@ -10,7 +10,7 @@ try{
 
     // const { latitude, longitude } = request.cf
     
-  var timeZoneUpdated = "United States/" + timezone.split('/')[1])
+  var timeZoneUpdated = "United States/" + timezone.split('/')[1]
 
   let endpoint = "https://api.weather.gov/points/"
   const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
