@@ -25,7 +25,7 @@ try{
   const currd = new Date()
 
 
-  var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone })
+  var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone, hour: '2-digit', minute: '2-digit'})
 
   //Get the value from the object
   const currentTempC = content.main.temp
@@ -55,7 +55,7 @@ try{
 
   // US BS KY LR PW FM MH
 
-  const weatherString = "At " + humanTime + " in " + city + "there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
+  const weatherString = "At " + humanTime + " in " + city + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
 
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
