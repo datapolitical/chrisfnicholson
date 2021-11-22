@@ -55,16 +55,16 @@ try{
 
   var displayLocation
   if ( typeof city == 'undefined') {
-    displayLocation = region
+    displayLocation = " where you are"
   }
   else {
-    displayLocation = city
+    displayLocation = " in " + city
   }
 
 
   // US BS KY LR PW FM MH
 
-  const weatherString = "At " + humanTime + " in " + displayLocation + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
+  const weatherString = "At " + humanTime + displayLocation + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
 
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
