@@ -29,7 +29,7 @@ try{
 
   //Get the value from the object
   const currentTempC = content.main.temp
-  const weatherIcon = content.weather.icon
+  const weatherIcon = content.weather[0].icon
   const currentTempF = Math.round(((9/5)* (currentTempC - 273)) + 32)
   
   var currentTempLocal
