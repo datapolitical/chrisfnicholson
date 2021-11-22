@@ -30,7 +30,7 @@ try{
   //Get the value from the object
   const currentTempK = content.main.temp
   const weatherDescription = content.weather[0].description
-  const currentTempF = Math.round(((9/5)* (currentTempK - 273.15)) + 32)
+  const currentTempF = ((9/5)* (currentTempK - 273.15)) + 32
   const currentTempC = currentTempK - 273.15
 
   var currentTempLocal
@@ -44,18 +44,18 @@ try{
     case "PW":
     case "FM":
     case "MH":
-      currentTempLocal = currentTempF
+      currentTempLocal = Math.round(currentTempF)
       degreesSymbol = "°F"
       break;
     default:
-      currentTempLocal = currentTempC
+      currentTempLocal = Math.round(currentTempC)
       degreesSymbol = "°C"
       break;
   }
 
   var displayLocation
   if ( typeof city == 'undefined') {
-    displayLocation = country
+    displayLocation = region
   }
   else {
     displayLocation = city
