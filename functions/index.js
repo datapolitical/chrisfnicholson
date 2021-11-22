@@ -10,7 +10,7 @@ try{
 
     let endpoint = "https://api.openweathermap.org/data/2.5/weather?"
 
-    endpoint += "lat=" + latitude + "&lon=" + longitude + "&appid=" + process.env[OPEN_WEATHER_KEY]
+    endpoint += "lat=" + latitude + "&lon=" + longitude + "&appid=" + env.OPEN_WEATHER_KEY
 
     const init = {
     headers: {
