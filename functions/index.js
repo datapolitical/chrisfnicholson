@@ -6,7 +6,7 @@ try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude, city, country, timezone } = request.cf
+  const { latitude, longitude, city, country, timezone, env } = request.cf
 
     let endpoint = "https://api.openweathermap.org/data/2.5/weather?"
 

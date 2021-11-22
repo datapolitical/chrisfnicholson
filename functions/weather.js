@@ -12,7 +12,7 @@ export async function onRequest(context) {
     } = context;
 
   let endpoint = "https://api.weather.gov/points/"
-  const token = AQICN_TOKEN //Use a token from https://aqicn.org/api/
+  const token = env.AQICN_TOKEN //Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`
 
   let html_content = "<h1>Weather 🌦</h1>"
@@ -22,7 +22,7 @@ export async function onRequest(context) {
   endpoint+= `${mylatitude},${yourlongitude}`
   const init = {
     headers: {
-      "User-Agent" : EMAIL,
+      "User-Agent" : env.EMAIL,
 
     },
   }
