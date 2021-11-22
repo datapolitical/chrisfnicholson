@@ -1,12 +1,12 @@
 // ./functions/index.js
 
-export const onRequestGet = async ({ request, next }) => {
+export const onRequestGet = async ({ request, next, env }) => {
 
 try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude, city, country, timezone, env } = request.cf
+  const { latitude, longitude, city, country, timezone  } = request.cf
 
     let endpoint = "https://api.openweathermap.org/data/2.5/weather?"
 
