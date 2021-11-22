@@ -1,6 +1,9 @@
 {
     "repository": {
-        "type" : "git",
-        "url" : "https://github.com/datapolitical/chrisfnicholson.github.io.git"
+        "type": "git",
+        "url": "https://github.com/datapolitical/chrisfnicholson.github.io.git"
+    },
+    "dependencies": {
+        "wrangler": "^0.0.0-fsw-beta.5"
     }
 }
