@@ -12,7 +12,7 @@ export async function onRequest(context) {
     } = context;
 
   let endpoint = "https://api.weather.gov/points/"
-  const token = "c531734b5df728158946e194a92d2477a713f44d" //Use a token from https://aqicn.org/api/
+  const token = AQICN_TOKEN //Use a token from https://aqicn.org/api/
   let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`
 
   let html_content = "<h1>Weather 🌦</h1>"
@@ -22,17 +22,17 @@ export async function onRequest(context) {
   endpoint+= `${mylatitude},${yourlongitude}`
   const init = {
     headers: {
-      "User-Agent" : "datapolitical@gmail.com",
+      "User-Agent" : EMAIL,
 
     },
   }
 
   const response = await fetch(endpoint,init)
   const content = await response.json()
-  
+
   const response2 = await fetch(content.properties.forecastGridData,init)
   const content2 = await response2.json()
-  
+
   var propertystring = JSON.stringify(content2.properties.temperature,null,4)
   var temparray = content2.properties.temperature.values
   var dateStr = temparray[6].validTime
