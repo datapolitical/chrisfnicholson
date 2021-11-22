@@ -28,9 +28,10 @@ try{
   var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone, hour: '2-digit', minute: '2-digit'})
 
   //Get the value from the object
-  const currentTempC = content.main.temp
+  const currentTempK = content.main.temp
   const weatherDescription = content.weather[0].description
-  const currentTempF = Math.round(((9/5)* (currentTempC - 273)) + 32)
+  const currentTempF = Math.round(((9/5)* (currentTempK - 273.15)) + 32)
+  const currentTempC = currentTempK - 273.15
 
   var currentTempLocal
   var degreesSymbol
@@ -52,10 +53,18 @@ try{
       break;
   }
 
+  var displayLocation
+  if ( typeof city == 'undefined') {
+    displayLocation = country
+  }
+  else {
+    displayLocation = city
+  }
+
 
   // US BS KY LR PW FM MH
 
-  const weatherString = "At " + humanTime + " in " + city + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
+  const weatherString = "At " + humanTime + " in " + displayLocation + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
 
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
