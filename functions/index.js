@@ -6,7 +6,7 @@ try{
   // Get the static asset response
   const response = await next()
 
-  const { latitude, longitude, city, timezone } = request.cf
+  const { latitude, longitude, city, country, timezone } = request.cf
 
     let endpoint = "https://api.openweathermap.org/data/2.5/weather?"
     
@@ -28,11 +28,34 @@ try{
   var humanTime = currd.toLocaleTimeString('en-US', { timeZone: timezone })
 
   //Get the value from the object
-  const currentTemp = content.main.temp
+  const currentTempC = content.main.temp
   const weatherIcon = content.weather.icon
-  const currentTempF = Math.round(((9/5)* (currentTemp - 273)) + 32)
+  const currentTempF = Math.round(((9/5)* (currentTempC - 273)) + 32)
+  
+  var currentTempLocal
+  var degreesSymbol
+  
+  switch(country) {
+    case "US":
+    case "BS":
+    case "KY":
+    case "LR":
+    case "PW":
+    case "FM":
+    case "MH":
+      currentTempLocal = currentTempF
+      degreesSymbol = "°F"
+      break;
+    default:
+      currentTempLocal = currentTempC
+      degreesSymbol = "°C"
+      break;
+  }
+    
+  
+  // US BS KY LR PW FM MH
 
-  const weatherString = "At " + humanTime + " the weather in " + city + "is <img src=\"http://openweathermap.org/img/wn/" + weatherIcon + "@2x.png\">" + " and the temperature is " + currentTempF + " degrees"
+  const weatherString = "At " + humanTime + " the weather in " + city + "is <img src=\"http://openweathermap.org/img/wn/" + weatherIcon + "@2x.png\">" + " and the temperature is " + currentTempLocal + degreesSymbol + "."
   
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
