@@ -55,7 +55,7 @@ try{
   
   // US BS KY LR PW FM MH
 
-  const weatherString = "At " + humanTime + " the weather in " + city + "is <img src=\"http://openweathermap.org/img/wn/" + weatherIcon + "@2x.png\">" + " and the temperature is " + currentTempLocal + degreesSymbol + "."
+  const weatherString = "At " + humanTime + " the weather in " + city + "is \<img src=\"http://openweathermap.org/img/wn/" + weatherIcon + "@2x.png/\"\>" + " and the temperature is " + currentTempLocal + degreesSymbol + "."
   
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
