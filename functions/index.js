@@ -63,8 +63,8 @@ try{
 
 
   // US BS KY LR PW FM MH
-
-  const weatherString = "At " + humanTime + displayLocation + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
+  // + humanTime
+  const weatherString = "Right now" + displayLocation + " there's " + weatherDescription + " and the temperature is " + currentTempLocal + degreesSymbol + "."
 
   // var errorReport = timezone + "\n" + humanTime + "\n" + JSON.stringify(context)
 
