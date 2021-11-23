@@ -4,6 +4,6 @@
         "url": "https://github.com/datapolitical/chrisfnicholson.github.io.git"
     },
     "dependencies": {
-        "wrangler": "^0.0.0-fsw-beta.5"
+        "wrangler": "^0.0.0-bd89b54"
     }
 }
