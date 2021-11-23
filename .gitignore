@@ -4,6 +4,7 @@ _site/
 .jekyll-metadata
 .env
 .secrets
+wrangler.toml
 opendrinks_old/
 webp-drinks/
 webp-recipes/
