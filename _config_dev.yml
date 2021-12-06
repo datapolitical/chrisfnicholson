@@ -1,1 +1,3 @@
-theme: contrast-theme-dev
+pwa:
+  enabled: false
+
