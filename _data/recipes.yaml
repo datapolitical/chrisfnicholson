@@ -7053,7 +7053,7 @@
   - After the cookies have cooled completely, they should be stored in an airtight
     container for up to 3 days, at room temperature. That being said, they are the
     absolute tastiest when they are fresh from the oven. Enjoy!
-  image_url: images/recipes/219B0705-CB30-4A28-97F8-72A09A200385.jpg
+  image_url: null
   in_trash: false
   ingredients:
   - Dough
@@ -7083,7 +7083,8 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/B2B29968-C2B6-44B1-8B39-2CF3E55D7B40.jpg
   prep_time: 3 hours
   rating: 0
   scale: null
