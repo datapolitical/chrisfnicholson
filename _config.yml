@@ -76,7 +76,7 @@ exclude:
 #  extensions: ["strikethrough", "autolink", "table"]
 
 # remote_theme: datapolitical/contrast
-theme: contrast
+theme: contrast-theme
 # debug: true
 
 page_gen-dirs: false
