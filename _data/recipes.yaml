@@ -1789,7 +1789,7 @@
   - Aspirational
   - Web
   cook_time: 20 minutes
-  created: '2021-11-19 05:11:02'
+  created: '2021-11-19 03:11:02'
   description: ''
   difficulty: ''
   directions:
@@ -1814,7 +1814,7 @@
   - To make the glaze, add the powdered sugar, milk and corn syrup to a bowl and microwave
     for 30 seconds.
   - Most importantly, eat with reckless abandon.
-  image_url: images/recipes/FCD7F963-188A-4BB0-9CAE-2CF97D5C933D.jpg
+  image_url: images/recipes/C79EFAFD-3CE5-47FC-9B12-47B0E64E929C.jpg
   in_trash: false
   ingredients:
   - 'Doughnuts:'
@@ -1840,7 +1840,8 @@
     1g | Sugar: 33g | Vitamin A: 50IU | Calcium: 18mg | Iron: 2.5mg'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/C79EFAFD-3CE5-47FC-9B12-47B0E64E929C.jpg
   prep_time: 1 hour
   rating: 5
   scale: null
@@ -6994,6 +6995,104 @@
   source_url: https://medium.com/@luismrmartins/hokkaido-milk-bread-c73214a84a2b
   total_time: ''
   uid: E64E686A-849F-4D80-B63F-8BF12A9D6A8B-3431-000000FFD1F97A90
+- categories:
+  - TBD
+  - Web
+  cook_time: 30 minutes
+  created: '2021-12-05 13:36:46'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Make the dough:'
+  - In a large bowl, combine the flour, yeast, salt, and cornstarch. Whisk to combine.
+    Make a well in the center of the bowl, then add the melted butter, eggs, avocado
+    oil, milk, and raw honey. Stir with a wooden spoon to combine. When the mixture
+    becomes thick and sticky, start mixing by hand. Pinch to incorporate the ingredients.
+    Begin kneading the dough in the bowl, by hand, until it becomes fairly smooth,
+    and forms a ball. This should take about 3 minutes of kneading. Cover the bowl
+    with plastic wrap, and let the dough rise at room temperature for about 1.5 hours
+    or until it has doubled in volume.
+  - 'Make the Filling:'
+  - Meanwhile, make the filling. In a medium size bowl, add the softened butter, cocoa
+    powder, brown sugar, salt Nutella. Use a spoon to combine until the mixture is
+    totally smooth, with no lumps remaining. Set aside.
+  - 'Shape the Rugelach:'
+  - Divide the risen dough into three equal pieces. Sprinkle your work surface generously
+    with flour. Sprinkle the dough lightly with flour. Roll one piece of dough out
+    into a large rectangle, about 15" x 12". The dough should be very thin. Add more
+    flour under the dough as you roll, to prevent sticking.
+  - "Spread \u2153 of the chocolate filling onto the rectangle of dough in a thin\
+    \ layer, using a small offset spatula. Leave 1/2\" border all around. With the\
+    \ long edge facing you, fold the dough up in half lengthwise, enclosing the chocolate\
+    \ filling. Gently tug the edges and corners to meet, and use fingertips to press\
+    \ down the edges to seal. This helps prevent the chocolate filling from escaping."
+  - Use a pizza wheel or sharp chef's knife to cut the dough into large triangles.
+    Pick up one triangle, and gently stretch the triangle out even more lengthwise.
+    Place the dough back down on the work surface, and roll the dough - starting from
+    the straight edge top of the triangle, rolling down into a crescent shape.
+  - Place the shaped rugelach on a rimmed baking sheet, lined with parchment paper.
+    Place the rugelach close together, it's ok if they are touching. Repeat the same
+    process with the remaining triangles of dough. Then, repeat with the remaining
+    2 pieces of dough. Cover with a clean kitchen towel, and let proof at room temperature
+    for 1 hour.
+  - "Meanwhile, preheat the oven to 375\xB0F."
+  - 'Make the Simple Syrup:'
+  - In a small sauce pan, combine the granulated sugar and water. Whisk to combine.
+    Allow the mixture to come to a boil, and let simmer for 3 minutes, until the mixture
+    thickens slightly, and all of the sugar dissolves. Set aside.
+  - 'Bake the Rugelach:'
+  - "Beat 1 egg in a small bowl, and brush the top of each rugelach with beaten egg.\
+    \ Bake for about 25-30 minutes, rotating the pan 180\xB0 halfway through to ensure\
+    \ even browning. The rugelach should be deeply golden brown, almost mahogany on\
+    \ top."
+  - Remove from the oven, and use a pastry brush to brush the warm rugelach immediately
+    with the simple syrup. Be generous with the simple syrup, and use all of it. The
+    simple syrup absorbs completely, and is really important in keeping the rugelach
+    soft and moist.
+  - 'Storing Your Rugelach:'
+  - After the cookies have cooled completely, they should be stored in an airtight
+    container for up to 3 days, at room temperature. That being said, they are the
+    absolute tastiest when they are fresh from the oven. Enjoy!
+  image_url: null
+  in_trash: false
+  ingredients:
+  - Dough
+  - "4\xBD cups unbleached all purpose flour 540 g"
+  - 1 tablespoon dry active yeast 10g
+  - "\xBE teaspoon kosher salt 5g"
+  - 2 tablespoons cornstarch 12g
+  - 8 tablespoons unsalted butter, melted 114g
+  - 2 eggs, room temperature
+  - 2 tablespoons avocado oil, or any neutral oil 25g
+  - 1 cup milk 250g
+  - "\xBC cup raw honey 60g"
+  - Chocolate Filling
+  - "\xBD cup unsweetened cocoa powder 50g"
+  - 12 tablespoons unsalted butter, softened 145g
+  - "\xBD cup dark brown sugar, packed 100g"
+  - "\xBD teaspoon kosher salt 3g"
+  - "\xBD cup Nutella spread 145g"
+  - Simple Syrup
+  - "\xBE cup water 180g"
+  - "\xBE cup granulated sugar 160g"
+  - pinch of kosher salt
+  - 1 egg, beaten for egg wash
+  is_pinned: false
+  name: Yeasted Chocolate Rugelach
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/B2B29968-C2B6-44B1-8B39-2CF3E55D7B40.jpg
+  prep_time: 3 hours
+  rating: 0
+  scale: null
+  servings: Servings 40
+  source: lionsbread.com
+  source_url: https://www.lionsbread.com/yeasted-chocolate-rugelach-recipe/
+  total_time: ''
+  uid: EA2D123F-8359-4462-B767-A819FBBDD1F0
 - categories: []
   cook_time: 35 minutes
   created: '2021-01-21 14:39:41'
