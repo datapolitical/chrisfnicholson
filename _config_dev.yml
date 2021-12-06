@@ -1,5 +1,1 @@
-debug: true
-theme:
-remote_theme: datapolitical/contrast
-pwa:
-  enabled: false
+theme: contrast-theme-dev
