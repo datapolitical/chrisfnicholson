@@ -22,6 +22,5 @@ gem 'jekyll-pwa-workbox'
 gem 'jekyll_picture_tag', group: :jekyll_plugins
 gem 'jekyll_version_plugin', group: :jekyll_plugins
 gem "contrast",  github: "datapolitical/contrast", branch: 'master'
-# gem "contrast",  github: "datapolitical/contrast", branch: '#{ENV['SECRET_GIT']}' :group => :test
 gem "jekyll-data", group: :jekyll_plugins
 gem 'jekyll-include-cache'
