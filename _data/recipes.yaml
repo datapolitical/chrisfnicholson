@@ -977,6 +977,7 @@
   uid: 1F17CD9D-B279-473B-B3C0-743E1866D17F
 - categories:
   - Jewish
+  - Baked Goods
   - Web
   - Bread
   - I Made This
@@ -1458,6 +1459,7 @@
   - Made at 307
   - Jewish
   - Cookie
+  - Baked Goods
   - Dessert
   - Web
   - I Made This
@@ -3024,7 +3026,7 @@
   total_time: ''
   uid: 64AF1AB3-3989-4E4E-800E-EFB0CECF2D7F
 - categories:
-  - Dish Type
+  - Baked Goods
   - Dessert
   - Web
   - Bread
@@ -3230,6 +3232,7 @@
   total_time: ''
   uid: 6A92BF00-F0ED-429E-848B-C88EF5705253-646-00000009DB063E32
 - categories:
+  - Baked Goods
   - Dessert
   - Bread
   - I Made This
@@ -3264,7 +3267,7 @@
   nutritional_info: 229 calories; 8.8 g total fat; 51 mg cholesterol; 223 mg sodium.
     34.8 g carbohydrates; 3.8 g protein; Full Nutrition
   on_favorites: true
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: 15 mins
   rating: 0
@@ -3429,7 +3432,7 @@
   total_time: ''
   uid: 74BC402B-3349-44D3-B80D-D05704D2CCB8-34481-00000DAC95A1D258
 - categories:
-  - Dish Type
+  - Baked Goods
   - Web
   - Bread
   - I Made This
@@ -3785,6 +3788,7 @@
   uid: 79295E0B-D223-4E1C-B22E-E13DB2B67C1C
 - categories:
   - Made at 307
+  - Baked Goods
   - Dessert
   - Web
   - Pastry
@@ -5143,7 +5147,6 @@
   uid: ABF3ABFE-A71C-4CCF-BBE9-4BFEDAC23989-15617-0000060C01DE871C
 - categories:
   - Web
-  - Bread
   - Breakfast
   cook_time: 6 to 8 mins
   created: '2020-12-12 09:49:09'
@@ -5363,6 +5366,7 @@
   total_time: ''
   uid: B38CE9BD-D302-48D6-9CE8-0BA6804F7698-34834-00000DC66902C259
 - categories:
+  - Baked Goods
   - Web
   - Bread
   - Breakfast
@@ -5572,6 +5576,7 @@
 - categories:
   - Cake
   - Made at 307
+  - Baked Goods
   - Dessert
   - Web
   - I Made This
@@ -6602,6 +6607,8 @@
   total_time: 30 min
   uid: E04B6E53-D5A9-42D3-BC56-E1C3596E1315
 - categories:
+  - Made at 307
+  - Baked Goods
   - Dessert
   - Web
   - Bread
@@ -6624,24 +6631,24 @@
     their tops are light golden brown, almost blonde.
   - Remove the cookies from the oven, and cool on the pan until they've set enough
     to move without breaking. Repeat with the remaining dough.
-  - Tips from our Bakers
-  - Want to make this gluten-free? For great results, substitute King Arthur Gluten-Free
+  - '**Tips from our Bakers**'
+  - '> Want to make this gluten-free? For great results, substitute King Arthur Gluten-Free
     Measure for Measure Flour for the all-purpose flour in this recipe. Be sure to
-    bake thoroughly; gluten-free baked goods often need a bit more time in the oven.
-  - To make mocha chocolate chip cookies, add 1/2 teaspoon espresso powder to the
-    dough along with the salt.
-  - To bake extra-big, bake sale-style (5") cookies, scoop the dough in scant 1/3-cupfuls
-    onto the baking sheets. Bake for 13 to 14 minutes (if the dough hasn't been refrigerated),
-    or 17 to 18 minutes (if it's been refrigerated).
-  - A mere sprinkling of sea salt atop the balls of cookie dough before baking adds
-    wonderful flavor to the finished cookies.
-  - For a deeper flavor, more toffee/caramel than vanilla, refrigerate the dough for
-    24 to 48 hours before scooping and baking. Bake till cookies are brown around
-    the edges, with just a bit of pale center, about 12 minutes.
-  - Looking to cut back on the sugar in your baking? See our blog post, How to reduce
-    sugar in cookies and bars.
-  - Skip the scooping and cut down on prep time by using an ingenious technique outlined
-    in our blog post, A simple way to shape cookies.
+    bake thoroughly; gluten-free baked goods often need a bit more time in the oven.'
+  - '> To make mocha chocolate chip cookies, add 1/2 teaspoon espresso powder to the
+    dough along with the salt.'
+  - '> To bake extra-big, bake sale-style (5") cookies, scoop the dough in scant 1/3-cupfuls
+    onto the baking sheets. Bake for 13 to 14 minutes (if the dough hasn''t been refrigerated),
+    or 17 to 18 minutes (if it''s been refrigerated).'
+  - '> A mere sprinkling of sea salt atop the balls of cookie dough before baking
+    adds wonderful flavor to the finished cookies.'
+  - '> For a deeper flavor, more toffee/caramel than vanilla, refrigerate the dough
+    for 24 to 48 hours before scooping and baking. Bake till cookies are brown around
+    the edges, with just a bit of pale center, about 12 minutes.'
+  - '> Looking to cut back on the sugar in your baking? See our blog post, How to
+    reduce sugar in cookies and bars.'
+  - '> Skip the scooping and cut down on prep time by using an ingenious technique
+    outlined in our blog post, A simple way to shape cookies.'
   image_url: images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B.jpg
   in_trash: false
   ingredients:
@@ -6869,7 +6876,7 @@
   total_time: ''
   uid: E2C5B024-6767-49E1-AA29-958FB811BA03-44400-000010DC5990829E
 - categories:
-  - Dish Type
+  - Baked Goods
   - Web
   - Bread
   - Breakfast
@@ -7053,7 +7060,7 @@
   - After the cookies have cooled completely, they should be stored in an airtight
     container for up to 3 days, at room temperature. That being said, they are the
     absolute tastiest when they are fresh from the oven. Enjoy!
-  image_url: null
+  image_url: images/recipes/B2B29968-C2B6-44B1-8B39-2CF3E55D7B40.jpg
   in_trash: false
   ingredients:
   - Dough
@@ -7247,6 +7254,7 @@
   uid: F0235500-4572-42E2-999C-609CF44F2204-2159-000000ADD01D5B3C
 - categories:
   - Jewish
+  - Baked Goods
   - Dessert
   - Web
   - Pastry
