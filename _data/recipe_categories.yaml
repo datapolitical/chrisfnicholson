@@ -1,3 +1,5 @@
 --- # recipe categories
-- Made-at-307
-- Drinks
+- name: Made-at-307
+  display: Made at Home
+- name: Drink
+  display: Drinks
