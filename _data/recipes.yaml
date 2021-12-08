@@ -2148,7 +2148,7 @@
     \ and the size of the chicken."
   - After the chicken is cooked, remove from the smoker and allow to rest for 20 minutes.
     After rested, carve and serve.
-  image_url: images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172.jpg
+  image_url: images/recipes/C6E6B803-6837-45A7-A2E9-493CB268B1D3.jpg
   in_trash: false
   ingredients:
   - 4 lb. (1.82 kg) whole Chicken
@@ -2183,7 +2183,8 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172.jpg
+  - '1': images/recipes/C6E6B803-6837-45A7-A2E9-493CB268B1D3.jpg
+  - '2': images/recipes/8A2E3010-CC6A-4E99-B776-855BA6576172.jpg
   prep_time: 30 min
   rating: 5
   scale: null
