@@ -21,6 +21,6 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-pwa-workbox'
 gem 'jekyll_picture_tag', group: :jekyll_plugins
 gem 'jekyll_version_plugin', group: :jekyll_plugins
-gem "contrast-theme",  github: "datapolitical/contrast-theme", branch: 'master'
+gem "contrast-theme",  github: "datapolitical/contrast-theme", branch: 'combined-filter-testing'
 gem "jekyll-data", group: :jekyll_plugins
 gem 'jekyll-include-cache'
