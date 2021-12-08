@@ -1035,9 +1035,11 @@
   source_url: https://www.tasteofhome.com/recipes/challah/
   total_time: ''
   uid: 1F3EEADC-B104-4BCD-9D9D-F818F44B8F70-36654-00000B99F35F2F02
-- categories: []
+- categories:
+  - Drink
+  - Web
   cook_time: ''
-  created: '2021-11-25 14:31:28'
+  created: '2021-11-25 12:31:28'
   description: ''
   difficulty: ''
   directions:
@@ -1063,7 +1065,7 @@
   on_grocery_list: false
   photos: []
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: null
   servings: ''
   source: liquor.com
@@ -4435,7 +4437,9 @@
   source_url: https://veenaazmanov.com/chocolate-rugelach/
   total_time: ''
   uid: 84A1EA00-FEDA-439C-80D6-3E0A49654ACD-31731-00000BBA72CA018C
-- categories: []
+- categories:
+  - Drink
+  - Web
   cook_time: ''
   created: '2021-06-12 15:54:52'
   description: ''
@@ -4463,7 +4467,7 @@
   on_grocery_list: false
   photos: []
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: 8/1
   servings: 1 servings
   source: bonappetit.com
@@ -6645,10 +6649,6 @@
   - '> For a deeper flavor, more toffee/caramel than vanilla, refrigerate the dough
     for 24 to 48 hours before scooping and baking. Bake till cookies are brown around
     the edges, with just a bit of pale center, about 12 minutes.'
-  - '> Looking to cut back on the sugar in your baking? See our blog post, How to
-    reduce sugar in cookies and bars.'
-  - '> Skip the scooping and cut down on prep time by using an ingenious technique
-    outlined in our blog post, A simple way to shape cookies.'
   image_url: images/recipes/7092C31E-7AC9-4119-8D1D-7DDEF419222B.jpg
   in_trash: false
   ingredients:
