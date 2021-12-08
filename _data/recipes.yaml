@@ -1048,7 +1048,7 @@
   - Strain into a Collins glass over fresh ice.
   - Top with the ginger beer.
   - Garnish with a mint sprig.
-  image_url: images/recipes/CC8D3BAF-A2E2-41C9-B06A-0E809A8FEF5A.jpg
+  image_url: images/recipes/ED3ABFE6-B9BA-49F2-94AB-83320D04B315.jpg
   in_trash: false
   ingredients:
   - 1 ounce bourbon
@@ -1063,7 +1063,8 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/ED3ABFE6-B9BA-49F2-94AB-83320D04B315.jpg
   prep_time: ''
   rating: 5
   scale: null
