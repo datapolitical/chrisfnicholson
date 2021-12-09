@@ -113,17 +113,16 @@ pwa:
   sw_src_filepath: service-worker.js # Optional
   sw_dest_filename: service-worker.js # Optional
   dest_js_directory: /js # Required
-  precache_recent_posts_num: 5 # Optional
+  precache_recent_posts_num: 0 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
     - "/**/*.{js,json,css}"
-    - "/assets/generated/images/recipes/*-280-*.{webp}"
-    - "/assets/generated/images/recipes/*-400-*.{webp}"
     - "/assets/generated/images/recipes/*-600-*.{webp}"
-    - "/assets/fontawesome/icons.svg"
+#    - "/assets/fontawesome/icons.svg"
 #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
-#    - "/recipes/*.html"
-#    - "/index.html"
+    - "/recipes/"
+    - "/drinks/"
+    - "/index.html"
   precache_glob_ignores: # Optional
     - "sw-register.js"
     - "assets/katex/*"
