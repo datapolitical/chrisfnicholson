@@ -6,7 +6,7 @@ It is always in dark mode because light mode looks terrible.
 
 The [recipes module](https://www.github.com/datapolitical/paprika-exporter) is thanks to [sstarcher](https://www.github.com/sstarcher)
 
-I have modified it, adding tabs which I very much like.
+I have modified it, adding tabs.
 
 Drinks are from [aflg/opendrinks](https://www.github.com/aflg/opendrinks) with an MIT license. The bunny comes from [ivolo/animals](https://www.github.com/ivolo/animals)
 
