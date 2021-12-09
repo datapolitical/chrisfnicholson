@@ -19,3 +19,5 @@ This blog is heavily optimized using plugins: [jekyll_picture_tag](https://githu
 Posts are updated infrequently and occasionally often. New features should not be expected.
 
 If you have comments, please feel free to submit an issue.
+
+v3.0.30d
