@@ -1,0 +1,20 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .gitignore
+  - vendor
+  - Pipfile
+  - package.json
+  - .jekyll-cache
+  - node_modules
+  - functions/
+  - recipes/
+  - drinks/
+
+page-gen:
+  enabled: false
+
+pwa:
+  enabled: false
