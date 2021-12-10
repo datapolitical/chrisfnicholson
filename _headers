@@ -1,2 +1,12 @@
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com cdn.jsdelivr.net; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org
+  Content-Security-Policy:
+    default-src 'none';
+    script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com cdn.jsdelivr.net 'sha256-2OHPx0PIiJYwz5B3crjJ5nhDIeuUtxxSIRoLgtaELfs=';
+    connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com cdn.jsdelivr.net;
+    img-src 'self';
+    style-src 'self' 'sha256-k2RXpDbSPpG4oWfbtqkrMQROa5QFVW/iVrsIiFnt3N4=' sha256-biLFinpqYMtWHmXfkA1BPeCY0/fNt46SAZ+BBk5YUog=' 'sha256-OWxURku4k5IEOcxgw7/T0J6FGE8tLFLdx8LgNROF44Y=' 'sha256-W3KexPKW161freXo2CZ1qzp2T+DoKnOmYEKXG3po2mE=';
+    base-uri 'self';
+    form-action https://chrisfnicholson-staticman.herokuapp.com 'self';
+    child-src crosshare.org;
+    manifest-src 'self';
+    worker-src 'self';
