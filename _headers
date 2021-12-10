@@ -1,1 +1,2 @@
-default-src 'none'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com cdn.jsdelivr.net; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'self';base-uri 'self';form-action https://chrisfnicholson-staticman.herokuapp.com 'self';child-src crosshare.org
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com cdn.jsdelivr.net; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'self';base-uri 'self';form-action https://chrisfnicholson-staticman.herokuapp.com 'self';child-src crosshare.org
