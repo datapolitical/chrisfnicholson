@@ -1,3 +1,4 @@
 pwa:
   enabled: false
-
+sass:
+  style: compressed
