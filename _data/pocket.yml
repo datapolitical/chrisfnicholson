@@ -1,1 +1,33 @@
-my text here
+{
+  "3495157560": {
+    "item_id": "3495157560",
+    "resolved_id": "3495157560",
+    "given_url": "https://www.nationalgeographic.com/environment/article/to-regrow-forests-us-needs-billions-of-seeds-many-more-seed-hunters",
+    "given_title": "",
+    "favorite": "0",
+    "status": "0",
+    "time_added": "1638596353",
+    "time_updated": "1639394011",
+    "time_read": "0",
+    "time_favorited": "0",
+    "sort_id": 0,
+    "resolved_title": "To regrow forests the U.S. needs billions of seeds—and many more 'seed hunters'",
+    "resolved_url": "https://www.nationalgeographic.com/environment/article/to-regrow-forests-us-needs-billions-of-seeds-many-more-seed-hunters",
+    "excerpt": "Sisters, OregonBrittle pine needles and twigs snap under Don Grandorff’s boots as he crunches his way through Deschutes National Forest, the August air scented with sap and wildfire smoke. Without hesitating, he veers off the path and wades through the brush, on the hunt for Ponderosa pine seeds.",
+    "is_article": "1",
+    "is_index": "0",
+    "has_video": "0",
+    "has_image": "0",
+    "word_count": "2119",
+    "lang": "en",
+    "time_to_read": 10,
+    "amp_url": "https://api.nationalgeographic.com/distribution/public/amp/environment/article/to-regrow-forests-us-needs-billions-of-seeds-many-more-seed-hunters",
+    "top_image_url": "https://i.natgeofe.com/n/ec4f4b8d-7256-4a48-83a4-b7c67cc4c651/MM9739_%20210827_000220_16x9.jpg?w=1200",
+    "domain_metadata": {
+      "name": "National Geographic",
+      "logo": "https://logo.clearbit.com/nationalgeographic.com?size=800",
+      "greyscale_logo": "https://logo.clearbit.com/nationalgeographic.com?size=800&greyscale=true"
+    },
+    "listen_duration_estimate": 820
+  }
+}
