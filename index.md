@@ -11,3 +11,6 @@ I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
 I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/diet.html">what I eat</a>.
 
 <p id="weather">no weather available.</p>
+
+### I've Recently Read
+{% include reading_list.html %}
