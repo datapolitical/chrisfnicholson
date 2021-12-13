@@ -74,6 +74,15 @@ jobs:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
           MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
 
+      - name: Execute Pocket Retreval
+        run: |
+          sudo apt-get install jq
+          curl -o pocket_raw.json -H "Content-Type: application/json" -X POST --data '{"consumer_key":"${{ secrets.CONSUMER_KEY }}","access_token":"${{ secrets.POCKET_ACCESS_TOKEN }}","tag":"web"}' https://getpocket.com/v3/get  | jq '.list' >> _data/pocket.yml
+          echo "Pocket Reads:"
+          cat _data/pocket.yml
+          echo "\n"
+          git pull --ff-only origin main
+
       - name: commit
         id: get_data
         run: |
