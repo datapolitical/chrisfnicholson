@@ -1739,6 +1739,39 @@
   source_url: https://theveganatlas.com/classic-vegan-meatloaf-made-with-beyond-beef-plant-based-ground/
   total_time: ''
   uid: 3282F514-AECA-47F5-90F7-0D108A9F1354
+- categories:
+  - Drink
+  - Web
+  cook_time: ''
+  created: '2021-12-14 07:11:47'
+  description: ''
+  difficulty: ''
+  directions:
+  - Pour the coffee liqueur into a shot glass.
+  - Slowly layer the Baileys on top of the coffee liqueur and the Grand Marnier on
+    top of the Baileys.
+  image_url: images/recipes/DD1165DD-FACC-4D0E-86F4-35D732ECC027.jpg
+  in_trash: false
+  ingredients:
+  - 1/3 ounce coffee liqueur
+  - 1/3 ounce Baileys Irish cream liqueur
+  - 1/3 ounce Grand Marnier liqueur
+  is_pinned: false
+  name: Classic B-52 Shot
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/F51CBC2A-E97D-4B3E-9EAB-91F9DB314966.jpg
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: ''
+  source: liquor.com
+  source_url: https://www.liquor.com/recipes/b-52/
+  total_time: ''
+  uid: 38A5AA63-BCD3-4557-9564-907A80525360
 - categories: []
   cook_time: 10 minutes
   created: '2021-01-15 01:33:02'
