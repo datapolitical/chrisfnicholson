@@ -64,6 +64,7 @@ node_modules
 # Dev stuff
 Makefile
 Gemfile.lock
+Gemfile-dev.lock
 _config.dev.yml
 .vscode
 *.gem
