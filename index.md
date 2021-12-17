@@ -1,6 +1,6 @@
 ---
 layout: page
-article_count: 3
+article_count: 2
 ---
 ### Hi, I'm Chris.
 I've written some [blog posts]({{ site.baseurl }}/posts.html).
