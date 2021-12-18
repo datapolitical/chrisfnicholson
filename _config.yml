@@ -36,7 +36,7 @@ style: default
 # Menu
 navigation:
 #  - {title: Home, file: "index.html", icon: home}
-  - {title: Recipes, icon: utensils, url: "/recipes/"}
+  - {title: Recipes, icon: utensils, url: "/recipes"}
   - {title: Cocktails, icon: glass-martini-alt, url: "/drinks/"}
   - {title: Crosswords, icon: crossword, url: "crosswords.html"}
 #  - {title: Grady, icon: dragon, url: "grady.html"}
@@ -120,7 +120,7 @@ pwa:
     - "/assets/generated/images/recipes/*-600-*.{webp}"
 #    - "/assets/fontawesome/icons.svg"
 #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
-    - "/recipes/index.html"
+    - "/recipes"
     - "/drinks/index.html"
     - "/index.html"
   precache_glob_ignores: # Optional
