@@ -9,7 +9,7 @@ If you're hungry, check out [my favorite recipes](https://www.chrisfnicholson.co
 
 I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
 
-I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/diet.html">what I eat</a>.
+I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/health.html">what I eat</a>.
 
 <p id="weather">no weather available.</p>
 {: .main-divider }
