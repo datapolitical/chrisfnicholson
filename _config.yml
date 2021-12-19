@@ -37,8 +37,8 @@ style: default
 navigation:
 #  - {title: Home, file: "index.html", icon: home}
   - {title: Recipes, icon: utensils, url: "/recipes"}
-  - {title: Cocktails, icon: glass-martini-alt, url: "/drinks/"}
-  - {title: Crosswords, icon: crossword, url: "crosswords.html"}
+  - {title: Cocktails, icon: glass-martini-alt, url: "/drinks"}
+  - {title: Crosswords, icon: crossword, url: "/crosswords"}
 #  - {title: Grady, icon: dragon, url: "grady.html"}
 
 plugins:
