@@ -120,8 +120,8 @@ pwa:
     - "/assets/generated/images/recipes/*-600-*.{webp}"
 #    - "/assets/fontawesome/icons.svg"
 #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
-    - "/recipes"
-    - "/drinks/index.html"
+    - "/recipes.html"
+    - "/drinks.html"
     - "/index.html"
   precache_glob_ignores: # Optional
     - "sw-register.js"
