@@ -12,7 +12,7 @@ Drinks are from [aflg/opendrinks](https://www.github.com/aflg/opendrinks) with a
 
 The Crossword module is an embed of my crossword puzzles from [crosshare](https://www.crosshare.org)
 
-What I Eat accesses MyNetDiary.com data via a Python module I wrote. It downloads an Excel file and parses the data. 
+What I Eat accesses MyNetDiary.com data via a Python module I wrote. It downloads an Excel file and parses the data.
 
 This blog is heavily optimized using plugins: [jekyll_picture_tag](https://github.com/rbuchberger/jekyll_picture_tag) makes the images responsive so that pages load super quickly.
 
@@ -20,4 +20,4 @@ Posts are updated infrequently and occasionally often. New features should not b
 
 If you have comments, please feel free to submit an issue.
 
-v3.0.30d-7
+v3.0.30d-8
