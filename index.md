@@ -2,7 +2,7 @@
 layout: page
 article_count: 2
 ---
-#### I've also written some [blog posts].({{ site.baseurl }}/posts.html)
+#### I've also written some [blog posts]({{ site.baseurl }}/posts.html).
 
 #### While you're here, check out [my favorite recipes](https://www.chrisfnicholson.com/recipes). 
 
