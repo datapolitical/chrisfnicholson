@@ -2,15 +2,15 @@
 layout: page
 article_count: 2
 ---
-#### [Blog Posts]({{ site.baseurl }}/posts.html)
+#### I've also written some [blog posts].({{ site.baseurl }}/posts.html)
 
-#### [My Favorite Recipes](https://www.chrisfnicholson.com/recipes) 
+#### While you're here, check out [my favorite recipes](https://www.chrisfnicholson.com/recipes). 
 
-#### [Cocktail Catalog]({{ site.baseurl }}/drinks)
+#### The site also hosts a comprehensive [cocktail catalog]({{ site.baseurl }}/drinks).
 
-#### [My Crossword Puzzles]({{ site.baseurl }}/crosswords)
+#### For a distraction, here are [my crossword puzzles]({{ site.baseurl }}/crosswords).
 
-#### <a class="my-net-diary" href="{{ site.baseurl }}/health.html">My Health Data</a>
+#### I also share some limited <a class="my-net-diary" href="{{ site.baseurl }}/health.html"> health data</a>.
 
 <p id="weather"></p>
 {: .main-divider }
