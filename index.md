@@ -2,16 +2,17 @@
 layout: page
 article_count: 2
 ---
-### Hi, I'm Chris.
-I've written some [blog posts]({{ site.baseurl }}/posts.html).
+#### [Blog Posts]({{ site.baseurl }}/posts.html).
 
-If you're hungry, check out [my favorite recipes](https://www.chrisfnicholson.com/recipes) or find a good [cocktail]({{ site.baseurl }}/drinks).
+#### [My Favorite Recipes](https://www.chrisfnicholson.com/recipes) 
 
-I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
+#### [Cocktail Catalog]({{ site.baseurl }}/drinks).
 
-I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/health.html">my health data</a>.
+#### [My Crossword Puzzles]({{ site.baseurl }}/crosswords).
 
-<p id="weather">no weather available.</p>
+#### < a class="my-net-diary" href="{{ site.baseurl }}/health.html">My Health Data</a>.
+
+<p id="weather"></p>
 {: .main-divider }
 ***
 ### I've Recently Read
