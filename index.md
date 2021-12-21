@@ -2,13 +2,14 @@
 layout: page
 article_count: 2
 ---
-#### While you're here, check out [my favorite recipes](https://www.chrisfnicholson.com/recipes). 
+### Hi, I'm Chris.
+I've written some [blog posts]({{ site.baseurl }}/posts.html).
 
-#### I've also written some [blog posts]({{ site.baseurl }}/posts.html).
+If you're hungry, check out [my favorite recipes](https://www.chrisfnicholson.com/recipes) or find a good [cocktail]({{ site.baseurl }}/drinks).
 
-#### The site hosts a comprehensive [cocktail catalog]({{ site.baseurl }}/drinks).
+I also enjoy constructing [crossword puzzles]({{ site.baseurl }}/crosswords).
 
-#### For a distraction, here are [my crossword puzzles]({{ site.baseurl }}/crosswords) and some <a class="my-net-diary" href="{{ site.baseurl }}/health.html"> health data</a>.
+I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/health.html">my health data</a>.
 
 <p id="weather"></p>
 {: .main-divider }
