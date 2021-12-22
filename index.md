@@ -9,7 +9,7 @@ While you're here, check out [my favorite recipes]({{ site.baseurl }}/recipes) a
 
 Or read my old [blog posts]({{ site.baseurl }}/posts.html).
 
-These are some [crossword puzzles]({{ site.baseurl }}/crosswords) I constructed.
+These are some [crossword puzzles]({{ site.baseurl }}/crosswords) <span class="no-split">I constructed.</span>
 
 I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" href="{{ site.baseurl }}/health.html">my health data</a>.
 
