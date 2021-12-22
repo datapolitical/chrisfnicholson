@@ -6445,6 +6445,8 @@
   total_time: ''
   uid: D9C2D413-2F47-447E-93AF-19501FC6A62B-3403-000000FEB70441E5
 - categories:
+  - Made at 307
+  - Web
   - Breakfast
   cook_time: 1 min
   created: '2021-12-22 05:02:45'
@@ -6503,7 +6505,7 @@
   photos:
   - '1': images/recipes/BE2F3750-0B64-4506-B309-22808251A361.jpg
   prep_time: 4 mins
-  rating: 0
+  rating: 5
   scale: null
   servings: 'Serving: 1'
   source: budgetbytes.com
