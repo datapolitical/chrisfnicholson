@@ -5,7 +5,7 @@ article_count: 2
 
 ### Hi.
 
-While you're here, check out [my favorite recipes]({{ site.baseurl }}/recipes) or find a good [cocktail]({{ site.baseurl }}/drinks).
+While you're here, check out [my favorite recipes]({{ site.baseurl }}/recipes) and find a good [cocktail]({{ site.baseurl }}/drinks).
 
 Or read my old [blog posts]({{ site.baseurl }}/posts.html).
 
