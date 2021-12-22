@@ -6444,6 +6444,72 @@
   source_url: https://www.kingarthurflour.com/recipes/japanese-milk-bread-rolls-recipe
   total_time: ''
   uid: D9C2D413-2F47-447E-93AF-19501FC6A62B-3403-000000FEB70441E5
+- categories:
+  - Breakfast
+  cook_time: 1 min
+  created: '2021-12-22 05:02:45'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the butter in a large mug and microwave for 15-20 seconds, or until it is
+    melted. Add the milk, maple syrup, cinnamon, vanilla, nutmeg, and the egg to the
+    mug and whisk until everything is well mixed.
+  - Add the bread pieces to the mug and gently stir until all the pieces are saturated
+    with the egg and milk mixture. Be careful not to stir too roughly or the bread
+    pieces may fall apart. Let the bread sit and absorb the liquid for about 1 minute.
+  - Microwave the mug for 60-90 seconds, or until the mixture is solid. I have a 1250
+    watt microwave and find that 70-80 seconds is about perfect. You may need to experiment
+    to find just the right cooking time for your microwave and mug size.
+  - Serve immediately, or deck it out with your favorite toppings.
+  - STEP BY STEP PHOTOS
+  - Start by placing 1 tsp butter in a large microwave safe mug. Microwave for about
+    20 seconds, or until the butter is melted. Add 3 Tbsp milk, 1 tsp maple syrup,
+    1/4 tsp cinnamon, 1/4 tsp vanilla extract, a pinch of ground nutmeg, and one large
+    egg to the mug with the melted butter. Whisk the mixture until it is very well
+    combined.
+  - Tear or cut a piece of hearty bread into 1/2-inch pieces (about one heaping cup
+    of bread pieces). Add the bread chunks to the mug and gently stir until they are
+    saturated in the egg and milk mixture. Let them sit for about one minute to fully
+    absorb the moisture.
+  - Microwave the mug for 60-90 seconds, or until the mixture is solid and slightly
+    puffed up. The total cooking time will depend on the wattage of your microwave
+    and the size and thickness of your mug. I suggest starting at 60 seconds and adding
+    10-15 seconds as necessary.
+  - "You can add all sorts of fun toppings after it\u2019s cooked, or even stir them\
+    \ in with the bread chunks before cooking. Berries are always a nice tart contrast\
+    \ to the slightly sweet mixture, but if you have a sugar tooth you can do things\
+    \ like chocolate chips, banana slices, or powdered sugar. Nuts are delicious as\
+    \ well!"
+  - "I can\u2019t wait to try a savory version!"
+  image_url: images/recipes/BE2F3750-0B64-4506-B309-22808251A361.jpg
+  in_trash: false
+  ingredients:
+  - 1 tsp butter ($0.04)
+  - 3 Tbsp whole milk ($0.07)
+  - 1 tsp maple syrup ($0.11)
+  - 1/4 tsp cinnamon ($0.02)
+  - 1/4 tsp vanilla extract ($0.21)
+  - Pinch ground nutmeg ($0.02)
+  - 1 large egg ($0.27)
+  - 1 cup bread pieces* ($0.10)
+  is_pinned: false
+  name: 5-Minute Microwave French Toast Mug
+  notes: '*Use a hearty bread, torn or cut into 1/2-inch pieces.'
+  nutritional_info: "Serving: 1 Serving \u30FB Calories: 238.3 kcal \u30FB Carbohydrates:\
+    \ 22.1 g \u30FB Protein: 10.3 g \u30FB Fat: 10.9 g \u30FB Sodium: 255.2 mg \u30FB\
+    \ Fiber: 1.4 g"
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/BE2F3750-0B64-4506-B309-22808251A361.jpg
+  prep_time: 4 mins
+  rating: 0
+  scale: null
+  servings: 'Serving: 1'
+  source: budgetbytes.com
+  source_url: https://www.budgetbytes.com/5-minute-microwave-french-toast-mug/
+  total_time: ''
+  uid: DBA1A005-7890-48E9-A9A3-061F9B8AD7B5
 - categories: []
   cook_time: ''
   created: '2021-03-03 12:58:04'
