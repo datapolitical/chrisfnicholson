@@ -25,7 +25,7 @@ presets:
     sizes:
       mobile: 30vw
       desktop: 10vw
-    size: 135px
+    size: 150px
 
 
   writeup:
