@@ -156,6 +156,54 @@
   source_url: https://www.epicurious.com/recipes/food/views/olive-oil-apple-cake-with-spiced-sugar?intcid=inline_amp
   total_time: ''
   uid: 02B940D4-2D14-4E0D-9D26-A3417C4F262E-15739-0000046C60D082FD
+- categories: []
+  cook_time: 20 minutes
+  created: '2021-12-24 15:37:03'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat the oven to 450 F (232 C).
+  - In a large bowl, whisk together flour, baking powder, and salt together. If you
+    want to add any herbs or spices you can add them here.
+  - Add the pieces of cold butter and cut into the dry ingredients with a pastry cutter
+    or fork until the consistency of coarse meal. If you want to add any cheeses or
+    other add-ins you can stir them in here before adding the milk.
+  - Add 3/4 cup of the milk and stir just until combined. You can use any milk you
+    like or buttermilk if you want a tangy flavor. If the batter is very dry, add
+    a little more milk until the consistency of a very thick batter. Do not over-mix.
+    The batter will be quite lumpy.
+  - Drop large mounds (about 1/4 cup each. I use a 2 oz scoop) onto a baking sheet.
+    You can also use a cast iron skille that has been greased with butter.
+  - Bake at 450 F (232 C) for 18-22 minutes until golden brown
+  - Brush with melted butter if desired.
+  image_url: https://i2.wp.com/bakerbettie.com/wp-content/uploads/2014/01/easy-drop-biscuits-2-200x200.jpg
+  in_trash: false
+  ingredients:
+  - 2 cups (240 grams) all-purpose flour
+  - 1 tablespoon (14 grams) baking powder
+  - 1 1/4 teaspoon kosher salt
+  - 1/2 cup (1 stick, 113 grams) cold unsalted butter, cut into small pieces
+  - 3/4 cup-1 cup (175-240 mililiters) milk or buttermilk
+  is_pinned: false
+  name: Easy Drop Biscuits
+  notes: 'If you have self rising flour on hand you can substitute the ap flour, baking
+    powder, and salt with 2 cups of self-rising flour.
+
+
+    If you only have salted butter you can use that and leave out the additional salt
+    in the recipe.'
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 8 biscuits'
+  source: bakerbettie.com
+  source_url: https://bakerbettie.com/5-ingredient-basic-drop-biscuits/
+  total_time: ''
+  uid: 02CAE0A6-6956-485D-887F-096BD2A7D5CA
 - categories:
   - Meal Type
   - Dessert
