@@ -156,7 +156,11 @@
   source_url: https://www.epicurious.com/recipes/food/views/olive-oil-apple-cake-with-spiced-sugar?intcid=inline_amp
   total_time: ''
   uid: 02B940D4-2D14-4E0D-9D26-A3417C4F262E-15739-0000046C60D082FD
-- categories: []
+- categories:
+  - Made at 307
+  - Baked Goods
+  - Web
+  - I Made This
   cook_time: 20 minutes
   created: '2021-12-24 15:37:03'
   description: ''
@@ -176,7 +180,7 @@
     You can also use a cast iron skille that has been greased with butter.
   - Bake at 450 F (232 C) for 18-22 minutes until golden brown
   - Brush with melted butter if desired.
-  image_url: https://i2.wp.com/bakerbettie.com/wp-content/uploads/2014/01/easy-drop-biscuits-2-200x200.jpg
+  image_url: images/recipes/B7B93CDF-2105-491A-8822-4228B5ABADE0.jpg
   in_trash: false
   ingredients:
   - 2 cups (240 grams) all-purpose flour
@@ -195,9 +199,10 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/B7B93CDF-2105-491A-8822-4228B5ABADE0.jpg
   prep_time: 10 minutes
-  rating: 0
+  rating: 4
   scale: null
   servings: 'Yield: 8 biscuits'
   source: bakerbettie.com
