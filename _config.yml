@@ -47,13 +47,11 @@ plugins:
 # - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-datapage-generator
-#  - jekyll-webp
   - jekyll-sitemap
   - jekyll-seo-tag
-#  - jekyll-pwa-workbox
+  - jekyll-pwa-plugin
   - jekyll_picture_tag
   - jekyll_version_plugin
-  # - jekyll-commonmark
   - jekyll-include-cache
 
 exclude:
