@@ -49,7 +49,7 @@ plugins:
   - jekyll-datapage-generator
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-pwa-plugin
+  - jekyll-pwa-workbox
   - jekyll_picture_tag
   - jekyll_version_plugin
   - jekyll-include-cache

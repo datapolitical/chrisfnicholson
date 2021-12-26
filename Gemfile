@@ -18,7 +18,7 @@ gem 'jekyll-paginate', group: :jekyll_plugins
 gem "jekyll-datapage-generator", github: 'datapolitical/jekyll-datapage_gen'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
-gem 'jekyll-pwa-plugin'
+gem 'jekyll-pwa-workbox'
 gem 'jekyll_picture_tag', group: :jekyll_plugins
 gem 'jekyll_version_plugin', github: "datapolitical/jekyll-version-plugin", branch: 'master', group: :jekyll_plugins
 gem "contrast-theme",  github: "datapolitical/contrast-theme", branch: 'master'
