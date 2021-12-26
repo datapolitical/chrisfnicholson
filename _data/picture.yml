@@ -1,6 +1,6 @@
 media_queries:
-  mobile: "max-width: 600px"
-  desktop: "min-width: 601px"
+  mobile: "max-width: 767px"
+  desktop: "min-width: 768px"
   ultrawide: "min-width: 1400px"
 
 presets:
