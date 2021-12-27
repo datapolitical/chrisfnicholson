@@ -1,4 +1,4 @@
 pwa:
-  enabled: false
+  enabled: true
 sass:
-  style: compressed
+  style: expanded
