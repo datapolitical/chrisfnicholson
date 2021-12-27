@@ -7908,7 +7908,13 @@
   source_url: https://cooking.nytimes.com/recipes/1020830-caramelized-shallot-pasta
   total_time: ''
   uid: F4D85915-CFBB-4137-93FD-25F0C79C9A4D-6315-0000022CD2A1EBDE
-- categories: []
+- categories:
+  - Dinner
+  - Made at 307
+  - Web
+  - Salad
+  - I Made This
+  - Vegetarian
   cook_time: 20 min
   created: '2021-12-27 02:45:06'
   description: ''
@@ -7921,14 +7927,14 @@
     until they are golden, crisp, and have absorbed all the oil, like little olive
     oil sponges. Remove from the heat and reserve.
   - In the bowl of a food processor, combine the Parmigiano, lemon zest and juice,
-    the remaining garlic, the Dijon, anchovies, and Worcestershire. Puree until the
-    mixture is smooth, 15 to 20 seconds. With the machine running, add 1/4 to 1/3
-    cup olive oil through the feed tube. Let the processor continue to run for another
-    10 to 15 seconds. Taste and season with salt if needed.
+    the remaining garlic, the Dijon, anchovies, mayonnaise, and Worcestershire. Puree
+    until the mixture is smooth, 15 to 20 seconds. With the machine running, add 1/4
+    to 1/3 cup olive oil through the feed tube. Let the processor continue to run
+    for another 10 to 15 seconds. Taste and season with salt if needed.
   - In a large bowl, toss the kale with the croutons and two-thirds of the dressing.
     Let the kale sit for 3 to 4 minutes to soften. Taste, add the remaining dressing,
     and adjust the seasoning if needed.
-  image_url: images/recipes/B83D1656-4435-44C9-A53E-A060C3748D41.jpg
+  image_url: images/recipes/6AE3A08B-70FE-4B61-8E5B-1360630DDC2C.jpg
   in_trash: false
   ingredients:
   - Extra virgin olive oil
@@ -7936,10 +7942,11 @@
   - Pinch of crushed red pepper
   - 2 slices of day-old Italian bread, cut into 1/2-inch cubes
   - 1/2 cup grated Parmigiano
-  - Zest and juice of 1 lemon
+  - Zest and juice of half a lemon
   - 1 tablespoon Dijon mustard
   - 2 to 3 anchovy fillets
   - 2 shakes Worcestershire sauce
+  - 1 tbsp Mayonnaise
   - Kosher salt
   - 1 bunch of kale, tough stems removed, cut into ribbons
   is_pinned: false
@@ -7949,9 +7956,9 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/4C027203-C4E6-46FF-A508-09868B756ACA.jpg
+  - '1': images/recipes/6AE3A08B-70FE-4B61-8E5B-1360630DDC2C.jpg
   prep_time: ''
-  rating: 0
+  rating: 5
   scale: null
   servings: Serves 2 to 4
   source: Foodnetwork.com
