@@ -2,3 +2,4 @@ pwa:
   enabled: true
 sass:
   style: expanded
+  implementation: sass-embedded

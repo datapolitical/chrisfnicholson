@@ -127,8 +127,6 @@ pwa:
     - "fonts/**/*"
     - "/assets/js/lunr.js"
     
-sass:
-  implementation: sass-embedded
 
 # google_analytics: G-QTJ2YPCJSC
 google_analytics: UA-387663-5
