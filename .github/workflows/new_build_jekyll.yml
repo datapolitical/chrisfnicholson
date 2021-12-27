@@ -9,6 +9,20 @@ on:
   workflow_dispatch:
 
 jobs:
+
+  stylelint:
+    name: runner / stylelint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: stylelint
+        uses: reviewdog/action-stylelint@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-check # Change reporter.
+          stylelint_input: '**/*.scss'
+
+
   get_data:
     runs-on: ubuntu-latest
     concurrency: get_data
@@ -27,19 +41,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-          
-
-          
-      - name: dir check
-        run: |
-          pwd
-          ls -a
-      
-      - name: stylelint
-        uses: actions-hub/stylelint@master
-        env:
-          PATTERN: "$HOME/**/*.scss"
-          INDENT_SPACES: 4
           
       - name: Setup Python Environment
         uses: actions/setup-python@v2
