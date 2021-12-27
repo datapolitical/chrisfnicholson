@@ -14,6 +14,13 @@ jobs:
     name: runner / stylelint
     runs-on: ubuntu-latest
     steps:
+      - name: explore
+        run: |
+          pwd
+          cd /github/workspace
+          ls -a
+          
+    
       - uses: actions/checkout@v1
       - name: stylelint
         uses: reviewdog/action-stylelint@v1
