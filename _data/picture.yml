@@ -16,7 +16,7 @@ presets:
     size: 500px
 
   profile:
-    widths: [150, 200, 300, 600]
+    widths: [150, 200, 250, 300, 350, 400, 500, 600, 700, 800]
     formats: [webp, original]
     dimension_attributes: true
     attributes:
