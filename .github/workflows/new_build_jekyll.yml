@@ -9,28 +9,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
-  stylelint:
-    name: runner / stylelint
-    runs-on: ubuntu-latest
-    steps:
-      - name: explore
-        run: |
-          pwd
-          ls -a
-          
-    
-      - uses: actions/checkout@v1
-      - name: stylelint
-        uses: reviewdog/action-stylelint@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-check # Change reporter.
-          stylelint_input: '*.scss'
-          packages: 'stylelint-config-sass-guidelines stylelint-order'
-          workdir: 'assets/css/'
-
-
   get_data:
     runs-on: ubuntu-latest
     concurrency: get_data
