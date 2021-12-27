@@ -31,7 +31,7 @@ jobs:
       - name: stylelint
         uses: actions-hub/stylelint@master
         env:
-          PATTERN: "/assets/css/*.scss"
+          PATTERN: "/**/*.scss"
           INDENT_SPACES: 4
           
       - name: Setup Python Environment
