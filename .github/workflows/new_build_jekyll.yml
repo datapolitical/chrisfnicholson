@@ -14,16 +14,14 @@ jobs:
     name: runner / stylelint
     runs-on: ubuntu-latest
     steps:
-      - name: install
-        run: |
-          npm install stylelint stylelint-config-recommended -D
       - uses: actions/checkout@v1
       - name: stylelint
         uses: reviewdog/action-stylelint@v1
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check # Change reporter.
+          reporter: github-check # Change reporter.
           stylelint_input: '**/*.scss'
+          packages: 'stylelint-config-sass-guidelines stylelint-order'
 
 
   get_data:
