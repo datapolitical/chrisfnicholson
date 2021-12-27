@@ -22,6 +22,7 @@ jobs:
           reporter: github-check # Change reporter.
           stylelint_input: '**/*.scss'
           packages: 'stylelint-config-sass-guidelines stylelint-order'
+          workdir: '${{ env.GITHUB_WORKSPACE }}/chrisfnicholson.github.io/chrisfnicholson.github.io/**/*.scss'
 
 
   get_data:
