@@ -22,7 +22,6 @@ _site
 .ruby-version
 
 package-lock.json
-package.json
 
 # Numerous always-ignore extensions
 *.diff
