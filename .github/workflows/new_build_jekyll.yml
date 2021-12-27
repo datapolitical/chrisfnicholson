@@ -16,7 +16,6 @@ jobs:
     steps:
       - name: install
         run: |
-          touch package.json
           npm install stylelint stylelint-config-recommended -D
       - uses: actions/checkout@v1
       - name: stylelint
