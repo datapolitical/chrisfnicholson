@@ -30,6 +30,9 @@ jobs:
           
       - name: stylelint
         uses: actions-hub/stylelint@master
+        run: |
+          pwd
+          ls -a
         env:
           PATTERN: "**/*.scss"
           INDENT_SPACES: 4
