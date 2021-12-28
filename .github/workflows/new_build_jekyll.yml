@@ -92,7 +92,7 @@ jobs:
       - name: Push changes
         if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }}
         run: |
-          git push origin ${{ github.ref_name }}
+          git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
       status: ${{ steps.get_data.outputs.status }}
 
