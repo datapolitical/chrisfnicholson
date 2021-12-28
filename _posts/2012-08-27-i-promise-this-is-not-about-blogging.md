@@ -1,10 +1,10 @@
 ---
 layout: post
 title: I promise, this isn't about blogging
-description: How mobile has changed the way we think about composition 
+description: How mobile has changed the way we think about composition
 ---
 
-I'm writing this on my iPhone (full disclosure, this will be partially about blogging). It feels incredibly odd, like eating pancakes with a caviar fork. I love this device, but complex content creation is not its strong suit. 
+I'm writing this on my iPhone (full disclosure, this will be partially about blogging). It feels incredibly odd, like eating pancakes with a caviar fork. I love this device, but complex content creation is not its strong suit.
 
 Yet, it is awesome with micro-creation. Instagram, Twitter, Tumblr all work beautifully on mobile, because they are not designed to feel like a blank canvas. People have time to revise because they only have to review 140 characters.
 
@@ -18,4 +18,4 @@ So the question is simple: will a generation raised on smartphones create long-f
 
 Having said that, I'm going to upload this post, I'll share it on Facebook and Twitter, and then take it to Branch (when that is live, I'll update this with the link).
 
-Same warning: this was written on a mobile device, so there may be errors I didn't catch. 
+Same warning: this was written on a mobile device, so there may be errors I didn't catch.

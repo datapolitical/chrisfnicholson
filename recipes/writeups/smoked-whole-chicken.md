@@ -1,4 +1,4 @@
-So I decided to smoke a chicken. This is notable because while I’ve smoked meats before, chicken will be a first, and  I’m doing it on a new Weber Master Touch grill.
+So I decided to smoke a chicken. This is notable because while I’ve smoked meats before, chicken will be a first, and I’m doing it on a new Weber Master Touch grill.
 
 The first step for me was reading a bunch of different recipes. I quickly settled on a few key steps they all had in common.
 
@@ -12,9 +12,9 @@ Dry rub — there were almost too many good dry rub options. I wanted something 
 
 {% picture writeup images/pages/smoked-whole-chicken-3.jpeg 1:1 --alt "heating up the coals" %}
 
-Set up the BBQ — I heated up a full chimney of briquettes for about 45 minutes, longer than I intended but it worked out fine. Then when I was ready to dump them, I filled up a drip pan with water, put it to one side, and put the coals on the other side, directly under the door.  
+Set up the BBQ — I heated up a full chimney of briquettes for about 45 minutes, longer than I intended but it worked out fine. Then when I was ready to dump them, I filled up a drip pan with water, put it to one side, and put the coals on the other side, directly under the door.
 
-On top of the coals I added a handful of hickory wood chips I soaked in water  for about 10 minutes. Next time I’ll soak them longer.
+On top of the coals I added a handful of hickory wood chips I soaked in water for about 10 minutes. Next time I’ll soak them longer.
 
 {% picture writeup images/pages/smoked-whole-chicken-2.webp 1:1 --alt "where to insert the temperature probe" %}
 

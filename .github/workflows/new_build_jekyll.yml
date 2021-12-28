@@ -2,10 +2,10 @@ name: Update External Data and Release
 
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron: "*/15 * * * *"
   push:
     branches:
-      - main  # Here source code branch is `master`, it could be other branch
+      - main # Here source code branch is `master`, it could be other branch
   workflow_dispatch:
 
 jobs:
@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: get_data
     permissions:
-          contents: write
-          actions: write
-          checks: write
+      contents: write
+      actions: write
+      checks: write
     steps:
       - name: Setup Key #webfactory/ssh-agent
         uses: webfactory/ssh-agent@v0.5.3
@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-          
+
       - name: Setup Python Environment
         uses: actions/setup-python@v2
         with:
@@ -96,14 +96,12 @@ jobs:
     outputs:
       status: ${{ steps.get_data.outputs.status }}
 
-
   jekyll:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
     if: github.event_name == 'false' #github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
@@ -112,8 +110,8 @@ jobs:
       - name: checkout gh-pages
         uses: actions/checkout@v2
         with:
-          ref: 'gh-pages'
-          path: 'gh-pages'
+          ref: "gh-pages"
+          path: "gh-pages"
 
       - name: setup ruby
         uses: actions/setup-ruby@v1
@@ -163,7 +161,6 @@ jobs:
     needs: get_data
     if: (github.event_name != 'schedule' || needs.get_data.outputs.status != 'Nothing to update') && github.ref_name == 'main'
     steps:
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
@@ -228,7 +225,6 @@ jobs:
           cat << "EOF"
           ${{ steps.modified.outputs.modified }}
           EOF
-
 
       #Create Release
       - name: Create Release
