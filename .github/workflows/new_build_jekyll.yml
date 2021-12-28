@@ -91,10 +91,9 @@ jobs:
           git commit -am "Build -> Update recipes [skip actions]" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
         if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }}
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      - uses: actions/checkout@v2
+      - run: |
+          git push origin ${{ github.ref_name }}
     outputs:
       status: ${{ steps.get_data.outputs.status }}
 
