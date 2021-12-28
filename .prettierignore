@@ -1,0 +1,77 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.env
+.secrets
+wrangler.toml
+opendrinks_old/
+webp-drinks/
+webp-recipes/
+src/
+theme
+gh-pages/
+webp-recipes/
+webp-drinks/
+_data/ignore/
+/workflow/
+.config/
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
+
+package-lock.json
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.plist
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+_data/drinks
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
+# Folders to ignore
+node_modules
+.sass-cache
+.jekyll-cache
+.bundle
+
+# Dev stuff
+Makefile
+Gemfile.lock
+Gemfile-dev.lock
+_config.dev.yml
+.vscode
+*.gem
+
+# Mistakes
+recent_food.txt
