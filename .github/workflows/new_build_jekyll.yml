@@ -47,14 +47,14 @@ jobs:
           echo "Git Setup Remotes:"
           git remote -v
           echo "Git Pull:"
-          git pull --ff-only origin main
+          git pull --ff-only origin ${{ github.ref_name }}
 
       - name: Execute Recipes Python script
         run: |
           python3 -m papexp
           git add assets/images/recipes/*
           git add _data/recipes.yaml
-          git pull --ff-only origin main
+          git pull --ff-only origin ${{ github.ref_name }}
         env:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -69,7 +69,7 @@ jobs:
           echo "Recent Food:"
           cat _data/recent_food.yml
           echo "\n"
-          git pull --ff-only origin main
+          git pull --ff-only origin ${{ github.ref_name }}
         env:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
           MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
@@ -83,7 +83,7 @@ jobs:
           cat _data/pocket.yml
           git add _data/pocket.yml
           echo "\n"
-          git pull --ff-only origin main
+          git pull --ff-only origin ${{ github.ref_name }}
 
       - name: commit
         id: get_data
@@ -109,7 +109,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
-          ref: 'main'
+          ref: ${{ github.ref }}
 
       - name: checkout gh-pages
         uses: actions/checkout@v2
@@ -163,13 +163,13 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: release
     needs: get_data
-    if: github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
+    if: (github.event_name != 'schedule' || needs.get_data.outputs.status != 'Nothing to update') && github.ref_name == 'main'
     steps:
 
       - uses: actions/checkout@v2
         with:
           fetch-depth: zero
-          ref: 'main'
+          ref: ${{ github.ref }}
 
       # Create Version
       - name: Create Version
@@ -177,7 +177,7 @@ jobs:
         uses: paulhatch/semantic-version@v4.0.3
         with:
           # The prefix to use to identify tags
-          branch: "main"
+          branch: ${{ github.ref_name }}
           # The prefix to use to identify tags
           tag_prefix: "v"
           # A string which, if present in a git commit, indicates that a change represents a
@@ -246,4 +246,4 @@ jobs:
 
           draft: false
           prerelease: false
-          commit: 'main'
+          commit: ${{ github.ref_name }}
