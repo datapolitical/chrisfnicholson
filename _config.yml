@@ -67,6 +67,10 @@ exclude:
   - node_modules
   - functions/
 
+sass:
+  style: compressed
+  implementation: sass-embedded
+
 # markdown: CommonMark
 
 # commonmark:
@@ -126,7 +130,7 @@ pwa:
     - "assets/katex/*"
     - "fonts/**/*"
     - "/assets/js/lunr.js"
-    
+
 
 # google_analytics: G-QTJ2YPCJSC
 google_analytics: UA-387663-5
