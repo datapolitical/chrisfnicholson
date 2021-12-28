@@ -1,32 +1,33 @@
 # Setup
-title:            Chris F. Nicholson
-tagline:          'A place for the things I enjoy.'
-description:      'Recipes and some writings by Chris F. Nicholson'
-url:              https://www.chrisfnicholson.com
-baseurl:          ''
-destination:      'gh-pages'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title: Chris F. Nicholson
+tagline: "A place for the things I enjoy."
+description: "Recipes and some writings by Chris F. Nicholson"
+url: https://www.chrisfnicholson.com
+baseurl: ""
+destination:
+  "gh-pages"
+  # the optional subpath of your site, e.g. "/blog"
+  # NB: This applies to all pages in your Jekyll site.
+  # If you want to move just the blog index pages but keep
+  # other pages at root, see the paginate_path and
+  # sidebar_blog_link below.
 
-author:           'Chris F. Nicholson'
+author: "Chris F. Nicholson"
 
 # paginate:         5
 # paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Or '/blog/page:num' if you want to move your index pages
 
 # Debug
 debug: false
 
 # Layout
 
-show_social: false          # show site description and social links in the footer
-show_excerpts: false       # show article excerpts on the home page
-show_frame: false          # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-show_nutrition: false      # show nutrition info
+show_social: false # show site description and social links in the footer
+show_excerpts: false # show article excerpts on the home page
+show_frame: false # adds a gray frame to the site
+show_sidebar: false # show a sidebar instead of the usual header
+show_nutrition: false # show nutrition info
 
 # Theme
 style: default
@@ -35,16 +36,16 @@ style: default
 
 # Menu
 navigation:
-#  - {title: Home, file: "index.html", icon: home}
-  - {title: Recipes, icon: utensils, url: "/recipes"}
-  - {title: Crosswords, icon: crossword, url: "/crosswords"}
-  - {title: Cocktails, icon: glass-martini-alt, url: "/drinks"}
+  #  - {title: Home, file: "index.html", icon: home}
+  - { title: Recipes, icon: utensils, url: "/recipes" }
+  - { title: Crosswords, icon: crossword, url: "/crosswords" }
+  - { title: Cocktails, icon: glass-martini-alt, url: "/drinks" }
 #  - {title: Grady, icon: dragon, url: "grady.html"}
 
 plugins:
   - jekyll-feed
   - jekyll-gist
-# - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-datapage-generator
   - jekyll-sitemap
@@ -120,8 +121,8 @@ pwa:
   precache_glob_patterns: # Optional
     - "/**/*.{js,json,css}"
     - "/assets/generated/images/recipes/*-600-*.{webp}"
-#    - "/assets/fontawesome/icons.svg"
-#    - "/assets/images/drinks/*.{ico,png,svg,webp}"
+    #    - "/assets/fontawesome/icons.svg"
+    #    - "/assets/images/drinks/*.{ico,png,svg,webp}"
     - "/recipes.html"
     - "/drinks.html"
     - "/index.html"
@@ -130,7 +131,6 @@ pwa:
     - "assets/katex/*"
     - "fonts/**/*"
     - "/assets/js/lunr.js"
-
 
 # google_analytics: G-QTJ2YPCJSC
 google_analytics: UA-387663-5

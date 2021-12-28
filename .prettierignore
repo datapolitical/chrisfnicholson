@@ -20,6 +20,7 @@ _data/ignore/
 _gh_pages
 _site
 .ruby-version
+_data/
 
 package-lock.json
 
@@ -50,6 +51,7 @@ nbproject
 *.sublime-workspace
 .idea
 _data/drinks
+manifest.json
 
 # Komodo
 *.komodoproject
