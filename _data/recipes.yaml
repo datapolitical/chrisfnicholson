@@ -157,10 +157,7 @@
   total_time: ''
   uid: 02B940D4-2D14-4E0D-9D26-A3417C4F262E-15739-0000046C60D082FD
 - categories:
-  - Made at 307
   - Baked Goods
-  - Web
-  - I Made This
   cook_time: 20 minutes
   created: '2021-12-24 15:37:03'
   description: ''
@@ -202,7 +199,7 @@
   photos:
   - '1': images/recipes/B7B93CDF-2105-491A-8822-4228B5ABADE0.jpg
   prep_time: 10 minutes
-  rating: 4
+  rating: 0
   scale: null
   servings: 'Yield: 8 biscuits'
   source: bakerbettie.com
@@ -7043,6 +7040,62 @@
   source_url: https://cooking.nytimes.com/recipes/1022095-roasted-rhubarb-cobbler?smid=ck-recipe-iOS-share
   total_time: ''
   uid: E2477F71-EE47-4E74-B7EC-24A50441A471
+- categories:
+  - Made at 307
+  - Baked Goods
+  - Web
+  - Side
+  - Pastry
+  - I Made This
+  - Vegetarian
+  cook_time: 10 minutes
+  created: '2021-12-27 22:01:06'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 450\xB0F degrees. Line a baking sheet with parchment paper or\
+    \ a nonstick baking mat, and set aside."
+  - Mix flour, baking powder, sugar and salt, and whisk until combined.
+  - Pour in melted butter and gently stir.
+  - Add the milk and rosemary. Mix until just moistened.
+  - Immediately drop biscuits onto the prepared baking sheet, and transfer into the
+    oven.
+  - Bake for 17-19 minutes until biscuits are golden brown.
+  - Remove from the oven, and serve warm.
+  image_url: images/recipes/72A2022C-27CC-40CE-8F22-57B4BA3D7C14.jpg
+  in_trash: false
+  ingredients:
+  - 2 cups unbleached all-purpose flour
+  - 1 tablespoon baking powder
+  - 1-3 tablespoons granulated sugar
+  - "\xBC teaspoon kosher salt"
+  - "\xBD cup melted salted butter"
+  - 1 cup milk, (whole or skim OK)
+  - "\xBC cup fresh rosemary, chopped"
+  is_pinned: false
+  name: Rosemary Drop Biscuits
+  notes: ''
+  nutritional_info: 'TOTAL FAT: 8g SATURATED FAT: 5g
+
+    TRANS FAT: 0g UNSATURATED FAT: 3g
+
+    CHOLESTEROL: 22mg SODIUM: 238mg
+
+    CARBOHYDRATES: 21g FIBER: 1g
+
+    SUGAR: 3g PROTEIN: 3g'
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/72A2022C-27CC-40CE-8F22-57B4BA3D7C14.jpg
+  prep_time: 10 minutes
+  rating: 5
+  scale: null
+  servings: 'Yield: 12 biscuits'
+  source: thespeckledpalate.com
+  source_url: https://www.thespeckledpalate.com/quick-rosemary-drop-biscuits/
+  total_time: ''
+  uid: E256656E-5E24-441E-804D-11079184D609
 - categories:
   - Breakfast
   cook_time: 8 minutes
