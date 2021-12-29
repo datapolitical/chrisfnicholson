@@ -20,4 +20,4 @@ Posts are updated infrequently and occasionally often. New features should not b
 
 If you have comments, please feel free to submit an issue.
 
-v3.0.30d-11
+v3.0.30d-12
