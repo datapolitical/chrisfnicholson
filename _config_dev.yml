@@ -3,3 +3,5 @@ pwa:
 sass:
   style: expanded
   implementation: sass-embedded
+  
+dev_build: true
