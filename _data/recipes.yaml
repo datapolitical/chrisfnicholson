@@ -7346,7 +7346,7 @@
   - TBD
   - Web
   cook_time: 30 minutes
-  created: '2021-12-05 13:36:46'
+  created: '2021-12-05 12:36:46'
   description: ''
   difficulty: ''
   directions:
@@ -7400,7 +7400,7 @@
   - After the cookies have cooled completely, they should be stored in an airtight
     container for up to 3 days, at room temperature. That being said, they are the
     absolute tastiest when they are fresh from the oven. Enjoy!
-  image_url: images/recipes/B2B29968-C2B6-44B1-8B39-2CF3E55D7B40.jpg
+  image_url: images/recipes/92BCD0EA-3F59-4AB9-A333-1D73A320CD14.jpg
   in_trash: false
   ingredients:
   - Dough
@@ -7425,15 +7425,18 @@
   - pinch of kosher salt
   - 1 egg, beaten for egg wash
   is_pinned: false
-  name: Yeasted Chocolate Rugelach
+  name: Chocolate Rugelach
   notes: ''
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/B2B29968-C2B6-44B1-8B39-2CF3E55D7B40.jpg
+  - '4': images/recipes/65B686B4-A8C8-4B4C-89AF-76E95B2E4203.jpg
+  - '2': images/recipes/63889724-3EA0-40E8-A9A1-62A9FA353BC0.jpg
+  - '1': images/recipes/92BCD0EA-3F59-4AB9-A333-1D73A320CD14.jpg
+  - '3': images/recipes/BC234DE1-4307-4C75-B9A4-B21410C814E8.jpg
   prep_time: 3 hours
-  rating: 0
+  rating: 5
   scale: null
   servings: Servings 40
   source: lionsbread.com
