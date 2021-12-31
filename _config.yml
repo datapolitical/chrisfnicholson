@@ -70,7 +70,7 @@ exclude:
 
 sass:
   style: compressed
-#  implementation: sass-embedded
+  implementation: sass-embedded
 
 # markdown: CommonMark
 
