@@ -2787,6 +2787,37 @@
   uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
 - categories: []
   cook_time: ''
+  created: '2021-12-31 21:49:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - Serve in a Martini glass
+  - 'Garnish: Grapefruit zest twist'
+  - 'How to make: SHAKE all ingredients with ice and fine strain into chilled glass.'
+  image_url: images/recipes/6B30C27A-8D3B-4F9C-8A4E-488AE5D08326.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 fl oz Rutte Dry Gin
+  - 1/2 fl oz Luxardo Maraschino liqueur
+  - 3/4 fl oz Grapefruit juice (pink)
+  - "1/12 fl oz Sugar syrup (65.0\xB0brix, 2 sugar to 1 water rich syrup) (optional)"
+  is_pinned: false
+  name: Colony Cocktail
+  notes: ''
+  nutritional_info: 'Calories: 152'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 3 min
+  rating: 0
+  scale: null
+  servings: '1'
+  source: diffordsguide.com
+  source_url: https://www.diffordsguide.com/cocktails/recipe/2352/colony
+  total_time: 3 min
+  uid: 58F286A0-2178-4F00-AF61-3F40E255980A
+- categories: []
+  cook_time: ''
   created: '2020-04-26 02:10:49'
   description: ''
   difficulty: ''
