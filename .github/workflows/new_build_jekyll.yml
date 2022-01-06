@@ -77,7 +77,7 @@ jobs:
       - name: Execute Pocket Retreval
         run: |
           sudo apt-get install jq
-          curl -H "Content-Type: application/json" -X POST --data '{"consumer_key":"${{ secrets.CONSUMER_KEY }}","access_token":"${{ secrets.POCKET_ACCESS_TOKEN }}","tag":"web"}' https://getpocket.com/v3/get  -o pocket.json
+          curl -H "Content-Type: application/json" -X POST --data '{"consumer_key":"${{ secrets.CONSUMER_KEY }}","access_token":"${{ secrets.POCKET_ACCESS_TOKEN }}","tag":"!web"}' https://getpocket.com/v3/get  -o pocket.json
           jq '.list' pocket.json > _data/pocket.yml
           echo "Pocket Reads:"
           cat _data/pocket.yml
