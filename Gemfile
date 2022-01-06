@@ -22,7 +22,8 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-pwa-workbox'
 gem 'jekyll_picture_tag', group: :jekyll_plugins
-gem 'jekyll_version_plugin', github: "datapolitical/jekyll-version-plugin", branch: 'master', group: :jekyll_plugins
+gem 'jekyll_version_plugin_theme', github: "datapolitical/jekyll-version-plugin", branch: 'master', group: :jekyll_plugins
+gem 'jekyll_version_plugin'
 gem "contrast-theme",  github: "datapolitical/contrast-theme", branch: 'master'
 gem "jekyll-data", group: :jekyll_plugins
 gem 'jekyll-include-cache'
