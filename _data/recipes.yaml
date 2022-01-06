@@ -6255,17 +6255,21 @@
   - Italian
   - I Made This
   cook_time: 10 mins
-  created: '2020-12-26 19:52:37'
+  created: '2020-12-26 18:52:37'
   description: ''
   difficulty: Easy
   directions:
-  - Bring a large pot of water up to boil. Sprinkle in a generous amount of salt and
-    stir in pasta. Cook linguine until al dente and drain, reserving 1/2 cup cooking
-    liquid. Place linguine back into the hot pot and stir in butter, cream, garlic,
-    salt, pepper and cheese until butter and cheese start to melt and create a sauce.
-    Pour in some pasta water to get the sauce to the consistency you want (I only
-    used about 3 tablespoons). Taste and adjust seasonings accordingly. Pour onto
-    a serving platter and top with fresh parsley and more grated cheese.
+  - 'Bring a large pot of water up to boil. '
+  - 'Sprinkle in a generous amount of salt and stir in pasta. '
+  - Cook linguine until al dente.
+  - 'Drain, reserving 1/2 cup cooking liquid. '
+  - Place linguine back into the hot pot.
+  - 'Stir in butter, cream, garlic, salt, pepper and cheese until butter and cheese
+    start to melt and create a sauce. '
+  - 'Pour in some pasta water to get the sauce to the consistency you want (I only
+    used about 3 tablespoons). '
+  - 'Taste and adjust seasonings accordingly. '
+  - Pour onto a serving platter and top with fresh parsley and more grated cheese.
   image_url: images/recipes/C9DF315F-C91F-4251-AFBC-3A4C5922CEB2.jpg
   in_trash: false
   ingredients:
