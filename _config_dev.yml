@@ -1,4 +1,6 @@
 pwa:
   enabled: true
-  
+
 dev_build: true
+
+show_critical_css: false
