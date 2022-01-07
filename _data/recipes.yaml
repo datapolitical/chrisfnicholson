@@ -4466,7 +4466,7 @@
   uid: 83FF6154-3D59-435C-A78E-F9EE2B5B3517-12890-0000040D673C1F3D
 - categories: []
   cook_time: 15 mins
-  created: '2020-10-10 18:57:07'
+  created: '2020-10-10 17:57:07'
   description: ''
   difficulty: ''
   directions:
@@ -4540,7 +4540,7 @@
   - 1/2 cup (100 g) Sugar
   - 1/4 cup (60 ml) Water
   is_pinned: false
-  name: Chocolate Rugelach
+  name: Chocolate Rugelach 2
   notes: ''
   nutritional_info: 'Calories: 260kcal
 
@@ -4568,7 +4568,7 @@
 
     Iron: 2mg'
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: 10 mins
   rating: 0
