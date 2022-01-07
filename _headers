@@ -3,7 +3,9 @@
 
 # Content-Security-Policy-Report-Only: default-src 'none'; script-src 'unsafe-hashes' 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'unsafe-hashes' 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; font-src 'self';
 
-Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA=' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'unsafe-inline' 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; font-src 'self';
+# Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self' 'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA=' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; style-src 'unsafe-inline' 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; font-src 'self';
+
+Content-Security-Policy-Report-Only: default-src 'none';
 
 #
 #
