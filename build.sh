@@ -5,7 +5,7 @@ bundle exec jekyll build
 echo "/*" > _headers
 echo -n "Content-Security-Policy-Report-Only: default-src 'none'; " >> _headers
 echo -n "style-src " >> _headers
-inline_hash=$(echo `cat assets/css/generated-critical.css` | openssl dgst -binary -sha256 | base64)
+inline_hash=$(echo `cat gh-pages/assets/css/generated-critical.css` | openssl dgst -binary -sha256 | base64)
 echo -n "'$inline_hash'" >> _headers
 echo -n ";" >> _headers
 cp _headers gh-pages/
