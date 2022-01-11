@@ -1852,6 +1852,39 @@
   source_url: https://theveganatlas.com/classic-vegan-meatloaf-made-with-beyond-beef-plant-based-ground/
   total_time: ''
   uid: 3282F514-AECA-47F5-90F7-0D108A9F1354
+- categories: []
+  cook_time: 6 mins
+  created: '2022-01-11 13:51:30'
+  description: ''
+  difficulty: ''
+  directions:
+  - Combine water, sugar, and rosemary leaves in a small saucepan. Bring to a boil,
+    stirring until sugar dissolves. Simmer for 1 minute. Remove from heat and let
+    syrup steep, about 30 minutes.
+  - Pour syrup into a sterilized glass jar through a mesh strainer to remove rosemary
+    leaves; let cool.
+  image_url: images/recipes/5B6377E7-46D1-466F-9E33-B48A54913814.jpg
+  in_trash: false
+  ingredients:
+  - 1 cup water
+  - 1 cup white sugar
+  - "\xBC cup rosemary leaves"
+  is_pinned: false
+  name: Rosemary Simple Syrup
+  notes: ''
+  nutritional_info: 'Per Serving: 98 calories; carbohydrates 25.2g; sodium 1.1mg.
+    Full Nutrition'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: 'Servings: 8'
+  source: allrecipes.com
+  source_url: https://www.allrecipes.com/recipe/247475/rosemary-simple-syrup/
+  total_time: ''
+  uid: 33A1D6EF-9383-46AB-A14D-0353163DACAB
 - categories:
   - Drink
   - Web
