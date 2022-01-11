@@ -993,6 +993,42 @@
   source_url: https://tasty.co/recipe/taiwanese-bubble-tea
   total_time: ''
   uid: 1BA9C42E-916D-4394-8385-F512DF926D0B
+- categories:
+  - Drink
+  cook_time: 5 mins
+  created: '2022-01-11 03:31:46'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a shaker filled with ice, add rye, Campari, fig preserves, lemon juice and
+    bitters. Shake vigorously for about a minute. Double strain into a cocktail glass
+    and garnish with a slice of lemon and a sprig of thyme.
+  image_url: images/recipes/7D67C666-EE29-47D7-9F2C-3C86BB98C9B2.jpg
+  in_trash: false
+  ingredients:
+  - 2 ounces rye (or bourbon)
+  - 1 tablespoon fig preserves
+  - 1/2 ounce Campari
+  - 1/2 ounce fresh lemon juice
+  - 2 shakes lemon bitters
+  - 'Garnish: lemon slice sprig of thyme'
+  is_pinned: false
+  name: The Notorious F.I.G. - A Fig and Rye Cocktail
+  notes: ''
+  nutritional_info: 'Calories: 222kcal | Carbohydrates: 15g | Protein: 1g | Fat: 1g
+    | Saturated Fat: 1g | Sodium: 5mg | Potassium: 26mg | Fiber: 1g | Sugar: 7g |
+    Vitamin A: 1IU | Vitamin C: 7mg | Calcium: 4mg | Iron: 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: '1'
+  source: nerdswithknives.com
+  source_url: https://nerdswithknives.com/fig-lemon-rye-cocktail/
+  total_time: ''
+  uid: 1C610E42-1F29-48C2-8B18-40DB0D28463A
 - categories: []
   cook_time: ''
   created: '2021-03-15 19:15:15'
@@ -1098,8 +1134,8 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '5': images/recipes/09539B57-8378-4CB2-BC14-736DDDBA6B69.jpg
   - '6': images/recipes/4730CE3A-A195-43A3-A5B6-DE2EEE782EF1.jpg
+  - '5': images/recipes/09539B57-8378-4CB2-BC14-736DDDBA6B69.jpg
   - '3': images/recipes/7EC65C5C-DB80-4BD6-8A44-DA1561501090.jpg
   - '4': images/recipes/4491CA2C-B5C5-4706-A97F-895FF3A698E8.jpg
   - '2': images/recipes/9B0C5B06-C6F4-4949-8646-E0A52034A46B.jpg
