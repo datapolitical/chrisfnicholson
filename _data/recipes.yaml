@@ -2228,6 +2228,49 @@
   total_time: ''
   uid: 3F013FC0-BF4A-46DB-A8AB-5B5C7E1E077B-14886-000005E4BE20F302
 - categories: []
+  cook_time: 30 mins
+  created: '2022-01-12 04:57:22'
+  description: ''
+  difficulty: ''
+  directions:
+  - To make rosemary syrup
+  - Add rosemary along with sugar and 1 cup water to a small saucepan. Bring to simmer
+    and stir until sugar dissolves. Turn off heat and allow it to steep for 30 minutes
+    until it cools. Remove rosemary and store in an airtight jar in refrigerator.
+  - To make cocktail
+  - In a mixing glass three-quarters filled with ice, combine all liquid ingredients.
+    Stir until chilled, about 30 seconds. Strain into a chilled coupe glass. Garnish
+    with a small slice of grapefruit or rosemary sprig.
+  image_url: images/recipes/CF65A688-FD01-4647-9A81-7FCCC4A081BC.jpg
+  in_trash: false
+  ingredients:
+  - 'For rosemary syrup:'
+  - 2 sprigs fresh rosemary (about 4-inches each)
+  - 1 cup granulated sugar
+  - 'For cocktail:'
+  - 2 oz vodka gin would work too
+  - '1 oz elderflower liquor recommended: St. Germain'
+  - 1-2 oz pink grapefruit juice fresh squeezed and strained
+  - 1/4 oz lemon juice fresh squeezed
+  - 1/4 oz rosemary simple syrup (see below)
+  is_pinned: false
+  name: The French Tart (Grapefruit, Elderflower and Rosemary Cocktail)
+  notes: ''
+  nutritional_info: 'Calories: 268kcal | Carbohydrates: 20g | Protein: 1g | Fat: 1g
+    | Sodium: 5mg | Potassium: 58mg | Fiber: 1g | Sugar: 19g | Vitamin A: 2IU | Vitamin
+    C: 10mg | Calcium: 4mg | Iron: 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: null
+  servings: '1'
+  source: Nerdswithknives.com
+  source_url: https://nerdswithknives.com/french-tart-grapefruit-rosemary-cocktail/
+  total_time: ''
+  uid: 4002C667-1A92-40D4-BF54-706A11B09EBE
+- categories: []
   cook_time: 50 minutes
   created: '2021-11-25 15:19:35'
   description: ''
@@ -5321,6 +5364,40 @@
   source_url: https://www.tasteofhome.com/recipes/slow-cooked-pumpkin-apple-cobbler/
   total_time: ''
   uid: 9B7AA5B1-C0E4-45B4-9777-3C6700B3F21F-35027-00000DD53B45392F
+- categories:
+  - Drink
+  cook_time: ''
+  created: '2022-01-11 20:57:39'
+  description: ''
+  difficulty: Easy
+  directions:
+  - 'In a mixing glass three-quarters filled with ice, combine all liquid ingredients. '
+  - 'Stir until chilled, about 30 seconds. Strain into a chilled coupe glass. '
+  - Garnish with a small slice of grapefruit or rosemary sprig.
+  image_url: images/recipes/8AE4EE9D-210A-4A28-96E7-21E49D5F326C.jpg
+  in_trash: false
+  ingredients:
+  - 1.5 Stoli vodka
+  - 1 oz ruby red grapefruit juive
+  - '.5 oz St Germaine '
+  - 1/8th oz lemon juice
+  - 1/4 oz rosemary syrup
+  is_pinned: false
+  name: Pamplemousse
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/8AE4EE9D-210A-4A28-96E7-21E49D5F326C.jpg
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: '1'
+  source: ''
+  source_url: ''
+  total_time: ''
+  uid: A0B26C51-57E2-4407-AAFE-207BD45431C3
 - categories: []
   cook_time: 1 hour
   created: '2020-12-29 09:56:57'
