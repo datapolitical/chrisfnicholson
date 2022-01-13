@@ -5377,10 +5377,10 @@
   - 'In a mixing glass three-quarters filled with ice, combine all liquid ingredients. '
   - 'Stir until chilled, about 30 seconds. Strain into a chilled coupe glass. '
   - Garnish with a small slice of grapefruit or rosemary sprig.
-  image_url: images/recipes/8AE4EE9D-210A-4A28-96E7-21E49D5F326C.jpg
+  image_url: images/recipes/E46BCDF0-EFB3-4F8D-9DDC-8A4560EC99FB.jpg
   in_trash: false
   ingredients:
-  - 1.5 Stoli vodka
+  - 1.5 oz Stoli vodka
   - 1 oz ruby red grapefruit juive
   - '.5 oz St Germaine '
   - 1/8th oz lemon juice
@@ -5392,10 +5392,10 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/8AE4EE9D-210A-4A28-96E7-21E49D5F326C.jpg
+  - '1': images/recipes/E46BCDF0-EFB3-4F8D-9DDC-8A4560EC99FB.jpg
   prep_time: ''
   rating: 5
-  scale: null
+  scale: 4/3
   servings: '1'
   source: ''
   source_url: ''
