@@ -3402,7 +3402,7 @@
   - Bread
   - I Made This
   cook_time: ''
-  created: '2020-05-12 12:11:47'
+  created: '2020-05-12 11:11:47'
   description: ''
   difficulty: ''
   directions:
@@ -3506,7 +3506,7 @@
   - '1': images/recipes/25D4DA4A-FA6A-499B-9615-D211FEA87591-7551-0000028CAA2D1DA9.jpg
   prep_time: ''
   rating: 5
-  scale: 1/1
+  scale: 2/1
   servings: 1 loaf
   source: thekitchn.com
   source_url: https://www.thekitchn.com/how-to-make-banana-bread-the-simplest-easiest-recipe-139900
