@@ -2354,6 +2354,36 @@
   total_time: ''
   uid: 4002C667-1A92-40D4-BF54-706A11B09EBE
 - categories: []
+  cook_time: 2 min
+  created: '2022-01-18 19:41:32'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a tall glass with ice, pour the gin, then the juice, then add the soda. Do
+    not stir. Garnish with a lime wedge and serve.
+  image_url: null
+  in_trash: false
+  ingredients:
+  - 3 ingredients
+  - "\xBDoz Lime Juice"
+  - 2oz Gin
+  - 2oz Club Soda
+  is_pinned: false
+  name: Gin Rickey
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 2 min
+  rating: 0
+  scale: null
+  servings: '1'
+  source: makemeacocktail.com
+  source_url: https://makemeacocktail.com/cocktail/8098/gin-rickey/
+  total_time: ''
+  uid: 41C1C1E4-55D1-41FC-A21C-256853CB83DE
+- categories: []
   cook_time: 50 minutes
   created: '2021-11-25 15:19:35'
   description: ''
@@ -3006,7 +3036,7 @@
   on_grocery_list: false
   photos: []
   prep_time: 3 min
-  rating: 0
+  rating: 5
   scale: null
   servings: '1'
   source: diffordsguide.com
