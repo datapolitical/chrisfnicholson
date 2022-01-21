@@ -3695,6 +3695,94 @@
   source_url: https://www.allrecipes.com/recipe/20144/banana-banana-bread/
   total_time: ''
   uid: 6CDAB198-221C-4D7D-B707-2D2DD26A5AB1-46900-00000ECF1285689A
+- categories: []
+  cook_time: 30 mins
+  created: '2022-01-21 01:34:06'
+  description: ''
+  difficulty: ''
+  directions:
+  - Weigh your flour; or measure it by gently spooning it into a cup, then sweeping
+    off any excess.
+  - 'To make the starter: Mix everything together to make a soft dough. Cover and
+    let rest at room temperature for about 14 hours; overnight works well. The starter
+    should have expanded and become bubbly.'
+  - "To make the dough: Mix and knead everything together \u2014 by hand, mixer or\
+    \ bread machine set on the dough cycle \u2014 to make a soft, somewhat smooth\
+    \ dough; it should be cohesive, but the surface may still be a bit rough. If you're\
+    \ using a stand mixer, knead for about 4 minutes on medium-low speed (speed 2\
+    \ on a KitchenAid); the finished dough should stick a bit at the bottom of the\
+    \ bowl."
+  - Place the dough in a lightly greased medium-sized bowl, cover the bowl, and let
+    the dough rest and rise for 45 minutes. Gently deflate the dough and fold its
+    edges into the center, then turn it over in the bowl before letting it rise for
+    an additional 45 minutes, until it's noticeably puffy.
+  - Turn the dough out onto a lightly greased work surface. Gently deflate it, and
+    divide it into three equal pieces.
+  - Round each piece of dough into a rough ball by pulling the edges into the center.
+    Cover with greased plastic wrap, and let rest for 15 minutes; or for up to 1 hour,
+    if that works better with your schedule.
+  - Working with one piece at a time, flatten the dough slightly then fold it nearly
+    (but not quite) in half, sealing the edges with the heel of your hand.
+  - "Turn the dough around 180\xB0 and repeat: fold, then flatten. Repeat this whole\
+    \ process again; the dough should have started to elongate itself."
+  - With the seam side down, cup your fingers and gently roll the dough into a 16"
+    log. Your goal is a 15" baguette, so 16" allows for the slight shrinkage you'll
+    see once you're done rolling. Taper each end of the log slightly to create the
+    baguette's typical "pointy" end.
+  - "Place the logs seam-side down onto a lightly greased or parchment-lined sheet\
+    \ pan or pans; or into the folds of a heavily floured cotton dish towel (or couche).\
+    \ Cover them with lightly greased plastic wrap, and allow the loaves to rise until\
+    \ they're slightly puffy (\"marshmallow-y\" is the term we use in our baking school).\
+    \ The loaves should certainly look lighter and less dense than when you first\
+    \ shaped them, but won't be anywhere near doubled in bulk. This should take about\
+    \ 45 minutes to an hour at room temperature (about 68\xB0F)."
+  - "Towards the end of the rising time, preheat your oven to 450\xB0F with a cast\
+    \ iron pan on the floor of the oven, or on the lowest rack. If you're using a\
+    \ baking stone, place it on a middle rack. Start to heat 1 1/2 cups water to boiling."
+  - If your baguettes have risen in a dish towel or couche, gently roll them (seam
+    side down) onto a lightly greased (or parchment-lined) baking sheet. If you plan
+    on baking them on a baking stone, roll them onto a piece of parchment, and lift
+    the parchment onto a baker's peel.
+  - "Using a baker's lame (a special curved blade) or a very sharp knife held at about\
+    \ a 45\xB0 angle, make three to five long lengthwise slashes in each baguette."
+  - "Load the baguettes into the oven. If you\u2019re baking on a stone, use a baker\u2019\
+    s peel to transfer the baguettes, parchment and all, onto the hot stone. Carefully\
+    \ pour the boiling water into the cast iron pan, and quickly shut the oven door.\
+    \ The billowing steam created by the boiling water will help the baguettes rise,\
+    \ and give them a lovely, shiny crust."
+  - "Bake the baguettes \u2014 on the pan, or on a stone \u2014 for 24 to 28 minutes,\
+    \ or until they're a very deep golden brown. Remove them from the oven and cool\
+    \ them on a rack. Or, for the very crispiest baguettes, turn off the oven, crack\
+    \ it open about 2\", and allow the baguettes to cool completely in the oven, until\
+    \ both baguettes and oven are at room temperature."
+  - 'Storage information: Store any leftover baguettes in a paper bag overnight; freeze
+    for longer storage. Thaw and reheat just before serving.'
+  image_url: images/recipes/923ED043-D83C-4287-A1C4-5957BEC07556.jpg
+  in_trash: false
+  ingredients:
+  - 1/2 cup (113g) water, cool
+  - 1/16 teaspoon active dry yeast or instant yeast*
+  - 1 cup (120g) King Arthur Unbleached All-Purpose Flour*
+  - 1 1/2 teaspoons active dry yeast or instant yeast
+  - 1 cup + 2 tablespoons (255g) water, lukewarm
+  - all of the starter
+  - 3 1/2 cups (420g) King Arthur Unbleached All-Purpose Flour*
+  - 2 teaspoons (12g) salt
+  is_pinned: false
+  name: Classic Baguettes
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 20 mins
+  rating: 0
+  scale: null
+  servings: 3 baguettes
+  source: kingarthurbaking.com
+  source_url: https://www.kingarthurbaking.com/recipes/classic-baguettes-recipe
+  total_time: ''
+  uid: 6D4F7749-D117-4B7B-93EA-496A2C432806
 - categories:
   - Dinner
   - Made at 307
@@ -5757,6 +5845,91 @@
   source_url: https://www.kingarthurbaking.com/recipes/french-toast-recipe
   total_time: ''
   uid: B016FB05-4453-4BD5-A35B-66A14AEAFB69-28533-00000BCDFA1640F9
+- categories: []
+  cook_time: 45 mins
+  created: '2022-01-21 01:24:28'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a medium-size bowl, mix flour and salt until combined. Make a well in the middle
+    and add the yeast.
+  - Pour a little bit of the water on top of the yeast and mix with a fork or with
+    your fingers until dissolved, add the sugar and mix a little more. Add the rest
+    of the water and using your hands, mix it in the bowl.
+  - "Pour out the dough onto a clean surface and mix with one hand (using the other\
+    \ hand to push the flour with the bench scraper) until all the ingredients are\
+    \ integrated, no more, please don\u2019t over mix. This will take about 5 minutes."
+  - Form a ball. This ball will look and feel very rough and lumpy. Cover with plastic
+    or a wet towel.
+  - Place in a warm space away from drafts and let it rest until doubled in size.
+    Depending on the weather and humidity, this can take 1-2 hours.
+  - Remove the dough from the bowl and place it on a clean, lightly floured surface.
+    Gently punch it and knead it for a few seconds, just enough to form a ball or
+    roll.
+  - Divide it into 8 pieces for 7-inch bolillos or into 16 pieces for mini-bolillos
+  - Roll each piece to form balls, cover them, and let them rest for 20 minutes. This
+    will help to relax the dough.
+  - Flour a clean surface and start shaping the bolillos. Take one ball, turn it over,
+    and with your fingers start rolling the dough tightly (see video above).
+  - Fold edges toward the center and keep rolling. Then, with your pinky fingers,
+    push and roll at the same time, about half an inch from the edges, to form the
+    rounded ends of the bolillo.
+  - Then, with your fingertips, push the center of the dough to flatten it a little.
+    Repeat and place them in a baking sheet (you don't need to grease it).
+  - Loosely cover with plastic wrap or a light kitchen towel and let them rest until
+    double in size. Depending on the weather and humidity this can take between 1
+    and 1.5 hours.
+  - "Once they have doubled in size, pre-heat the oven to 450 \xB0F (230 \xB0C) and\
+    \ place the small baking sheet (or oven-proof container) with water in the lower\
+    \ rack of the oven."
+  - Right before baking, sprinkle a little bit of flour on top of the bolillos, and,
+    using a very sharp knife or razor held at a 45 degree angle, make a long cut from
+    one side to the other. (I like using a serrated knife).
+  - Finally, before placing them in the oven spray them with water. This is important,
+    the water on top and the warm water in the baking sheet will create steam which
+    will make that beautiful crust on the bolillo.
+  - Bake for 20-22 minutes or until golden brown top and bottom. Take them out of
+    the oven and immediately transfer to a cooling rack.
+  image_url: images/recipes/73901D16-E295-4C2F-A0C6-E8238F38F6E2.jpg
+  in_trash: false
+  ingredients:
+  - 3 1/2 cups bread flour (approx 500 gr)
+  - 2 teaspoons salt (approx 15 gr)
+  - 2 teaspoons active yeast (approx 7 gr)
+  - 1 1/3 cups lukewarm water (approx 300 ml)
+  - 1 teaspoon sugar
+  - Oil of your choice to grease bowl
+  is_pinned: false
+  name: Traditional Mexican Bolillos Easy
+  notes: ''
+  nutritional_info: 'Calories from Fat 9
+
+    Saturated Fat 1g
+
+    Sodium 586mg
+
+    Potassium 83mg
+
+    Carbohydrates 41g
+
+    Fiber 2g
+
+    Protein 8g
+
+    Calcium 8mg
+
+    Iron 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 4 minutes
+  rating: 0
+  scale: null
+  servings: '8'
+  source: mamalatinatips.com
+  source_url: https://www.mamalatinatips.com/2020/04/traditional-mexican-bolillos-easy-recipe.html
+  total_time: ''
+  uid: B1955C3C-2FF8-4A10-BE23-B421D8B72732
 - categories: []
   cook_time: ''
   created: '2020-05-26 01:40:39'
