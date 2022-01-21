@@ -3013,6 +3013,61 @@
   total_time: ''
   uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
 - categories: []
+  cook_time: 20 minutes
+  created: '2022-01-21 09:43:39'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Make the sauce: Heat the oven to 450 degrees with a rack in the middle position.
+    Combine tomatoes, garlic, salt, oregano, olive oil and black pepper in a medium
+    bowl, and stir to combine. Set aside until ready to use.'
+  - "Prepare the pizza: Combine the 1/4 cup olive oil and garlic in a small pot over\
+    \ medium heat. Cook, swirling occasionally, until the garlic starts to sizzle,\
+    \ but doesn\u2019t brown, about 2 to 4 minutes. Remove from heat."
+  - Place the French bread cut side up on a baking sheet. Brush cut sides with garlic
+    oil. Bake until edges are golden, 5 to 7 minutes.
+  - Toss together the mozzarella, Parmesan and pepperoni in a medium bowl. Divide
+    tomato sauce between the two bread halves all the way to the edges and top with
+    pepperoni and cheese.
+  - Return to the oven and bake until melted, about 5 minutes. Increase heat to broil
+    and broil (watch carefully!) until the cheese is bubbly and browned in spots,
+    1 to 2 minutes more. Let cool 5 minutes before slicing and serving. Serve topped
+    with more Parmesan, red-pepper flakes and oregano, if you like.
+  image_url: images/recipes/C4BC7D93-2451-43C2-B4EF-8BB7E5674159.jpg
+  in_trash: false
+  ingredients:
+  - '*FOR THE SAUCE:*'
+  - 1 (14-ounce) can petite diced tomatoes, drained
+  - 1 garlic clove, grated
+  - "\xBD teaspoon kosher salt (Diamond Crystal)"
+  - "\xBD teaspoon dried oregano"
+  - 1 tablespoon olive oil
+  - A few grinds of black pepper
+  - '*FOR THE PIZZA:*'
+  - "\xBC cup olive oil"
+  - 2 garlic cloves, grated
+  - 1 loaf soft French bread, split lengthwise, insides mostly dug out
+  - 4 ounces mozzarella, low-moisture and part-skim, or fresh (drained and patted
+    dry, if necessary), grated or torn (about 1 cup)
+  - 2 tablespoons grated Parmesan, plus more for serving
+  - 2 ounces sliced pepperoni, quartered (about 1/2 cup)
+  - Red-pepper flakes or dried oregano, or both, for serving
+  is_pinned: false
+  name: "Pepperoni Lover\u2019s French Bread Pizza"
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: Yield 4 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1022847-pepperoni-lovers-french-bread-pizza?smid=ck-recipe-iOS-share
+  total_time: ''
+  uid: 5875CD10-B84E-4E63-93A8-91F4EC744B1E
+- categories: []
   cook_time: ''
   created: '2021-12-31 21:49:15'
   description: ''
@@ -6348,7 +6403,7 @@
   uid: B898E9E3-4B80-40E1-9C2D-6308CEAE50E3-14886-000005E8526504A5
 - categories: []
   cook_time: 30 mins
-  created: '2020-12-11 09:46:29'
+  created: '2020-12-11 08:46:29'
   description: ''
   difficulty: ''
   directions:
@@ -6450,11 +6505,11 @@
   notes: ''
   nutritional_info: ''
   on_favorites: false
-  on_grocery_list: null
+  on_grocery_list: false
   photos: []
   prep_time: 20 mins
   rating: 0
-  scale: 3/2
+  scale: 1/1
   servings: One 16" loaf
   source: kingarthurbaking.com
   source_url: https://www.kingarthurbaking.com/recipes/classic-challah-recipe
