@@ -2677,6 +2677,40 @@
   source_url: https://www.kingarthurflour.com/recipes/braided-lemon-bread-recipe
   total_time: ''
   uid: 45CE4F05-828D-4932-A4F9-85BC1F14C66C-10519-00000334E25F634A
+- categories: []
+  cook_time: 5 minutes
+  created: '2022-01-21 17:05:43'
+  description: ''
+  difficulty: ''
+  directions:
+  - Fill a cocktail shaker halfway with ice.
+  - Add Lillet Blanc, vodka, and grapefruit juice and shake until chilled.
+  - Strain into a cocktail glass, garnish with a slice of star fruit, and serve. You
+    can also serve this cocktail with over ice.
+  image_url: images/recipes/8B4E614A-F19A-4A60-BED8-34AEAE312C5A.jpg
+  in_trash: false
+  ingredients:
+  - 1.5 ounces Lillet Blanc
+  - 1.5 ounces vodka
+  - 3 ounces fresh grapefruit juice
+  - Starfruit slice, to garnish
+  is_pinned: false
+  name: 'The Rising Star: A Cocktail Starring Lillet Blanc'
+  notes: Feel free to make this cocktail in a big batch in a pitcher to pour. And
+    if you'd rather not squeeze your own grapefruits, we've had great success with
+    cold-pressed bottled grapefruit juice like Evolution Fresh.
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 minutes
+  rating: 0
+  scale: null
+  servings: 'Yield: 1'
+  source: umamigirl.com
+  source_url: https://umamigirl.com/lillet-blanc-vodka-cocktail/
+  total_time: ''
+  uid: 4B27843D-FD03-4D75-9444-3FAEEE2C4D77
 - categories:
   - Made at 307
   - Drink
