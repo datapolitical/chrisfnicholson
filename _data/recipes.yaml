@@ -851,6 +851,57 @@
   total_time: ''
   uid: 1637460B-2B81-435C-8C12-2C2EF0D73C17
 - categories: []
+  cook_time: 5 minutes
+  created: '2022-01-21 18:35:48'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'For the Cocktail:'
+  - Combine all ingredients in a shaker.
+  - Shake with ice until chilled.
+  - Strain into a coupe.
+  - 'For the Grapefruit Simple Syrup:'
+  - Combine grapefruit pieces, sugar and water in a small saucepan.
+  - Bring to a boil, let simmer for 5 minutes.
+  - Take off of heat and let steep for 5 minutes.
+  - Strain out grapefruit pieces.
+  - Store in an airtight container for up to one week in the fridge.
+  image_url: images/recipes/F980882E-E5F1-4B8A-9316-03012243D3B4.jpg
+  in_trash: false
+  ingredients:
+  - Shipwreck Cocktail
+  - 1.75 ounces dark rum
+  - .50 ounce Lillet Blanc
+  - 1 ounce grapefruit simple syrup
+  - .50 ounce freshly squeezed lime juice
+  - Grapefruit Simple Syrup
+  - 1 cup water
+  - 1 grapefruit, cut up, peel and all
+  - 1 cup sugar
+  is_pinned: false
+  name: The Shipwreck - A Rum and Lillet Cocktail
+  notes: ''
+  nutritional_info: 'TOTAL FAT: 0.1g SATURATED FAT: 0g
+
+    TRANS FAT: 0g UNSATURATED FAT: 0g
+
+    CHOLESTEROL: 0mg SODIUM: 22mg
+
+    CARBOHYDRATES: 30.6g FIBER: 0.1g
+
+    SUGAR: 5.8g PROTEIN: 0g'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 minutes
+  rating: 0
+  scale: 4/1
+  servings: 'Yield: 1'
+  source: gastronomblog.com
+  source_url: https://www.gastronomblog.com/the-shipwreck-a-rum-and-lillet-cocktail/
+  total_time: ''
+  uid: 1B0D829F-DF22-44ED-BED6-2F9787D3B3D2
+- categories: []
   cook_time: 18 to 22 mins
   created: '2020-06-07 01:58:01'
   description: ''
