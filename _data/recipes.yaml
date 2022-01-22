@@ -850,7 +850,8 @@
   source_url: https://toriavey.com/toris-kitchen/cholent/
   total_time: ''
   uid: 1637460B-2B81-435C-8C12-2C2EF0D73C17
-- categories: []
+- categories:
+  - Web
   cook_time: 5 minutes
   created: '2022-01-21 18:35:48'
   description: ''
@@ -866,7 +867,7 @@
   - Take off of heat and let steep for 5 minutes.
   - Strain out grapefruit pieces.
   - Store in an airtight container for up to one week in the fridge.
-  image_url: images/recipes/F980882E-E5F1-4B8A-9316-03012243D3B4.jpg
+  image_url: images/recipes/0D9106E4-EA25-40BE-A503-95B12397C6E1.jpg
   in_trash: false
   ingredients:
   - Shipwreck Cocktail
@@ -879,7 +880,7 @@
   - 1 grapefruit, cut up, peel and all
   - 1 cup sugar
   is_pinned: false
-  name: The Shipwreck - A Rum and Lillet Cocktail
+  name: The Shipwreck
   notes: ''
   nutritional_info: 'TOTAL FAT: 0.1g SATURATED FAT: 0g
 
@@ -892,7 +893,8 @@
     SUGAR: 5.8g PROTEIN: 0g'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/0D9106E4-EA25-40BE-A503-95B12397C6E1.jpg
   prep_time: 5 minutes
   rating: 0
   scale: 4/1
