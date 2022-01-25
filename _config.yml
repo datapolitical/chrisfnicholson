@@ -13,6 +13,8 @@ destination:
   # sidebar_blog_link below.
 
 author: "Chris F. Nicholson"
+author_short: "Chris Nicholson"
+author_nickname: "Chris"
 
 # paginate:         5
 # paginate_path:    '/page:num'
