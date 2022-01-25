@@ -58,7 +58,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Makefile
-  - README.md
   - .gitignore
   - vendor
   - Pipfile
