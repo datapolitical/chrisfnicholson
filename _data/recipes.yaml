@@ -8742,7 +8742,13 @@
   source_url: http://www.behrmanhouse.com/RL/chocolate-chip-challah
   total_time: ''
   uid: F3E71CED-0212-49EB-A0B2-A6FEB1563407-17429-000007000E41FB66
-- categories: []
+- categories:
+  - Dinner
+  - Made at 307
+  - Vegan
+  - Web
+  - Indian
+  - I Made This
   cook_time: 15 mins
   created: '2022-01-26 16:26:31'
   description: ''
@@ -8761,7 +8767,7 @@
   - Serve with a squeeze of lemon juice, chili flakes, and fresh coriander.
   - Serve 2 people, serve each portion with some Cauliflower Rice or 200g (7oz) of
     konjac noodles (this adds about 1g net carb to the meal)
-  image_url: images/recipes/329F62B3-AFDD-4616-9D46-E3915951446C.jpg
+  image_url: images/recipes/9BD97A63-8DE2-415D-8D9C-E0EA000263A3.jpg
   in_trash: false
   ingredients:
   - 2 tablespoons Coconut Oil or olive oil
@@ -8792,9 +8798,10 @@
     PROTEIN 4.7g'
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/9BD97A63-8DE2-415D-8D9C-E0EA000263A3.jpg
   prep_time: 15 mins
-  rating: 0
+  rating: 5
   scale: 3/2
   servings: 3 servings
   source: sweetashoney.co
