@@ -4584,6 +4584,52 @@
   total_time: ''
   uid: 79A0C710-58FB-4906-8FDA-C4D036540179-14886-000005DAB9FF2DB8
 - categories: []
+  cook_time: 7 min
+  created: '2022-01-28 13:26:59'
+  description: ''
+  difficulty: Easy
+  directions:
+  - In a skillet over moderate heat, combine oil, butter and flour. Cook 2 or 3 minutes.
+    Whisk in broth. Add the sliced veal in thickened sauce 3 or 4 minutes and transfer
+    to a warm platter. Season veal with salt and pepper. Add lemon zest, lemon juice
+    and chopped parsley to the sauce and remove pan from heat.
+  - Heat water for broccoli rabe. Blanch until just cooked but still crispy. Drain
+    broccoli rabe. Place a second skillet over medium high heat. Add extra-virgin
+    olive oil, garlic, and broccoli rabe and cook until tender. Season with salt,
+    pepper and nutmeg.
+  - To assemble, divide broccoli rabe between 2 dinner plates. Top with veal and pour
+    pan sauce equally over the 2 plates.
+  image_url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/10/28/1/tm1c21_sauteed_veal.jpg.rend.hgtvcom.616.462.suffix/1386949522257.jpeg
+  in_trash: false
+  ingredients:
+  - 2 tablespoons extra-virgin olive oil, 2 turns of the pan
+  - 1 tablespoon butter
+  - 2 tablespoons all-purpose flour
+  - 1/2 cup chicken stock
+  - 1/2 pound thinly sliced veal scallops
+  - Salt and freshly ground black pepper
+  - 1 ripe lemon, zested and juiced
+  - A handful of fresh flat-leaf parsley, finely chopped
+  - 1/4 cup water
+  - 10 ounces broccoli rabe
+  - 1 garlic clove, chopped
+  - 1/4 to 1/2 teaspoon grated or ground nutmeg
+  is_pinned: false
+  name: Sauteed Veal with Lemon on a Bed of Broccoli Rabe
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 min
+  rating: 0
+  scale: null
+  servings: 'Yield: 2 servings'
+  source: foodnetwork.com
+  source_url: https://www.foodnetwork.com/recipes/rachael-ray/sauteed-veal-with-lemon-on-a-bed-of-broccoli-rabe-recipe-1940819
+  total_time: ''
+  uid: 79B28748-9A8A-4916-ACDA-E18AC84161F2
+- categories: []
   cook_time: ''
   created: '2020-06-08 01:30:26'
   description: ''
