@@ -5,3 +5,4 @@
 layout: recipes
 title: "Recipe Book"
 ---
+Thanks for visiting! During the pandemic I learned to bake, and started saving my favorite recipes. This page is a way for me to share my favorite recipes with others. It's automatically regenerated every time I add a recipe to my Paprika recipe app. Enjoy!
