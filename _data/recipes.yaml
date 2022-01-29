@@ -754,31 +754,6 @@
   source_url: https://www.epicurious.com/recipes/food/views/caramelized-banana-with-rum-sauce-107764
   total_time: ''
   uid: 11E51AF9-E055-4885-991D-4AFD0449C3E3-21138-000009B70E3C49D3
-- categories: []
-  cook_time: ''
-  created: '2021-12-26 18:45:49'
-  description: ''
-  difficulty: ''
-  directions: ''
-  image_url: images/recipes/F35898BD-B01E-4EF3-8E80-D6B9095E3D4F.jpg
-  in_trash: true
-  ingredients: ''
-  is_pinned: false
-  name: ''
-  notes: ''
-  nutritional_info: ''
-  on_favorites: false
-  on_grocery_list: false
-  photos:
-  - '1': images/recipes/F35898BD-B01E-4EF3-8E80-D6B9095E3D4F.jpg
-  prep_time: ''
-  rating: 0
-  scale: null
-  servings: ''
-  source: foodnetwork.com
-  source_url: https://www.foodnetwork.com/recipes/anne-burrell/kale-caesar-salad-3416370
-  total_time: ''
-  uid: 14969CEB-5958-426B-AAAB-C3AC18C91CD2
 - categories:
   - Dinner
   - Stew
@@ -4114,6 +4089,86 @@
   source_url: https://www.food.com/recipe/kims-tuna-salad-62182
   total_time: ''
   uid: 74BC402B-3349-44D3-B80D-D05704D2CCB8-34481-00000DAC95A1D258
+- categories: []
+  cook_time: 20 mins
+  created: '2022-01-28 15:32:16'
+  description: ''
+  difficulty: ''
+  directions:
+  - Bring a large pot of salted water to a boil. Meanwhile, in a large skillet, heat
+    olive oil with garlic over medium heat until garlic just begins to turn golden,
+    about 2 minutes. Add red pepper flakes and toast for about 30 seconds. Remove
+    from heat.
+  - Add broccoli rabe to boiling water and cook until thickest parts of stalks are
+    tender, 2 to 3 minutes. Drain well. Add rabe to skillet, toss well, and return
+    to medium-high heat. Cook, stirring occasionally and lowering heat as necessary
+    to prevent scorching, until rabe is very tender, about 10 minutes. Season with
+    salt. Serve right away, or continue to cook over low heat, stirring occasionally,
+    for up to 20 minutes longer before serving (it just gets better and better).
+  image_url: images/recipes/6BC7A34D-C211-4ADA-A4C8-85D29C30701F.jpg
+  in_trash: false
+  ingredients:
+  - Ingredients Save Recipe
+  - Kosher salt
+  - 1/4 cup (60ml) extra-virgin olive oil
+  - 4 medium cloves garlic, thinly sliced
+  - Large pinch red pepper flakes
+  - 1 pound (450g) broccoli rabe, ends trimmed
+  is_pinned: false
+  name: "Saut\xE9ed Broccoli Rabe with Garlic and Chili Flakes"
+  notes: ''
+  nutritional_info: '(per serving)
+
+    150 Calories 14g Fat 4g Carbs 4g Protein
+
+    Nutrition Facts
+
+    Servings: 4
+
+    Amount per serving
+
+    Calories 150
+
+    % Daily Value*
+
+    Total Fat 14g 18%
+
+    Saturated Fat 2g 10%
+
+    Cholesterol 0mg 0%
+
+    Sodium 117mg 5%
+
+    Total Carbohydrate 4g 2%
+
+    Dietary Fiber 3g 11%
+
+    Total Sugars 0g
+
+    Protein 4g
+
+    Vitamin C 24mg 118%
+
+    Calcium 127mg 10%
+
+    Iron 3mg 14%
+
+    Potassium 233mg 5%
+
+    *The % Daily Value (DV) tells you how much a nutrient in a food serving contributes
+    to a daily diet. 2,000 calories a day is used for general nutrition advice.'
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/53ECAE64-E2B5-4507-92EE-D39DA0240949.jpg
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 4 servings
+  source: seriouseats.com
+  source_url: https://www.seriouseats.com/sauteed-broccoli-rabe-italian-recipe
+  total_time: ''
+  uid: 74EAFC3B-82AD-4D97-AC16-708EBCD5EA2F
 - categories:
   - Baked Goods
   - Web
@@ -4599,7 +4654,7 @@
     pepper and nutmeg.
   - To assemble, divide broccoli rabe between 2 dinner plates. Top with veal and pour
     pan sauce equally over the 2 plates.
-  image_url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/10/28/1/tm1c21_sauteed_veal.jpg.rend.hgtvcom.616.462.suffix/1386949522257.jpeg
+  image_url: images/recipes/1415B437-EF85-4DA3-AD7E-D60629108354.jpg
   in_trash: false
   ingredients:
   - 2 tablespoons extra-virgin olive oil, 2 turns of the pan
@@ -4620,7 +4675,8 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/1415B437-EF85-4DA3-AD7E-D60629108354.jpg
   prep_time: 5 min
   rating: 0
   scale: null
