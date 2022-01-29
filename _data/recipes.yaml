@@ -7072,6 +7072,58 @@
   total_time: ''
   uid: CC94B967-F3DD-42E1-A574-5607F34B5C7F
 - categories: []
+  cook_time: 15 mins
+  created: '2022-01-28 18:32:51'
+  description: ''
+  difficulty: ''
+  directions:
+  - Cook the pasta to al dente, according to package directions.
+  - Steam the broccoli florets until tender crisp. (In a microwave-safe bowl, add
+    the florets and a tablespoon or two of water, cover with plastic wrap with an
+    opening to let steam out, and microwave for 2-3 minutes, then 1 minute at a time
+    until desired texture is reached)
+  - Combine the peanut butter, water, maple syrup, soy sauce, ginger, and sriracha
+    sauce and mix until smooth.
+  - Combine the sauce with the pasta and broccoli and toss to coat.
+  image_url: images/recipes/5ED61712-4B7C-4D75-9EEE-35F7A45A6CFD.jpg
+  in_trash: false
+  ingredients:
+  - 12 ounces whole grain penne (1 package)
+  - 2-3 cups fresh broccoli florets (you can substitute frozen in a pinch)
+  - "\xBE cup peanut butter"
+  - "\xBE cup warm water"
+  - "1 \xBD tablesppons pure maple syrup"
+  - "1 \xBD tablespoons soy sauce"
+  - 1 teaspoon ground ginger
+  - "\xBD teaspoon sriracha sauce (or more, if you like a bigger kick!)"
+  - 12 ounces whole grain penne
+  - 2-3 cups fresh broccoli florets
+  - "\xBE cup peanut butter,"
+  - "\xBE cup warm water,"
+  - "1 \xBD tablesppons pure maple syrup,"
+  - "1 \xBD tablespoons soy sauce,"
+  - 1 teaspoon ground ginger,
+  - "\xBD teaspoon sriracha sauce"
+  is_pinned: false
+  name: Broccoli Penne with Spicy Peanut Butter Sauce
+  notes: ''
+  nutritional_info: '393 kcal
+
+    Serving: 1g | Calories: 393kcal | Carbohydrates: 44g | Protein: 16g | Fat: 17g
+    | Saturated Fat: 3g | Sodium: 418mg | Potassium: 314mg | Fiber: 6g | Sugar: 4g
+    | Vitamin A: 190IU | Vitamin C: 27.3mg | Calcium: 28mg | Iron: 1mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 mins
+  rating: 0
+  scale: null
+  servings: '6'
+  source: dizzybusyandhungry.com
+  source_url: https://dizzybusyandhungry.com/broccoli-penne-spicy-peanut-butter-sauce/
+  total_time: ''
+  uid: CDA59354-E41B-4F63-89EB-116B5CBFE927
+- categories: []
   cook_time: 40 mins
   created: '2021-10-01 02:31:13'
   description: ''
