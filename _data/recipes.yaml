@@ -9236,3 +9236,45 @@
   source_url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/
   total_time: ''
   uid: F9A3C222-429C-4D22-A8D9-B8E61E05F713
+- categories:
+  - Made at 307
+  - Web
+  - I Made This
+  cook_time: 5 mins
+  created: '2022-01-28 23:29:23'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the basil leaves in a cocktail shaker and add the simple syrup and lime
+    juice. Muddle the basil leaves with a muddler or the bottom of a wooden spoon
+    to release the oils.
+  - Add the gin and St Germain and fill the shaker with ice and shake vigorously for
+    30 seconds.
+  - Using a strainer, pour the mixture into a cocktail glass. Garnish with a sprig
+    of Thai Basil.
+  image_url: images/recipes/4F58F82B-4576-404D-937F-C8914ED032F4.jpg
+  in_trash: false
+  ingredients:
+  - 6 large Thai basil leaves plus more for garnish
+  - "\xBD ounce simple syrup"
+  - "\xBE ounce fresh lime juice"
+  - "1 \xBD ounces gin"
+  - 1 ounce St. Germain
+  is_pinned: false
+  name: Thai Basil Gimlet
+  notes: To make simple syrup, heat equal parts sugar and water in a small saucepan
+    until the sugar dissolves. Transfer it to a clean jar and let it cool. Simple
+    syrup will keep in the refrigerator for several months.
+  nutritional_info: 'Calories: 255kcal'
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/4F58F82B-4576-404D-937F-C8914ED032F4.jpg
+  prep_time: 5 mins
+  rating: 5
+  scale: null
+  servings: '2'
+  source: nerdswithknives.com
+  source_url: https://nerdswithknives.com/thai-basil-gimlet/
+  total_time: ''
+  uid: FCBA0834-5E45-4A6F-85A1-5C971F5D0688
