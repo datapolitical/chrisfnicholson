@@ -1,4 +1,6 @@
-import requests, json, zipfile, io
+import requests, json, zipfile, io, os
+from dotenv import load_dotenv
+load_dotenv()
 import pandas as pd
 
 s = requests.Session()
@@ -11,7 +13,7 @@ for i in cookies_dictionary:
 
 login = os.environ['LETTERBOXD_LOGIN']
 password = os.environ['LETTERBOXD_PASSWORD']
-apikey = os.environ['TMBD_APIKEY']
+apikey = os.environ['TMDB_APIKEY']
 
 
 auth_url = 'https://letterboxd.com/user/login.do'
