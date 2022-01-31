@@ -860,6 +860,61 @@
   source_url: https://toriavey.com/toris-kitchen/cholent/
   total_time: ''
   uid: 1637460B-2B81-435C-8C12-2C2EF0D73C17
+- categories: []
+  cook_time: 10 mins
+  created: '2022-01-30 18:00:24'
+  description: ''
+  difficulty: ''
+  directions:
+  - Muddle ginger in a glass
+  - Add cinnamon stick, star anise pods and one Tea Bag.
+  - Add Scotch & maple syrup
+  - Pour hot water over top and let seep 3-4 minutes.
+  - Add a squeeze of lemon and stir.
+  - Inhale.
+  image_url: images/recipes/87A98A58-CC11-430F-A178-40C4BD1CD2A5.jpg
+  in_trash: false
+  ingredients:
+  - 4 slices ginger
+  - 1 cinnamon stick
+  - 2 star anise pods
+  - "1 tea bag- spiced tea, ginger tea, black tea, etc\u2026"
+  - "1 \xBD\u2013 2 ounces Scotch, Whiskey or Bourbon"
+  - "\xBD ounce maple syrup"
+  - Squeeze lemon ( 1/2 a small lemon)
+  is_pinned: false
+  name: Maple Ginger Hot Toddy
+  notes: ''
+  nutritional_info: 'Fat: 0.2 g
+
+    Calories: 180
+
+    Saturated Fat: 0.1 g
+
+    Sodium: 4.4 mg
+
+    Fiber: 2.1 g
+
+    Cholesterol: 0 mg
+
+    Carbohydrate: 19.1 g
+
+    Sugar: 12.8 g
+
+    Trans Fat: 0 g
+
+    Protein: 0.5 g'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 mins
+  rating: 0
+  scale: null
+  servings: 'Yield: 1 category: cocktail cuisine: northwest'
+  source: feastingathome.com
+  source_url: https://www.feastingathome.com/maple-ginger-hot-toddy/
+  total_time: ''
+  uid: 181D17F3-37C2-424B-8CAA-4C68DC44CDEB
 - categories:
   - Web
   cook_time: 5 minutes
