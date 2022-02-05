@@ -8941,6 +8941,37 @@
   uid: F1B157A9-B414-4091-A157-2158F8BDB3D1-9273-0000043285444489
 - categories: []
   cook_time: ''
+  created: '2022-02-04 16:40:09'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the bourbon, Aperol, Amaro Nonino and lemon juice into a shaker with ice and
+    shake until well-chilled.
+  - Strain into a coupe glass.
+  image_url: images/recipes/177189D6-2005-4658-B57F-4FA7F6165B2D.jpg
+  in_trash: false
+  ingredients:
+  - 3/4 fluid ounce bourbon
+  - 3/4 fluid ounce Aperol
+  - 3/4 fluid ounce Amaro Nonino Quintessentia
+  - 3/4 fluid ounce lemon juice, freshly squeezed
+  is_pinned: false
+  name: Paper Plane
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: 3/1
+  servings: ''
+  source: liquor.com
+  source_url: https://www.liquor.com/recipes/the-paper-plane/
+  total_time: ''
+  uid: F38EC5A0-8877-4565-8D03-9579A46CCEA8
+- categories: []
+  cook_time: ''
   created: '2021-01-22 14:51:25'
   description: ''
   difficulty: ''
