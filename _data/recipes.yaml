@@ -2556,6 +2556,53 @@
   source_url: https://www.garlicandzest.com/homemade-lobster-stock/
   total_time: ''
   uid: 41E2FF71-A475-4FD4-928E-AD0F705827F4
+- categories: []
+  cook_time: ''
+  created: '2022-02-06 02:44:54'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 425\xB0F (220\xB0C). Line a baking sheet with parchment paper."
+  - In a large bowl, whisk together flour, sugar, kosher salt, baking powder, and
+    baking soda. Using a pastry blender, cut in cold butter until mixture is crumbly.
+    Stir in cold buttermilk until a shaggy dough forms.
+  - "Turn out dough onto a lightly floured surface. Pat dough into a rectangle, and\
+    \ cut into fourths. Stack each fourth on top of each other, and pat down into\
+    \ a rectangle again. Repeat procedure 3 more times. Pat or roll dough to 1-inch\
+    \ thickness. Using a 2\xBD-inch round cutter dipped in flour, cut dough without\
+    \ twisting cutter, rerolling scraps as necessary. Place biscuits 2 inches apart\
+    \ on prepared pan. Freeze until cold, about 10 minutes. Brush with egg wash, and\
+    \ sprinkle with sea salt."
+  - Bake until golden brown, about 15 minutes. Serve warm with softened butter and
+    honey.
+  image_url: images/recipes/8D4FB81C-45FE-4422-96EF-34AE836C6661.jpg
+  in_trash: false
+  ingredients:
+  - "3\xBD cups (438 grams) White Lily All-Purpose Flour"
+  - 2 tablespoons (24 grams) granulated sugar
+  - 1/3rd tablespoon (3 grams) salt
+  - "\xBD teaspoon (2.5 grams) baking soda"
+  - "1\xBC cups (284 grams) cold unsalted butter, cubed"
+  - 1 cup (240 grams) whole buttermilk, chilled
+  - 1 large egg (50 grams), lightly beaten
+  - Flaked sea salt, for sprinkling
+  - Softened butter and honey, to serve
+  is_pinned: false
+  name: Brian Hart Hoffman's Buttermilk Biscuits with White Lily Flour
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/8D4FB81C-45FE-4422-96EF-34AE836C6661.jpg
+  prep_time: ''
+  rating: 0
+  scale: 3/2
+  servings: 12 biscuits
+  source: tasteofthesouthmagazine.com
+  source_url: https://www.tasteofthesouthmagazine.com/brian-hart-hoffmans-buttermilk-biscuits-white-lily-flour/
+  total_time: ''
+  uid: 422796B0-6C13-4653-BA5E-EABD4C9C57AA
 - categories:
   - Dinner
   - Writeup
@@ -3164,6 +3211,47 @@
   source_url: https://the-milk-pail-pop-up.myshopify.com/blogs/recipes/milk-pail-fondue
   total_time: ''
   uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
+- categories: []
+  cook_time: 12 min
+  created: '2022-02-06 02:41:19'
+  description: ''
+  difficulty: ''
+  directions:
+  - "HEAT oven to 475\xB0F."
+  - PLACE flour in a large bowl. Using a pastry cutter or fork, work butter or shortening
+    into flour until crumbs are the size of peas. Add buttermilk, stir with fork just
+    until flour is moistened.
+  - TURN dough onto lightly floured surface. Gently roll dough with floured rolling
+    pin until 1 inch thick. Cut out biscuits using a floured 2-inch biscuit cutter
+    or the rim of a cup. Place biscuits on a baking sheet where the edges touch. Reform
+    the scrap dough to make additional biscuits.
+  - BAKE 8 to 10 minutes or until golden brown. Remove from oven. Brush tops with
+    butter and enjoy.
+  image_url: images/recipes/92AE867B-E205-4A4A-B4D4-2075C21C510D.jpg
+  in_trash: false
+  ingredients:
+  - "2 cups White Lily\xAE Enriched Unbleached Self-Rising Flour"
+  - 1/4 cup butter or shortening
+  - 3/4 cup buttermilk or milk
+  - 2 tablespoons butter, melted
+  is_pinned: false
+  name: "WHITE LILY\xAE LIGHT AND FLUFFY BISCUITS"
+  notes: ''
+  nutritional_info: 'Serving Size (1 biscuit of 12), Calories 110 (Calories from Fat
+    40), Total Fat 5g (Saturated Fat g, Trans Fat g), Cholesterol mg, Sodium 240mg,
+    Total Carbohydrate 15g (Dietary Fiber g, Sugars 1g), Protein 3g; Percent Daily
+    Value*: Vitamin A %, Vitamin C %, Calcium 6%, Iron 4%.'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 min
+  rating: 0
+  scale: null
+  servings: 'Yield: 1 dozen'
+  source: whitelily.com
+  source_url: https://www.whitelily.com/recipes/white-lily-light-and-fluffy-biscuits-3790/
+  total_time: ''
+  uid: 55EF5A35-8075-4183-9F83-EF96185EC830
 - categories: []
   cook_time: 35 minutes
   created: '2022-02-01 09:54:44'
