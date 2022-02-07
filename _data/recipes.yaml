@@ -762,7 +762,7 @@
   - Web
   - I Made This
   cook_time: 17 hrs
-  created: '2021-01-30 00:38:16'
+  created: '2021-01-29 23:38:16'
   description: ''
   difficulty: ''
   directions:
@@ -793,7 +793,7 @@
   - To cook this recipe in the oven, layer the ingredients in a large heavy 7-8 quart
     Dutch oven. Make sure you have enough liquid to just cover all ingredients. Cover
     with lid and cook cholent at 200 degrees F for 12-16 hours.
-  image_url: images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9.jpg
+  image_url: images/recipes/5A8CB103-2E51-4CAF-958C-DC9FEA8F0047.jpg
   in_trash: false
   ingredients:
   - 2 1/2 lbs large red potatoes, peeled and halved (for a smaller slow cooker, use
@@ -851,7 +851,7 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9.jpg
+  - '1': images/recipes/5A8CB103-2E51-4CAF-958C-DC9FEA8F0047.jpg
   prep_time: 20 mins
   rating: 3
   scale: null
