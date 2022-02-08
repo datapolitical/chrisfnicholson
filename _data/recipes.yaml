@@ -9518,15 +9518,16 @@
   in_trash: false
   ingredients:
   - 6 large Thai basil leaves plus more for garnish
-  - "\xBD ounce simple syrup"
+  - "\xBD ounce rosemary simple syrup"
   - "\xBE ounce fresh lime juice"
   - "1 \xBD ounces gin"
   - 1 ounce St. Germain
   is_pinned: false
   name: Thai Basil Gimlet
-  notes: To make simple syrup, heat equal parts sugar and water in a small saucepan
-    until the sugar dissolves. Transfer it to a clean jar and let it cool. Simple
-    syrup will keep in the refrigerator for several months.
+  notes: "To make simple syrup, heat \xBC cup rosemary leaves, 1 cup sugar and 1 cup\
+    \ water in a small saucepan until the sugar dissolves. Strain and transfer it\
+    \ to a clean jar and let it cool in the fridge. Simple syrup will keep in the\
+    \ refrigerator for several months."
   nutritional_info: 'Calories: 255kcal'
   on_favorites: false
   on_grocery_list: false
