@@ -3263,7 +3263,12 @@
   source_url: https://www.whitelily.com/recipes/white-lily-light-and-fluffy-biscuits-3790/
   total_time: ''
   uid: 55EF5A35-8075-4183-9F83-EF96185EC830
-- categories: []
+- categories:
+  - Cake
+  - Made at 307
+  - Baked Goods
+  - Dessert
+  - I Made This
   cook_time: 35 minutes
   created: '2022-02-01 09:54:44'
   description: ''
@@ -3288,7 +3293,7 @@
   - Add in cocoa powder and vanilla extract. Beat until combined.
   - Beat in powdered sugar, 1 cup at a time. Add milk as necessary to make a spreadable
     consistency. The frosting should be very thick and will thicken even more if refrigerated.
-  image_url: images/recipes/BA562658-9F99-4CD6-802D-5ACCA6503905.jpg
+  image_url: images/recipes/C1AAB72A-9439-4B4B-8683-B4DC6D437708.jpg
   in_trash: false
   ingredients:
   - butter and flour for coating and dusting the cake pan
@@ -3308,8 +3313,8 @@
   - 8 oz cream cheese softened
   - 1 1/2 cups unsweetened cocoa powder
   - 3 teaspoons vanilla extract
-  - 7-8 cups powdered sugar
-  - about 1/4 cup milk as needed
+  - 3.5 cups powdered sugar (up to 5 cups if you prefer more sweet frosting)
+  - about 1/4 cup milk as needed (I used 2tbsp)
   is_pinned: false
   name: The Most Amazing Chocolate Cake
   notes: 'For metric measurements, click on the metric tab. Bake at 176 degrees celsius
@@ -3326,9 +3331,9 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/00AB5D5C-7FD4-4533-93AE-5B1A78ED9F1A.jpg
+  - '1': images/recipes/C1AAB72A-9439-4B4B-8683-B4DC6D437708.jpg
   prep_time: 10 minutes
-  rating: 0
+  rating: 5
   scale: null
   servings: '16'
   source: thestayathomechef.com
