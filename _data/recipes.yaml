@@ -7233,6 +7233,39 @@
   source_url: https://www.cookstr.com/recipes/coconut-braised-baby-bok-choy
   total_time: ''
   uid: C3EDF2D6-6C97-45A0-86F5-1ED3855CE5C4
+- categories:
+  - Drink
+  - Web
+  - I Made This
+  cook_time: ''
+  created: '2022-02-24 06:33:34'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Pour all ingredients into a highball glass. Stir. '
+  image_url: images/recipes/A992FDBE-3AD3-44A2-AA86-FB5140B5A621.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 oz Vodka
+  - 1/2 oz Triple Sec
+  - 3 oz Soda water
+  - "\xBD oz grapefruit juice "
+  is_pinned: false
+  name: Siberian Sunrise Drink
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/A992FDBE-3AD3-44A2-AA86-FB5140B5A621.jpg
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: haveacocktail.com
+  source_url: https://www.haveacocktail.com/siberian-sunrise.htm
+  total_time: ''
+  uid: C9F96008-6E19-4BDF-8F5F-7BA36B5278BD
 - categories: []
   cook_time: 25 minutes
   created: '2020-12-29 21:10:11'
