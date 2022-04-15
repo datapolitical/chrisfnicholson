@@ -6135,6 +6135,52 @@
   total_time: ''
   uid: 95C9BD96-AC66-4A30-8340-7273D1E2C9AB
 - categories: []
+  cook_time: ''
+  created: '2022-04-14 18:42:25'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the carrot and onion into a food processor and grind finely.
+  - Mix the carrot and onion mixture into the ground carp.
+  - Add in the salt, sugar, pepper, eggs and matzah meal. Mix and form into balls.
+  - Place all the broth ingredients into a pot and bring to a boil.
+  - Drop in the fish balls and cook for 1 hour.
+  - Refrigerate until serving.
+  image_url: images/recipes/284579BB-74F9-4838-BDD7-9FC6442FEA4E.jpg
+  in_trash: false
+  ingredients:
+  - 'Fish Ingredients:'
+  - 1 carrot
+  - 1 onion
+  - 1 lb. (450 grams) ground carp
+  - 2 tbsp. sugar
+  - 1 tbsp. ground black pepper
+  - 1 tbsp. kosher salt
+  - 1 cup matzo meal (approximately)
+  - 2 eggs
+  - 'Broth Ingredients:'
+  - 12 cups (3 liters) water
+  - 4 bay leaves
+  - 5 whole peppercorns
+  - "\xBD cup sugar"
+  - 1 tbsp. cracked black pepper
+  - 1 onion
+  is_pinned: false
+  name: Easy Homemade Gefilte Fish
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: chabad.org
+  source_url: https://www.chabad.org/recipes/recipe_cdo/aid/3389423/jewish/Easy-Homemade-Gefilte-Fish.htm
+  total_time: ''
+  uid: 96CAD921-18B8-4EB1-9FE7-EC00619394FF
+- categories: []
   cook_time: 'prep: 20 minutes, cook: 4 hours'
   created: '2020-12-14 01:56:21'
   description: ''
