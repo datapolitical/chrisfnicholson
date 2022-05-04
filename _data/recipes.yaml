@@ -2614,6 +2614,45 @@
   source_url: https://www.tasteofthesouthmagazine.com/brian-hart-hoffmans-buttermilk-biscuits-white-lily-flour/
   total_time: ''
   uid: 422796B0-6C13-4653-BA5E-EABD4C9C57AA
+- categories: []
+  cook_time: ''
+  created: '2022-05-04 08:46:31'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the quartered limes or lemons in the blender with 2 cups of water, sugar
+    or honey, some ice, and half of the mint leaves.
+  - Blend until the limes or lemons are crushed, the mixture should be slightly foamy
+    with a whitish color.
+  - Strain the lemonade and add the remaining 6 cups of water.
+  - Stir in the vodka or allow guests to add the vodka according to their preference
+  - Serve with ice and garnished with the remaining mint leaves and lime slices.
+  image_url: images/recipes/070731AA-65E3-4C31-84E6-AD93E32B820A.jpg
+  in_trash: false
+  ingredients:
+  - 8 tbsp fresh lemon juice
+  - 4 tbsp fresh lime juice
+  - 16-32 mint leaves
+  - 8 cups of cold water
+  - 8-12 tbsp honey or sugar more or less to taste
+  - 8 to 16 ounces vodka about 1 to 2 cups, more or less to taste
+  - Ice cubes
+  - Lime or lemon slices to garnish
+  is_pinned: false
+  name: Vodka Mint Lemonade or Limeade
+  notes: ''
+  nutritional_info: 'Serving Size: 1 g'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 min
+  rating: 0
+  scale: 1/8
+  servings: 'Serving: 1'
+  source: laylita.com
+  source_url: https://www.laylita.com/recipes/vodka-mint-lemonade-or-limeade/
+  total_time: 10 min
+  uid: 42CE117D-D029-4B00-80D2-90E2F7A194E2
 - categories:
   - Dinner
   - Writeup
