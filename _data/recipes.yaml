@@ -4747,6 +4747,36 @@
   source_url: https://healthylittlecravings.com/en/2019/03/01/soft-hokkaido-milk-bread-recipe/#hokkaidobread
   total_time: ''
   uid: 7808ACAD-81FB-4A8D-AD6C-66692E3BA37C-8436-0000023E2EA5DEEF
+- categories: []
+  cook_time: ''
+  created: '2022-05-20 18:26:53'
+  description: ''
+  difficulty: ''
+  directions:
+  - Serve in a Coupe glass
+  - 'How to make: SHAKE all ingredients with ice and fine strain into chilled glass.'
+  image_url: images/recipes/FCC2743E-6CFD-43FA-BBB3-938F001770BF.jpg
+  in_trash: false
+  ingredients:
+  - 'Alcohol content:'
+  - 1.4 standard drinks
+  - "24.34% alc./vol. (48.68\xB0 proof)"
+  - 19.5 grams of pure alcohol
+  is_pinned: false
+  name: Seventh Heaven No.2
+  notes: ''
+  nutritional_info: 'Calories: 139 calories'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 3 min
+  rating: 0
+  scale: null
+  servings: '1'
+  source: diffordsguide.com
+  source_url: https://www.diffordsguide.com/cocktails/recipe/1764/seventh-heaven-no2
+  total_time: 3 min
+  uid: 78DA746C-1074-4DF1-9632-60E94002B663
 - categories:
   - Dinner
   - Made at 307
