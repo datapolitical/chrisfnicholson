@@ -306,6 +306,41 @@
   total_time: ''
   uid: 052F1D73-3DB3-4A66-886F-385A437DCFBD-646-00000015737AE7E3
 - categories: []
+  cook_time: ''
+  created: '2022-05-21 18:05:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the bourbon, gin, lime juice and bitters into a shaker with ice and shake
+    until well-chilled (about 30 seconds).
+  - Strain into a Collins glass over fresh ice.
+  - Top with the ginger beer.
+  - Garnish with a mint sprig.
+  image_url: images/recipes/DCA7BEA1-1E28-42B6-A679-DEE42636E0E4.jpg
+  in_trash: false
+  ingredients:
+  - 1 ounce bourbon
+  - 1 ounce London dry gin
+  - 1/2 ounce lime juice, freshly squeezed
+  - 2 dashes Angostura bitters
+  - Ginger beer, to top
+  - 'Garnish: mint sprig'
+  is_pinned: false
+  name: Suffering Bastard
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: liquor.com
+  source_url: https://www.liquor.com/recipes/suffering-bastard/
+  total_time: ''
+  uid: 05A79995-13F9-499F-B8D1-DE4E96CF8B0D
+- categories: []
   cook_time: 1 day
   created: '2021-03-19 03:44:45'
   description: ''
