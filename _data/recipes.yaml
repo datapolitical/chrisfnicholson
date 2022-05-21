@@ -6996,6 +6996,41 @@
   source_url: https://www.kingarthurbaking.com/recipes/baking-powder-biscuits-recipe
   total_time: ''
   uid: B4824714-6497-4AA8-8DA5-6083854C7E70-21757-00000978E0196ECC
+- categories: []
+  cook_time: ''
+  created: '2022-05-21 15:11:08'
+  description: ''
+  difficulty: ''
+  directions: ''
+  image_url: images/recipes/E697FAB6-3DD2-4D8A-835E-84140BB637F1.jpg
+  in_trash: false
+  ingredients:
+  - '1/2 ounce vodka '
+  - '1/2 ounce gin '
+  - '1/2 ounce triple sec '
+  - '1 ounce cranberry juice '
+  - '1/2 ounce rum '
+  - '1/2 ounce tequila '
+  - '1 ounce lemon juice '
+  - 1/2 ounce grapefruit juice
+  is_pinned: false
+  name: Mountain Breeze
+  notes: ''
+  nutritional_info: "Calories 50 Calories from Fat \u2505\n% DAILY VALUE\nTotal Fat\n\
+    Saturated Fat\nTrans Fat\nCholesterol\nSodium 0mg 0%\nPotassium 20mg 1%\nProtein\
+    \ 0g 0%\nCalories from Fat \u2505\nTotal Carbohydrate 3g 1%\nDietary Fiber\nSugars\
+    \ 2g 4%\nVitamin A 0%\nVitamin C 10%\nCalcium 0%\nIron"
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: '4'
+  source: yummly.com
+  source_url: https://www.yummly.com/recipe/Mountain-Breeze-1259148?utm_medium=yummly_amp_site&utm_source=yummly_amp_site
+  total_time: 10 min
+  uid: B54E878C-61E9-4FA3-8D65-EC957140920B
 - categories:
   - Made at 307
   - Dessert
@@ -7710,6 +7745,42 @@
   source_url: https://www.dessertsrequired.com/nutella-challah
   total_time: ''
   uid: CF7F3BAE-7F00-405E-8E0E-4C917BBCC600
+- categories: []
+  cook_time: ''
+  created: '2022-05-21 15:11:56'
+  description: ''
+  difficulty: ''
+  directions:
+  - Fill a cocktail shaker with ice and pour in all ingredients. Shake until chilled.
+    Fill a hurricane glass with ice and strain the mixture into it. Garnish with a
+    lime wedge.
+  image_url: images/recipes/C502A080-3497-4BFD-84FF-7402445BD2DF.jpg
+  in_trash: false
+  ingredients:
+  - Recipe
+  - 1/2 ounce vodka
+  - 1/2 ounce gin
+  - 1/2 ounce triple sec
+  - 1 ounce cranberry juice
+  - 1/2 ounce rum
+  - 1/2 ounce tequila
+  - 1 ounce lemon juice
+  - 1/2 ounce grapefruit juice
+  is_pinned: false
+  name: Mountain Breeze
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: 12/1
+  servings: ''
+  source: mixthatdrink.com
+  source_url: https://mixthatdrink.com/mountain-breeze/
+  total_time: ''
+  uid: D02D0375-A7F4-4CBA-B774-D773E9752973
 - categories:
   - Dinner
   - Made at 307
