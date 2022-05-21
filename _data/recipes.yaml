@@ -6008,6 +6008,41 @@
   source_url: https://www.mynetdiary.com/shareRecipe.do?id=26768545&appName=ProIp
   total_time: ''
   uid: 905E5110-B720-46A0-8831-BFD88BF2400E
+- categories: []
+  cook_time: 5 mins
+  created: '2022-05-20 20:47:53'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a 16 ounce glass filled halfway with ice, pour rum, grand mariner, pineapple
+    juice, lemon juice, and orange juice together and stir.
+  - Pour grenadine over the top and let settle through the drink. Top off with a splash
+    of dark rum and garnish with cherries and slices of pineapple if desired.
+  image_url: images/recipes/0B181D41-9DEB-4A76-8C5E-404477F46D4D.jpg
+  in_trash: false
+  ingredients:
+  - "1 \xBD ounce Rum"
+  - "\xBD ounce Grand Marnier or Triple Sec"
+  - 1 ounce pineapple juice
+  - 1 teaspoon lemon juice
+  - 4 ounce orange juice
+  - "\xBC ounce grenadine"
+  - Splash dark rum
+  is_pinned: false
+  name: Tropical Mai Tai Cocktail
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: 3/2
+  servings: 'Yield: 1'
+  source: aberdeenskitchen.com
+  source_url: https://www.aberdeenskitchen.com/2016/06/tropical-mai-tai-cocktail/
+  total_time: ''
+  uid: 90DFCAAB-0354-4368-B943-79865A845E61
 - categories:
   - Made at 307
   - Web
