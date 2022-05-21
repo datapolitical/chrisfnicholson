@@ -7758,14 +7758,14 @@
   in_trash: false
   ingredients:
   - Recipe
-  - 1/2 ounce vodka
-  - 1/2 ounce gin
-  - 1/2 ounce triple sec
-  - 1 ounce cranberry juice
-  - 1/2 ounce rum
-  - 1/2 ounce tequila
-  - 1 ounce lemon juice
-  - 1/2 ounce grapefruit juice
+  - 1/2 fluid ounce vodka
+  - 1/2 fluid ounce gin
+  - 1/2 fluid ounce triple sec
+  - 1 fluid ounce cranberry juice
+  - 1/2 fluid ounce rum
+  - 1/2 fluid ounce tequila
+  - 1 fluid ounce lemon juice
+  - 1/2 fluid ounce grapefruit juice
   is_pinned: false
   name: Mountain Breeze
   notes: ''
@@ -7775,7 +7775,7 @@
   photos: []
   prep_time: ''
   rating: 0
-  scale: 12/1
+  scale: 16/1
   servings: ''
   source: mixthatdrink.com
   source_url: https://mixthatdrink.com/mountain-breeze/
