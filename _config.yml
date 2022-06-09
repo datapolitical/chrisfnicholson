@@ -127,7 +127,7 @@ pwa:
     - "fonts/**/*"
     - "/assets/js/lunr.js"
 
-# google_analytics: G-QTJ2YPCJSC
+google_analytics_4: G-QTJ2YPCJSC
 google_analytics: UA-387663-5
 
 # The URL for the staticman API bridge endpoint
