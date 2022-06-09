@@ -306,6 +306,41 @@
   total_time: ''
   uid: 052F1D73-3DB3-4A66-886F-385A437DCFBD-646-00000015737AE7E3
 - categories: []
+  cook_time: ''
+  created: '2022-05-21 18:05:58'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the bourbon, gin, lime juice and bitters into a shaker with ice and shake
+    until well-chilled (about 30 seconds).
+  - Strain into a Collins glass over fresh ice.
+  - Top with the ginger beer.
+  - Garnish with a mint sprig.
+  image_url: images/recipes/DCA7BEA1-1E28-42B6-A679-DEE42636E0E4.jpg
+  in_trash: false
+  ingredients:
+  - 1 ounce bourbon
+  - 1 ounce London dry gin
+  - 1/2 ounce lime juice, freshly squeezed
+  - 2 dashes Angostura bitters
+  - Ginger beer, to top
+  - 'Garnish: mint sprig'
+  is_pinned: false
+  name: Suffering Bastard
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: liquor.com
+  source_url: https://www.liquor.com/recipes/suffering-bastard/
+  total_time: ''
+  uid: 05A79995-13F9-499F-B8D1-DE4E96CF8B0D
+- categories: []
   cook_time: 1 day
   created: '2021-03-19 03:44:45'
   description: ''
@@ -762,7 +797,7 @@
   - Web
   - I Made This
   cook_time: 17 hrs
-  created: '2021-01-30 00:38:16'
+  created: '2021-01-29 23:38:16'
   description: ''
   difficulty: ''
   directions:
@@ -793,7 +828,7 @@
   - To cook this recipe in the oven, layer the ingredients in a large heavy 7-8 quart
     Dutch oven. Make sure you have enough liquid to just cover all ingredients. Cover
     with lid and cook cholent at 200 degrees F for 12-16 hours.
-  image_url: images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9.jpg
+  image_url: images/recipes/5A8CB103-2E51-4CAF-958C-DC9FEA8F0047.jpg
   in_trash: false
   ingredients:
   - 2 1/2 lbs large red potatoes, peeled and halved (for a smaller slow cooker, use
@@ -851,7 +886,7 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/B17D42BC-BA75-477F-8F9F-70246CC356C9.jpg
+  - '1': images/recipes/5A8CB103-2E51-4CAF-958C-DC9FEA8F0047.jpg
   prep_time: 20 mins
   rating: 3
   scale: null
@@ -916,7 +951,10 @@
   total_time: ''
   uid: 181D17F3-37C2-424B-8CAA-4C68DC44CDEB
 - categories:
+  - Made at 307
+  - Drink
   - Web
+  - I Made This
   cook_time: 5 minutes
   created: '2022-01-21 18:35:48'
   description: ''
@@ -961,8 +999,8 @@
   photos:
   - '1': images/recipes/0D9106E4-EA25-40BE-A503-95B12397C6E1.jpg
   prep_time: 5 minutes
-  rating: 0
-  scale: 4/1
+  rating: 5
+  scale: 1/1
   servings: 'Yield: 1'
   source: gastronomblog.com
   source_url: https://www.gastronomblog.com/the-shipwreck-a-rum-and-lillet-cocktail/
@@ -1270,7 +1308,7 @@
   - Drink
   - Web
   cook_time: ''
-  created: '2021-11-25 12:31:28'
+  created: '2021-11-25 11:31:28'
   description: ''
   difficulty: ''
   directions:
@@ -1279,7 +1317,7 @@
   - Strain into a Collins glass over fresh ice.
   - Top with the ginger beer.
   - Garnish with a mint sprig.
-  image_url: images/recipes/ED3ABFE6-B9BA-49F2-94AB-83320D04B315.jpg
+  image_url: images/recipes/CB4E6693-2D66-4827-89B1-A91E0BAEB769.jpg
   in_trash: false
   ingredients:
   - 1 ounce bourbon
@@ -1295,7 +1333,7 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/ED3ABFE6-B9BA-49F2-94AB-83320D04B315.jpg
+  - '1': images/recipes/CB4E6693-2D66-4827-89B1-A91E0BAEB769.jpg
   prep_time: ''
   rating: 5
   scale: null
@@ -2090,14 +2128,14 @@
   - Drink
   - Web
   cook_time: ''
-  created: '2021-12-14 07:11:47'
+  created: '2021-12-14 06:11:47'
   description: ''
   difficulty: ''
   directions:
   - Pour the coffee liqueur into a shot glass.
   - Slowly layer the Baileys on top of the coffee liqueur and the Grand Marnier on
     top of the Baileys.
-  image_url: images/recipes/DD1165DD-FACC-4D0E-86F4-35D732ECC027.jpg
+  image_url: images/recipes/E898C29C-840B-43B2-8B6B-2C728F45107F.jpg
   in_trash: false
   ingredients:
   - 1/3 ounce coffee liqueur
@@ -2110,7 +2148,7 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/F51CBC2A-E97D-4B3E-9EAB-91F9DB314966.jpg
+  - '1': images/recipes/E898C29C-840B-43B2-8B6B-2C728F45107F.jpg
   prep_time: ''
   rating: 5
   scale: null
@@ -2174,7 +2212,7 @@
   - Aspirational
   - Web
   cook_time: 20 minutes
-  created: '2021-11-19 03:11:02'
+  created: '2021-11-19 02:11:02'
   description: ''
   difficulty: ''
   directions:
@@ -2199,7 +2237,7 @@
   - To make the glaze, add the powdered sugar, milk and corn syrup to a bowl and microwave
     for 30 seconds.
   - Most importantly, eat with reckless abandon.
-  image_url: images/recipes/C79EFAFD-3CE5-47FC-9B12-47B0E64E929C.jpg
+  image_url: images/recipes/AC143EB4-5837-46D9-BAC0-C8E09F78625E.jpg
   in_trash: false
   ingredients:
   - 'Doughnuts:'
@@ -2226,7 +2264,7 @@
   on_favorites: false
   on_grocery_list: false
   photos:
-  - '1': images/recipes/C79EFAFD-3CE5-47FC-9B12-47B0E64E929C.jpg
+  - '1': images/recipes/AC143EB4-5837-46D9-BAC0-C8E09F78625E.jpg
   prep_time: 1 hour
   rating: 5
   scale: null
@@ -2556,6 +2594,100 @@
   source_url: https://www.garlicandzest.com/homemade-lobster-stock/
   total_time: ''
   uid: 41E2FF71-A475-4FD4-928E-AD0F705827F4
+- categories:
+  - Made at 307
+  - Baked Goods
+  - Web
+  - Breakfast
+  - Southern
+  - Pastry
+  - I Made This
+  - Vegetarian
+  cook_time: ''
+  created: '2022-02-06 02:44:54'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Preheat oven to 425\xB0F (220\xB0C). Line a baking sheet with parchment paper."
+  - In a large bowl, whisk together flour, sugar, kosher salt, baking powder, and
+    baking soda. Using a pastry blender, cut in cold butter until mixture is crumbly.
+    Stir in cold buttermilk until a shaggy dough forms.
+  - "Turn out dough onto a lightly floured surface. Pat dough into a rectangle, and\
+    \ cut into fourths. Stack each fourth on top of each other, and pat down into\
+    \ a rectangle again. Repeat procedure 3 more times. Pat or roll dough to 1-inch\
+    \ thickness. Using a 2\xBD-inch round cutter dipped in flour, cut dough without\
+    \ twisting cutter, rerolling scraps as necessary. Place biscuits 2 inches apart\
+    \ on prepared pan. Freeze until cold, about 10 minutes. Brush with egg wash, and\
+    \ sprinkle with sea salt."
+  - Bake until golden brown, about 15 minutes. Serve warm with softened butter and
+    honey.
+  image_url: images/recipes/8CD52E5A-3FCF-44AD-BC9A-B70750377FFE.jpg
+  in_trash: false
+  ingredients:
+  - "3\xBD cups (438 grams) White Lily Self-Rising Flour"
+  - 2 tablespoons (24 grams) granulated sugar
+  - 1/3rd tablespoon (3 grams) salt
+  - "\xBD teaspoon (2.5 grams) baking soda"
+  - "1\xBC cups (284 grams) cold unsalted butter, cubed"
+  - 1 cup (240 grams) whole buttermilk, chilled
+  - 1 large egg (50 grams), lightly beaten
+  - Flaked sea salt, for sprinkling
+  - Softened butter and honey, to serve
+  is_pinned: false
+  name: Brian Hart Hoffman's Buttermilk Biscuits with White Lily Flour
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/8CD52E5A-3FCF-44AD-BC9A-B70750377FFE.jpg
+  prep_time: ''
+  rating: 0
+  scale: 1/1
+  servings: 12 biscuits
+  source: tasteofthesouthmagazine.com
+  source_url: https://www.tasteofthesouthmagazine.com/brian-hart-hoffmans-buttermilk-biscuits-white-lily-flour/
+  total_time: ''
+  uid: 422796B0-6C13-4653-BA5E-EABD4C9C57AA
+- categories: []
+  cook_time: ''
+  created: '2022-05-04 08:46:31'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the quartered limes or lemons in the blender with 2 cups of water, sugar
+    or honey, some ice, and half of the mint leaves.
+  - Blend until the limes or lemons are crushed, the mixture should be slightly foamy
+    with a whitish color.
+  - Strain the lemonade and add the remaining 6 cups of water.
+  - Stir in the vodka or allow guests to add the vodka according to their preference
+  - Serve with ice and garnished with the remaining mint leaves and lime slices.
+  image_url: images/recipes/070731AA-65E3-4C31-84E6-AD93E32B820A.jpg
+  in_trash: false
+  ingredients:
+  - 8 tbsp fresh lemon juice
+  - 4 tbsp fresh lime juice
+  - 16-32 mint leaves
+  - 8 cups of cold water
+  - 8-12 tbsp honey or sugar more or less to taste
+  - 8 to 16 ounces vodka about 1 to 2 cups, more or less to taste
+  - Ice cubes
+  - Lime or lemon slices to garnish
+  is_pinned: false
+  name: Vodka Mint Lemonade or Limeade
+  notes: ''
+  nutritional_info: 'Serving Size: 1 g'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 min
+  rating: 0
+  scale: 1/1
+  servings: 'Serving: 1'
+  source: laylita.com
+  source_url: https://www.laylita.com/recipes/vodka-mint-lemonade-or-limeade/
+  total_time: 10 min
+  uid: 42CE117D-D029-4B00-80D2-90E2F7A194E2
 - categories:
   - Dinner
   - Writeup
@@ -3164,6 +3296,125 @@
   source_url: https://the-milk-pail-pop-up.myshopify.com/blogs/recipes/milk-pail-fondue
   total_time: ''
   uid: 5443805F-309B-4741-9BB0-6272A6703000-4628-0000018E301E3CD5
+- categories: []
+  cook_time: 12 min
+  created: '2022-02-06 02:41:19'
+  description: ''
+  difficulty: ''
+  directions:
+  - "HEAT oven to 475\xB0F."
+  - PLACE flour in a large bowl. Using a pastry cutter or fork, work butter or shortening
+    into flour until crumbs are the size of peas. Add buttermilk, stir with fork just
+    until flour is moistened.
+  - TURN dough onto lightly floured surface. Gently roll dough with floured rolling
+    pin until 1 inch thick. Cut out biscuits using a floured 2-inch biscuit cutter
+    or the rim of a cup. Place biscuits on a baking sheet where the edges touch. Reform
+    the scrap dough to make additional biscuits.
+  - BAKE 8 to 10 minutes or until golden brown. Remove from oven. Brush tops with
+    butter and enjoy.
+  image_url: images/recipes/92AE867B-E205-4A4A-B4D4-2075C21C510D.jpg
+  in_trash: false
+  ingredients:
+  - "2 cups White Lily\xAE Enriched Unbleached Self-Rising Flour"
+  - 1/4 cup butter or shortening
+  - 3/4 cup buttermilk or milk
+  - 2 tablespoons butter, melted
+  is_pinned: false
+  name: "WHITE LILY\xAE LIGHT AND FLUFFY BISCUITS"
+  notes: ''
+  nutritional_info: 'Serving Size (1 biscuit of 12), Calories 110 (Calories from Fat
+    40), Total Fat 5g (Saturated Fat g, Trans Fat g), Cholesterol mg, Sodium 240mg,
+    Total Carbohydrate 15g (Dietary Fiber g, Sugars 1g), Protein 3g; Percent Daily
+    Value*: Vitamin A %, Vitamin C %, Calcium 6%, Iron 4%.'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 min
+  rating: 0
+  scale: null
+  servings: 'Yield: 1 dozen'
+  source: whitelily.com
+  source_url: https://www.whitelily.com/recipes/white-lily-light-and-fluffy-biscuits-3790/
+  total_time: ''
+  uid: 55EF5A35-8075-4183-9F83-EF96185EC830
+- categories:
+  - Cake
+  - Made at 307
+  - Baked Goods
+  - Dessert
+  - Web
+  - I Made This
+  cook_time: 35 minutes
+  created: '2022-02-01 09:54:44'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat oven to 350 degrees Fahrenheit. Butter three 9-inch cake rounds. Dust
+    with flour and tap out the excess.
+  - Mix together flour, sugar, cocoa, baking soda, baking powder, and salt in a stand
+    mixer using a low speed until combined.
+  - Add eggs, buttermilk, warm water, oil, and vanilla. Beat on a medium speed until
+    smooth. This should take just a couple of minutes.
+  - Divide batter among the three pans. I found that it took just over 3 cups of the
+    batter to divide it evenly.
+  - Bake for 30-35 minutes in a 350 degree oven until a toothpick inserted into the
+    center comes out clean.
+  - Cool on wire racks for 15 minutes and then turn out the cakes onto the racks and
+    allow to cool completely.
+  - Frost with your favorite frosting and enjoy!
+  - Chocolate Cream Cheese Buttercream Frosting
+  - In a large bowl, beat together butter and cream cheese until fluffy. Use a hand
+    mixer or stand mixer for best results
+  - Add in cocoa powder and vanilla extract. Beat until combined.
+  - Beat in powdered sugar, 1 cup at a time. Add milk as necessary to make a spreadable
+    consistency. The frosting should be very thick and will thicken even more if refrigerated.
+  image_url: images/recipes/C1AAB72A-9439-4B4B-8683-B4DC6D437708.jpg
+  in_trash: false
+  ingredients:
+  - butter and flour for coating and dusting the cake pan
+  - 3 cups all-purpose flour
+  - 3 cups granulated sugar
+  - 1 1/2 cups unsweetened cocoa powder
+  - 1 tablespoon baking soda
+  - 1 1/2 teaspoons baking powder
+  - 1 1/2 teaspoons salt
+  - 4 large eggs
+  - 1 1/2 cups buttermilk
+  - 1 1/2 cups warm water
+  - 1/2 cup vegetable oil
+  - 2 teaspoons vanilla extract
+  - Chocolate Cream Cheese Buttercream Frosting
+  - 1 1/2 cups butter softened
+  - 8 oz cream cheese softened
+  - 1 1/2 cups unsweetened cocoa powder
+  - 3 teaspoons vanilla extract
+  - 3.5 cups powdered sugar (up to 5 cups if you prefer more sweet frosting)
+  - about 1/4 cup milk as needed (I used 2tbsp)
+  is_pinned: false
+  name: The Most Amazing Chocolate Cake
+  notes: 'For metric measurements, click on the metric tab. Bake at 176 degrees celsius
+    in three 23 centimeter pans
+
+
+    *Coffee can be used in place of the warm water.
+
+
+    **For Cupcakes: https://thestayathomechef.com/chocolate-cupcake-recipe/'
+  nutritional_info: 'Calories: 767kcal | Carbohydrates: 119g | Protein: 8g | Fat:
+    33g | Saturated Fat: 21g | Cholesterol: 105mg | Sodium: 668mg | Potassium: 383mg
+    | Fiber: 5g | Sugar: 91g | Vitamin A: 825IU | Calcium: 96mg | Iron: 3.7mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/C1AAB72A-9439-4B4B-8683-B4DC6D437708.jpg
+  prep_time: 10 minutes
+  rating: 5
+  scale: null
+  servings: '16'
+  source: thestayathomechef.com
+  source_url: https://thestayathomechef.com/the-most-amazing-chocolate-cake/
+  total_time: ''
+  uid: 58037E8C-5B81-423C-8EEA-ADDEBA803BB0
 - categories: []
   cook_time: 20 minutes
   created: '2022-01-21 09:43:39'
@@ -4089,6 +4340,63 @@
   source_url: https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/
   total_time: ''
   uid: 6FBC9DF7-917A-44C6-937B-1D3FDBE1C893-14677-000005CD126B7409
+- categories: []
+  cook_time: ''
+  created: '2022-03-22 08:15:41'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a large bowl, mix the dry ingredients for the dough.
+  - Cut the butter into 12 pieces (or more). Then cut the butter into the dry ingredients
+    until the butter pieces are the size of pecan halves.
+  - In another bowl, mix the vanilla, egg yolks and sour cream. Gradually stir into
+    the dry ingredients until they just come together.
+  - Form the dough into two balls, flatten into discs, then use your fingers to smear
+    the small pieces of butter to create streaks through the dough. Turn the dough
+    over several times, smearing the butter each time.
+  - Form the dough back into two balls, wrap in plastic wrap, and refrigerate for
+    3-4 hours, or overnight.
+  - For the filling, mix all ingredients in a bowl. Use enough raisins and nuts (or
+    coconut) to achieve a mortar-like texture to prevent the filling from oozing in
+    the baking process.
+  - Preheat the oven to 350 degrees F.
+  - "Remove the dough from the refrigerator. Flour a surface and roll each ball out\
+    \ into \xBC inch thick rectangles. Slice each rectangle into four equal pieces.\
+    \ Spread filling evenly on each piece, leaving \xBC inch of room on the edges.\
+    \ Roll up, then brush egg white generously on top. Bake for 30 minutes."
+  image_url: images/recipes/C09F5465-FC4F-4711-B25C-09B07D69E453.jpg
+  in_trash: false
+  ingredients:
+  - 'For the dough:'
+  - 2 cups flour
+  - "\xBD tsp salt"
+  - "\xBD tsp baking powder"
+  - 2 sticks room temperature butter
+  - "1 cup full-fat sour cream or cr\xE8me fraiche"
+  - 1 tsp vanilla extract
+  - 2 egg yolks (reserve the whites to glaze the pastries)
+  - 'For the filling:'
+  - 18 oz raspberry jam
+  - "1 \xBD cups golden raisins"
+  - 1 cup chopped walnuts (or shredded coconut)
+  - splash of orange juice
+  - "grated rind of \xBD orange"
+  - dash of cinnamon
+  is_pinned: false
+  name: These Russian Tea Biscuits Are Even Better Than Rugelach
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: myjewishlearning.com
+  source_url: https://www.myjewishlearning.com/the-nosher/these-russian-tea-biscuits-are-even-better-than-rugelach/
+  total_time: ''
+  uid: 7371A071-2015-4389-AC8F-42E78AED97A4
 - categories:
   - Dish Type
   - Web
@@ -4474,6 +4782,36 @@
   source_url: https://healthylittlecravings.com/en/2019/03/01/soft-hokkaido-milk-bread-recipe/#hokkaidobread
   total_time: ''
   uid: 7808ACAD-81FB-4A8D-AD6C-66692E3BA37C-8436-0000023E2EA5DEEF
+- categories: []
+  cook_time: ''
+  created: '2022-05-20 18:26:53'
+  description: ''
+  difficulty: ''
+  directions:
+  - Serve in a Coupe glass
+  - 'How to make: SHAKE all ingredients with ice and fine strain into chilled glass.'
+  image_url: images/recipes/FCC2743E-6CFD-43FA-BBB3-938F001770BF.jpg
+  in_trash: false
+  ingredients:
+  - 'Alcohol content:'
+  - 1.4 standard drinks
+  - "24.34% alc./vol. (48.68\xB0 proof)"
+  - 19.5 grams of pure alcohol
+  is_pinned: false
+  name: Seventh Heaven No.2
+  notes: ''
+  nutritional_info: 'Calories: 139 calories'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 3 min
+  rating: 0
+  scale: null
+  servings: '1'
+  source: diffordsguide.com
+  source_url: https://www.diffordsguide.com/cocktails/recipe/1764/seventh-heaven-no2
+  total_time: 3 min
+  uid: 78DA746C-1074-4DF1-9632-60E94002B663
 - categories:
   - Dinner
   - Made at 307
@@ -5279,7 +5617,7 @@
   - Drink
   - Web
   cook_time: ''
-  created: '2021-06-12 15:54:52'
+  created: '2021-06-12 14:54:52'
   description: ''
   difficulty: ''
   directions:
@@ -5287,7 +5625,7 @@
     wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar
     in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off
     with club soda. Garnish with grapefruit wedge.
-  image_url: images/recipes/F6E1BB58-8E59-4F33-AEA5-37CD3012B335.jpg
+  image_url: images/recipes/39C204F6-339C-4722-A288-E542E6A7A951.jpg
   in_trash: false
   ingredients:
   - Kosher salt
@@ -5303,7 +5641,8 @@
   nutritional_info: ''
   on_favorites: false
   on_grocery_list: false
-  photos: []
+  photos:
+  - '1': images/recipes/39C204F6-339C-4722-A288-E542E6A7A951.jpg
   prep_time: ''
   rating: 5
   scale: 8/1
@@ -5704,6 +6043,41 @@
   source_url: https://www.mynetdiary.com/shareRecipe.do?id=26768545&appName=ProIp
   total_time: ''
   uid: 905E5110-B720-46A0-8831-BFD88BF2400E
+- categories: []
+  cook_time: 5 mins
+  created: '2022-05-20 20:47:53'
+  description: ''
+  difficulty: ''
+  directions:
+  - In a 16 ounce glass filled halfway with ice, pour rum, grand mariner, pineapple
+    juice, lemon juice, and orange juice together and stir.
+  - Pour grenadine over the top and let settle through the drink. Top off with a splash
+    of dark rum and garnish with cherries and slices of pineapple if desired.
+  image_url: images/recipes/0B181D41-9DEB-4A76-8C5E-404477F46D4D.jpg
+  in_trash: false
+  ingredients:
+  - "1 \xBD ounce Rum"
+  - "\xBD ounce Grand Marnier or Triple Sec"
+  - 1 ounce pineapple juice
+  - 1 teaspoon lemon juice
+  - 4 ounce orange juice
+  - "\xBC ounce grenadine"
+  - Splash dark rum
+  is_pinned: false
+  name: Tropical Mai Tai Cocktail
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 5 mins
+  rating: 0
+  scale: 3/2
+  servings: 'Yield: 1'
+  source: aberdeenskitchen.com
+  source_url: https://www.aberdeenskitchen.com/2016/06/tropical-mai-tai-cocktail/
+  total_time: ''
+  uid: 90DFCAAB-0354-4368-B943-79865A845E61
 - categories:
   - Made at 307
   - Web
@@ -5899,6 +6273,52 @@
   source_url: https://cooking.nytimes.com/recipes/1018035-kale-romaine-caesar-salad
   total_time: ''
   uid: 95C9BD96-AC66-4A30-8340-7273D1E2C9AB
+- categories: []
+  cook_time: ''
+  created: '2022-04-14 18:42:25'
+  description: ''
+  difficulty: ''
+  directions:
+  - Place the carrot and onion into a food processor and grind finely.
+  - Mix the carrot and onion mixture into the ground carp.
+  - Add in the salt, sugar, pepper, eggs and matzah meal. Mix and form into balls.
+  - Place all the broth ingredients into a pot and bring to a boil.
+  - Drop in the fish balls and cook for 1 hour.
+  - Refrigerate until serving.
+  image_url: images/recipes/284579BB-74F9-4838-BDD7-9FC6442FEA4E.jpg
+  in_trash: false
+  ingredients:
+  - 'Fish Ingredients:'
+  - 1 carrot
+  - 1 onion
+  - 1 lb. (450 grams) ground carp
+  - 2 tbsp. sugar
+  - 1 tbsp. ground black pepper
+  - 1 tbsp. kosher salt
+  - 1 cup matzo meal (approximately)
+  - 2 eggs
+  - 'Broth Ingredients:'
+  - 12 cups (3 liters) water
+  - 4 bay leaves
+  - 5 whole peppercorns
+  - "\xBD cup sugar"
+  - 1 tbsp. cracked black pepper
+  - 1 onion
+  is_pinned: false
+  name: Easy Homemade Gefilte Fish
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: chabad.org
+  source_url: https://www.chabad.org/recipes/recipe_cdo/aid/3389423/jewish/Easy-Homemade-Gefilte-Fish.htm
+  total_time: ''
+  uid: 96CAD921-18B8-4EB1-9FE7-EC00619394FF
 - categories: []
   cook_time: 'prep: 20 minutes, cook: 4 hours'
   created: '2020-12-14 01:56:21'
@@ -6611,6 +7031,41 @@
   source_url: https://www.kingarthurbaking.com/recipes/baking-powder-biscuits-recipe
   total_time: ''
   uid: B4824714-6497-4AA8-8DA5-6083854C7E70-21757-00000978E0196ECC
+- categories: []
+  cook_time: ''
+  created: '2022-05-21 15:11:08'
+  description: ''
+  difficulty: ''
+  directions: ''
+  image_url: images/recipes/E697FAB6-3DD2-4D8A-835E-84140BB637F1.jpg
+  in_trash: false
+  ingredients:
+  - '1/2 ounce vodka '
+  - '1/2 ounce gin '
+  - '1/2 ounce triple sec '
+  - '1 ounce cranberry juice '
+  - '1/2 ounce rum '
+  - '1/2 ounce tequila '
+  - '1 ounce lemon juice '
+  - 1/2 ounce grapefruit juice
+  is_pinned: false
+  name: Mountain Breeze
+  notes: ''
+  nutritional_info: "Calories 50 Calories from Fat \u2505\n% DAILY VALUE\nTotal Fat\n\
+    Saturated Fat\nTrans Fat\nCholesterol\nSodium 0mg 0%\nPotassium 20mg 1%\nProtein\
+    \ 0g 0%\nCalories from Fat \u2505\nTotal Carbohydrate 3g 1%\nDietary Fiber\nSugars\
+    \ 2g 4%\nVitamin A 0%\nVitamin C 10%\nCalcium 0%\nIron"
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: '4'
+  source: yummly.com
+  source_url: https://www.yummly.com/recipe/Mountain-Breeze-1259148?utm_medium=yummly_amp_site&utm_source=yummly_amp_site
+  total_time: 10 min
+  uid: B54E878C-61E9-4FA3-8D65-EC957140920B
 - categories:
   - Made at 307
   - Dessert
@@ -6899,6 +7354,41 @@
   uid: BCE1BF8C-BF77-49EF-906F-38D1B9FCB34E-25085-00000A74815B4D72
 - categories: []
   cook_time: 20 minutes
+  created: '2022-02-08 12:31:06'
+  description: ''
+  difficulty: ''
+  directions:
+  - Preheat the oven to 500 degrees Fahrenheit. Line a baking sheet with aluminum
+    foil and top it with a rack.
+  - Separate the wing sections at the joints and discard the tips. Place wings on
+    the rack.
+  - Bake for 20 to 25 minutes, until cooked and crisp. Flip them over halfway through.
+  - "Meanwhile, prepare the sauce by combining Frank\u2019s\xAE RedHot\xAE sauce and\
+    \ butter in a large bowl."
+  - Transfer the wings into the bowl and coat evenly.
+  image_url: images/recipes/F2AAC48A-7191-4931-AF62-1FD15DE13F42.jpg
+  in_trash: false
+  ingredients:
+  - 2 1/2 pounds chicken wings
+  - "1/2 cup Frank\u2019s\xAE RedHot\xAE Original Cayenne Pepper Sauce"
+  - 1/3 cup melted butter or margarine
+  is_pinned: false
+  name: "Frank\u2019s RedHot Buffalo Wings"
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10 minutes
+  rating: 0
+  scale: null
+  servings: 6 servings
+  source: insanelygoodrecipes.com
+  source_url: https://insanelygoodrecipes.com/franks-redhot-buffalo-wings/
+  total_time: ''
+  uid: BF869127-0011-4900-9E47-B95C5334B8D0
+- categories: []
+  cook_time: 20 minutes
   created: '2020-11-10 20:49:47'
   description: ''
   difficulty: ''
@@ -7020,6 +7510,39 @@
   source_url: https://www.cookstr.com/recipes/coconut-braised-baby-bok-choy
   total_time: ''
   uid: C3EDF2D6-6C97-45A0-86F5-1ED3855CE5C4
+- categories:
+  - Drink
+  - Web
+  - I Made This
+  cook_time: ''
+  created: '2022-02-24 06:33:34'
+  description: ''
+  difficulty: ''
+  directions:
+  - 'Pour all ingredients into a highball glass. Stir. '
+  image_url: images/recipes/A992FDBE-3AD3-44A2-AA86-FB5140B5A621.jpg
+  in_trash: false
+  ingredients:
+  - 1 1/2 oz Vodka
+  - 1/2 oz Triple Sec
+  - 3 oz Soda water
+  - "\xBD oz grapefruit juice "
+  is_pinned: false
+  name: Siberian Sunrise Drink
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/A992FDBE-3AD3-44A2-AA86-FB5140B5A621.jpg
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: ''
+  source: haveacocktail.com
+  source_url: https://www.haveacocktail.com/siberian-sunrise.htm
+  total_time: ''
+  uid: C9F96008-6E19-4BDF-8F5F-7BA36B5278BD
 - categories: []
   cook_time: 25 minutes
   created: '2020-12-29 21:10:11'
@@ -7257,6 +7780,42 @@
   source_url: https://www.dessertsrequired.com/nutella-challah
   total_time: ''
   uid: CF7F3BAE-7F00-405E-8E0E-4C917BBCC600
+- categories: []
+  cook_time: ''
+  created: '2022-05-21 15:11:56'
+  description: ''
+  difficulty: ''
+  directions:
+  - Fill a cocktail shaker with ice and pour in all ingredients. Shake until chilled.
+    Fill a hurricane glass with ice and strain the mixture into it. Garnish with a
+    lime wedge.
+  image_url: images/recipes/C502A080-3497-4BFD-84FF-7402445BD2DF.jpg
+  in_trash: false
+  ingredients:
+  - Recipe
+  - 1/2 fluid ounce vodka
+  - 1/2 fluid ounce gin
+  - 1/2 fluid ounce triple sec
+  - 1 fluid ounce cranberry juice
+  - 1/2 fluid ounce rum
+  - 1/2 fluid ounce tequila
+  - 1 fluid ounce lemon juice
+  - 1/2 fluid ounce grapefruit juice
+  is_pinned: false
+  name: Mountain Breeze
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: 16/1
+  servings: ''
+  source: mixthatdrink.com
+  source_url: https://mixthatdrink.com/mountain-breeze/
+  total_time: ''
+  uid: D02D0375-A7F4-4CBA-B774-D773E9752973
 - categories:
   - Dinner
   - Made at 307
@@ -8388,6 +8947,193 @@
   total_time: ''
   uid: E64E686A-849F-4D80-B63F-8BF12A9D6A8B-3431-000000FFD1F97A90
 - categories:
+  - Cake
+  - Aspirational
+  - TBD
+  - Baked Goods
+  - Dessert
+  - Web
+  cook_time: 1 hour
+  created: '2022-03-23 23:34:12'
+  description: ''
+  difficulty: ''
+  directions:
+  - "Make the lemon curd: Fill the bottom pot of your double boiler with 1-2 inches\
+    \ of water. (Or use the DIY double boiler method listed in the notes.) Place on\
+    \ high heat. Once the water begins to boil, reduce to low heat to keep the water\
+    \ at a simmer. Place egg yolks, egg, granulated sugar, lemon zest, lemon juice,\
+    \ and salt into the top pot of your double boiler. Using a silicone whisk (avoid\
+    \ metal because it leaves an aftertaste), whisk until completely blended and then\
+    \ continue to whisk as the curd cooks. Whisk and cook until the mixture becomes\
+    \ thick and is the consistency of hollandaise sauce or a really thick soup, about\
+    \ 10 minutes or when an instant read thermometer reaches 160\xB0F (71\xB0C). If\
+    \ curd isn\u2019t thickening, turn up the heat and constantly whisk. Remove pan\
+    \ from heat. Cut the butter into 6 separate pieces and then whisk into the curd\
+    \ until butter has melted and combined. Pour curd into a jar or bowl and place\
+    \ a piece of plastic wrap directly on top so it is touching the top of the curd.\
+    \ This prevents a skin from forming on top. The curd will continue to thicken\
+    \ as it cools. Place in refrigerator to speed up cooling. Once cool, the plastic\
+    \ wrap can be removed. Refrigerate the curd for up to about 10 days or for longer\
+    \ storage, you can freeze the cooled curd for up to 3-6 months. Thaw in the refrigerator\
+    \ overnight before enjoying. Makes 1 heaping cup."
+  - "Make the cake: Preheat oven to 350\xB0F (177\xB0C). Grease three 6\xD72 inch\
+    \ cake pans, line with parchment paper, then grease the parchment paper. Parchment\
+    \ paper helps the small cakes seamlessly release from the pans."
+  - "Whisk the flour, baking powder, and salt together in a medium bowl. Set aside.\
+    \ Using a handheld or stand mixer fitted with a paddle or whisk attachment, beat\
+    \ the butter and sugar together on medium-high speed until combined, about 1 minute.\
+    \ Scrape down the sides and up the bottom of the bowl with a rubber spatula and\
+    \ then add the citrus zest. Beat on medium-high speed until combined and creamy,\
+    \ about 2 minutes. Add the eggs and vanilla extract. Beat on medium-high speed\
+    \ until combined. Scrape down the sides and up the bottom of the bowl and beat\
+    \ again as needed to combine. Add half of the flour mixture (just eyeball it),\
+    \ half of the milk, and half of the citrus juice. Beat on low speed until mostly\
+    \ combined, and then add the remaining flour mixture, milk, and citrus juice.\
+    \ Beat on low speed until combined. Do not over-mix. You may need to whisk it\
+    \ all by hand to make sure there are no large lumps at the bottom of the bowl.\
+    \ The batter will be slightly thick with some small lumps. You will have between\
+    \ 3.5 \u2013 4 cups of batter."
+  - "Divide and pour batter evenly into cake pans. If batter appears to have bubbles,\
+    \ give the pans a light tap on the counter to pop them. Bake cakes for 18-21 minutes\
+    \ or until baked through. To test for doneness, insert a toothpick into the center\
+    \ of the cake. If it comes out clean, it\u2019s done."
+  - Allow cakes to cool completely in the pans set on a wire rack for 30 minutes.
+    Remove cakes from the pans and set them on a wire rack to cool completely. The
+    cakes must be completely cool before frosting and assembling.
+  - "Make the whipped frosting: In a large bowl using a hand-held mixer or stand mixer\
+    \ fitted with a whisk or paddle attachment, beat the cream cheese on medium-high\
+    \ speed until creamy, about 1 minute. Scrape down the sides and up the bottom\
+    \ of the bowl and beat again as needed until creamy. Add the confectioners\u2019\
+    \ sugar and vanilla extract, and then beat on medium speed until combined and\
+    \ completely smooth (absolutely no lumps), at least 2 full minutes. Scrape down\
+    \ the sides and up the bottom of the bowl and beat again as needed to smooth out.\
+    \ Switch to a whisk attachment (if you haven\u2019t already been using it). Turn\
+    \ the mixer to low speed and with the mixer running, carefully pour in the cream\
+    \ in a slow and steady stream. After all of the cream has been added, turn the\
+    \ mixer up to high speed and whip until thick and stiff peaks form, about 1-2\
+    \ minutes. Do not walk away during this time and do not be concerned if your frosting\
+    \ takes longer to whip. You\u2019re looking for a thick, airy consistency with\
+    \ stiff peaks. If your frosting appears soupy now or at any point you are working\
+    \ with it, it needs more whipping to introduce more air. If your frosting appears\
+    \ chunky or curdled, it\u2019s over-whipped. To fix, stir 1 Tablespoon of heavy\
+    \ cream into the frosting by hand to smooth out again. You will have about 3.5\
+    \ cups of frosting."
+  - 'Make lemon curd frosting filling: Spoon 1 cup of frosting (about 240ml) into
+    a separate bowl. Stir in 3 heaping Tablespoons of cooled lemon curd. This will
+    be your filling for the cake. Enjoy remaining lemon curd drizzled on the cake
+    slices or as a topping on other baked goods.'
+  - "Assemble & crumb coat the cake: First, make sure you have enough room for the\
+    \ cake inside your refrigerator because it must chill at the end of this step\
+    \ and briefly in the next step as well. If the cake layers aren\u2019t flat on\
+    \ top, carefully and slowly level them off using a large serrated knife. Discard\
+    \ (or crumble over ice cream!). Place 1 cake layer on your cake stand, cake turntable,\
+    \ or serving plate. Evenly cover the top with 1/2 of the lemon curd frosting.\
+    \ Top with 2nd cake layer and evenly cover the top with remaining lemon curd frosting\
+    \ (if you have extras, just use it on the exterior of the cake). Top with the\
+    \ third cake layer. Spread a very thin layer of regular whipped frosting on top\
+    \ and all around the sides of the cake to create a crumb coat. A bench scraper\
+    \ and small icing spatula are handy for this. Refrigerate uncovered for 30 minutes."
+  - Add remaining frosting on chilled crumb-coated cake using a small icing spatula
+    or a larger flat icing spatula. Use a bench scraper, if desired, to smooth out
+    the sides. Refrigerate the decorated cake uncovered for at least 30 minutes to
+    help set the frosting. After that, if you used a cake turntable, you can carefully
+    transfer the cake to a cake stand or serving plate using a couple flat spatulas.
+  - After 30 minutes in the refrigerator, the decorated cake is fine to slice and
+    serve or sit out at room temperature for a few hours. Cover leftover cake tightly
+    and store in the refrigerator for 5 days.
+  image_url: images/recipes/D019CECD-1869-4F98-9E04-B2E3CDCCDD4E.jpg
+  in_trash: false
+  ingredients:
+  - Lemon Curd
+  - 2 large egg yolks
+  - 1 large egg
+  - 2/3 cup (134g) granulated sugar
+  - 1 Tablespoon lemon zest (about 1 lemon)
+  - "1/3 cup (80ml) fresh lemon juice (about 2\u20133 lemons)"
+  - 1/8 teaspoon salt
+  - 6 Tablespoons (86g) unsalted butter, softened to room temperature
+  - Cake
+  - 1 and 1/2 cups (188g) all-purpose flour (spoon & leveled)
+  - 2 teaspoons baking powder
+  - 1/2 teaspoon salt
+  - 1/2 cup (115g) unsalted butter, softened to room temperature
+  - 1 cup (200g) granulated sugar
+  - 1 and 1/2 Tablespoons citrus zest (combination of lemon, orange, and lime or other,
+    see note)
+  - 2 large eggs, at room temperature
+  - 1 and 1/2 teaspoons pure vanilla extract
+  - 1/2 cup (120ml) whole milk, at room temperature
+  - 1/3 cup (80ml) freshly squeezed citrus juice (combination of lemon, orange, and
+    lime or other, see note)
+  - Whipped Frosting
+  - 6 ounces (170g) block full-fat cream cheese, softened to room temperature (not
+    cream cheese spread)
+  - "3/4 cup (90g) confectioners\u2019 sugar"
+  - 1 and 1/2 teaspoons pure vanilla extract
+  - 1 and 1/2 cups (360ml) cold heavy cream or heavy whipping cream (very cold!)
+  - 'optional: sliced citrus fruits or citrus twists to garnish'
+  is_pinned: false
+  name: Sunshine Citrus Cake
+  notes: "Make Ahead Instructions: To make the lemon curd ahead of time or to freeze\
+    \ it, see end of step 1. The cake layers can be baked, cooled, and covered tightly\
+    \ at room temperature overnight. Making the frosting ahead of time can be tricky\
+    \ because it doesn\u2019t sit well in the bowl overtime. Instead, make the frosting\
+    \ and use it immediately on the cake. After you finish decorating the cake in\
+    \ step 9, refrigerate for at least 30 minutes as instructed. You can extend this\
+    \ time up to 1 full day. After 2 hours, though, I recommend lightly covering the\
+    \ cake. (Note that covering this frosting can get messy and I haven\u2019t found\
+    \ a workaround for that.) Let cold cake sit at room temperature for about 1 hour\
+    \ before serving.\n\nFreezing Instructions: Frosted cake or unfrosted cake layers\
+    \ can be frozen up to 2-3 months. To freeze the frosted cake, refrigerate for\
+    \ at least 1 hour to set the frosting, and then cover and freeze for up to 3 months.\
+    \ Thaw your cake at room temperature.\n\nEggs & Citrus in the Lemon Curd: I typically\
+    \ prepare lemon curd using 4 egg yolks, however I find the final consistency thicker\
+    \ when using 2 egg yolks and 1 whole egg\u2013 that is reflected in the recipe\
+    \ above. You can make the lemon curd as written, but if you\u2019d like to switch\
+    \ citrus flavors, I recommend a 1:1 substitution with lime juice and zest. If\
+    \ you want to make grapefruit or orange curd, I recommend only substituting half\
+    \ of the lemon juice/zest. Make sure you use fresh-squeezed citrus.\n\nDIY Double\
+    \ Boiler for Curd: If you do not own a double boiler, you can simply place a small\
+    \ heatproof glass bowl over a saucepan of simmering water\u2013 you will cook\
+    \ the curd in the top pot/bowl.\n\nBest Citrus to Use in Cake: This cake is best\
+    \ with just lemon, just lime, or a combination of both or either of those with\
+    \ another citrus such as orange, blood orange, or grapefruit. I don\u2019t recommend\
+    \ skipping the lemon or lime because other citrus flavors don\u2019t come through\
+    \ very much on their own. I like using an equal combination of lemon, lime, and\
+    \ orange.\n\nCream Cheese in Frosting & Update 3/15/22: Do not use cream cheese\
+    \ spread and do not use the entire 8 ounce block\u2013 you only need 6 ounces.\
+    \ Make sure it is full fat. I have best luck with Philadelphia brand cream cheese\
+    \ in this frosting. I increased heavy cream from 1 cup (240ml) to 1 and 1/2 cups\
+    \ (360ml) to yield a slightly sturdier frosting.\n\nAmount of Cake Batter & Other\
+    \ Size Cakes or Cupcakes: This recipe yields between 3.5 \u2013 4 cups of batter,\
+    \ which is helpful if you need it for different Cake Pan Sizes & Conversions.\
+    \ Because of its light yet moist texture, this cake is best as a layer cake or\
+    \ as cupcakes. I have not tested this as a 1 layer 9-inch cake. For a 3 layer\
+    \ 8-inch cake, I recommend making this lemon layer cake instead and scaling up\
+    \ the frosting by using one 8-ounce (225g) block cream cheese, 1 cup (120g) confectioners\u2019\
+    \ sugar, 2 teaspoons vanilla extract, and 1 and 1/2 cups (360ml) heavy cream.\
+    \ Keep the lemon curd amount the same since this recipe makes plenty. Feel free\
+    \ to use a combination of citrus in that cake, but be warned that no flavor comes\
+    \ through quite like lemon. I strongly encourage you to keep that cake as a lemon\
+    \ flavored cake. For 1 dozen cupcakes, fill cupcake liners 2/3 full. Bake at 350\xB0\
+    F (177\xB0C) for 18-22 minutes. A toothpick inserted in the middle will come out\
+    \ clean when they\u2019re done. After cupcakes cool, carve a hole in the center\
+    \ (this post has a visual for filling cupcakes) and fill with 1 heaping teaspoon\
+    \ lemon curd. Top with whipped frosting. Feel free to mix some lemon curd into\
+    \ the frosting, too."
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 1 hr
+  rating: 0
+  scale: null
+  servings: Serves 8
+  source: sallysbakingaddiction.com
+  source_url: https://sallysbakingaddiction.com/6-inch-citrus-cake/?fbclid=IwAR23dgPJjLlU3Xfg0W7LFbGg3rxw6o2Dzj-Gn_oNMRhpaIMiF1SLNCazyE4
+  total_time: ''
+  uid: E905BC84-441E-40CC-8617-21E50802F0EA
+- categories:
   - TBD
   - Web
   cook_time: 30 minutes
@@ -8867,6 +9613,40 @@
   source_url: https://www.slenderkitchen.com/recipe/pepperoni-pineapple-and-jalapeno-pizzas
   total_time: ''
   uid: F1B157A9-B414-4091-A157-2158F8BDB3D1-9273-0000043285444489
+- categories:
+  - Drink
+  - Web
+  cook_time: ''
+  created: '2022-02-04 16:40:09'
+  description: ''
+  difficulty: ''
+  directions:
+  - Add the bourbon, Aperol, Amaro Nonino and lemon juice into a shaker with ice and
+    shake until well-chilled.
+  - Strain into a coupe glass.
+  image_url: images/recipes/68EF237E-E88C-490B-90FE-1AAE4625C251.jpg
+  in_trash: false
+  ingredients:
+  - 3/4 fluid ounce bourbon
+  - 3/4 fluid ounce Aperol
+  - 3/4 fluid ounce Amaro Nonino Quintessentia
+  - 3/4 fluid ounce lemon juice, freshly squeezed
+  is_pinned: false
+  name: Paper Plane
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos:
+  - '1': images/recipes/68EF237E-E88C-490B-90FE-1AAE4625C251.jpg
+  prep_time: ''
+  rating: 4
+  scale: 3/1
+  servings: ''
+  source: liquor.com
+  source_url: https://www.liquor.com/recipes/the-paper-plane/
+  total_time: ''
+  uid: F38EC5A0-8877-4565-8D03-9579A46CCEA8
 - categories: []
   cook_time: ''
   created: '2021-01-22 14:51:25'
@@ -9293,6 +10073,7 @@
   uid: F9A3C222-429C-4D22-A8D9-B8E61E05F713
 - categories:
   - Made at 307
+  - Drink
   - Web
   - I Made This
   cook_time: 5 mins
@@ -9311,15 +10092,16 @@
   in_trash: false
   ingredients:
   - 6 large Thai basil leaves plus more for garnish
-  - "\xBD ounce simple syrup"
+  - "\xBD ounce rosemary simple syrup"
   - "\xBE ounce fresh lime juice"
   - "1 \xBD ounces gin"
   - 1 ounce St. Germain
   is_pinned: false
   name: Thai Basil Gimlet
-  notes: To make simple syrup, heat equal parts sugar and water in a small saucepan
-    until the sugar dissolves. Transfer it to a clean jar and let it cool. Simple
-    syrup will keep in the refrigerator for several months.
+  notes: "To make simple syrup, heat \xBC cup rosemary leaves, 1 cup sugar and 1 cup\
+    \ water in a small saucepan until the sugar dissolves. Strain and transfer it\
+    \ to a clean jar and let it cool in the fridge. Simple syrup will keep in the\
+    \ refrigerator for several months."
   nutritional_info: 'Calories: 255kcal'
   on_favorites: false
   on_grocery_list: false
