@@ -1653,6 +1653,52 @@
   total_time: ''
   uid: 29A0659D-4F71-46D1-B6FA-93D4B3989C4E
 - categories: []
+  cook_time: ''
+  created: '2022-07-07 18:51:21'
+  description: ''
+  difficulty: ''
+  directions:
+  - Pour vodka into a glass. Top with lime and cranberry juice.
+  - Add 2-3 ice cubes.
+  - Top with a generous amount of club soda or seltzer.
+  - Garnish with a slice of lime, if desired.
+  image_url: https://www.bakingbeauty.net/wp-content/uploads/2016/05/cape-codder-683x1024.jpg
+  in_trash: false
+  ingredients:
+  - 4 Tablespoons Vodka
+  - 6 Tablespoons Cranberry Juice Cocktail
+  - 3 Teaspoons Lime Juice
+  - Club Soda
+  is_pinned: false
+  name: Cape Codder
+  notes: 'Ingredient Notes and Shopping Tips
+
+
+    Vodka: Use your favorite. I like the brand Pinnacle. A flavored vodka such as
+    Citrus, Pomegranate, or Berry would also be tasty.
+
+
+    Cranberry Juice: I used Ocean Spray''s Cranberry juice cocktail for this recipe.
+    If you want a slightly less traditional version, Cran-Raspberry would also be
+    yummy!
+
+
+    Lime Juice: Use fresh lime juice for the best results. It''s so much better than
+    those little plastic limes!'
+  nutritional_info: 'Calories: 191kcal | Carbohydrates: 13g | Protein: 1g | Fat: 1g
+    | Saturated Fat: 1g | Sodium: 3mg | Sugar: 11g | Vitamin C: 43mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 2 min
+  rating: 0
+  scale: 8/1
+  servings: 2 serving
+  source: bakingbeauty.net
+  source_url: https://www.bakingbeauty.net/cape-codder-drink/#Fun_Variations
+  total_time: 2 min
+  uid: 29FD0DB9-EA60-4BD9-A524-2242FFE29ECF
+- categories: []
   cook_time: 16 hours
   created: '2021-03-19 17:29:08'
   description: ''
@@ -2927,6 +2973,40 @@
   source_url: https://www.kingarthurflour.com/recipes/braided-lemon-bread-recipe
   total_time: ''
   uid: 45CE4F05-828D-4932-A4F9-85BC1F14C66C-10519-00000334E25F634A
+- categories: []
+  cook_time: ''
+  created: '2022-07-05 18:36:18'
+  description: ''
+  difficulty: ''
+  directions:
+  - Combine bourbon, lemon juice, and simple syrup in a cocktail shaker.
+  - Fill shaker with ice, cover, and shake vigorously until outside of shaker is very
+    cold, about 20 seconds.
+  - Strain cocktail through a Hawthorne strainer or a slotted spoon into an old-fashioned
+    or rocks glass filled with ice. Garnish with orange wheel and cherry.
+  image_url: https://assets.bonappetit.com/photos/57acc14e53e63daf11a4d9b6/1:1/w_2560%2Cc_limit/whiskey-sour.jpg
+  in_trash: false
+  ingredients:
+  - 2 ounces bourbon
+  - "\xBE ounce fresh lemon juice"
+  - "\xBE ounce simple syrup"
+  - "\xBD orange wheel (for serving)"
+  - Maraschino cherry (for serving)
+  is_pinned: false
+  name: Whiskey Sour
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 5
+  scale: null
+  servings: 1 servings
+  source: bonappetit.com
+  source_url: https://www.bonappetit.com/recipe/whiskey-sour
+  total_time: ''
+  uid: 476ED0EE-77E7-4AD2-8499-3FCA650E817E
 - categories: []
   cook_time: 5 minutes
   created: '2022-01-21 17:05:43'
