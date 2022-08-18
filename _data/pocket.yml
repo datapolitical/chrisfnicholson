@@ -35,24 +35,21 @@
     "time_read": "0",
     "time_favorited": "0",
     "sort_id": 1,
-    "resolved_title": "A Two-Year, 50-Million-Person Experiment in Changing How We Work",
+    "resolved_title": "",
     "resolved_url": "https://www.nytimes.com/2022/03/10/business/remote-work-office-life.html",
-    "excerpt": "Kristen Egziabher was all jitters just before the pandemic, awaiting news of a possible raise, until her manager came back dejected from his meeting with the higher-ups. Sure, her work. What else could be relevant to a performance review? But this was exactly what had always irked Ms.",
-    "is_article": "1",
+    "excerpt": "",
+    "is_article": "0",
     "is_index": "0",
     "has_video": "0",
-    "has_image": "1",
-    "word_count": "2261",
+    "has_image": "0",
+    "word_count": "0",
     "lang": "en",
-    "time_to_read": 10,
-    "amp_url": "https://www.nytimes.com/2022/03/10/business/remote-work-office-life.amp.html",
-    "top_image_url": "https://static01.nyt.com/images/2022/03/13/business/13one-size-promo-illo/13one-size-promo-illo-facebookJumbo.jpg",
     "domain_metadata": {
       "name": "The New York Times",
       "logo": "https://logo.clearbit.com/nytimes.com?size=800",
       "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
     },
-    "listen_duration_estimate": 875
+    "listen_duration_estimate": 0
   },
   "3566164606": {
     "item_id": "3566164606",
