@@ -1,10 +1,11 @@
 var branchurl = "https://www.chrisfnicholson.com";
-process.cwd();
+console.log("current directory");
+console.log(__dirname);
 const Crittr = require("crittr");
 
 Crittr({
   urls: [branchurl],
-  css: './gh-pages/stylesheet.css',
+  css: 'gh-pages/assets/css/stylesheet.css',
   device: {
     width: 600,
     height: 1000,
