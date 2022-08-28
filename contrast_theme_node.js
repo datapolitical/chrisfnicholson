@@ -2,6 +2,10 @@ var branchurl = "https://www.chrisfnicholson.com";
 console.log("current directory");
 console.log(__dirname);
 const Crittr = require("crittr");
+const hashstream = require('inline-csp-hash');
+var CleanCSS = require('clean-css');
+const crypto = require('crypto');
+var output = "";
 
 Crittr({
   urls: [branchurl],
@@ -12,9 +16,21 @@ Crittr({
   },
 })
   .then(({ critical, rest }) => {
-    console.log(critical);
+    //console.log(critical);
     const fs = require("fs");
-    fs.writeFile("gh-pages/assets/css/generated-critical.css", critical, (err) => {
+    var input = critical;
+    var options = { /* options */ };
+    output = new CleanCSS(options).minify(input);
+    console.log(output.styles);
+    var hash = 'sha256-' + crypto.createHash('sha256').update(output.styles).digest('base64');
+    console.log(hash);
+    fs.writeFile("gh-pages/assets/css/generated-critical.css", output.styles, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+    });
+    fs.writeFile("gh-pages/assets/css/generated-critical-hash", hash, (err) => {
       if (err) {
         console.error(err);
         return;

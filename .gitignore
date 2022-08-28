@@ -18,6 +18,7 @@ _data/ignore/
 .config/
 # Ignore docs files
 _gh_pages
+_headers
 _site
 .ruby-version
 python/**/*.csv

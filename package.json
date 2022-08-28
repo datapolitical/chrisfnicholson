@@ -2,6 +2,11 @@
   "name": "chris-site",
   "version": "1.0.0",
   "dependencies": {
-    "crittr": "^1.5.0-beta.1"
+    "crittr": "^1.5.0-beta.1",
+    "inline-csp-hash": "^1.1.16"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sharp-responsive": "^0.4.0"
   }
 }
