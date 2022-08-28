@@ -307,7 +307,7 @@
   uid: 052F1D73-3DB3-4A66-886F-385A437DCFBD-646-00000015737AE7E3
 - categories: []
   cook_time: ''
-  created: '2022-05-21 18:05:58'
+  created: '2022-05-21 16:05:58'
   description: ''
   difficulty: ''
   directions:
@@ -326,7 +326,7 @@
   - Ginger beer, to top
   - 'Garnish: mint sprig'
   is_pinned: false
-  name: Suffering Bastard
+  name: Suffering Bastard 2
   notes: ''
   nutritional_info: ''
   on_favorites: false
@@ -6039,6 +6039,62 @@
   total_time: ''
   uid: 8CA118E0-A265-4BCC-8886-87E3DCD13A26-14886-000005E5156E60F5
 - categories: []
+  cook_time: ''
+  created: '2022-08-21 22:10:15'
+  description: ''
+  difficulty: ''
+  directions:
+  - Bring a pot of salted water to boil.
+  - Heat the butter in a skillet and add the lemon zest.
+  - Drop the linguine into the boiling water. Cook pasta according to package directions.
+    Drain.
+  - Add the cream to the butter and lemon zest mixture. Add the pasta and lemon juice
+    and stir until just heated through. Add the Parmesan and toss. Serve with additional
+    Parmesan and lemon zest on the side.
+  image_url: images/recipes/7913C10F-86D6-40A6-A51E-C5CAB61AF5CB.jpg
+  in_trash: false
+  ingredients:
+  - 2 tablespoons butter
+  - 1 tablespoon freshly grated lemon zest, plus more for serving
+  - 1/2 pound fresh or dried linguine
+  - 4 tablespoons heavy cream
+  - 2 tablespoons freshly squeezed lemon juice
+  - 2 tablespoons freshly grated Parmesan cheese, plus extra cheese to serve on the
+    side
+  is_pinned: false
+  name: Linguine with Lemon Sauce
+  notes: ''
+  nutritional_info: 'Trans Fat: 0 grams
+
+    Fat: 14 grams
+
+    Calories: 343
+
+    Saturated Fat: 8 grams
+
+    Unsaturated Fat: 5 grams
+
+    Sodium: 108 milligrams
+
+    Sugar: 2 grams
+
+    Fiber: 2 grams
+
+    Carbohydrate: 44 grams
+
+    Protein: 10 grams'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: ''
+  rating: 0
+  scale: null
+  servings: 4 servings
+  source: cooking.nytimes.com
+  source_url: https://cooking.nytimes.com/recipes/1589-linguine-with-lemon-sauce?smid=ck-recipe-iOS-share
+  total_time: 20 min
+  uid: 8E2B26E3-8C0D-491F-AF75-1C98EF2E7853
+- categories: []
   cook_time: 50 mins
   created: '2020-10-16 16:03:00'
   description: ''
@@ -7862,7 +7918,7 @@
   uid: CF7F3BAE-7F00-405E-8E0E-4C917BBCC600
 - categories: []
   cook_time: ''
-  created: '2022-05-21 15:11:56'
+  created: '2022-05-21 13:11:56'
   description: ''
   difficulty: ''
   directions:
@@ -7882,7 +7938,7 @@
   - 1 fluid ounce lemon juice
   - 1/2 fluid ounce grapefruit juice
   is_pinned: false
-  name: Mountain Breeze
+  name: Mountain Breeze 2
   notes: ''
   nutritional_info: ''
   on_favorites: false
