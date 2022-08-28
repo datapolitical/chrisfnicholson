@@ -1,4 +1,4 @@
-import requests, json, zipfile, io, os
+import requests, json, zipfile, io, os, wget
 from dotenv import load_dotenv
 load_dotenv()
 import pandas as pd
@@ -56,9 +56,17 @@ movieName = str(df.iloc[0]['Name'])
 movieYear = str(df.iloc[0]['Year'])
 print(df.iloc[0]['Name'])
 
+moviedb_config = "https://api.themoviedb.org/3/configuration?api_key=" + apikey
+
 moviedb = "https://api.themoviedb.org/3/search/movie?api_key=" + apikey + "&language=en-US&query=" + movieName + "page=1&include_adult=false&year=" + movieYear
 print(moviedb)
 
 i = requests.Session()
+#db_config_reply = i.get(moviedb_config)
+#print(db_config_reply.content)
 dbreply = i.get(moviedb)
-print(dbreply.content)
+dbjson = json.loads(dbreply.text)
+poster_baseurl = "https://image.tmdb.org/t/p/w342"
+poster_request = poster_baseurl + dbjson['results'][0]['poster_path']
+print(poster_request)
+wget.download(poster_request, 'shawshank.jpg')
