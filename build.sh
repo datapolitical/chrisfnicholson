@@ -2,6 +2,7 @@
 gem install bundler:2.3.4
 bundle exec jekyll build
 rm gh-pages/assets/css/generated-critical.css
+pwd
 npm i crittr
 node contrast_theme_node.js
 # wget https://ajax.cloudflare.com/cdn-cgi/scripts/cloudflare-static/rocket-loader.min.js

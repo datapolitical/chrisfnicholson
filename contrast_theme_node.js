@@ -1,4 +1,5 @@
 var branchurl = "https://www.chrisfnicholson.com";
+process.cwd();
 const Crittr = require("crittr");
 
 Crittr({
