@@ -22,7 +22,6 @@ _headers
 _site
 .ruby-version
 python/**/*.csv
-package-lock.json
 
 # Numerous always-ignore extensions
 *.diff
