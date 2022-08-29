@@ -6,7 +6,12 @@
     "inline-csp-hash": "^1.1.16"
   },
   "devDependencies": {
+    "critical": "^4.0.1",
     "gulp": "^4.0.2",
-    "gulp-sharp-responsive": "^0.4.0"
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sharp-responsive": "^0.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1"
   }
 }

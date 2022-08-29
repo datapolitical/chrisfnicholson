@@ -24,13 +24,13 @@ Crittr({
     console.log(output.styles);
     var hash = 'sha256-' + crypto.createHash('sha256').update(output.styles).digest('base64');
     console.log(hash);
-    fs.writeFile("gh-pages/assets/css/generated-critical.css", output.styles, (err) => {
+    fs.writeFile("assets/css/generated-critical.css", output.styles, (err) => {
       if (err) {
         console.error(err);
         return;
       }
     });
-    fs.writeFile("gh-pages/assets/css/generated-critical-hash", hash, (err) => {
+    fs.writeFile("assets/css/generated-critical-hash", hash, (err) => {
       if (err) {
         console.error(err);
         return;

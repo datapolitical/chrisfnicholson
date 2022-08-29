@@ -6,6 +6,7 @@ pwd
 ls
 npm i crittr
 node contrast_theme_node.js
+bundle exec jekyll build
 # wget https://ajax.cloudflare.com/cdn-cgi/scripts/cloudflare-static/rocket-loader.min.js
 # rocket_hash=$(echo `cat rocket-loader.min.js` | openssl dgst -binary -sha256 | base64)
 # rocket_hash="'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA='"
