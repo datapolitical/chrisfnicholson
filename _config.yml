@@ -66,9 +66,11 @@ exclude:
   - .jekyll-cache
   - node_modules
   - functions/
-  - assets/images/drinks/
   - contrast_theme_node.js
   - build.sh
+
+keep_files:
+  - assets/generated
 
 sass:
   style: compressed

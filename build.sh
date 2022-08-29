@@ -1,7 +1,10 @@
 #!/bin/bash
 gem install bundler:2.3.4
+mkdir assets/css/
+touch assets/css/generated-critical.css
+mkdir -p gh-pages/assets/generated
+cp -R _assets/generated/* gh-pages/assets/generated
 bundle exec jekyll build
-rm gh-pages/assets/css/generated-critical.css
 pwd
 ls
 npm i crittr
