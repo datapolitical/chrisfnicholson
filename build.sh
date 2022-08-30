@@ -1,14 +1,14 @@
 #!/bin/bash
 gem install bundler:2.3.4
-mkdir assets/css/
-touch assets/css/generated-critical.css
+# mkdir assets/css/
+# touch assets/css/generated-critical.css
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
 bundle exec jekyll build
 pwd
 ls
-npm i crittr
-node contrast_theme_node.js
+# npm i crittr
+# node contrast_theme_node.js
 # bundle exec jekyll build
 # wget https://ajax.cloudflare.com/cdn-cgi/scripts/cloudflare-static/rocket-loader.min.js
 # rocket_hash=$(echo `cat rocket-loader.min.js` | openssl dgst -binary -sha256 | base64)
