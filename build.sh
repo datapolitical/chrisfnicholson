@@ -22,3 +22,4 @@ inline_hash=$(echo `cat gh-pages/assets/css/generated-critical-hash`)
 echo -n "'$inline_hash' " >> _headers
 echo -n "'self' 'report-sample';" >> _headers
 cp _headers gh-pages/
+tar -cvf index_page.tar gh-pages/index.html
