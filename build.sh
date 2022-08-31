@@ -1,4 +1,5 @@
 #!/bin/bash
+gem update --system
 gem install bundler:2.3.4
 # mkdir assets/css/
 # touch assets/css/generated-critical.css
