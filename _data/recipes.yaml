@@ -380,6 +380,64 @@
   total_time: ''
   uid: 069CA7FF-5E25-462D-9AD8-8B3D5AED980D
 - categories: []
+  cook_time: 20mins
+  created: '2022-09-02 06:41:00'
+  description: ''
+  difficulty: ''
+  directions:
+  - MAKE BATTER
+  - Whisk flours, sugar, cinnamon, baking powder and the salt in a medium bowl, set
+    aside.
+  - Warm the milk until lukewarm, not hot (you should be able to keep your finger
+    submerged for 10 seconds).
+  - Whisk milk, butter, egg, and the vanilla together until blended.
+  - 'Make a well in the center of the flour mixture. Pour milk mixture into the well
+    and stir with a fork until mixed and only small clumps of flour remain. Do not
+    over mix batter. Note: The batter will be quite thick. If it is unreasonably thick,
+    add 1 to 2 tablespoons more milk to thin it out a little.'
+  - COOK PANCAKES
+  - Heat a large skillet (or use griddle) over medium heat. The pan is ready if when
+    you splatter a little water onto the pan surface, the water dances around the
+    pan and eventually evaporates.
+  - Lightly brush skillet with melted butter. Spoon a 1/4-cup of the batter onto the
+    skillet and gently spread into a 4-inch circle. (If the batter is thick, you may
+    need to use the back of a spoon to spread the batter into a circle).
+  - When the edges look dry and bubbles start to appear and pop on the top surfaces
+    of the pancakes, turn over, about 2 minutes. Once flipped, cook 1 to 2 minutes
+    or until lightly browned and cooked in the middle. Serve warm with syrup, bananas
+    or other toppings.
+  image_url: images/recipes/167C3837-15B0-465B-BD72-8D44F86C168D.jpg
+  in_trash: false
+  ingredients:
+  - 3/4 cup (100 grams) whole wheat flour
+  - 3/4 cup (100 grams) all-purpose flour
+  - 2 tablespoons sugar
+  - 1/2 teaspoon ground cinnamon
+  - 1 tablespoon baking powder
+  - 1/2 teaspoon fine sea salt
+  - 1 1/4 to 1 1/2 cups (295 to 350 ml) milk, dairy or non-dairy
+  - 1 large egg
+  - 4 tablespoons unsalted butter, melted, plus more for the skillet or substitute
+    coconut oil
+  - 1 1/2 teaspoons vanilla extract
+  is_pinned: false
+  name: Easy Delicious Whole Wheat Pancakes
+  notes: ''
+  nutritional_info: 'PER SERVING: Serving Size 1 pancake / Calories 172 / Protein
+    5 g / Carbohydrate 22 g / Dietary Fiber 2 g / Total Sugars 5 g / Total Fat 8 g
+    / Saturated Fat 4 g / Cholesterol 42 mg'
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 10mins
+  rating: 0
+  scale: null
+  servings: Approximately 8 pancakes
+  source: inspiredtaste.net
+  source_url: https://www.inspiredtaste.net/25202/easy-whole-wheat-pancakes-recipe/
+  total_time: ''
+  uid: 06C57846-C406-4A5F-80A7-479D4AE663F4
+- categories: []
   cook_time: ''
   created: '2022-01-26 16:24:10'
   description: ''
