@@ -22,6 +22,9 @@ echo "Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"http
 echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri https://chrisfnicholson.report-uri.com/r/d/csp/reportOnly; report-to default; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; script-src $google_analytics ajax.cloudflare.com static.cloudflareinsights.com 'self' 'report-sample'; font-src 'self';" >> _headers
 echo -n "style-src " >> _headers
 inline_hash=$(echo `cat gh-pages/index.html | hxselect -i -c style | shasum -a 256 | cut -d' ' -f1 | xxd -r -p | base64`)
+inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
+echo -n "$inline_hash"
+echo -n "$inline_hash_v2"
 echo -n "'$inline_hash' " >> _headers
 echo -n "'self' 'report-sample';" >> _headers
 cp _headers gh-pages/
