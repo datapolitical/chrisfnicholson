@@ -1,6 +1,8 @@
 #!/bin/bash
 gem update --system
 gem install bundler:2.3.4
+apt-get install html-xml-utils
+apt-get install xxd
 # mkdir assets/css/
 # touch assets/css/generated-critical.css
 mkdir -p gh-pages/assets/generated
