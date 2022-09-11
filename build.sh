@@ -22,9 +22,9 @@ echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri htt
 echo -n "style-src " >> _headers
 #inline_hash=$(echo `cat gh-pages/index.html | hxselect -i -c style | shasum -a 256 | cut -d' ' -f1 | xxd -r -p | base64`)
 #inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
-inline_hash_v3_text=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.search('\''style'\'')')
+inline_hash_v3_text=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.search('\''style'\'').text')
 
-inline_hash_v3=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.search('\''style'\'')' | openssl sha256 -binary | openssl base64`)
+inline_hash_v3=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.search('\''style'\'').text' | openssl sha256 -binary | openssl base64`)
 #echo -n "$inline_hash"
 #echo -n "$inline_hash_v2"
 echo -n "hash text is === $inline_hash_v3_text"
