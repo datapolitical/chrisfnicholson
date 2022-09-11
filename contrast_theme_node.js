@@ -24,13 +24,7 @@ Crittr({
     console.log(output.styles);
     var hash = 'sha256-' + crypto.createHash('sha256').update(output.styles).digest('base64');
     console.log(hash);
-    fs.writeFile("assets/css/generated-critical.css", output.styles, (err) => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-    });
-    fs.writeFile("assets/css/generated-critical-hash", hash, (err) => {
+    fs.writeFile("_includes/critical.scss", output.styles, (err) => {
       if (err) {
         console.error(err);
         return;
