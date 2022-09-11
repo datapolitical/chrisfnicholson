@@ -24,12 +24,12 @@ echo -n "style-src " >> _headers
 #inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
 inline_hash_v3_text=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.css("style")[0].text')
 
-inline_hash_v3=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.css("style")[0].text' | openssl sha256 -binary | openssl base64`)
+#inline_hash_v3=$(echo `cat gh-pages/index.html | nokogiri -e 'puts $_.css("style")[0].text' | openssl sha256 -binary | openssl base64`)
 #echo -n "$inline_hash"
 #echo -n "$inline_hash_v2"
 echo -n "hash text is === $inline_hash_v3_text"
-echo -n "hash equals === $inline_hash_v3"
-echo -n "'$inline_hash_v3' " >> _headers
-echo -n "'self' 'report-sample';" >> _headers
-cp _headers gh-pages/
-tar -cvf gh-pages/index_page.tar gh-pages/index.html
+#echo -n "hash equals === $ inline_hash_v3"
+#echo -n "'$inline_hash_v3' " >> _headers
+#echo -n "'self' 'report-sample';" >> _headers
+#cp _headers gh-pages/
+#tar -cvf gh-pages/index_page.tar gh-pages/index.html
