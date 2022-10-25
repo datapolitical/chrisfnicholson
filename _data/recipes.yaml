@@ -9599,6 +9599,43 @@
   source_url: https://www.simplyrecipes.com/recipes/indian_style_rice/
   total_time: ''
   uid: EC868ADF-F647-471F-A1E7-90E98E48B4B9-7114-000001DC577B0588
+- categories: []
+  cook_time: 5 minutes
+  created: '2022-10-01 15:52:07'
+  description: ''
+  difficulty: ''
+  directions:
+  - Make simple syrup by heating 1 cup water and 1 cup sugar in medium saucepan. Bring
+    to a boil.
+  - Cook until sugar is completely dissolved. Cool completely.
+  - Blend 2 cups water, simple syrup, lemon juice, lemon zest (if desired) and ice
+    in quality blender.
+  - Garnish with lemon slices, if desired.
+  - Serve immediately.
+  image_url: images/recipes/E758E7D9-7160-4BCF-B8EF-29388613AB0A.jpg
+  in_trash: false
+  ingredients:
+  - 3 cups water (divided)
+  - 1 cup sugar
+  - 1 cup fresh lemon juice (about 5 to 6 lemons)
+  - 1 tablespoon lemon zest (optional)
+  - 5 cups ice
+  - 1 lemon, sliced (garnish)
+  is_pinned: false
+  name: Homemade Frozen Lemonade
+  notes: ''
+  nutritional_info: ''
+  on_favorites: false
+  on_grocery_list: false
+  photos: []
+  prep_time: 15 minutes
+  rating: 0
+  scale: null
+  servings: 'Servings: 8'
+  source: providence-hotel.com
+  source_url: https://www.providence-hotel.com/recipe/homemade-frozen-lemonade
+  total_time: ''
+  uid: EDA0994F-F00C-4204-A4B8-312A53685544
 - categories:
   - Drink
   cook_time: 5 minutes
