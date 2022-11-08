@@ -5755,7 +5755,7 @@
   - Drink
   - Web
   cook_time: ''
-  created: '2021-06-12 14:54:52'
+  created: '2021-06-12 15:54:52'
   description: ''
   difficulty: ''
   directions:
@@ -5783,7 +5783,7 @@
   - '1': images/recipes/39C204F6-339C-4722-A288-E542E6A7A951.jpg
   prep_time: ''
   rating: 5
-  scale: 8/1
+  scale: 4/1
   servings: 1 servings
   source: bonappetit.com
   source_url: https://www.bonappetit.com/recipe/paloma
