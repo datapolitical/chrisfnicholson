@@ -94,23 +94,21 @@
     "time_read": "0",
     "time_favorited": "0",
     "sort_id": 3,
-    "resolved_title": "In an Arctic Outpost, Friday Nights Are for Curling",
+    "resolved_title": "",
     "resolved_url": "https://www.nytimes.com/2022/02/21/sports/in-an-arctic-outpost-friday-nights-are-for-curling.html",
-    "excerpt": "INUVIK, Northwest Territories — Alison Lennie steps out of her house into 29 degrees below zero. It’s twilight, and the cold stings instantly. Eyelashes crystallize. In five minutes, exposed skin goes numb.",
-    "is_article": "1",
+    "excerpt": "",
+    "is_article": "0",
     "is_index": "0",
     "has_video": "0",
-    "has_image": "1",
-    "word_count": "1282",
+    "has_image": "0",
+    "word_count": "0",
     "lang": "en",
-    "time_to_read": 6,
-    "top_image_url": "https://static01.nyt.com/images/2022/02/17/sports/00INUVIK/00INUVIK-facebookJumbo.jpg?year=2022&h=550&w=1050&s=8d9b79c625b5060c798c690d9f6236771dc03fb9f0477842ba2f381698aea0b1&k=ZQJBKqZ0VN",
     "domain_metadata": {
       "name": "The New York Times",
       "logo": "https://logo.clearbit.com/nytimes.com?size=800",
       "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
     },
-    "listen_duration_estimate": 496
+    "listen_duration_estimate": 0
   },
   "3547713325": {
     "item_id": "3547713325",
