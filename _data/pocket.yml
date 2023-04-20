@@ -42,7 +42,7 @@
     "is_index": "0",
     "has_video": "0",
     "has_image": "1",
-    "word_count": "2138",
+    "word_count": "2108",
     "lang": "en",
     "time_to_read": 10,
     "top_image_url": "https://static01.nyt.com/images/2022/03/13/business/13one-size-promo-illo/13one-size-promo-illo-facebookJumbo.jpg?year=2022&h=549&w=1050&s=b6d2319060c61b81babd46c3085645b38328e0fb23971f6eef0f70ef66e99d16&k=ZQJBKqZ0VN",
@@ -51,7 +51,7 @@
       "logo": "https://logo.clearbit.com/nytimes.com?size=800",
       "greyscale_logo": "https://logo.clearbit.com/nytimes.com?size=800&greyscale=true"
     },
-    "listen_duration_estimate": 828
+    "listen_duration_estimate": 816
   },
   "3566164606": {
     "item_id": "3566164606",
