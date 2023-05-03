@@ -5,10 +5,10 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem "jekyll", '~>4.2.1'
+gem "jekyll", '~>4.3.0'
 gem 'sassc', '~>2.1.0'
 gem "liquid-c", "~> 4.0"
-gem 'jekyll-sass-converter', github: 'jekyll/jekyll-sass-converter'
+gem 'jekyll-sass-converter', '~>3.0.0', github: 'jekyll/jekyll-sass-converter'
 gem 'sass-embedded', '1.54.6'
 gem "jekyll-feed"
 # gem "jekyll-gist"
