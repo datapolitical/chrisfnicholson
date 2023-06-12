@@ -2,7 +2,7 @@
 #gem update --system --silent --no-document
 gem install bundler --no-document
 gem install nokogiri
-gem install ffi -- --disable-system-libffi
+# gem install ffi -- --disable-system-libffi
 # mkdir assets/css/
 # touch assets/css/generated-critical.css
 mkdir -p gh-pages/assets/generated
