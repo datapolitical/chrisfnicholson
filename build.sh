@@ -1,5 +1,5 @@
 #!/bin/bash
-gem update --system --silent --no-document
+#gem update --system --silent --no-document
 gem install bundler --no-document
 gem install nokogiri
 gem install ffi -- --disable-system-libffi
