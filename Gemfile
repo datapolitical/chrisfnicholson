@@ -13,7 +13,7 @@ gem 'sass-embedded', '1.54.6'
 gem "jekyll-feed"
 # gem "jekyll-gist"
 # gem 'jekyll-commonmark' , github: 'jekyll/jekyll-commonmark', ref: 'refs/pull/44/head'
-gem 'ffi', github: 'ffi/ffi', submodules: true
+# gem 'ffi', github: 'ffi/ffi', submodules: true
 # gem 'rmagick'
 # gem "jekyll-remote-theme"
 gem 'jekyll-paginate', group: :jekyll_plugins
