@@ -1,6 +1,6 @@
 #!/bin/bash
 gem update --system
-gem install bundler:2.3.4 --no-document
+gem install bundler --no-document
 gem install nokogiri
 gem install ffi -- --disable-system-libffi
 # mkdir assets/css/
