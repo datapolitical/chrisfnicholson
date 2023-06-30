@@ -9,7 +9,7 @@ gem "jekyll", '~>4.3.0'
 gem 'sassc', '~>2.1.0'
 gem "liquid-c", "~> 4.0"
 gem 'jekyll-sass-converter', '~>3.0.0', github: 'jekyll/jekyll-sass-converter'
-gem 'sass-embedded', '1.54.6'
+gem 'sass-embedded', '~>1.63'
 gem "jekyll-feed"
 # gem "jekyll-gist"
 # gem 'jekyll-commonmark' , github: 'jekyll/jekyll-commonmark', ref: 'refs/pull/44/head'
