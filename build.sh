@@ -3,7 +3,7 @@
 gem install bundler --no-document
 gem install nokogiri
 go get github.com/ericchiang/pup
-apt install cargo
+sudo apt install cargo
 cargo install htmlq
 export PATH="$PATH:$HOME/.cargo/bin"
 # gem install ffi -- --disable-system-libffi
