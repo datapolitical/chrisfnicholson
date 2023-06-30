@@ -2,6 +2,7 @@
 #gem update --system --silent --no-document
 gem install bundler --no-document
 gem install nokogiri
+pip3 install beautifulsoup4
 go get github.com/ericchiang/pup
 sudo apt install cargo
 cargo install htmlq
