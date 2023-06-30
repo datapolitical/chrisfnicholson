@@ -2,6 +2,7 @@
 #gem update --system --silent --no-document
 gem install bundler --no-document
 gem install nokogiri
+apt install cargo
 cargo install htmlq
 export PATH="$PATH:$HOME/.cargo/bin"
 # gem install ffi -- --disable-system-libffi
@@ -25,7 +26,7 @@ echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri htt
 echo -n "style-src " >> _headers
 #inline_hash=$(echo `cat gh-pages/index.html | hxselect -i -c style | shasum -a 256 | cut -d' ' -f1 | xxd -r -p | base64`)
 #inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
-echo -n `cat gh-pages/index.html | htmlq --attribute style`
+echo -n `cat gh-pages/index.html | htmlq --attribute style.[0]`
 inline_hash_v3_text=$(echo -n `cat gh-pages/index.html | nokogiri -e 'puts $_.css("style")[0].text'`)
 inline_hash_v3=$(echo -n `echo -n "$inline_hash_v3_text" | openssl sha256 -binary | openssl base64`)
 #echo -n "$inline_hash"
