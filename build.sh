@@ -3,7 +3,6 @@
 gem install bundler --no-document
 # gem install nokogiri
 python3 -m pip install beautifulsoup4
-export PATH="$PATH:$HOME/.cargo/bin"
 # gem install ffi -- --disable-system-libffi
 # mkdir assets/css/
 # touch assets/css/generated-critical.css
@@ -26,10 +25,6 @@ echo -n "style-src " >> _headers
 #inline_hash=$(echo `cat gh-pages/index.html | hxselect -i -c style | shasum -a 256 | cut -d' ' -f1 | xxd -r -p | base64`)
 #inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
 python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64
-echo -n `cat gh-pages/index.html | htmlq --attribute style.[0]`
-cat gh-pages/index.html | pup 'style:first-of-type'
-echo "nokogiri raw output"
-cat gh-pages/index.html | nokogiri -e 'puts $_.css("style")[0].text'
 inline_hash_v3=$(python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64)
 #echo -n "$inline_hash"
 #echo -n "$inline_hash_v2"
