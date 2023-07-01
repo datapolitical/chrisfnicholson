@@ -28,7 +28,7 @@ echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri htt
 echo -n "style-src " >> _headers
 #inline_hash=$(echo `cat gh-pages/index.html | hxselect -i -c style | shasum -a 256 | cut -d' ' -f1 | xxd -r -p | base64`)
 #inline_hash_v2=$(echo `cat gh-pages/index.html | hxselect -i -c style | openssl sha256 -binary | openssl base64`)
-python3 criticalCSSparser.py
+python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64
 echo -n `cat gh-pages/index.html | htmlq --attribute style.[0]`
 cat gh-pages/index.html | pup 'style:first-of-type'
 echo "nokogiri raw output"
