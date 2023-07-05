@@ -6,7 +6,8 @@ python3 -m pip install beautifulsoup4
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
 bundle exec jekyll build
-
+du -sh gh-pages
+ls gh-pages
 google_analytics="'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA='"
 echo "/*" > _headers
 echo "Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://chrisfnicholson.report-uri.com/a/d/g"}],"include_subdomains":true}" >> _headers
@@ -22,4 +23,4 @@ echo -n "hash equals === $inline_hash_v3"
 echo -n "'sha256-$inline_hash_v3' " >> _headers
 echo -n "'self' 'report-sample';" >> _headers
 cp _headers gh-pages/
-du -sh gh-pages
+
