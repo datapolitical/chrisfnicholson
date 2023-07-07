@@ -1,5 +1,8 @@
 #!/bin/bash
 #gem update --system --silent --no-document
+whereis libvips
+which libvips
+which python3
 gem install bundler --no-document
 python3 -m pip install --upgrade pip
 python3 -m pip install beautifulsoup4
