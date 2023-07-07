@@ -1,7 +1,8 @@
 #!/bin/bash
 #gem update --system --silent --no-document
 gem install bundler --no-document
-python3 -m pip install beautifulsoup4 inlinehashes
+python3 -m pip install beautifulsoup4
+python3 -m pip install inlinehashes
 
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
