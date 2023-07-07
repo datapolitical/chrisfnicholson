@@ -1,6 +1,7 @@
 #!/bin/bash
 #gem update --system --silent --no-document
 gem install bundler --no-document
+python3 -m pip install --upgrade pip
 python3 -m pip install beautifulsoup4
 python3 -m pip install inlinehashes
 
