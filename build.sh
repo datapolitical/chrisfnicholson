@@ -26,6 +26,7 @@ inlinehashes gh-pages/index.html -o json
 echo "FOLDER opt"
 ls /opt/buildhome/.asdf/installs/python/3.11.4/bin
 python3 -m site --user-base
+ls /opt/buildhome/.local/bin
 echo $PATH
 python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64
 inline_hash_v3=$(python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64)
