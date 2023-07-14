@@ -30,6 +30,7 @@ ls /opt/buildhome/.local/bin
 echo $PATH
 python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64
 inline_hash_v3=$(python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64)
+python3 CSPwriter.py
 #echo -n "$inline_hash"
 #echo -n "$inline_hash_v2"
 echo -n "hash text is === $inline_hash_v3_text"
