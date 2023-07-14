@@ -22,6 +22,8 @@ echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri htt
 echo -n "style-src " >> _headers
 /usr/local/bin/inlinehashes gh-pages -o json
 ls /usr/local/bin
+ls /usr/bin
+ls /opt/buildhome/.asdf/installs/python/3.11.4/bin
 python3 -m site --user-base
 echo $PATH
 python3 criticalCSSparser.py | openssl sha256 -binary | openssl base64
