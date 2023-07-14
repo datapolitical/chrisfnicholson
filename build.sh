@@ -20,7 +20,9 @@ echo "/*" > _headers
 echo "Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://chrisfnicholson.report-uri.com/a/d/g"}],"include_subdomains":true}" >> _headers
 echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri https://chrisfnicholson.report-uri.com/r/d/csp/reportOnly; report-to default; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; script-src $google_analytics ajax.cloudflare.com static.cloudflareinsights.com 'self' 'report-sample'; font-src 'self';" >> _headers
 echo -n "style-src " >> _headers
-/usr/bin/inlinehashes gh-pages -o json
+echo "INLINE HASH"
+/usr/bin/inlinehashes -h
+/usr/bin/inlinehashes gh-pages/index.html -o json
 echo "FOLDER local bin"
 ls /usr/local/bin
 echo "FOLDER bin"
