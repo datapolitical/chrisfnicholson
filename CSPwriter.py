@@ -16,14 +16,14 @@ headers.write("Content-Security-Policy-Report-Only: default-src 'none'; report-u
 
 content = open("gh-pages/index.html", "r")
 inlines = inlinehashes.parse(content)
-script_src = "script-src " + google_analytics + "ajax.cloudflare.com static.cloudflareinsights.com"
-style_src = "style-src "
+script_src = " script-src " + google_analytics
+style_src = " style-src "
 for hash in inlines:
     if hash.directive == "script-src":
         script_src += " '" + hash.sha256 + "'"
     if hash.directive == "style-src":
         style_src += " '" + hash.sha256 + "'"
-script_src += " 'self' 'report-sample'; "
+script_src += " ajax.cloudflare.com static.cloudflareinsights.com 'self' 'report-sample'; "
 style_src += " 'self' 'report-sample';"
 # print(headers)
 headers.write(script_src)
