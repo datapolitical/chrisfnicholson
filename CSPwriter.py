@@ -20,9 +20,9 @@ script_src = "script-src " + google_analytics + "ajax.cloudflare.com static.clou
 style_src = "style-src "
 for hash in inlines:
     if hash.directive == "script-src":
-        script_src += " '" + hash.sha256 "'"
+        script_src += " '" + hash.sha256 "\'"
     if hash.directive == "style-src":
-        style_src += " '" + hash.sha256 + "'"
+        style_src += " '" + hash.sha256 + "\'"
 script_src += " 'self' 'report-sample';"
 style_src += " 'self' 'report-sample';"
 print(headers)
