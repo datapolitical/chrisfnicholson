@@ -2,7 +2,7 @@ import inlinehashes
 
 google_analytics="'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA='"
 
-headers = open("headerstest.txt", "w")
+headers = open("_headers", "w")
 
 headers.write("/*" + "\n")
 headers.write("Report-To: {'group':'default','max_age':31536000,'endpoints':[{'url':'https://chrisfnicholson.report-uri.com/a/d/g'}],'include_subdomains':true}" +"\n")
