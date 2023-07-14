@@ -37,5 +37,7 @@ echo -n "hash text is === $inline_hash_v3_text"
 echo -n "hash equals === $inline_hash_v3"
 echo -n "'sha256-$inline_hash_v3' " >> _headers
 echo -n "'self' 'report-sample';" >> _headers
+cat _headers
+cat headerstest.txt
 cp _headers gh-pages/
 
