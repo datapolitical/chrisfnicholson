@@ -8,7 +8,7 @@ gem install bundler --no-document
 python3 -m pip install --upgrade pip
 python3 -m pip install beautifulsoup4
 python3 -m pip install inlinehashes
-echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
+echo "export PATH=\"/opt/buildhome/.asdf/installs/python/3.11.4/bin:\$PATH\"" >> ~/.bashrc
 source ~/.bashrc
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
@@ -21,12 +21,8 @@ echo "Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"http
 echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri https://chrisfnicholson.report-uri.com/r/d/csp/reportOnly; report-to default; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; script-src $google_analytics ajax.cloudflare.com static.cloudflareinsights.com 'self' 'report-sample'; font-src 'self';" >> _headers
 echo -n "style-src " >> _headers
 echo "INLINE HASH"
-/usr/bin/inlinehashes -h
-/usr/bin/inlinehashes gh-pages/index.html -o json
-echo "FOLDER local bin"
-ls /usr/local/bin
-echo "FOLDER bin"
-ls /usr/bin
+inlinehashes -h
+inlinehashes gh-pages/index.html -o json
 echo "FOLDER opt"
 ls /opt/buildhome/.asdf/installs/python/3.11.4/bin
 python3 -m site --user-base
