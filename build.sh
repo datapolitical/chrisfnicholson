@@ -8,7 +8,8 @@ gem install bundler --no-document
 python3 -m pip install --upgrade pip
 python3 -m pip install beautifulsoup4
 python3 -m pip install inlinehashes
-
+echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
+source ~/.bashrc
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
 bundle exec jekyll build
