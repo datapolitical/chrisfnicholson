@@ -22,7 +22,7 @@ echo -n "Content-Security-Policy-Report-Only: default-src 'none'; report-uri htt
 echo -n "style-src " >> _headers
 echo "INLINE HASH"
 /opt/buildhome/.asdf/installs/python/3.11.4/bin/inlinehashes -h
-/opt/buildhome/.asdf/installs/python/3.11.4/bin/inlinehashes gh-pages/index.html
+/opt/buildhome/.asdf/installs/python/3.11.4/bin/inlinehashes gh-pages/index.html -o plain
 echo "FOLDER opt"
 ls /opt/buildhome/.asdf/installs/python/3.11.4/bin
 python3 -m site --user-base
