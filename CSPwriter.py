@@ -25,6 +25,6 @@ for hash in inlines:
         style_src += " '" + hash.sha256 + "'"
 script_src += " 'self' 'report-sample';"
 style_src += " 'self' 'report-sample';"
-print(headers)
+# print(headers)
 print(script_src)
 print(style_src)
