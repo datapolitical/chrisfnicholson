@@ -3,6 +3,11 @@
   "dir": "ltr",
   "name": "Chris F. Nicholson",
   "short_name": "cfn",
+  "theme_color": "#fff",
+  "background_color": "#1c1d22",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
   "icons": [
     {
       "src": "https://www.chrisfnicholson.com/apple-touch-icon.png",
@@ -20,10 +25,5 @@
       "sizes":"512x512",
       "type":"image/png"
     }
-  ],
-  "theme_color": "#fff",
-  "background_color": "#1c1d22",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "natural"
+  ]
 }
