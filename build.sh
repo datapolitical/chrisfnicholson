@@ -10,8 +10,8 @@ python3 -m pip install beautifulsoup4
 python3 -m pip install inlinehashes
 export PATH=$PATH:/opt/buildhome/.asdf/installs/python/3.11.4/bin
 source ~/.bashrc
-# mkdir -p gh-pages/assets/generated
-# cp -R _assets/generated/* gh-pages/assets/generated
+mkdir -p gh-pages/assets/generated
+cp -R _assets/generated/* gh-pages/assets/generated
 bundle exec jekyll build
 du -sh gh-pages
 ls gh-pages
