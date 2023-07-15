@@ -20,6 +20,8 @@ inlines = inlinehashes.parse(content)
 script_src = " script-src " + google_analytics
 style_src = " style-src"
 for hash in inlines:
+    print("NEW HASH\n")
+    print(hash)
     if hash.directive == "script-src":
         script_src += " '" + hash.sha256 + "'"
     if hash.directive == "style-src":
