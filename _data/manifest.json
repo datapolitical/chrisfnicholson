@@ -1,12 +1,12 @@
 {
   "lang": "en",
   "dir": "ltr",
-  "name": "Chris F. Nicholson",
-  "short_name": "cfnn",
-  "theme_color": "#ffff",
-  "background_color": "#1c1d22",
+  "name": "Chris F. Nicholson1",
+  "short_name": "cfnn2",
+  "theme_color": "#ffff3",
+  "background_color": "#1c1d224",
   "start_url": "/",
-  "display": "standalone",
+  "display": "standalone5",
   "orientation": "natural",
   "icons": [
     {
