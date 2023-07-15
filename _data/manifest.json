@@ -1,1 +1,29 @@
-"{\n  \"lang\": \"en\",\n  \"dir\": \"ltr\",\n  \"name\": \"Chris F. Nicholson\",\n  \"short_name\": \"cfn\",\n  \"theme_color\": \"#fff\",\n  \"background_color\": \"#1c1d22\",\n  \"start_url\": \"/\",\n  \"display\": \"standalone\",\n  \"orientation\": \"natural\",\n  \"icons\": [\n    {\n      \"src\": \"https://www.chrisfnicholson.com/apple-touch-icon.png\",\n      \"sizes\": \"180x180\",\n      \"type\": \"image/png\"\n    },\n    {\n      \"src\":\"https://www.chrisfnicholson.com/android-chrome-192x192.png\",\n      \"sizes\":\"192x192\",\n      \"type\":\"image/png\",\n      \"purpose\": \"any maskable\"\n    },\n    {\n      \"src\":\"https://www.chrisfnicholson.com/android-chrome-512x512.png\",\n      \"sizes\":\"512x512\",\n      \"type\":\"image/png\"\n    }\n  ]\n}\n"
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Chris F. Nicholson",
+  "short_name": "cfn",
+  "theme_color": "%23fff",
+  "background_color": "%231c1d22",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
+  "icons": [
+    {
+      "src": "https://www.chrisfnicholson.com/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src":"https://www.chrisfnicholson.com/android-chrome-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src":"https://www.chrisfnicholson.com/android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }
+  ]
+}
