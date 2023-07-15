@@ -5,6 +5,7 @@ google_analytics="'sha256-7S8HHslrpUKGbGUmT/L2MgqW/dfTrlhZaY5GN8XhFqA='"
 headers = open("_headers", "w")
 
 headers.write("/*" + "\n")
+headers.write("Link: </assets/fonts/PublicSans_subset.woff2>; rel=preload")
 headers.write("Report-To: {'group':'default','max_age':31536000,'endpoints':[{'url':'https://chrisfnicholson.report-uri.com/a/d/g'}],'include_subdomains':true}" +"\n")
 headers.write("Content-Security-Policy-Report-Only: default-src 'none'; report-uri https://chrisfnicholson.report-uri.com/r/d/csp/reportOnly; report-to default; connect-src 'self' cloudflareinsights.com https://www.google-analytics.com www.google-analytics.com; img-src 'self'; base-uri 'self'; form-action https://chrisfnicholson-staticman.herokuapp.com 'self'; child-src crosshare.org; manifest-src 'self'; worker-src 'self'; font-src 'self';")
 
