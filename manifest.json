@@ -3,4 +3,4 @@ layout: none
 
 ---
 
-{{site.data.manifest}}
+{{site.data.manifest | replace: '&quot;', '"' | replace: '=>', ':' }}
