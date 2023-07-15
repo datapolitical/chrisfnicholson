@@ -3,7 +3,7 @@
   "dir": "ltr",
   "name": "Chris F. Nicholson",
   "short_name": "cfnn",
-  "theme_colors": "#fff",
+  "theme_color": "#fff",
   "background_color": "#1c1d22",
   "start_url": "/",
   "display": "standalone",
