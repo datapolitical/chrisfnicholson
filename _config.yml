@@ -149,7 +149,7 @@ google_analytics: UA-387663-5
 
 staticman_url: https://chrisfnicholson-staticman.herokuapp.com/v2/entry/datapolitical/chrisfnicholson.github.io/main/comments
 
-comments: true
+comments: false
 
 reCaptcha:
   enabled: false
