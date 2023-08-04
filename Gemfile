@@ -30,3 +30,4 @@ gem 'jekyll-include-cache'
 #gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", group: :jekyll_plugins
 gem "json"
 gem "activesupport"
+gem "jekyll_xml_source.rb"
