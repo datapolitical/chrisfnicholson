@@ -5,6 +5,7 @@ gem install bundler --no-document
 
 python3 -m pip install --upgrade pip
 python3 -m pip install inlinehashes
+python3 -m pip install feedparser
 export PATH=$PATH:/opt/buildhome/.asdf/installs/python/3.11.4/bin
 source ~/.bashrc
 mkdir -p gh-pages/assets/generated
@@ -18,6 +19,7 @@ python3 CSPwriter.py
 cat _headers
 cp _headers gh-pages/
 
-ls _data
-xmlstarlet
+python3 parserss.py
+cat _data/reads.yaml
+
 
