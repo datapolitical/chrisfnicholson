@@ -12,7 +12,6 @@ mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
 
 python3 parserss.py
-cat _data/reads.json
 
 bundle exec jekyll build
 
