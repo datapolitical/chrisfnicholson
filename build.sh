@@ -17,3 +17,6 @@ python3 CSPwriter.py
 cat _headers
 cp _headers gh-pages/
 
+ls _data
+cat _data/READS.json
+
