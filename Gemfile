@@ -28,3 +28,5 @@ gem "contrast-theme",  github: "datapolitical/contrast-theme", branch: 'master'
 gem "jekyll-data", group: :jekyll_plugins
 gem 'jekyll-include-cache'
 #gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", group: :jekyll_plugins
+gem "json"
+gem "activesupport"

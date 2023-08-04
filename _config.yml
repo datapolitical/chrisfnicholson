@@ -137,6 +137,11 @@ google_analytics:
   enabled: true
   ga4: G-QTJ2YPCJSC
   universal: UA-387663-5
+  
+jekyll_xml:
+  - data: reads
+    source: https://raindrop.io/collection/36448983/feed
+    cache: true
 
 # The URL for the staticman API bridge endpoint
 # You will want to modify some of the values:
