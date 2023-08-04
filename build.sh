@@ -10,6 +10,10 @@ export PATH=$PATH:/opt/buildhome/.asdf/installs/python/3.11.4/bin
 source ~/.bashrc
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
+
+python3 parserss.py
+cat _data/reads.yaml
+
 bundle exec jekyll build
 
 echo "INLINE HASH"
@@ -18,8 +22,5 @@ echo "INLINE HASH"
 python3 CSPwriter.py
 cat _headers
 cp _headers gh-pages/
-
-python3 parserss.py
-cat _data/reads.yaml
 
 
