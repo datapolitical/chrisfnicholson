@@ -2,6 +2,7 @@
 #gem update --system --silent --no-document
 
 gem install bundler --no-document
+gem install _plugins/jekyll_xml_source.rb
 python3 -m pip install --upgrade pip
 python3 -m pip install inlinehashes
 export PATH=$PATH:/opt/buildhome/.asdf/installs/python/3.11.4/bin
