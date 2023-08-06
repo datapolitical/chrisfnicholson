@@ -80,12 +80,12 @@ jobs:
           cat recipes_live.md5
           
           declare -i COMBINED_CHECK=0
-          cmp -s recipes.md5 recipes_live.md5
-          COMBINED_CHECK+=$?
-          cmp -s recent_food.md5 recent_food_live.md5
-          COMBINED_CHECK+=$?
-          cmp -s reads.md5 reads_live.md5
-          COMBINED_CHECK+=$?
+          # cmp -s recipes.md5 recipes_live.md5
+          # COMBINED_CHECK+=$?
+          # cmp -s recent_food.md5 recent_food_live.md5
+          # COMBINED_CHECK+=$?
+          # cmp -s reads.md5 reads_live.md5
+          # COMBINED_CHECK+=$?
           
           echo $COMBINED_CHECK
         
@@ -99,7 +99,6 @@ jobs:
           git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
       status: ${{ steps.get_data.outputs.status }}
-      combined_check: $COMBINED_CHECK
 
   jekyll:
     runs-on: ubuntu-latest
