@@ -45,8 +45,8 @@ jobs:
           git add _data/recipes.yaml
           git pull --ff-only origin ${{ github.ref_name }}
         env:
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          PAPRIKA_EMAIL: ${{ secrets.PAPRIKA_EMAIL }}
+          PAPRIKA_PASSWORD: ${{ secrets.PAPRIKA_PASSWORD }}
 
       - name: Execute Diary Python script
         run: |
