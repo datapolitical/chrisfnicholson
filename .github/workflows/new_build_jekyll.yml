@@ -79,7 +79,7 @@ jobs:
           curl http://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
           cat recipes_live.md5
           
-          COMBINED_CHECK=$((cmp --silent -- recipes.md5 recipes_live.md5)) + $((cmp --silent -- recent_food.md5 recent_food_live.md5)) + $((cmp --silent -- reads.md5 reads_live.md5))
+          COMBINED_CHECK=$((cmp -s recipes.md5 recipes_live.md5)) + $((cmp -s recent_food.md5 recent_food_live.md5)) + $((cmp -s reads.md5 reads_live.md5))
           
           echo -n $COMBINED_CHECK
         
