@@ -15,6 +15,10 @@ python3 -m papexp
 python3 -m mndexp
 mv recent_food.yml _data/recent_food.yml
 mv steps.yml _data/steps.yml
+md5sum _data/recipes.json > recipes.md5
+md5sum _data/recent_food.json > recent_food.md5
+md5sum _data/reads.json > reads.md5
+
 
 bundle exec jekyll build
 

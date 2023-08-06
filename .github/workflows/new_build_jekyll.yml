@@ -63,7 +63,26 @@ jobs:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
           MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
 
-
+      - name: check_sums
+        id: check_sums
+        run: |
+          md5sum _data/recipes.json > recipes.md5
+          md5sum _data/recent_food.json > recent_food.md5
+          md5sum _data/reads.json > reads.md5
+          
+          curl http://www.chrisfnicholson.com/recipes.md5 --output recipes_live.md5
+          curl http://www.chrisfnicholson.com/recent_food.md5 --output recent_food_live.md5
+          curl http://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
+          
+          
+          COMBINED_CHECK=$(cmp --silent -- recipes.md5 recipes_live.md5) && $(cmp --silent -- recent_food.md5 recent_food_live.md5) $(cmp --silent -- reads.md5 reads_live.md5)
+          
+          echo -n $COMBINED_CHECK
+          
+          if cmp --silent -- recipes.md5 recipes_live.md5; then echo "RECIPES_LIVE_NEW=true" >> $GITHUB_STATE else echo "RECIPES_LIVE_NEW=false" >> $GITHUB_OUTPUT fi
+          if cmp --silent -- recent_food.md5 recent_food_live.md5; then echo "RECENT_FOOD_LIVE_NEW=true" >> $GITHUB_STATE else echo "RECENT_FOOD_LIVE_NEW=false" >> $GITHUB_OUTPUT fi
+          if cmp --silent -- reads.md5 reads_live.md5; then echo "READS_LIVE_NEW=true" >> $GITHUB_STATE else echo "READS_LIVE_NEW=false" >> $GITHUB_OUTPUT fi
+        
       - name: commit
         id: get_data
         run: |
@@ -79,7 +98,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name == 'push' ||needs.get_data.outputs.status != 'Nothing to update'
+    if: github.event_name == 'push' || needs.check_sums.outputs.new == true
     steps:
       - name: deploy
         run: |
