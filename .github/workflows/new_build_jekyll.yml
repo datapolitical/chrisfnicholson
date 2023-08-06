@@ -79,9 +79,9 @@ jobs:
           curl http://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
           cat recipes_live.md5
           
-          COMBINED_CHECK= $(cmp --silent -- recipes.md5 recipes_live.md5) || $(cmp --silent -- recent_food.md5 recent_food_live.md5 || cmp --silent -- reads.md5 reads_live.md5)
+          COMBINED_CHECK= $((cmp --silent -- recipes.md5 recipes_live.md5)) + $((cmp --silent -- recent_food.md5 recent_food_live.md5 + $((cmp --silent -- reads.md5 reads_live.md5))
           
-          # echo -n $COMBINED_CHECK
+          echo -n $COMBINED_CHECK
           
           if cmp --silent -- recipes.md5 recipes_live.md5; then echo "RECIPES_LIVE_NEW=true" >> $GITHUB_STATE else echo "RECIPES_LIVE_NEW=false" >> $GITHUB_OUTPUT fi
           if cmp --silent -- recent_food.md5 recent_food_live.md5; then echo "RECENT_FOOD_LIVE_NEW=true" >> $GITHUB_STATE else echo "RECENT_FOOD_LIVE_NEW=false" >> $GITHUB_OUTPUT fi
