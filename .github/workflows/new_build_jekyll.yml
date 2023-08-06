@@ -85,9 +85,7 @@ jobs:
           
           declare -i COMBINED_CHECK=0
           COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
-          # COMBINED_CHECK+=$?
-          
-          echo $COMBINED_CHECK
+          echo "combined_check=$COMBINED_CHECK" >> "$GITHUB_OUTPUT"
         
       - name: commit
         id: get_data
@@ -99,12 +97,13 @@ jobs:
           git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
       status: ${{ steps.get_data.outputs.status }}
+      combined_check: ${{ steps.check_sums.outputs.combined_check }}
 
   jekyll:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name == 'push' || needs.check_sums.outputs.combined_check == 0
+    if: github.event_name == 'push' || needs.check_sums.outputs.combined_check != 0
     steps:
       - name: deploy
         run: |
