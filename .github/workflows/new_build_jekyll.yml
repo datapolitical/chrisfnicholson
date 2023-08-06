@@ -5,7 +5,7 @@ on:
     - cron: "*/15 * * * *"
   push:
     branches:
-      - main # Here source code branch is `master`, it could be other branch
+      - main
   workflow_dispatch:
 
 jobs:
@@ -31,23 +31,12 @@ jobs:
       - name: Setup Python Environment
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          python-version: 3.11.4
 
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      - name: setup git config
-        run: |
-          git config --local user.name ${{ secrets.USERNAME_GITHUB }}
-          git config --local user.email ${{ secrets.EMAIL }}
-          echo "Git Setup Status:"
-          git status
-          # echo "SSL Key setup info"
-          # ssh -vT git@github.com
-          echo "Git Setup Remotes:"
-          git remote -v
-          echo "Git Pull:"
-          git pull --ff-only origin ${{ github.ref_name }}
+      
 
       - name: Execute Recipes Python script
         run: |
@@ -74,18 +63,6 @@ jobs:
           MY_NET_DIARY_LOGIN: ${{ secrets.MY_NET_DIARY_LOGIN }}
           MY_NET_DIARY_PASSWORD: ${{ secrets.MY_NET_DIARY_PASSWORD }}
 
-      - name: Execute Pocket Retreval
-        run: |
-          sudo apt-get install jq
-          curl -H "Content-Type: application/json" -X POST --data '{"consumer_key":"${{ secrets.CONSUMER_KEY }}","access_token":"${{ secrets.POCKET_ACCESS_TOKEN }}","tag":"!web"}' https://getpocket.com/v3/get  -o pocket.json
-          echo "Raw Pocket Data"
-          cat pocket.json
-          jq '.list' pocket.json > _data/pocket.yml
-          echo "Pocket Reads:"
-          cat _data/pocket.yml
-          git add _data/pocket.yml
-          echo "\n"
-          git pull --ff-only origin ${{ github.ref_name }}
 
       - name: commit
         id: get_data
