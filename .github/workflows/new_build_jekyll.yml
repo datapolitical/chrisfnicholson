@@ -79,66 +79,19 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name == 'false' #github.event_name != 'schedule' ||needs.get_data.outputs.status != 'Nothing to update'
+    if: github.event_name == 'push' ||needs.get_data.outputs.status != 'Nothing to update'
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: zero
-          ref: ${{ github.ref }}
-
-      - name: checkout gh-pages
-        uses: actions/checkout@v2
-        with:
-          ref: "gh-pages"
-          path: "gh-pages"
-
-      - name: setup ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-
-      - name: Clean install dependencies
+      - name: deploy
         run: |
-          sudo apt-get update && sudo apt-get install -y libvips42
+          curl -X POST "${{ secrets.CLOUDFLARE_SITE_DEPLOY }}"  
 
-      - name: cache gems
-        uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: ${{ runner.os }}-gems-
 
-      # Use GitHub Actions' cache to cache site on servers
-      - uses: actions/cache@v2
-        with:
-          path: gh-pages
-          key: ${{ runner.os }}-build-new-${{ hashFiles('**/_data/picture.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-build-new-
-
-      - name: bundle install
-        run: |
-          bundle install --path=vendor/bundle --jobs 4 --retry 3
-          convert --version
-
-      - name: jekyll build
-        run: bundle exec jekyll build --profile --destination gh-pages
-
-      - name: Deploy
-        if: ${{ !env.ACT }}
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./gh-pages
-          publish_branch: gh-pages
-          force_orphan: true
-          cname: www.chrisfnicholson.com
 
   release:
     runs-on: ubuntu-latest
     concurrency: release
     needs: get_data
-    if: (github.event_name != 'schedule' || needs.get_data.outputs.status != 'Nothing to update') && github.ref_name == 'main'
+    if: github.event_name == 'push' && needs.get_data.outputs.status != 'Nothing to update' && github.ref_name == 'main'
     steps:
       - uses: actions/checkout@v2
         with:
