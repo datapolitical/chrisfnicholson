@@ -77,10 +77,12 @@ jobs:
           curl http://www.chrisfnicholson.com/recipes.md5 --output recipes_live.md5
           curl http://www.chrisfnicholson.com/recent_food.md5 --output recent_food_live.md5
           curl http://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
+          echo "md5s"
           cat recipes_live.md5
+          cat recipes.md5
           
           declare -i COMBINED_CHECK=0
-          cmp -s recipes.md5 recipes_live.md5
+          cmp -s recipes.md5 --recipes_live.md5
           # COMBINED_CHECK+=$?
           # cmp -s recent_food.md5 recent_food_live.md5
           # COMBINED_CHECK+=$?
