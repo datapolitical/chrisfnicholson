@@ -84,10 +84,7 @@ jobs:
           cat recipes.md5
           
           declare -i COMBINED_CHECK=0
-          COMBINED_CHECK+=`cmp -s recipes.md5 recipes_live.md5`
-          # cmp -s recent_food.md5 recent_food_live.md5
-          # COMBINED_CHECK+=$?
-          # cmp -s reads.md5 reads_live.md5
+          COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5
           # COMBINED_CHECK+=$?
           
           echo $COMBINED_CHECK
