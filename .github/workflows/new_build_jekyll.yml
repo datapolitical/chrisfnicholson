@@ -38,7 +38,7 @@ jobs:
 
       - name: Execute Reads Python script
         run: |
-          python3 -m parserss.py
+          python3 parserss.py
           git add _data/reads.json
           git pull --ff-only origin ${{ github.ref_name }}
 
