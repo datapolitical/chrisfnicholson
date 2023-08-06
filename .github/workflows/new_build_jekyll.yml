@@ -66,8 +66,8 @@ jobs:
       - name: check_sums
         id: check_sums
         run: |
-          md5sum _data/recipes.json > recipes.md5
-          md5sum _data/recent_food.json > recent_food.md5
+          md5sum _data/recipes.yaml > recipes.md5
+          md5sum _data/recent_food.yml > recent_food.md5
           md5sum _data/reads.json > reads.md5
           
           curl http://www.chrisfnicholson.com/recipes.md5 --output recipes_live.md5
