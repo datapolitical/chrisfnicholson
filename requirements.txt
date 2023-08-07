@@ -1,6 +1,6 @@
 requests==2.25.0
 -e git+https://github.com/datapolitical/paprika-exporter.git@v0.4.2#egg=papexp
--e git+https://github.com/datapolitical/mndexp.git@v0.2.0#egg=mndexp
+-e git+https://github.com/datapolitical/mndexp.git@v0.2.1#egg=mndexp
 python-dotenv==0.15.0
 PyYAML>=5.4
 feedparser==6.0.10
