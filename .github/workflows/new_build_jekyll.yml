@@ -94,7 +94,7 @@ jobs:
           echo "reads md5 check"
           # md5sum --status -c reads_live.md5
           
-          if (( ! $(md5sum --status -c recipes_live.md5) || ! $(md5sum --status -c recent_food_live.md5) || ! $(md5sum --status -c reads_live.md5) ));
+          if ! md5sum --status -c recipes_live.md5) || ! md5sum --status -c recent_food_live.md5) || ! md5sum --status -c reads_live.md5;
           then 
             echo "changes 2"
             echo "changes=true">> "$GITHUB_OUTPUT"
