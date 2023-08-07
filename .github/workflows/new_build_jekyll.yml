@@ -91,7 +91,7 @@ jobs:
             echo "no change"
           fi 
         
-      - name: commit
+      - name: get_diff
         id: get_status
         run: |
           git diff --exit-code || echo "status=Nothing to update" >> "$GITHUB_OUTPUT"
