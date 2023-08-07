@@ -79,9 +79,10 @@ jobs:
           curl https://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
           echo "md5s"
           echo "downloaded"
-          cat recipes_live.md5
+          cat reads_live.md5
           echo "created here"
-          cat recipes.md5
+          cat reads.md5
+          
           echo "recipes cat check"
           echo [[ <(cat recipes.md5) == <(cat recipes_live.md5) ]]
           echo "recent food cat check"
