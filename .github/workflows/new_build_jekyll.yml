@@ -107,7 +107,7 @@ jobs:
           # echo "CHANGES=yes" >> "$GITHUB_OUTPUT"
         
       - name: commit
-        id: get_data
+        id: get_status
         run: |
           git commit -am "Update External Data" || echo "::set-output name=status::Nothing to update"
       - name: Push changes
@@ -115,14 +115,14 @@ jobs:
         run: |
           git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
-      status: ${{ steps.get_data.outputs.status }}
-      CHANGES: ${{ steps.get_data.outputs.CHANGES }}
+      status: ${{ steps.get_status.outputs.status }}
+      changes: ${{ steps.check_sums.outputs.changes }}
 
   jekyll:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: needs.get_data.outputs.CHANGES == 'yes'
+    if: needs.get_data.outputs.changes == 'yes'
     steps:
       - name: deploy
         run: |
