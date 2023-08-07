@@ -83,37 +83,19 @@ jobs:
           echo "created here"
           cat reads.md5
           
-          # echo "recipes cat check"
-          # if [[ $(cat recipes.md5) == $(cat recipes_live.md5) && $(cat recent_food.md5) == $(cat recent_food_live.md5) && $(cat reads.md5) == $(cat reads_live.md5) ]];
-          # then 
-            # echo "no changes 1"
-          # else 
-            # echo "changes 1"
-            # echo "changes=yes">> "$GITHUB_OUTPUT"
-          # fi 
-          echo "reads md5 check"
-          # md5sum --status -c reads_live.md5
-          
           if ! md5sum --status -c recipes_live.md5 || ! md5sum --status -c recent_food_live.md5 || ! md5sum --status -c reads_live.md5;
           then 
             echo "changes"
-            echo "CHANGES=yes" >> "$GITHUB_OUTPUT"
+            echo "changes=yes" >> "$GITHUB_OUTPUT"
           else 
             echo "no change"
           fi 
-          
-          # declare -i COMBINED_CHECK=0
-          # COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
-          # echo "CHANGES=yes" >> "$GITHUB_OUTPUT"
         
       - name: commit
         id: get_status
         run: |
-          git commit -am "Update External Data" || echo "::set-output name=status::Nothing to update"
-      - name: Push changes
-        if: steps.get_data.outputs.status != 'Nothing to update' && ${{ !env.ACT }} && 'disabled' == 'yes'
-        run: |
-          git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
+          git diff --exit-code || echo "status=Nothing to update" >> "$GITHUB_OUTPUT"
+          
     outputs:
       status: ${{ steps.get_status.outputs.status }}
       changes: ${{ steps.check_sums.outputs.changes }}
@@ -134,7 +116,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: release
     needs: get_data
-    if: github.event_name == 'push' && needs.get_data.outputs.status != 'Nothing to update' && github.ref_name == 'main'
+    if: github.event_name == 'push' && github.ref_name == 'main'
     steps:
       - uses: actions/checkout@v2
         with:
