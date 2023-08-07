@@ -104,9 +104,9 @@ jobs:
           
           changes_check = 0
           
-          md5sum --status -c recipes_live.md5 || changes_check&=
-          md5sum --status -c recent_food_live.md5 || changes_check&=
-          md5sum --status -c reads_live.md5 || changes_check&=
+          md5sum --status -c recipes_live.md5 || $changes_check&=
+          md5sum --status -c recent_food_live.md5 || $changes_check&=
+          md5sum --status -c reads_live.md5 || $changes_check&=
           
           echo $changes_check
           
