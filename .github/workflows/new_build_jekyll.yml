@@ -84,14 +84,13 @@ jobs:
           cat reads.md5
           
           echo "recipes cat check"
-          echo $(( $(cat recipes.md5) == $(cat recipes_live.md5) ))
-          echo "recent food cat check"
-          echo $(( $(cat recent_food.md5) == $(cat recent_food_live.md5) ))
-          echo $(( $(cat reads.md5) == $(cat reads_live.md5) ))
+          if [[ $(cat recipes.md5) == $(cat recipes_live.md5) && $(cat recent_food.md5) == $(cat recent_food_live.md5) && $(cat reads.md5) == $(cat reads_live.md5) ]];
+            then echo "no changes"
+          fi 
           
-          md5sum --status -c recipes_live.md5
-          md5sum --status -c recent_food_live.md5
-          md5sum --status -c reads_live.md5 
+          if [[ $(md5sum --status -c recipes_live.md5) == 1 || $(md5sum --status -c recent_food_live.md5) == 1 || $(md5sum --status -c reads_live.md5) ==1;
+            then echo "changes"
+          fi 
           
           declare -i COMBINED_CHECK=0
           COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
