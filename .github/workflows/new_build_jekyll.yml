@@ -83,20 +83,28 @@ jobs:
           echo "created here"
           cat reads.md5
           
-          echo "recipes cat check"
-          if [[ $(cat recipes.md5) == $(cat recipes_live.md5) && $(cat recent_food.md5) == $(cat recent_food_live.md5) && $(cat reads.md5) == $(cat reads_live.md5) ]];
-            then echo "no changes"
-          fi 
-          
-          md5sum --status -c recipes_live.md5
+          # echo "recipes cat check"
+          # if [[ $(cat recipes.md5) == $(cat recipes_live.md5) && $(cat recent_food.md5) == $(cat recent_food_live.md5) && $(cat reads.md5) == $(cat reads_live.md5) ]];
+          # then 
+            # echo "no changes 1"
+          # else 
+            # echo "changes 1"
+            # echo "changes=true">> "$GITHUB_OUTPUT"
+          # fi 
+          echo "reads md5 check"
+          md5sum --status -c reads_live.md5
           
           if [[ $(md5sum --status -c recipes_live.md5) == 1 || $(md5sum --status -c recent_food_live.md5) == 1 || $(md5sum --status -c reads_live.md5) == 1 ]];
-            then echo "changes"
+          then 
+            echo "changes 2"
+            echo "changes=true">> "$GITHUB_OUTPUT"
+          else 
+            echo "no changez 2"
           fi 
           
-          declare -i COMBINED_CHECK=0
-          COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
-          echo "combined_check=$COMBINED_CHECK" >> "$GITHUB_OUTPUT"
+          # declare -i COMBINED_CHECK=0
+          # COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
+          # echo "changes=true" >> "$GITHUB_OUTPUT"
         
       - name: commit
         id: get_data
@@ -108,13 +116,13 @@ jobs:
           git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
       status: ${{ steps.get_data.outputs.status }}
-      combined_check: ${{ steps.check_sums.outputs.combined_check }}
+      changes: ${{ steps.check_sums.outputs.changes }}
 
   jekyll:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name == 'push' || needs.check_sums.outputs.combined_check != 0
+    if: github.event_name == 'push' || needs.check_sums.outputs.changes == true
     steps:
       - name: deploy
         run: |
