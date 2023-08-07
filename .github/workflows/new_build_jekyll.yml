@@ -96,19 +96,11 @@ jobs:
           
           if ! md5sum --status -c recipes_live.md5 || ! md5sum --status -c recent_food_live.md5 || ! md5sum --status -c reads_live.md5;
           then 
-            echo "changes 2"
+            echo "changes"
             echo "changes=true">> "$GITHUB_OUTPUT"
           else 
-            echo "no changez 2"
+            echo "no change"
           fi 
-          
-          changes_check = 0
-          
-          md5sum --status -c recipes_live.md5 || $changes_check&=
-          md5sum --status -c recent_food_live.md5 || $changes_check&=
-          md5sum --status -c reads_live.md5 || $changes_check&=
-          
-          echo $changes_check
           
           # declare -i COMBINED_CHECK=0
           # COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
