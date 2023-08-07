@@ -122,7 +122,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: github.event_name == 'push' || needs.check_sums.outputs.changes == 'yes'
+    if: needs.check_sums.outputs.changes == 'yes'
     steps:
       - name: deploy
         run: |
