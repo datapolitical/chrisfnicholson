@@ -82,6 +82,11 @@ jobs:
           cat recipes_live.md5
           echo "created here"
           cat recipes.md5
+          echo "recipes cat check"
+          `cat recipes.md5` == `cat recipes_live.md5`
+          echo "recent food cat check"
+          `cat recent_food.md5` == `cat `recent_food_live.md5`
+          `cat reads.md5` ==`reads_live.md5`
           
           declare -i COMBINED_CHECK=0
           COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
