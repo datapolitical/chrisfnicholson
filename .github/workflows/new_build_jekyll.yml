@@ -97,14 +97,14 @@ jobs:
           if ! md5sum --status -c recipes_live.md5 || ! md5sum --status -c recent_food_live.md5 || ! md5sum --status -c reads_live.md5;
           then 
             echo "changes"
-            echo "changes=true">> "$GITHUB_OUTPUT"
+            echo "CHANGES=yes" >> "$GITHUB_OUTPUT"
           else 
             echo "no change"
           fi 
           
           # declare -i COMBINED_CHECK=0
           # COMBINED_CHECK=`cmp -s recipes.md5 recipes_live.md5` | `cmp -s  recent_food.md5 recent_food_live.md5` | `cmp -s reads.md5 reads_live.md5`
-          # echo "changes=yes" >> "$GITHUB_OUTPUT"
+          # echo "CHANGES=yes" >> "$GITHUB_OUTPUT"
         
       - name: commit
         id: get_data
@@ -116,13 +116,13 @@ jobs:
           git push "https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git" "HEAD:${{github.ref_name}}"
     outputs:
       status: ${{ steps.get_data.outputs.status }}
-      changes: ${{ steps.check_sums.outputs.changes }}
+      CHANGES: ${{ steps.get_data.outputs.CHANGES }}
 
   jekyll:
     runs-on: ubuntu-latest
     concurrency: new_deployment
     needs: get_data
-    if: needs.get_data.outputs.changes == 'yes'
+    if: needs.get_data.outputs.CHANGES == 'yes'
     steps:
       - name: deploy
         run: |
