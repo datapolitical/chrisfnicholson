@@ -88,6 +88,10 @@ sass:
 theme: contrast-theme
 # debug: true
 
+# Site-wide business operator statement (Meta business-verification evidence);
+# rendered by the theme's default-layout footer on every page.
+operator_statement: "chrisfnicholson.com is operated by Christopher Nicholson."
+
 page_gen-dirs: false
 
 page_gen:
