@@ -12,7 +12,7 @@ Compiled 2026-09-30. Inventory of verified press coverage naming **Chris Nichols
 
 ## Website integration (chrisfnicholson.com)
 The collection's public feed (`https://datapolitical.raindrop.page/press-75641856/feed`) is pulled at build time by `../parserss.py` into `../_data/press.json`; the homepage renders the newest entries as "Recent Press" (`press_count` in `index.md` sets how many), with a "More Press" link to the full list at `/press.html`.
-- Tag an item `exclude` in Raindrop to keep it off the site list — it stays in the archive. Currently excluded: Ballotpedia profile, Denver Post author page, the two op-ed reposts (Daily Camera, Mass Transit), SoS press release, 2024 forum video.
+- Tag an item `exclude` in Raindrop to keep it off the site list — it stays in the archive. Principle: keep the original outlet (Denver Post), exclude same-story syndicated copies (Daily Camera, Mass Transit). Currently excluded: Ballotpedia profile, Denver Post author page, 2 op-ed reposts (Daily Camera, Mass Transit), 2 Daily Camera news reprints (Mar + Apr 2026), SoS press release, 2024 forum video.
 - Raindrop feeds are edge-cached; `parserss.py` cache-busts so builds always see the current feed.
 - The feed carries at most 50 items, so the site list draws from the newest 50 only.
 
