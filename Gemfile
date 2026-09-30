@@ -8,7 +8,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll", '~>4.3.0'
 gem 'sassc', '~>2.1.0'
 gem "liquid-c", "~> 4.0"
-gem 'jekyll-sass-converter', '~>3.0.0', github: 'jekyll/jekyll-sass-converter'
+gem 'jekyll-sass-converter', '~>3.0.0'
 gem 'sass-embedded', '~>1.63'
 gem "jekyll-feed"
 # gem "jekyll-gist"

@@ -5,7 +5,8 @@ gem install bundler --no-document
 
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-export PATH=$PATH:/opt/buildhome/.asdf/installs/python/3.11.4/bin
+PYDIR="$(dirname "$(command -v python3)")"
+export PATH=$PATH:$PYDIR
 source ~/.bashrc
 mkdir -p gh-pages/assets/generated
 cp -R _assets/generated/* gh-pages/assets/generated
@@ -23,7 +24,7 @@ md5sum _data/reads.json > reads.md5
 bundle exec jekyll build
 
 echo "INLINE HASH"
-/opt/buildhome/.asdf/installs/python/3.11.4/bin/inlinehashes gh-pages/index.html -o plain
+"$PYDIR/inlinehashes" gh-pages/index.html -o plain
 
 python3 CSPwriter.py
 cat _headers
