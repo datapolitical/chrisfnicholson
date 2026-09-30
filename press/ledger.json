@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.denverpost.com/2024/10/11/rtd-director-district-a-candidate-questionnaire",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 2,
+      "url": "https://www.denverpost.com/2024/12/05/rtd-2025-budget-buses-trains-transit",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 3,
+      "url": "https://www.denverpost.com/2025/03/14/rtd-riders-call-help-police-security-transit-surveillance",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 4,
+      "url": "https://www.denverpost.com/2025/05/27/dia-delays-rtd-a-line",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 5,
+      "url": "https://www.denverpost.com/2025/09/29/rtd-access-on-demand-cost",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 6,
+      "url": "https://www.denverpost.com/2025/10/04/rtd-buses-electric-diesel-transition",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 7,
+      "url": "https://www.denverpost.com/2025/10/21/rtd-ridership-transit-density-denver",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 8,
+      "url": "https://www.denverpost.com/2025/12/02/rtd-budget-deficit-public-transit",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 9,
+      "url": "https://www.denverpost.com/2026/01/22/front-range-passenger-rail-trains-voters-rtd-funding-polis-ballot",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 10,
+      "url": "https://www.denverpost.com/2026/02/13/rtd-denver-public-transit-future",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 11,
+      "url": "https://www.denverpost.com/2026/02/16/five-points-welton-rtd-l-line-overhaul-denver-transit",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 12,
+      "url": "https://www.denverpost.com/2026/02/19/rtd-job-cuts-deficit",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 13,
+      "url": "https://www.denverpost.com/2026/02/27/rtd-contractor-rail-frequency-trains-transit-taxpayers-service",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 14,
+      "url": "https://www.denverpost.com/2026/03/13/rtd-service-wheat-ridge-westminster-audit",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 15,
+      "url": "https://www.denverpost.com/2026/03/18/rtd-service-reductions-job-cuts",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 16,
+      "url": "https://www.denverpost.com/2026/04/08/rtd-chief-executive-johnson-leaving",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 17,
+      "url": "https://www.denverpost.com/2026/04/09/front-range-passenger-rail-train-funding-deal",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 18,
+      "url": "https://www.denverpost.com/2026/04/14/rtd-cuts-service-disability-access",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 19,
+      "url": "https://www.denverpost.com/2026/04/21/rtd-service-cuts-budget",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 20,
+      "url": "https://www.denverpost.com/2026/05/28/rtd-front-range-passenger-rail",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 21,
+      "url": "https://www.denverpost.com/2026/06/12/rtd-service-cuts-bus-train-denver",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 22,
+      "url": "https://www.denverpost.com/2026/06/25/rtd-broncosride-bus-service-reinstated",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 23,
+      "url": "https://www.denverpost.com/2026/07/16/rtd-service-cuts-budget-deficit-freeride",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 24,
+      "url": "https://www.denverpost.com/2026/07/29/rtd-service-cuts-fare-increase-denver",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 25,
+      "url": "https://www.denverpost.com/2026/08/05/rtd-budget-cuts-financial-hole",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 26,
+      "url": "https://www.denverpost.com/author/chris-nicholson",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 27,
+      "url": "https://www.cpr.org/2024/03/26/state-lawmakers-move-to-cut-two-thirds-of-rtd-boards-elected-seats",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 28,
+      "url": "https://www.cpr.org/2024/07/31/rtd-board-elections-jared-polis",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 29,
+      "url": "https://www.cpr.org/2024/09/10/rtd-board-election-season-is-usually-quiet-not-this-year",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 30,
+      "url": "https://www.cpr.org/2024/10/14/vg-2024-colorado-rtd-district-a-candidates",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 31,
+      "url": "https://www.cpr.org/2024/10/14/vg-2024-denver-metro-rtd-districts-and-candidates-explainer",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 32,
+      "url": "https://www.cpr.org/2024/11/01/rtd-board-races-campaign-funds",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 33,
+      "url": "https://www.cpr.org/2024/11/05/colorado-2024-general-election-live-blog-results-updates",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 34,
+      "url": "https://www.cpr.org/2024/11/08/new-rtd-board-members-say-they-want-more-accountability-transparency-and-riders",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 35,
+      "url": "https://www.cpr.org/2024/12/05/rtd-new-tap-to-pay-system-in-2025",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 36,
+      "url": "https://www.cpr.org/2025/01/09/rtd-drivers-mechanics-push-for-bigger-raise",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 37,
+      "url": "https://www.cpr.org/2025/02/28/denver-to-boulder-rtd-train-timeline-update",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 38,
+      "url": "https://www.cpr.org/show-episode/nov-15-2024-voter-approved-proposition-will-fund-victims-services-through-gun-excise-tax-holding-rtd-accountable",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 39,
+      "url": "https://denverite.com/2022/07/22/rtds-myride-card-is-about-to-be-reborn-heres-how-to-keep-tapping-your-way-onboard",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 40,
+      "url": "https://denverite.com/2025/10/01/rtd-access-on-demand-price-increase",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 41,
+      "url": "https://denverite.com/2026/03/30/rtd-board-shrink-proposal",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 42,
+      "url": "https://denverite.com/2026/04/08/rtd-ceo-debra-johnson-out",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 43,
+      "url": "https://denverite.com/2026/07/14/rtd-16th-street-free-bus-budget-cuts",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 44,
+      "url": "https://denverite.com/2026/07/29/rtd-service-cuts-board-vote",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 45,
+      "url": "https://www.westword.com/news/rtd-budget-and-board-of-directors-on-colorado-2024-ballot-22302743",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 46,
+      "url": "https://www.westword.com/news/metro-denver-transit-history-includes-buses-trains-rider-complaints-22171785",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 47,
+      "url": "https://www.westword.com/news/metro-denver-transit-system-suffers-from-slow-trains-fast-cop-in-2024-22939176",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 48,
+      "url": "https://www.westword.com/news/riding-the-15-most-notorious-rtd-line-in-metro-denver-23478211",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 49,
+      "url": "https://www.westword.com/news/meet-colorado-transit-system-rtd-finalists-police-chief-24314518",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 50,
+      "url": "https://www.westword.com/food-drink/denver-bars-colfax-affected-by-construction-community-benefit-24244582",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 51,
+      "url": "https://www.westword.com/news/rtd-could-cut-back-key-disability-ride-program-metro-denver-25124606",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 52,
+      "url": "https://www.westword.com/news/rtd-board-not-ready-to-cut-accessibility-rides-budget-crisis-25182817",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 53,
+      "url": "https://www.westword.com/news/rtd-changes-c-line-returns-disrupt-denver-buses-rail-lines-40855881",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 54,
+      "url": "https://www.westword.com/news/colorado-bill-proposes-smaller-rtd-board-leadership-40865631",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 55,
+      "url": "https://denvergazette.com/2026/03/31/colorado-lawmakers-push-legislation-to-shrink-rtd-board-increase-pay-as-ridership-struggles-persist",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 56,
+      "url": "https://denvergazette.com/2026/06/02/rtd-rider-satisfaction-rises-but-overall-transit-use-stagnates",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 57,
+      "url": "https://denvergazette.com/2026/07/14/rtd-to-consider-ending-16th-street-freeride-service",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 58,
+      "url": "https://denvergazette.com/2026/07/21/rtd-considers-adding-debt-on-top-of-making-cuts-setting-stage-for-2028-measure",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 59,
+      "url": "https://denvergazette.com/2026/07/29/rtd-directors-advance-20m-in-service-cuts-for-2027-vote-against-fare-increase",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 60,
+      "url": "https://denvergazette.com/2026/09/22/waymo-denver-rtd-competition",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 61,
+      "url": "https://www.coloradopolitics.com/news/denver-mayor-endorses-rtd-candidate-chris-nicholson-in-district-a/article_133c3af4-2741-11ef-8f42-db027d14b41f.html",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 62,
+      "url": "https://www.coloradopolitics.com/denver/not-my-proudest-moment-rtd-candidate-acknowledges-criminal-record/article_e838d450-2cce-11ef-b7a3-5be349d093da.html",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 63,
+      "url": "https://www.coloradopolitics.com/2025/06/23/how-the-israel-hamas-war-is-scrambling-colorados-political-landscape-6b7f0ed1-d4cf-4e4e-99ec-bcee7ec068fd",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 64,
+      "url": "https://www.coloradopolitics.com/2026/09/01/record-turnout-at-denver-rustlers-event-as-larry-mizel-selected-citizen-of-the-west",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 65,
+      "url": "https://coloradonewsline.com/2026/03/31/colorado-lawmakers-say-smaller-rtd-board-would-lead-to-better-ridership-service-outcomes",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 66,
+      "url": "https://www.denver7.com/news/local-news/rtd-wants-fans-back-on-board-heres-whats-next-for-broncosride-rockiesride",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 67,
+      "url": "https://www.denver7.com/news/local-news/whatever-happens-with-alameda-avenue-advocates-argue-public-trust-with-doti-needs-repairs",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 68,
+      "url": "https://www.denver7.com/news/local-news/as-alameda-debate-intensifies-denver-faces-pressure-over-traffic-deaths-and-vision-zero-goals",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 69,
+      "url": "https://www.denver7.com/lifestyle/travel/rtd-will-not-increase-fares-to-close-250-million-deficit-but-will-move-forward-with-service-reductions",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 70,
+      "url": "https://www.denver7.com/news/local-news/regional-transportation-district-board-set-to-weigh-change-in-fare-evasion-enforcement",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 71,
+      "url": "https://www.cbsnews.com/colorado/news/overhaul-rtd-board-colorado-governor-law",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 72,
+      "url": "https://www.cbsnews.com/colorado/news/rtd-considers-ending-denvers-16th-street-freeride-shuttle",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 73,
+      "url": "https://www.axios.com/local/denver/2024/09/18/rtd-candidates-committment-riders-2024-election",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 74,
+      "url": "https://www.axios.com/local/denver/2024/10/25/mayor-mike-johnston-reddit-ama-ask-me-anything",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 75,
+      "url": "https://www.masstransitmag.com/management/news/55396418/co-how-the-rtd-board-took-on-our-budget-deficit-opinion",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 76,
+      "url": "https://yellowscene.com/2026/09/23/rtd-launches-national-search-for-new-ceo",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 77,
+      "url": "https://www.jns.org/progressive-zionists-feel-blackballed-from-colorado-working-families-party",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 78,
+      "url": "https://www.coloradocommunitymedia.com/archives/northglenn-thornton/business/article_91a13c35-24e7-5f28-ae02-a4c7634bcb0c.html",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 79,
+      "url": "https://www.youtube.com/watch?v=ZzHTCxS-gGY",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 80,
+      "url": "https://www.dailycamera.com/2026/08/06/rtd-board-public-transit-denver-boulder-budget-deficit-service-cuts",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 81,
+      "url": "https://www.timescall.com/2025/03/04/rtd-ridership-denver-transit-numbers-rail-bus",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 82,
+      "url": "https://www.timescall.com/2025/06/14/rtd-board-member-complaints-joyann-ruscha",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 83,
+      "url": "https://www.denvernorthstar.com/archives/news/politics/election-2024/article_8cdb8ae1-1dc2-5a56-ba94-5b24454e714f.html",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 84,
+      "url": "https://ballotpedia.org/Chris_Nicholson",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 85,
+      "url": "https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2024/PR20240627Nicholson.html",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 86,
+      "url": "https://www.dailycamera.com/2026/03/18/rtd-service-reductions-job-cuts",
+      "title": "",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": 87,
+      "url": "https://www.dailycamera.com/2026/04/14/rtd-cuts-service-disability-access",
+      "title": "",
+      "accessed": "2026-09-30"
+    }
+  ]
+}
