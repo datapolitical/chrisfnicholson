@@ -1,6 +1,8 @@
 requests==2.25.0
 -e git+https://github.com/datapolitical/paprika-exporter.git@master#egg=papexp
 -e git+https://github.com/datapolitical/mndexp.git@main#egg=mndexp
+# pandas 3 breaks mndexp's excel handling; pinned until mndexp is verified on 3.x
+pandas<3.0
 python-dotenv==0.15.0
 PyYAML>=5.4
 feedparser==6.0.10
