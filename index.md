@@ -1,6 +1,7 @@
 ---
 layout: page
 article_count: 2
+press_count: 5
 ---
 
 ### Hi, I'm Christopher Nicholson.
@@ -19,3 +20,8 @@ I use [MyNetDiary](https://www.mynetdiary.com) to track <a class="my-net-diary" 
 ### I've Recently Read
 {: .recently-read }
 {% include reading_list.html %}
+
+***
+### Recent Press
+{: .recently-read }
+{% include press_list.html %}

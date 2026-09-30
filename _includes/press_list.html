@@ -1,0 +1,9 @@
+<div class="reading_list">
+  {% for link in site.data.press limit: page.press_count %}
+  {% if link.title != "" %}
+  <span class="title"><a href="{{link.link}}">{{link.title}}</a></span>
+  <span class="preview">{% if link.summary %}{{link.summary | strip_html }}{% endif %}</span>
+  <span class="break"><br></span>
+  {% endif %}
+  {% endfor %}
+</div>

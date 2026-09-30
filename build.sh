@@ -19,6 +19,7 @@ mv steps.yml _data/steps.yml
 md5sum _data/recipes.yaml > recipes.md5
 md5sum _data/recent_food.yml > recent_food.md5
 md5sum _data/reads.json > reads.md5
+md5sum _data/press.json > press.md5
 
 bundle exec jekyll build > /tmp/jekyll_build.log 2>&1
 JEKYLL_EXIT=$?

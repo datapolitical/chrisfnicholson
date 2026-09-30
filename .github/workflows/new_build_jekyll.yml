@@ -36,10 +36,11 @@ jobs:
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      - name: Execute Reads Python script
+      - name: Execute Reads + Press scripts
         run: |
           python3 parserss.py
           git add _data/reads.json
+          git add _data/press.json
           git pull --ff-only origin ${{ github.ref_name }}
 
       - name: Execute Recipes Python script
@@ -73,17 +74,21 @@ jobs:
           md5sum _data/recipes.yaml > recipes.md5
           md5sum _data/recent_food.yml > recent_food.md5
           md5sum _data/reads.json > reads.md5
+          md5sum _data/press.json > press.md5
           
           curl https://www.chrisfnicholson.com/recipes.md5 --output recipes_live.md5
           curl https://www.chrisfnicholson.com/recent_food.md5 --output recent_food_live.md5
           curl https://www.chrisfnicholson.com/reads.md5 --output reads_live.md5
+          curl https://www.chrisfnicholson.com/press.md5 --output press_live.md5
           echo "md5s"
           echo "downloaded"
           cat reads_live.md5
+          cat press_live.md5
           echo "created here"
           cat reads.md5
+          cat press.md5
           
-          if ! md5sum --status -c recipes_live.md5 || ! md5sum --status -c recent_food_live.md5 || ! md5sum --status -c reads_live.md5;
+          if ! md5sum --status -c recipes_live.md5 || ! md5sum --status -c recent_food_live.md5 || ! md5sum --status -c reads_live.md5 || ! md5sum --status -c press_live.md5;
           then 
             echo "changes"
             echo "changes=yes" >> "$GITHUB_OUTPUT"
