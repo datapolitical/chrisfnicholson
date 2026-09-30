@@ -10,3 +10,6 @@
 ## Data pipelines
 - `parserss.py` pulls the public Raindrop feeds (reads + press) into `_data/reads.json` / `_data/press.json`, cache-busted; items tagged `exclude` are filtered out.
 - The press collection pipeline (sync script, curation tags, feed cap) is documented in `press/README.md`.
+
+## Site serving
+- Repo files are copied into the built site unless listed under `exclude:` in `_config.yml` — working files (`AGENTS.md`, `press/`, `python/`, `disabled_functions/`, scripts) are excluded; `.secrets/` never reaches the build (gitignored). Check any path with curl: the 404 page means it's not served.

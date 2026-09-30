@@ -70,6 +70,15 @@ exclude:
   - functions/
   - contrast_theme_node.js
   - build.sh
+  - AGENTS.md
+  - press/
+  - python/
+  - disabled_functions/
+  - parserss.py
+  - requirements.txt
+  - CSPwriter.py
+  - generate_sass_and_critical_css.js
+  - staticman.yml
 
 keep_files:
   - assets/generated
