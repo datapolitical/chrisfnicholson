@@ -3,7 +3,7 @@ layout: page
 article_count: 2
 ---
 
-### Hi, I'm Chris.
+### Hi, I'm Christopher Nicholson.
 
 While you're here, check out [my favorite recipes]({{ site.baseurl }}/recipes) and find a good [cocktail]({{ site.baseurl }}/drinks).
 
